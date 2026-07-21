@@ -117,6 +117,24 @@ class Settings(BaseSettings):
         return [o.strip() for o in self.CORS_ORIGINS.split(",") if o.strip()]
 
     @model_validator(mode="after")
+    def _normalize_database_url(self) -> "Settings":
+        # Render (va ko'p hosting) Postgres URL'ini `postgres://` yoki `postgresql://`
+        # ko'rinishida beradi — bu sinxron drayverni (psycopg2) tanlaydi va async engine'da
+        # ishlamaydi. Async `asyncpg` drayveriga majburiy o'tkazamiz.
+        url = self.DATABASE_URL
+        if url.startswith("postgres://"):
+            url = "postgresql+asyncpg://" + url[len("postgres://"):]
+        elif url.startswith("postgresql://"):
+            url = "postgresql+asyncpg://" + url[len("postgresql://"):]
+        # asyncpg SSL parametrini `sslmode` orqali tushunmaydi (bu libpq/psycopg sozlamasi) —
+        # Render ba'zan qo'shadi; olib tashlaymiz (asyncpg TLS'ni o'zi hal qiladi).
+        if "+asyncpg://" in url and "sslmode=" in url:
+            import re
+            url = re.sub(r"[?&]sslmode=[^&]*", "", url)
+        self.DATABASE_URL = url
+        return self
+
+    @model_validator(mode="after")
     def _enforce_prod_secret(self) -> "Settings":
         # Production'da (DEBUG=False) zaif/namuna yoki QISQA (past-entropiya) SECRET_KEY
         # bilan ishga tushirmaymiz — aks holda tokenlar soxtalashtirilishi mumkin.

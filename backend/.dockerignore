@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 *.db
 *.db.*
+# app.db ATAYLAB image'ga kiradi — Postgres'ga birinchi deploy'da undan kontent ko'chiriladi
+# (app/db/bootstrap.py). WAL/SHM sidecar va boshqa *.db fayllar hamon chetlab o'tiladi.
+!app.db
 *.bak
 *-bak
 .env

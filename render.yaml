@@ -2,12 +2,18 @@
 # Render dashboard'da: New + -> Blueprint -> shu reponi tanlang.
 # Backend (FastAPI, Docker) + Frontend (Vite static) bir blueprint'da.
 #
-# ⚠️ DIQQAT (SQLite + Render):
-#   backend/app.db git'ga qo'shilgan va Docker image ichida keladi.
-#   Render'ning fayl tizimi EFEMER — har redeploy/restart'da image qayta quriladi,
-#   ya'ni ish paytida yozilgan yangi ma'lumot (yangi ro'yxatlar, to'lovlar) YO'QOLADI.
-#   Doimiy saqlash uchun PostgreSQL'ga o'ting: Render'da Postgres yarating va
-#   DATABASE_URL ni `postgresql+asyncpg://...` qilib qo'ying (asyncpg allaqachon requirements'da).
+# ✅ Ma'lumotlar bazasi: PostgreSQL (doimiy).
+#   Birinchi deploy'da backend bo'sh Postgres'ni image ichidagi app.db'dan avtomatik
+#   to'ldiradi (app/db/bootstrap.py) — admin, savollar, mavzular, promokodlar hammasi ko'chadi.
+#   Keyin butun ma'lumot Postgres'da doimiy saqlanadi (restart/redeploy'da yo'qolmaydi).
+
+databases:
+  - name: tayyorprava-db
+    plan: free
+    # Render'ning free Postgres'i ~90 kundan keyin muddati tugaydi — production uchun
+    # to'lovli plan (starter+) tavsiya etiladi.
+    databaseName: tayyorprava
+    user: tayyorprava
 
 services:
   # ---- Backend API (FastAPI, Docker) ----
@@ -27,8 +33,12 @@ services:
       # Kuchli tasodifiy SECRET_KEY — Render generatsiya qiladi (JWT imzosi uchun).
       - key: SECRET_KEY
         generateValue: true
+      # PostgreSQL — Render bazasidan avtomatik olinadi. Ilova `postgres://` ni
+      # `postgresql+asyncpg://` ga o'zi normallashtiradi (config.py).
       - key: DATABASE_URL
-        value: sqlite+aiosqlite:///./app.db
+        fromDatabase:
+          name: tayyorprava-db
+          property: connectionString
       # Frontend static site URL'i (pastdagi xizmat nomiga mos).
       - key: CORS_ORIGINS
         value: https://tayyorprava-web.onrender.com

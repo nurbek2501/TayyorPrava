@@ -27,6 +27,10 @@ async def lifespan(_app: FastAPI):
     os.makedirs(settings.UPLOAD_DIR, exist_ok=True)
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
+    # Postgres'ga birinchi deploy'da image ichidagi app.db'dan kontentni ko'chiradi
+    # (bo'sh bo'lsa; sqlite'da yoki to'la bo'lsa hech narsa qilmaydi).
+    from app.db.bootstrap import bootstrap_from_sqlite
+    await bootstrap_from_sqlite()
     yield
 
 
