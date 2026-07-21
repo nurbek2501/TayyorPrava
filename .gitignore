@@ -1,0 +1,58 @@
+# ============================================================
+#  Prava Pro — Git ignore (xavfsizlik + tozalik)
+# ============================================================
+
+# ---- Maxfiy muhit fayllari (HECH QACHON git'ga tushmaydi) ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Ma'lumotlar bazasi ----
+# backend/app.db ASOSIY fayli ATAYLAB git'ga qo'shiladi (foydalanuvchi so'ragan —
+# faqat admin hisobi + kontent bilan tozalangan holatda). WAL/SHM sidecar
+# fayllari va boshqa *.db hali ham chetlab o'tiladi (doimiy o'zgaruvchi, git emas).
+*.db
+*.sqlite
+*.sqlite3
+app.db*
+!backend/app.db
+*.db-shm
+*.db-wal
+*.db.*
+*.bak
+*-bak
+
+# ---- Yuklangan kontent (189MB rasm — git emas, OneDrive/alohida zaxira) ----
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ---- Node / frontend ----
+node_modules/
+dist/
+.vite/
+*.local
+
+# ---- Capacitor / Android (build paytida hosil bo'ladi) ----
+frontend/android/
+frontend/ios/
+
+# ---- OS / muharrir ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+/TayyorPrava/

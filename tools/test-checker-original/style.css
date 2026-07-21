@@ -1,0 +1,317 @@
+:root {
+  --bg: #f1f5f9;
+  --panel: #ffffff;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --line: #e2e8f0;
+  --primary: #4f46e5;
+  --primary-d: #4338ca;
+  --good: #16a34a;
+  --good-bg: #dcfce7;
+  --bad: #dc2626;
+  --bad-bg: #fee2e2;
+  --warn: #b45309;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(15, 23, 42, .08), 0 8px 24px rgba(15, 23, 42, .05);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+/* ---------- Yuqori panel ---------- */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, var(--primary), #6366f1);
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand .logo { font-size: 26px; }
+.topbar h1 { font-size: 20px; margin: 0; font-weight: 700; }
+.stats {
+  background: rgba(255, 255, 255, .18);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.topbar-right { display: flex; align-items: center; gap: 12px; }
+.topbar-btn { background: #fff; color: var(--primary-d); border: none; white-space: nowrap; }
+.topbar-btn:hover { background: #eef2ff; }
+
+/* ---------- Tartib ---------- */
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.panel-head h2 { margin: 0; font-size: 17px; }
+
+/* ---------- Forma maydonlari ---------- */
+.field-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 14px 0 6px;
+}
+.field-label.row-between {
+  display: flex; align-items: center; justify-content: space-between;
+}
+.req { color: var(--bad); }
+.opt-note, .auto-note { color: var(--muted); font-weight: 400; font-size: 12px; }
+.textarea.cyr, .opt-text.cyr { background: #f8fafc; }
+.textarea.rus, .opt-text.rus { background: #fff7ed; }
+.opt-text.cyr, .opt-text.rus { font-size: 13px; }
+
+.textarea, .search, .opt-text {
+  width: 100%;
+  font: inherit;
+  color: var(--ink);
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #fff;
+  transition: border-color .15s, box-shadow .15s;
+}
+.textarea { resize: vertical; min-height: 70px; }
+.textarea:focus, .search:focus, .opt-text:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, .15);
+}
+
+/* ---------- Takror tekshiruv holati ---------- */
+.dup-status {
+  min-height: 22px;
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-top: 8px;
+  padding: 0 2px;
+}
+.dup-status.good { color: var(--good); }
+.dup-status.bad { color: var(--bad); }
+
+/* ---------- "Yopiq" maydonlar ---------- */
+.details {
+  position: relative;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  padding: 8px 16px 16px;
+  margin: 14px 0 0;
+  min-width: 0;
+}
+.details[disabled] { background: #f8fafc; }
+.lock-overlay {
+  position: absolute;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(248, 250, 252, .72);
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 20px;
+  z-index: 2;
+}
+
+/* ---------- Tugmalar ---------- */
+.btn {
+  font: inherit;
+  font-weight: 600;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  padding: 9px 16px;
+  cursor: pointer;
+  background: #eef2ff;
+  color: var(--primary-d);
+  transition: background .15s, border-color .15s, opacity .15s, transform .05s;
+}
+.btn:hover { background: #e0e7ff; }
+.btn:active { transform: translateY(1px); }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn.primary { background: var(--primary); color: #fff; }
+.btn.primary:hover { background: var(--primary-d); }
+.btn.outline { background: #fff; border-color: var(--line); color: var(--ink); }
+.btn.outline:hover { border-color: var(--primary); color: var(--primary-d); }
+.btn.ghost { background: transparent; color: var(--muted); }
+.btn.ghost:hover { background: #f1f5f9; }
+.btn.small { padding: 6px 12px; font-size: 13px; }
+.btn.icon { padding: 7px 10px; background: #f1f5f9; }
+.btn.danger { color: var(--bad); background: #fef2f2; }
+.btn.danger:hover { background: #fee2e2; }
+
+/* ---------- Rasm joyi ---------- */
+.image-slot { display: flex; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.image-preview, .opt-image-wrap { display: flex; }
+.img-prev { position: relative; display: inline-flex; }
+.img-prev img {
+  max-width: 160px;
+  max-height: 120px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  display: block;
+}
+.img-rm {
+  position: absolute;
+  top: -8px; right: -8px;
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  border: none;
+  background: var(--bad);
+  color: #fff;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+
+/* ---------- Variant qatorlari ---------- */
+.option-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: start;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+.correct-check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+  user-select: none;
+  padding-top: 8px;
+}
+.correct-check input { width: 18px; height: 18px; accent-color: var(--good); cursor: pointer; }
+.correct-check .letter {
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--muted);
+}
+.opt-main { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.opt-image-wrap:empty { display: none; }
+
+.hint {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin: 10px 2px 0;
+}
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+/* ---------- Ro'yxat ---------- */
+.list-panel .search { margin-bottom: 14px; }
+.list { display: flex; flex-direction: column; gap: 12px; max-height: 70vh; overflow-y: auto; padding-right: 4px; }
+.empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 36px 16px;
+  font-size: 14px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+  transition: border-color .15s, box-shadow .15s;
+}
+.card:hover { border-color: #c7d2fe; box-shadow: 0 2px 10px rgba(79,70,229,.08); }
+.card-top { display: flex; align-items: flex-start; gap: 10px; }
+.card-num {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 13px;
+  background: #eef2ff;
+  border-radius: 7px;
+  padding: 2px 8px;
+  white-space: nowrap;
+}
+.card-thumb {
+  width: 48px; height: 48px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+.card-text { font-weight: 600; word-break: break-word; }
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.card-meta .ok-badge { color: var(--good); background: var(--good-bg); border-radius: 6px; padding: 1px 8px; font-weight: 600; }
+.card-meta .warn-badge { color: var(--warn); background: #fef3c7; border-radius: 6px; padding: 1px 8px; font-weight: 600; }
+.card-actions { display: flex; gap: 8px; }
+
+/* ---------- Toast bildirishnomalar ---------- */
+.toasts {
+  position: fixed;
+  bottom: 20px; right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 50;
+}
+.toast {
+  min-width: 240px;
+  max-width: 360px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity .25s, transform .25s;
+}
+.toast.show { opacity: 1; transform: translateX(0); }
+.toast.ok { background: var(--good); }
+.toast.err { background: var(--bad); }

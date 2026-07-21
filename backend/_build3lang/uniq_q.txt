@@ -1,0 +1,1130 @@
+q0001	Bu belgilarning ta'sir oralig'ida qaysi avtomobil uchun to'xtashga ruxsat beriladi?
+q0002	Yo'naltirgichlarning qaysilari bo'ylab harakatlanishga ruxsat etiladi?
+q0003	Tibbiyot qutichasi va o't o'chirgich bo'lmagan qanday transport vositalaridan foydalanish taqiqlanadi?
+q0004	Chorrahadan birinchi bo'lib o'tadi:
+q0005	Harakatlanish taqiqlanadi:
+q0006	Qaysi transport vositasining haydovchisi chorrahadan birinchi bo'lib o'tadi?
+q0007	Shu joyda to'xtab turishga ruxsat etiladimi?
+q0008	Haydovchi harakatlanishni boshlashidan oldin qanday amallarni bajarishi kerak?
+q0009	Umurtqasining ko'krak qismi shikastlangan kishi transportda qanday tashiladi?
+q0010	Bunday taniqli belgisi bilan belgilanadigan transport vositasi:
+q0011	Avtomobilda yoqilgan sarg'ish rangli miltillovchi chiroq yoqilgan holatda harakatlanish uchun imtiyoz beradimi?
+q0012	Quyidagi belgilar qaysi yo'nalishda harakatlanishga ruxsat beradi?
+q0013	Mazkur chiziq nima haqida ogohlantiradi?
+q0014	Avtomagistralda quyidagilar taqiqlanadi:
+q0015	Qaysi transport vositasi haydovchisi to'g'riga harakatlanish huquqiga ega?
+q0016	Qaysi transport vositasining haydovchisi yo'l berishi kerak?
+q0017	Transport vositasini orqaga harakatlantirish paytida haydovchi qanday talablarni bajarishi kerak?
+q0018	Yo'lning qarama-qarshi harakat yo'nalishi tomoniga chiqish qachon taqiqlanadi?
+q0019	Qaysi holatda egri yo'lda harakatlanayotgan avtomobil turg'unligi ta'minlangan?
+q0020	Qaysi shartlarda transport vositalaridan foydalanish taqiqlanadi?
+q0021	Haydovchi o'z harakati yo'nalishidan qat'iy nazar kimga transport vositasini taqdim etishi kerak?
+q0022	Qaysi yo'nalishlarda harakatlanishga ruxsat etilgan?
+q0023	Qaysi belgi qarama-qarshi harakatlanishning ustunligini bildiradi?
+q0024	Qaysi belgi Qoidalarning aholi punktlarida harakatlanish tartibini belgilaydigan talablarning bekor qilinishini ko'rsatadi?
+q0025	O'ngga burilganda shu belgi bilan belgilangan tasmaga o'tishga ruxsat etiladimi?
+q0026	Transport vositalari chorrahadan quyidagi tartibda o'tadilar:
+q0027	Avtomobilning qaysi g'ildiragi "sirpanib" tormozlanishga ko'proq moyil?
+q0028	Qaysi transport vositalarini qatnov qismining chetida ikki qator qo'yish mumkin?
+q0029	Qo'l jarohatlanganda kiyim qanday tartibda kiygiziladi?
+q0030	Yuk transport vositasiga shunday joylashtirilishi kerakki, u:
+q0031	Mazkur yo'l belgisi nimani bildiradi?
+q0032	Qaysi transport vositalariga to'xtab turishga ruxsat etilgan?
+q0033	Ushbu yo'l belgisi nima haqida ogohlantiradi?
+q0034	Yashil avtomobil chorrahadan nechanchi bo'lib o'tadi?
+q0035	Qaysi transport vositasiga harakatlanish ruxsat etiladi?
+q0036	Harakat ikki tomonlama bo'lgan, uch tasmali yo'lda siz o'ngga burilishingiz zarur. Ushbu harakatni qaysi tasmadan amalga oshirasiz?
+q0037	Qaysi joylarda transport vositalariga qatnov qismining chetiga burchak ostida to'xtab turishga ruxsat etiladi?
+q0038	Suyak singanda qotirib bog'lash uchun nimadan shina sifatida foydalanish eng qulay?
+q0039	Kunning qorong'i vaqtida sun'iy yoritilmagan yo'llarda yoki yetarli ko'rinmaslik sharoitida yonmaydigan orqa gabarit chiroqlari bilan to'xtab turish yoki ta'mirlash joyiga borishga ruxsat beriladimi?
+q0040	Sanab o'tilgan hollarning qaysi birida qoidalar haydovchi o'zining transport vositasini ichki ishlar xodimi ixtiyoriga berishi shart?
+q0041	Qaysi transport vositasining haydovchisi birinchi navbatda harakatlanish huquqiga ega?
+q0042	Qaysi belgi transport vositalarining belgida ko'rsatilgandan kam oraliq masofada harakatlanishini taqiqlaydi?
+q0043	Mazkur holatda avtobus to'g'riga harakatlansa chorrahaga kirishiga ruxsat etiladimi?
+q0044	Ko'rsatilgan vaziyatda qaysi tasmadan o'ngga burilish lozim ?
+q0045	Tartibga soluvchining mazkur ishorasi quyidagini bildiradi:
+q0046	Aholi punktlaridan tashqarida yengil avtomobillarning qanday eng katta tezlik bilan harakatlanishiga ruxsat etiladi?
+q0047	Chorrahada aylanma harakatlanish tashkil qilingan. Siz yaqinlashib kelayotgan chorrahaning qatnov qismi ikkita harakat tasmasiga ega. Chorrahaga kirishda burilish uchun Siz qaysi tasmani egallashingiz lozim?
+q0048	Siz balandlikda svetoforning ruxsat beruvchi ishorasini kutib to'xtadingiz. Bunda avtomobilni joyida tutib turishning eng yaxshi usuli:
+q0049	Qaysi hollarda velosipedchilarga qatnov qismining o'ng chekkasidan chiqishga yo'l qo'yiladi?
+q0050	Piyodalarga yo'lni piyodalar o'tish joyidan tashqarida kesib o'tishga ruxsat etiladimi?
+q0051	Shu joyda hovliga burilishga ruxsat etiladimi?
+q0052	Bu belgilar aholi yashaydigan joylarda xavfli yo'l qismi boshlanishidan qancha masofada o'rnatiladi?
+q0053	Avtomagistralda shatakka olishga ruxsat beriladimi?
+q0054	Belgilangan yo'nalish bo'ylab ketayotgan avtobus haydovchi ushbu sharoitda yo'l berishi kerakmi?
+q0055	Qaysi transport vositalariga harakatlanishga ruxsat etiladi?
+q0056	Tirkamali yengil avtomobillarga yo'lning shunday yo'l belgisi o'rnatilgan qismida qanday eng katta tezlik bilan harakatlanishga ruxsat etiladi?
+q0057	Qaysi holda qoidalar ogohlantirish ishorasini berishni talab qilmaydi?
+q0058	Bu yo'l belgisi bildiradi:
+q0059	M2, M3 toifali avtotransport vositalari shina protektorlari naqshlarining qoldiq balandligi kamida qancha bo'lishi kerak?
+q0060	Qaysi javobda yo'lovchilar uchun chiqish va tushish maydonchasi bo'lmagan sharoitdagi joylar to'liq ko'rsatilgan?
+q0061	Qaysi javobda ruxsat etilgan harakatlanish yo'nalishlari to'g'ri ko'rsatilgan?
+q0062	Ushbu yo'l belgisi qo'shimcha axborot belgisi bilan nimani bildiradi?
+q0063	Belgilangan yo'nalish bo'yicha harakatlanayotgan yo'nalishli transport vositalarining haydovchilari piyodalar o'tish joyidan tashqarida oq xassa bilan ishora berayotgan ko'zi ojiz piyodalarni o'tkazib yuborishlari kerakmi?
+q0064	Harakatlanish kimga ruxsat etilgan?
+q0065	Qaysi yo'nalishda harakatlanishga ruxsat etiladi?
+q0066	Agar transport vositasi o'lchamlari kattaligidan yoki boshqa sabablarga ko'ra chetki holatda burilishni bajara olmagan bo'lsa, bu qoidadan chetga chiqqan holda burilishga yo'l qo'yiladimi?
+q0067	Qattiq ulagich transport vositalari orasida qanchadan ortiq bo'lmagan masofani ta'minlashi kerak?
+q0068	Velosipedchilarda trotuarda harakatlanishga ruxsat etiladimi?
+q0069	Shatakka olingan avtomobilda odamlarni tashishga ruxsat etiladimi?
+q0070	Bu joyda quvib o'tishga ruxsat beriladimi?
+q0071	Qaysi belgi "T" simon chorrahada harakatlanish yo'nalishini ko'rsatadi?
+q0072	Oldida transport vositasi to'xtab turgan tartibga solinmaydigan piyodalar o'tish joyiga yaqinlashib kelmoqdasiz, Siz nima qilishingiz kerak?
+q0073	Qaysi transport vositalariga harakatlanish ruxsat etiladi?
+q0074	Transport vositalari chorrahadan quyidagi tartibda o'tadilar
+q0075	Qanday hollarda quvib o'tish taqiqlanadi?
+q0076	Kunduzgi vaqtda yaqinni yorituvchi fara chirog'ini yoqish ogohlantirish ishorasi bo'ladimi?
+q0077	Agar g'ildiraklardagi tortish kuchi yo'l bilan tishlashish kuchidan ortiq bo'lsa:
+q0078	Qanday hollarda transport vositalaridan foydalanishga ruxsat etiladi?
+q0079	Qaysi transport vositalariga ko'rsatilgan yo'nalishlar bo'yicha harakatlanishga ruxsat etiladi?
+q0080	Avtomobillarga qaysi yo'nalishda harakatlanishga ruxsat etiladi?
+q0081	Ushbu holatda quvib o'tishga ruxsat etiladimi?
+q0082	Ushbu svetofor qaysi harakatlanishni tartibga solish uchun qo'llanadi?
+q0083	Ko'rsatilgan avtosisternalardan qaysi biri burilishda ag'darilib ketish xavfi kamroq, turg'unroq?
+q0084	Shunday yo'l belgisi bo'lgan yo'l qismlarida ruxsat etilgan to'la vazni 3,5t. dan oshmaydigan yuk avtomobillariga qanday eng katta tezlik bilan harakat qilishga ruxsat etiladi?
+q0085	To'xtagan transport vositasi bilan yotiq sidirg'a chiziq orasidagi masofa qancha bo'lganida to'xtash taqiqlanadi?
+q0086	Harakat tezligi ikki marta oshganda, tormozlanish yo'li necha marta ortadi?
+q0087	Bir tirkamali avtopoezdning qanday eng katta uzunligida DYHXX ruxsatisiz harakatlanishga yo'l qo'yiladi?
+q0088	Qizil avtomobilning haydovchisi, yalt-yalt etuvchi chiroq-mayoqcha va maxsus tovushli ishora yoqilgan transport vositasiga yaqinlashib kelayotganda nima qilishi kerak?
+q0089	Mazkur belgi bilan belgilangan hududda qanday cheklanishlar kiritilgan?
+q0090	Qaysi belgi teng ahamiyatli yo'llar kesishish chorrahasiga yaqinlashib kelayotganlik haqida ogohlantiradi?
+q0091	Svetoforning taqiqlovchi ishorasida va shlagbaum ochiq bo'lganda haydovchi nima qilishi kerak?
+q0092	Chorrahadan ikkinchi bo'lib kim o'tadi?
+q0093	Qanday hollarda haydovchisi bo'lmagan transport vositalarini shatakka olish mumkin?
+q0094	Bu yerda quvib o'tishga ruxsat beriladimi?
+q0095	Qaysi ishoralar ogohlantiruvchi hisoblanadi?
+q0096	Boshqarishni o'rgatishdagi transport vositasi qanday jihozlangan bo'lishi kerak?
+q0097	Sanab o'tilgan qaysi holatlarda transport vositasidan foydalanish taqiqlanadi?
+q0098	Avtomobil qaysi yo'nalishlarda harakatlanishi mumkin?
+q0099	Bu belgi nimani bildiradi?
+q0100	Haydovchiga belgilangan trayektoriya bo'yicha harakatlanib, manyovrlar bajarishga ruxsat berilganmi?
+q0101	Ushbu svetofor qaysi yo'nalishda harakatlanishni taqiqlaydi?
+q0102	Qizil avtomobil:
+q0103	Yetarli ko'rinmaslik sharoitida yo'lning yoritilmagan qismida to'xtagan yoki to'xtab turgan mexanik transport vositasining haydovchisi bajarishi kerak
+q0104	Transport vositasi qachon faqat o'ng chetki tasmada harakatlanishi kerak?
+q0105	Ogohlantirish ishorasini berish haydovchiga birinchi harakatlanish huquqini beradimi?
+q0106	Qoidalarga ko'ra shatakka olish vaqtida bir-biriga ulangan mexanik transport vositalari tarkibining qanday umumiy uzunligiga yo'l qo'yiladi?
+q0107	Qoida bo'yicha necha yoshdan boshlab yengil avtomobilni boshqarishga ruxsat etiladi?
+q0108	Qaysi hollarda bir yo'nalishda harakatlanish uchun uchtadan kam tasmasi bo'lgan yo'lda to'xtash va to'xtab turish taqiqlanadi?
+q0109	Haydovchi tormozlanishda boshlangan avtomobilning sirpanib ketishini to'xtatish uchun bajarishi kerak:
+q0110	Haydovchiga transport vositalarining to'xtab turish joylari chegarasini bildiradigan uzluksiz chiziqni kesib o'tishga ruxsat etiladimi?
+q0111	Temir yo'l kesishmasi oldida turgan transport vositalarini qarama-qarshi harakatlanish tasmasiga chiqib aylanib o'tishga ruxsat etiladimi?
+q0112	Chorrahadan uchinchi bo'lib Qaysi avtomobil o'tadi:
+q0113	Haydovchi piyodalarga qachon yo'l berishi kerak?
+q0114	Ko'rsatilgan holda yengil avtomobilga to'xtab turishga ruxsat etiladimi?
+q0115	Yuk tashish taqiqlanadi, agar:
+q0116	Avtomobilning yon tomonga sirpanib ketishi nima sababdan ro'y berishi mumkin?
+q0117	N2; N3 toifadagi avtotransport vositalarining boshqaruv qurilmasida qanday eng katta umumiy lyuft yig'indisiga yo'l qo'yiladi?
+q0118	Chorrahani ikkinchi bo'lib kesib o'tadi:
+q0119	Yo'l yoqasida qaysi transport vositalarining haydovchilari qoidani buzib to'xtadilar?
+q0120	Qaysi belgi kesib o'tgan yo'llarda harakatlanayotgan transport vositalariga yo'l berishni yuklaydi?
+q0121	Temir yo'l kesishmasida umumiy xatar ishorasi sifatida quyidagi ishoralar turkumi xizmat qiladi:
+q0122	Qaysi javobda chorrahadan o'tish tartibi to'g'ri ko'rsatilgan?
+q0123	Haydovchi orqa g'ildiraklari yetakchi bo'lgan avtomobilning orqa o'qi sirpanib ketishi boshlanganida to'xtatish uchun nima qilishi kerak?
+q0124	Haydovchi aholi punktlaridan tashqaridagi yo'lda quvib o'tilayotgan haydovchining e'tiborini jalb etish uchun faralar chiroqlarini o'chirib yoqish va tovush ishorasi berishni qo'llab to'g'ri qildimi?
+q0125	Shikastlangan kishining o'mrov suyagi singanda nima qilish kerak?
+q0126	Yengil avtomobilda tumanga qarshi faralarning nechtasini o'rnatishga ruxsat etiladi?
+q0127	Sonning yumshoq to'qimalari lat yeganda birinchi tibbiy yordam qanday ko'rsatiladi?
+q0128	Agar yo'l boshlanishida ushbu belgi turgan bo'lsa, qatnov qismining qarama-qarshi yo'nalishiga o'tish mumkinmi?
+q0129	Qaysi transport vositalariga harakatlanish uchun ruxsat berilgan?
+q0130	Avtomobillar chorrahadan quyidagi tartibda o'tadilar:
+q0131	Sirpanchiq yo'lda orqa yetakchi avtomobil uchun tormozlashning qaysi usuli xavfsiz to'xtashni ta'minlaydi?
+q0132	Transport vositasining bitta o'qiga har xil naqshli shinalarni o'rnatishga ruxsat etiladimi?
+q0133	Quvib o'tishda faralarning uzoqni yorituvchi chiroqlaridan ogohlantiruvchi ishora sifatida foydalanish mumkinmi?
+q0134	Shatakka olish taqiqlanadi?
+q0135	Quyidagi qaysi belgilar ogohlantiruvchi belgilar jumlasiga kiradi?
+q0136	Ko'rsatilgan holatda o'zib ketishga ruxsat etiladimi?
+q0137	Qarama-qarshi yo'nalishdagi transportlar oqimi ikkita sidirg'a chiziqlar bilan ajratilgan yo'l nechta harakatlanish uchun tasmaga ega?
+q0138	Chorraha oldida bu belgi o'rnatilgan bo'lsa; haydovchi qanday yo'l tutishi kerak?
+q0139	Qaysi yo'nalishda harakatlanish taqiqlanadi?
+q0140	Yotiq chiziqning uzluksiz sariq chizig'i nimani bildiradi?
+q0141	Harakatlanishga ruxsat berilgan:
+q0142	Transport vositalari chorrahadan qanday tartibda o'tadilar?
+q0143	Haydovchi manyovrni bajarishda burilish ko'rsatkichlari bilan yorug'lik ishorasini har doim berishi kerakmi?
+q0144	Suratlarning qaysi birida quvib o'tish ko'rsatilgan?
+q0145	Haydovchi o'z joyidan ketishi yoki transport vositasini qoldirishi mumkin, agar:
+q0146	Son suyagining uchdan birining pastki qismi singanda jarohatlangan odamni transportda tashish uchun taxtakach qanday qo'yiladi?
+q0147	To'xtab turish tormoz tizimi qanchadan kam bo'lgan qiyalikda M toifadagi avtotransport vositalarini harakatsiz holatda ushlab tura olmasa, bu avtotransport vositalaridan foydalanish taqiqlanadi?
+q0148	Qisman ortish usuli bilan avtomobilni shatakka olishda yo'lovchilar qayerda bo'lishlari mumkin?
+q0149	Qaysi javobda ruxsat berilgan harakat yo'nalishi to'g'ri ko'rsatilgan?
+q0150	"To'xtash taqiqlangan" belgisi bilan birga to'siqning usti bo'ylab uzluksiz sariq chiziq chizilgan joyda yo'lovchilarni tushirishga ruxsat beriladimi?
+q0151	Temir yo'l izlarini qayerda kesib o'tishga ruxsat beriladi?
+q0152	Chorrahadan ikkinchi bo'lib o'tadi:
+q0153	Qaysi holda avtomobilning ag'anab ketishiga qarshi turg'unligi ortadi?
+q0154	Hamma tasmalar band bo'lgan serqatnov harakatlanish vaqtida qayrilib olishga ruxsat beriladimi?
+q0155	Haydovchi qayta tizilishdan va harakatlanish yo'nalishini o'zgartirishdan oldin nima qilishi zarur?
+q0156	Tos suyaklari singanda birinchi yordam qanday ko'rsatiladi?
+q0157	Sanab o'tilgan sharoitlarning qaysi birlarida transport vositasidan foydalanish taqiqlanadi?
+q0158	Qaysi belgi yo'l qismida avtomatlashtirilgan foto va video qayd etish texnika vositalari o'rnatilganligi haqida axborot beradi?
+q0159	Qaysi belgi gabarit uzunligi belgisida ko'rsatilgandan uzun bo'lgan transport vositalarining harakatlanishini taqiqlaydi?
+q0160	Suratdagi tasvirlangan holatda haydovchi nima qilishi lozim?
+q0161	Chorrahadan ikkinchi bo'lib qaysi avtomobil o'tadi?
+q0162	Kunning qorong'i vaqtida yo'lning yoritilgan qismida aholi yashash joylarida harakatlanayotgan mexanik transport vositasida qaysi chiroqlar yoqilgan bo'lishi kerak?
+q0163	Chorraha qismida kesib o'tgan yo'lga nisbatan asosiy bo'lgan yo'lda transport vositalarini quvib o'tishga ruxsat beriladimi?
+q0164	Qaysi javobda shatakka olingan transport vositasidagi yoritish asboblarini yoqishning to'g'ri holati ko'rsatilgan?
+q0165	Quyidagi 3.27 "To'xtash taqiqlangan" belgisining amal qilish chegarasi qayerda tugaydi?
+q0166	M1 toifadagi transport vositalari shinalari protektori naqshining qoldiq balandligi necha mm. dan kam bo'lmasligi kerak?
+q0167	Agar tuproq yo'lda bevosita chorraha oldida to'shamali (qoplamali) yo'l qismi bo'lsa, bu uni ahamiyati jihatidan kesib o'tilayotgan yo'l qismi bilan teng huquqli qiladimi?
+q0168	Aholi punktlaridan tashqarida qaysi belgi takrorlanadi?
+q0169	Yo'lning o'rtasida joylashgan bekatda to'xtagan yo'lakay yo'nalishli tramvay yonidan o'tayotganda haydovchi nima qilishi kerak?
+q0170	Chorrahadan oxirgi bo'lib qaysi avtomobil o'tadi?
+q0171	Kunning qorong'u vaqtida yo'lning yoritilmagan qismlarida harakatlanayotganda mexanik transport vositasining qaysi chiroqlari yoqilgan bo'lishi kerak?
+q0172	Qayrilib olish taqiqlanadi:
+q0173	Yashil avtomobil haydovchisi:
+q0174	Qattiq yoki egiluvchan ulagich yordamida shatakka olinganda, yuk avtomobilining yukxonasida odamlarni tashishga ruxsat beriladimi?
+q0175	Transport vositalaridan qanday sharoitlarda foydalanishga ruxsat etiladi?
+q0176	Yo'l-transport hodisasiga daxldor bo'lgan haydovchilar birinchi navbatda bajarishlari shart:
+q0177	Belgi ostidagi qo'shimcha axborot belgisi nimani bildiradi?
+q0178	Qaysi belgi "To'siqni chapdan aylanib o'tish" deb ataladi?
+q0179	Ishchi tormozi to'satdan ishlamay qolganda avtomobilni qanday to'xtatish kerak?
+q0180	Qayrilish taqiqlanadi:
+q0181	Shatakka olingan mexanik transport vositasida qanday tashqi yoritish chiroqlari yoqilgan bo'lishi kerak?
+q0182	Qon oqishini to'xtatuvchi jgut qo'l-oyoqlarga qanday bog'lanadi?
+q0183	Motosikllarning shinalari naqshining qoldiq chuqurligi qanchadan kam bo'lmasligi kerak?
+q0184	Qaysi transport vositasining haydovchisi birinchi navbatda harakatlanish ustunligiga ega?
+q0185	Bu belgilarning qaysi biri "Bir tomonlama harakatlanish yo'liga chiqish" ni bildiradi?
+q0186	Qaysi yo'nalishlarda harakatlanishga ruxsat etiladi?
+q0187	Quyidagi hollarning qaysi birida temir yo'l kesishmasiga kirish taqiqlanadi?
+q0188	Avtomobillar chorrahadan quyidagi tartibda o'tadi:
+q0189	Yo'lovchilarning va mahkamlanmagan yukning shiddat bilan oldinga surilib ketishiga nima sabab bo'lishi mumkin?
+q0190	Kunduzgi vaqtda transportning old yoki orqa tomoniga 1 metrdan ortiq chiqib turgan yuk qanday belgilanadi?
+q0191	Bu yotiq chiziq quyidagi vazifani bajaradi:
+q0192	Sirpanchiq yo'lda karbyuratorning drossel zaslonkasini keskin ochish qanday xavfli oqibatlarga olib kelishi mumkin?
+q0193	Yuk avtomobilining yukxonasida qancha miqdorda odamlarni tashishga ruxsat beriladi?
+q0194	Yaltirovchi ko'k mayoqcha va unga qo'shimcha maxsus tovushli ishorasi yoqilgan transport vositasi sizga yaqinlashib kelmoqda. Siz shunday transport vositasiga qarshi harakatlanayotgan bo'lsangiz; nima qilishingiz lozim?
+q0195	Ko'rsatilgan belgi ostidagi qo'shimcha axborot belgisi qanday maqsadda o'rnatilgan?
+q0196	Yo'naltirgichlar bilan ko'rsatilgan yo'nalishlarning qaysi biridan harakat qilish mumkin?
+q0197	Transport vositalari chorrahani quyidagi tartibda kesib o'tadilar:
+q0198	Yo'lning yoritilmagan qismlarida qorong'i vaqtda to'xtaganda gabarit chiroqlari buzuq bo'lsa:
+q0199	Bu joyda to'xtash mumkinmi?
+q0200	Harakatlanish mumkin bo'lgan yo'nalish qaysi rasmda ko'rsatilgan?
+q0201	Orqa tomondagi tumanga qarshi chiroqlar quyidagi hollarda qo'llanishi mumkin:
+q0202	Qo'shaloq shinalar orasiga begona jismlar tiqilib qolganda transport vositalaridan foydalanishga ruxsat etiladimi?
+q0203	Sariq avtobusning haydovchisiga chorrahaga chiqishga ruxsat etiladimi?
+q0204	Ruxsat etilgan harakatlanish yo'nalishini ko'rsating:
+q0205	Qaysi belgi oyning juft sonli kunlarda to'xtab turishni taqiqlaydi?
+q0206	Bu yo'l belgisi:
+q0207	Chorrahani oxirgi bo'lib kesib o'tadi:
+q0208	Haydovchi ko'zi qamashgan taqdirda quyidagilarni bajarishi shart:
+q0209	To'xtash yo'li deb nimaga aytiladi?
+q0210	Transport vositalari sun'iy yoritilgan tunnelda harakatlanayotganda qanday yoritish chiroqlari yoqilishi kerak?
+q0211	Avtomobilda tibbiyot qutichasini qayerda saqlash lozim?
+q0212	Yuk tirkamasida odam tashishga ruxsat etiladimi?
+q0213	Kimlar "yo'l harakati qatnashchisi" hisoblanadi?
+q0214	Avtomobil harakatining barcha ruxsat etilgan yo'nalishlari qaysi javobda to'g'ri ko'rsatilgan?
+q0215	Rasmda ko'rsatilgan holatda yo'lovchilarni tushirish uchun to'xtashga ruxsat beriladimi?
+q0216	Haydovchilardan qaysi biri to'xtashga majbur?
+q0217	Qaysi avtomobil chorrahadan oxirgi bo'lib o'tadi?
+q0218	Ko'rsatilgan avtomobillardan qaysi biri ag'darilishga qarshi turg'unroq?
+q0219	Ko'k avtomobil haydovchisi chapga burilishga kirishgandan keyin, qizil avtomobil haydovchisi o'ng tomondan o'zib ketishi mumkinmi?
+q0220	Qaysi transport vositasining haydovchisi yo'l berishi lozim?
+q0221	Boshqaruv qurilmasi nosoz mexanik transport vositasi shatakka olinishi kerak:
+q0222	12 yoshga etmagan bolalarni transport vositasining oldingi o'rindig'ida tashishga ruxsat etiladimi?
+q0223	Qaysi rasmda piyodalar qoidani buzmay harakatlanmoqda?
+q0224	Qatnov qismidagi bunday yo'naltirgichlar nimani bildiradi?
+q0225	Quyidagilar poezdni to'xtatish ishorasi bo'lib xizmat qiladi:
+q0226	Harakatda imtiyozga ega bo'ladi:
+q0227	Birinchi bo'lib chorrahani kesib o'tadi:
+q0228	Belgilangan yo'nalishdagi transport vositalari yoki taksilarning to'xtab turish maydonchalaridan ular bo'lmagan hollarda, (yo'nalishli transport voistalari harakatiga xalaqit bermasa) belgi ko'rsatkichlaridan qanday masofada to'xtash va to'xtab turish taqiqlanadi?
+q0229	Toliqish haydovchining diqqatiga va e'tiboriga qanday ta'sir qiladi?
+q0230	Velosiped yo'lkasi yo'l bilan kesishgan joylarda velosiped va moped haydovchilari qanday hollarda transport vositalariga yo'l berishlari kerak?
+q0231	Jihozlangan bekatlari bo'lmagan tramvay to'xtash joylarida unga chiqish uchun piyodalarga qachon qatnov qismiga chiqishga ruxsat etiladi?
+q0232	Avtomobilga qaysi yo'nalishlarda harakatlanishga ruxsat etiladi?
+q0233	Bu yotiq chiziqlardan qaysi biri belgilangan yo'nalishdagi transport vositalarining to'xtash joyini bildiradi?
+q0234	Chorrahani ikkinchi bo'lib kesib o'tadi?
+q0235	Tumanga qarshi chiroqlardan qanday hollarda foydalanish mumkin?
+q0236	Yuk avtomobil haydovchisiga bu joyda to'xtashga ruxsat etiladimi?
+q0237	Ko'rsatilgan vaziyatda yengil avtomobil haydovchisiga quvib o'tishga ruxsat etiladimi?
+q0238	Yo'l quruq bo'lganda g'ildirak aylanmay, sirpanib tormozlanish tormoz yo'liga qanday ta'sir etadi?
+q0239	Yonilg'i tizimi zich (germetik) emasligi ma'lum bo'lganda, haydovchi nimalarni bajarishi shart?
+q0240	Yaxmalak bo'lganda shatakka olishga ruxsat etiladimi?
+q0241	Ushbu belgi amal qilgan hududda avtobus haydovchisi quvib o'tishi mumkinmi?
+q0242	Reversiv harakatlanish amalga oshiriladigan harakat tasmalari chegaralarini belgilash uchun bu yotiq chiziqlarning qay biridan foydalaniladi?
+q0243	Xizmat vazifasini bajarayotganda shlagbaumni o'zboshimchalik bilan ochishga yoki uni aylanib o'tishga ruxsat etiladimi?
+q0244	Oraliq masofa deb nimaga aytiladi?
+q0245	Quvib o'tishni boshlashdan oldin haydovchi shunga ishonch hosil qilishi kerakki:
+q0246	Majburiy to'xtagan haydovchi qanday choralar ko'rishi kerak?
+q0247	Avtomobilning qaysi g'ildiraklari "sirpanib" tormozlanishga ko'proq moyil bo'ladi?
+q0248	Sanab o'tilgan qaysi hollarda transport vositasidan foydalanish mumkin?
+q0249	Transport vositalari ixtiyoriga berilgan vakolatnomasi bo'lgan shaxs o'zining ishtirokida transport vositasini boshqa shaxsga boshqarishni topshirishi mumkinmi
+q0250	Agar yo'lda bu belgi o'rnatilgan bo'lsa, avtomobilni shatakka olishga ruxsat etiladimi?
+q0251	Bu "to'xtash" yotiq chiziq qaysi yo'l belgisi bilan qo'llaniladi?
+q0252	Avtomobil haydovchisi harakatining tartibi qaysi javobda to'g'ri ko'rsatilgan?
+q0253	Avtomobillar chorrahani quyidagi tartibda kesib o'tadilar:
+q0254	Haydovchi, boshqa haydovchilarning ko'zini qamashtirishi mumkin bo'lgan uzoqni yorituvchi chiroqni yaqinni yorituvchiga qachon almashtirishi kerak?
+q0255	Aholi yashaydigan joylardan tashqarida tirkamali yengil avtomobil haydovchisiga eng katta tezlikni soatiga necha kilometrdan oshirmasdan harakatlanishga ruxsat etiladi?
+q0256	Ikkita harakat tasmasi bo'lgan bir tomonlama harakat tashkil etilgan yo'llarda, avtomobilning yo'lni chap tomonida to'xtab turishiga ruxsat etiladimi?
+q0257	5% li yod eritmasi (yod nastoykasi) nima uchun qo'llaniladi?
+q0258	Bolalarni tashkiliy tashishda qanday talablar qo'yiladi?
+q0259	Ko'k avtomobil chorrahani kesib o'tadi:
+q0260	Qaysi belgi "Velosiped yo'lkasi bilan kesishuv"ni bildiradi?
+q0261	Bu chiziq qaysi yo'l belgisi bilan qo'llaniladi?
+q0262	Haydovchi yaqinlashib kelayotgan poezdni o'tkazib yuborishi uchun "To'xtash" yotiq chizig'i yoki "To'xtamasdan harakatlanish taqiqlangan" belgisidan qanday masofada to'xtashi kerak?
+q0263	Motosikl haydovchisi qoidani buzayaptimi?
+q0264	Qanday hollarda aholi punktlaridan tashqarida yengil avtomobil haydovchisiga soatiga 90 km.dan yuqori tezlikda harakatlanish taqiqlanadi?
+q0265	Egiluvchan yoki qattiq ulagichda shatakka olingan mexanik transport vositasida odamlar tashishga ruxsat etiladimi?
+q0266	Agar transport vositalarining tuzilishida ko'zda tutilgan orqani ko'rsatadigan ko'zgular bo'lmasa, avtomobildan foydalanishga ruxsat etiladimi?
+q0267	Piyodalar o'tish joyi bo'lmaganda piyodalarga yo'l qatnov qismining qaysi joyidan kesib o'tishga ruxsat etiladi?
+q0268	Qaysi belgi 50 km/soat kam tezlikda harakatlanishni taqiqlaydi?
+q0269	To'xtashni taqiqlovchi joylarni bildiruvchi sidirg'a sariq chiziq qayerda chiziladi?
+q0270	Avtomagistrallarda to'xtashga ruxsat etilganmi?
+q0271	Transport vositalari chorrahani qay tartibda kesib o'tadi?
+q0272	Projektor-faradan foydalanishga ruxsat etiladi:
+q0273	Agar siz oldinda harakatlanayotgan avtomobilni quvib o'tishga chiqsangiz, ko'rsatilgan hollarning qaysi birida tovush ishorasi berish maqsadga muvofiq?
+q0274	Ko'rsatilgan joyda to'xtashga ruxsat etiladimi?
+q0275	Yengil avtomobil haydovchisi yo'l berishi kerakmi?
+q0276	Odamlarni tashishga moslashtirilmagan yuk avtomobili yukxonasida odam tashishga ruxsat etiladimi?
+q0277	Bu belgida qaysi transport vositalarini quvib o'tishni taqiqlaydi?
+q0278	Bu yo'l chizig'i nimani bildiradi?
+q0279	Chorrahani uchinchi bo'lib kesib o'tadi:
+q0280	Ko'rsatilgan yo'nalishlar bo'yicha qaysi transport vositalariga harakatlanishga ruxsat etiladi?
+q0281	Qanday holda markazdan qochirma kuch burilishda kamayadi?
+q0282	Kim yo'l berishi kerak?
+q0283	Bu joyda avtomobilning to'xtab turishiga ruxsat berilganmi?
+q0284	Burilishda harakat qilganda avtopoezdning tirkamasi siljiydimi?
+q0285	Taqiqlovchi belgi tagiga o'rnatilgan qo'shimcha axborot belgisi nima maqsadda qo'yilgan?
+q0286	Bu belgilar amal qiladigan hududda "Nogiron" taniqli belgisi bilan belgilangan avtomobilga to'xtashga ruxsat etiladimi?
+q0287	Qaysi belgi yo'lning xavfli burilishiga yaqinlashayotgani haqida ogohlantiradi?
+q0288	Qaysi yo'ldan harakatlanishga ruxsat etilgan?
+q0289	Avtomagistralda boshqarishni o'rganish:
+q0290	Mazkur sharoitda shatakka olishni amalga oshirilishning yo'l qo'yilgan eng yuqori tezligi qanday?
+q0291	Yo'l yoqasi mavjud bo'lganda haydovchi transport vositasini qayerda to'xtatishi kerak?
+q0292	Yengil avtomobil haydovchisi qanday qoidalarni buzdi?
+q0293	N2; N3; O3; O4 toifadagi transport vositalari shina protektori naqshlarining qoldiq balandligi qanchadan kam bo'lmasligi kerak?
+q0294	Mexanik transport vositalari va uning tirkamalarining egalari texnik holatidan qat'iy nazar; xarid qilgan (olgan) paytdan boshlab shu muddat mobaynida DYHX xizmatida ro'yxatdan o'tkazishlari kerak:
+q0295	Quruq yo'lda darhol to'xtash uchun nima qilish lozim?
+q0296	Bu yo'l belgisi oldinda nima borligidan ogohlantiradi?
+q0297	Avtomobillar chorrahani quyidagi tartibda kesib o'tadi:
+q0298	Chorrahani uchinchi bo'lib kim o'tadi?
+q0299	Yengil avtomobil haydovchilarining qaysi biri aholi punktlarida harakatlanish qoidalarini buzmoqda?
+q0300	Haydovchi harakat tezligini tanlashda nimani hisobga olishi kerak?
+q0301	To'xtab turish qoidasini kim buzmadi?
+q0302	Haydovchi avtopoezd harakatining eng keng tasmasini aniqlashda nimani hisobga olishi kerak?
+q0303	Yengil avtomobillarning oldingi o'rindig'ida bolalarni tashishga ruxsat etiladimi?
+q0304	Yo'lovchilarga haydovchi transport vositasini boshqarayotganda, uni chalg'itishga ruxsat etiladimi?
+q0305	Qanday transport vositalariga ushbu belgining amal qilishi tatbiq etilmaydi?
+q0306	Haydovchilardan qay biri yo'lovchilarni tushirish uchun to'g'ri to'xtadi?
+q0307	Enli uzuq-uzuq chiziq ko'rinishidagi yotiq chiziq nimani bildiradi?
+q0308	Bunday vaziyatda qizil avtomobilning haydovchisiga quvib o'tishga ruxsat etiladimi?
+q0309	Siz reversiv harakatli yo'lga burildingiz. Burilishdan keyin siz qaysi tasma bo'ylab harakatlanish huquqiga egasiz?
+q0310	Qanday hollarda to'xtab turish taqiqlanadi?
+q0311	Haydovchi avtopoezdni tormozlashning qaysi qoidalariga rioya qilishi kerak?
+q0312	Yon kajavasi bo'lmagan motosiklda bolalarni tashishga ruxsat etiladimi?
+q0313	Bu yotiq chiziq nimani anglatadi?
+q0314	Chorrahada qaysi yo'nalishlarda harakat qilishga ruxsat etiladi?
+q0315	Qatnov qismining o'ng tasmasi bo'ylab harakatlanishga qaysi transport vositasiga ruxsat etilgan?
+q0316	Qaysi transport vositasining haydovchisiga belgida ko'rsatilgan tezlik bilan harakatlanishga ruxsat berilgan?
+q0317	Rulda o'rganuvchi bo'lsa, qaysi tomonga harakatlanishga ruxsat beriladi?
+q0318	Chorrahani kesib o'tishda tramvay yo'li bo'ylab harakatlanishga ruxsat etiladimi?
+q0319	Yuk avtomobillariga avtomagistrallarda yo'lning chetki chap qatorida harakatlanishiga ruxsat etiladimi?
+q0320	Qattiq charchoq boshlanishining asosiy tashqi alomatlari qanday?
+q0321	Tashilayotgan yuk DYHX xizmatining ruxsatisiz transport vositasi o'lchamlarining orqa nuqtasidan eng katta miqdorda qanday chiqib turishi mumkin?
+q0322	Transport vositalaridan foydalanish va texnik holatiga javobgar mansabdor shaxslar majbur:
+q0323	Belgi va uning ostidagi qo'shimcha axborot belgisi nima haqida ogohlantiradi?
+q0324	Har bir chiziq uzunligi ular orasidagi masofadan uch barobar katta bo'lgan uzuq-uzuq chiziq bildiradi?
+q0325	Yo'l o'rtasidagi to'xtash joyida to'xtagan shu yo'nalishdagi tramvayga yaqinlashib qolgan haydovchi nima qilishi kerak?
+q0326	Qaysi transport vositasining haydovchisi harakatlanishda imtiyoziga ega?
+q0327	Transport vositasining haydovchisi, agar svetoforning ruxsat etuvchi yoritgichi yoqilsa-yu, harakat yo'nalishining qatnov qismidan o'tishga ulgurmagan piyodalar bo'lsa, nima qilishi kerak?
+q0328	Aholi punktlaridan tashqarida, ruxsat etilgan to'la vazni 3,5 tonnadan ziyod avtomobillarning harakatlanishiga qaysi tasmadan ruxsat etiladi?
+q0329	Agar barcha transport vositalari 80 km/soat tezlik bilan harakat qilsa, haydovchilardan qay biri qoidalarning talablarini buzadi?
+q0330	Tormoz yo'li deganda nimani tushunasiz?
+q0331	Davlat YHX xizmatining ruxsatisiz transport vositasining yuk bilan yoki yuksiz qanday yuqori o'lchamdagi balandlik bilan harakatlanishiga yo'l qo'yiladi?
+q0332	Piyoda yalt-yalt etuvchi mayoqcha va maxsus tovushli ishoralarni yoqib kelayotgan transport vositasi yaqinlashib qolganda qanday yo'l tutishi kerak?
+q0333	Belgilarning qaysi biri ogohlantiruvchi belgilar bilan qayd etilgan xavfli yo'l qismining uzunligini ko'rsatadi?
+q0334	Bu yo'l chizig'i quyidagi maqsadni:
+q0335	Haydovchilardan qay biri birinchi bo'lib harakatlanish uchun imtiyozga ega?
+q0336	Navbat bilan yalt-yalt etib turuvchi ikkita qizil yoritgichlar quyidagi ma'noga ega:
+q0337	Shlagbaumni o'zboshimchalik bilan ochish yoki aylanib o'tishga ruxsat beriladimi?
+q0338	Siz uchta tasmasi bo'lgan ikki tomonlama harakatli yo'l bo'ylab ketayapsiz, o'rta tasmaga o'tishga qanday holda ruxsat etiladi?
+q0339	Avtomobilning taniqli belgisi bo'lganda, yo'lning mazkur qismida qanday yuqori tezlik bilan harakatlanishiga ruxsat etiladi?
+q0340	Bosh miya va kalla suyagi o'rtacha holatda jarohatlangan jabrlanuvchini transportning qaysi turida tashish kerak?
+q0341	Quyidagi holatda haydovchi piyodalarga yo'l berishi lozimmi?
+q0342	"Avtomagistral" belgisi bilan belgilangan yo'lda piyodalarning harakatlanishiga ruxsat etiladimi?
+q0343	Bu belgi o'rnatilgan yo'lda kajavali motosiklni shatakka olishga ruxsat etiladimi?
+q0344	Bu yotiq chiziq nimani bildiradi?
+q0345	Qaysi joylarda orqa bilan harakatlanish taqiqlanadi?
+q0346	Tramvay haydovchisi harakatlanayotganida svetoforning ushbu ishorasiga muvofiq boshqa yo'nalishlardan harakatlanayotgan transport vositalariga yo'l berishi kerakmi?
+q0347	Transport vositalariga sidirg'a oq chiziq bilan ajratilgan va "Belgilangan yo'nalishdagi transport vositalari uchun mo'ljallangan tasma" yo'l belgisi bilan belgilangan yo'lning o'ng tasmasida to'xtab turishga ruxsat etiladimi?
+q0348	Bunday yo'l belgisi o'rnatilgan yo'l qismlarida motosikllarga qanday yuqori tezlik bilan harakatlanishga ruxsat etiladi?
+q0349	Serqatnov harakatda transport vositasini keskin tormozlash:
+q0350	Qanday holatlarda tashilayotgan yuk ishora taxtachalari yoki bayroqchalar bilan, kunning qorong'i vaqtida, yetarli ko'rinmaydigan sharoitlarda esa yorug'lik qaytargich yoki chiroqlar bilan belgilanadi?
+q0351	Qatnov qismi tomonidan yo'lovchilarning tushishi va chiqishiga qaysi hollarda ruxsat etiladi?
+q0352	Yuk avtomobilining qaysi yo'nalishda harakatlanishiga ruxsat etiladi?
+q0353	Bu yotiq chiziq bildiradi:
+q0354	Rasmda ko'rsatilgan holatda qizil avtomobilning haydovchisi qanday yo'l tutishi kerak?
+q0355	Temir yo'l kesishmasi oldida to'xtagandan keyin harakatni boshlashdan oldin haydovchi:
+q0356	Shunday yo'l belgisi bilan belgilangan yo'l qismlarida shaharlararo bo'lmagan avtobuslarning qanday yuqori tezlik bilan harakatlanishiga ruxsat etiladi?
+q0357	Qaysi transport vositalarining haydovchilari to'xtab turish qoidasini buzdilar?
+q0358	Sirpanchiq yo'lda harakatlanayotganda karbyuratorning drossel zaslonkasini birdaniga ochish xavfi nimadan iborat?
+q0359	Qaysi hollarda avtomobillar shunday taniqli belgilari bilan belgilanadi?
+q0360	Piyodalar o'tish joyidan tashqarida yo'lning qatnov qismidan ajratuvchi mintaqa bo'lganda piyodalarning o'tishlariga ruxsat etiladimi?
+q0361	Ushbu belgi sanab o'tilgan yuk avtomobillarining qaysilariga harakatni davom ettirishni taqiqlamaydi?
+q0362	Reversiv svetoforlar bo'lmaganda yoki ular o'chirib qo'yilganda ikkitali uzuq-uzuq chiziqni kesib o'tishga ruxsat etiladimi?
+q0363	Qaysi transport vositasining haydovchisi birinchi bo'lib harakatlanish huquqiga ega?
+q0364	Svetoforning bu ishorasida qaysi transport vositasining harakatlanishiga ruxsat etilgan?
+q0365	Aholi punktlarida avtobus yoki trolleybus haydovchisi harakatni bekatdan boshlaydi. U:
+q0366	Qaysi transport vositasining haydovchisi to'xtab turish qoidasini buzdi?
+q0367	Ko'rsatilgan vaziyatda yengil avtomobilning haydovchisi qanday yo'l tutishi kerak?
+q0368	Sirpanchiq yo'lda tormozlardan qanday foydalanish kerak?
+q0369	Transport vositalari ushbu taniqli belgilari bilan belgilanadi:
+q0370	Ko'k avtomobil chorrahani nechanchi bo'lib kesib o'tadi?
+q0371	Qaysi belgi ro'paradan harakatlanayotgan transport vositalariga yo'l berishni talab qiladi?
+q0372	Yotiq chiziqlarning sidirg'a chizig'ini bosib o'tishga ruxsat etiladimi?
+q0373	Ko'rsatilgan vaziyatda haydovchi qanday yo'l tutishi kerak?
+q0374	Qizil avtomobil chorrahani nechanchi bo'lib kesib o'tadi?
+q0375	Agar piyodalar o'tish joyida tirbandlik vujudga kelib, haydovchini piyodalar o'tish joyida to'xtashga majbur qilsa, haydovchi majbur:
+q0376	Bu joyda quvib o'tishga ruxsat etiladimi?
+q0377	Navbatchining haydovchiga qaratilgan qaysi holati temir yo'l kesishmasi orqali harakatlanishni taqiqlovchi ishora hisoblanadi?
+q0378	Chuqur kechuvdan o'tgach, haydovchi nima qilishi shart?
+q0379	Transport vositasi ushbu taniqli belgisi bilan belgilanadi:
+q0380	Qaysi avtomobil to'xtash qoidasini buzdi?
+q0381	Ko'rsatilgan belgilardan qay biri ilgari kiritilgan barcha cheklashlarni bekor qiladi?
+q0382	Haydovchi qaysi rasmda qoidalar talablarini buzmay turib manyovr qildi?
+q0383	Agar yo'l tasmasi sidirg'a chiziq bilan ajratilib, belgi bilan belgilangan bo'lsa, avtobus haydovchisining tasma bo'ylab harakatlanishiga ruxsat etiladimi?
+q0384	Ko'krak qafasi shikastlangan yaradorni kerakli joyga qanday eltish kerak?
+q0385	Relssiz transport vositalarining harakatlanishi uchun tasmalar soni qanday aniqlanadi?
+q0386	Avtopoezdni shu vaziyatda, agar u 40 km/s, dan kam tezlik bilan harakat qilayotgan bo'lsa, quvib o'tishga ruxsat etiladimi?
+q0387	Ikki tomonlama harakatli yo'lda uchta tasma bor, siz o'ngga burilishingiz zarur. Siz ushbu manyovrni qaysi tasmadan amalga oshirasiz?
+q0388	Qish vaqtida orqa yetakchi ko'prikli avtomobilda chuqur bo'lib qolgan g'ildirak izidan qanday chiqish mumkin?
+q0389	Kunning qorong'i vaqtida va etarlicha ko'rinmaydigan sharoitlarda yo'lda qoldirilgan yo'l mashinalari, qurilish materiallari, qurilmalar va hokazolar belgilanishi kerak:
+q0390	Haydovchi qanday holda bu belgining talablarini to'g'ri bajaradi?
+q0391	Oq chiziq bilan belgilangan orolchaga kirishga ruxsat etiladimi?
+q0392	Qaysi transport vositasining haydovchisi qayrilishni to'g'ri bajaradi?
+q0393	Avtomobil haydovchisi uni boshqa transport vositalari quvib o'tayotganda qanday harakat qilishi kerak?
+q0394	Qo'l bilan beriladigan ogohlantiruvchi ishora qoidalarga muvofiq qachon tugallanishi mumkin?
+q0395	Jarohatdan hushdan ketganda birinchi tibbiy yordamni qanday ko'rsatish kerak?
+q0396	Ko'rsatilgan belgilardan qay biri avtopoezdni bildirish uchun o'rnatiladi?
+q0397	Bu joyda quvib o'tishga ruxsat etilganmi?
+q0398	Qaysi belgi kesishadigan yo'l bo'ylab harakat qilayotgan transport vositalariga yo'l berish majburiyatini yuklaydi?
+q0399	Transport vositasining haydovchisi oldida "to'xtash chizig'i" chizilgan va svetoforning yashil yoritkichi yoniq bo'lgan chorrahaga yaqinlashayotib nima qilishi kerak?
+q0400	Qaysi transport vositasi haydovchisi yo'l berishi kerak?
+q0401	Bunday vaziyatda haydovchi nima qilishi kerak?
+q0402	Qaysi transport vositasining haydovchisi aylanma harakatli kesishmaga to'g'ri chiqadi?
+q0403	Avtobus haydovchisiga yo'lovchilarni tushirish uchun to'xtashga ruxsat etiladimi?
+q0404	Siz quvib o'tish uchun chiqdingiz va bexosdan ro'paradan kelayotgan avtobusni ko'rib qoldingiz. Agar Siz quvib o'tishni tugallay olishingizga ishonchingiz bo'lmasa, Siz:
+q0405	Manyovr vaqtida haydovchi har doim ogohlantiruvchi ishorasi berishi kerakmi?
+q0406	Ishlamayotgan boshqaruv ruli bilan to'xtab turish yoki ta'mirlash joyiga borishga ruxsat etiladimi?
+q0407	Aholi punktlaridan tashqarida yuk avtomobil yukxonasida odamlarni tashishda qanday eng yuqori tezlikda harakatlanishga ruxsat etiladi?
+q0408	Bu belgida qaysi yuk avtomobili harakatni davom ettirishi mumkin?
+q0409	Ruxsat etilgan to'la vazni 3,5 t dan kam bo'lgan yuk avtomobilining haydovchisiga avtomagistrallarda nima taqiqlangan?
+q0410	Yo'lovchilarni tushirish uchun bu belgi o'rnatilgan tasmada to'xtashga ruxsat etiladimi?
+q0411	Chorrahani kesib o'tish navbatini ko'rsating:
+q0412	Qayta tizilishda haydovchi boshqa transport vositalariga yo'l berishi kerakmi?
+q0413	Tyagach haydovchisi nima qilishi kerak?
+q0414	Mazkur taniqli belgisi nimani bildiradi?
+q0415	Ro'paradan kelayotgan avtomobil haydovchisi qanday yo'l tutishi kerak?
+q0416	Avtomobilning qaysi yo'nalishda harakatlanishiga ruxsat etiladi?
+q0417	Bu yo'l belgisi nimani bildiradi?
+q0418	Avtomagistralda ajratuvchi mintaqaning uzilishlariga kirishga ruxsat etiladimi?
+q0419	Qaysi transport vositasining haydovchisi yo'lda tezlanish tasmasi bo'lganda unga chiqish qoidasini buzdi?
+q0420	Uch tasmali bo'lgan ikki tomonlama harakat tashkil qilingan yo'llarda qarama-qarshi harakat uchun mo'ljallangan chetki chap tasmaga o'tishga ruxsat etiladimi?
+q0421	Haydovchi to'xtash oldidan ogohlantiruvchi ishora berishga qachon majbur?
+q0422	To'xtash qoidasini buzgan hamma haydovchilar qaysi javobda ko'rsatilgan?
+q0423	Agar transport vositasining ishchi tormozining samaradorligi Qoidalar talabiga javob bermasa, u holda siz majbursiz:
+q0424	Haydovchi yo'l-transport hodisasida shikastlangan transport vositasini shatakka olish uchun yuk avtomobilini ichki ishlar organi xodimi ixtiyoriga qanday holda berishi kerak?
+q0425	Yo'naltirgichlar bilan ko'rsatilgan qaysi yo'nalishlarda harakatlanishga ruxsat etilgan?
+q0426	Chorrahani ikkinchi bo'lib kim kesib o'tadi?
+q0427	Motosiklning haydovchisi qanday holda chapga to'g'ri burildi?
+q0428	Ko'k avtomobilga qaysi yo'nalishda harakatlanishga ruxsat etiladi?
+q0429	Qayta tizilish oldidan ogohlantiruvchi ishora qachon berilishi kerak?
+q0430	Burilish vaqtida qatnov qismining kesishmasidan chiqishda transport vositasi qayerda bo'lmasligi kerak?
+q0431	Yo'lning chapga burilishiga yaqinlashganingizda, u o'ylaganingizdan ko'ra ancha keskinroq bo'lib chiqsa, Siz
+q0432	Furgon yukxonada odamlarni tashishga ruxsat etiladimi?
+q0433	Harakatni boshlashdan avval shaharlararo avtobus haydovchilari nima qilishlari kerak?
+q0434	Chorrahada harakatlanishning majburiy yo'nalishini qaysi belgi ko'rsatadi?
+q0435	Transport vositalarining haydovchilari avtobus yoki trolleybusga yo'l berishlari kerak:
+q0436	Harakatlanishga ruxsat etilgan barcha transport vositalari qaysi javobda to'g'ri ko'rsatilgan?
+q0437	Ko'k avtomobilning haydovchisiga quvib o'tishga ruxsat etiladimi?
+q0438	Quyidagi qaysi suratda haydovchi avtomobilni qoidaga xilof ravishda to'xtash joyiga qo'ygan?
+q0439	Sirpanchiq yo'lda yurgizgich bilan tormozlashni qo'llash orqa uzatmali avtomobil uchun:
+q0440	Davlat YHX xizmati ruxsatisiz transport vositasining yuk bilan yoki yuksiz harakatlanishiga qanday yuqori maksimal kenglikda yo'l qo'yiladi?
+q0441	Qaysi belgi to'xtamasdan o'tishni taqiqlaydi?
+q0442	Bu tik yo'l chizig'i nimani bildiradi?
+q0443	Haydovchi oq hassa bilan ishora berayotgan ko'zi ojiz piyodalarni o'tkazib yuborishi kerakmi?
+q0444	Qaysi rasmda haydovchi to'g'ri burilmoqda?
+q0445	Qaysi avtomobil to'xtab turishga to'g'ri qo'yilgan?
+q0446	Agar qatnov qismining kengligi chetki chap tasmadan qayrilish uchun yetarli bo'lmasa, qoidalar qayrilishni qatnov qismining o'ng chekkasi yoki yo'lning o'ng yoqasidan amalga oshirishga yo'l qo'yadimi?
+q0447	Aholi punktlarida relssiz transport vositalariga, agar bir yo'nalishda uchta va undan ortiq harakatlanish tasmasi bo'lganda, qaysi tasmadan harakatlanishga ruxsat etiladi? (yuk avtomobillari hisobga kirmaydi)
+q0448	Svetoforning bir vaqtda yoqilgan sariq va qizil ishoralari nimani bildiradi?
+q0449	Avtomobilga o'rnatilgan bu taniqli belgi nimani bildiradi?
+q0450	Bu yerda avtomobilning to'xtashiga ruxsat berilganmi?
+q0451	Bu belgi qaysi transport vositalariga tegishli emas?
+q0452	Qaysi transport vositalari yo'lovchilarni tushirish uchun noto'g'ri to'xtagan?
+q0453	Harakatlanish taqiqlangan:
+q0454	Tormozlanish tasmasi bo'lgan yo'lda qaysi transport vositasi unga chiqish qoidasini buzdi?
+q0455	Ko'rsatilgan belgilardan qaysi biri avtomagistrallarga o'rnatiladi?
+q0456	Haydovchining o'zi aniqlay oladigan harakatlanish uchun to'sqinlik yoki xavf tug'ilganda qanday choralar ko'rishi kerak?
+q0457	Jabrlanuvchiga uning yurak faoliyati yoki nafas olishi to'xtaganda qanday ketma-ketlikda birinchi yordam ko'rsatish zarur?
+q0458	Sanab o'tilgan sharoitlardan qay birida avtomobillar va avtopoezdlardan foydalanish taqiqlanadi?
+q0459	Qaysi belgi agar yuk avtomobilni tirkamasi bilan birga ruxsat etilgan to'liq vazni 7 tonnaga teng bo'lsa, tirkamali avtomobillarning harakatlanishini taqiqlaydi?
+q0460	Belgilardan qay biri ajratuvchi mintaqa bo'lgan yo'lning harakat uchun yopiq qatnov qismini aylanib o'tish yo'nalishini ko'rsatadi?
+q0461	Yo'l chizig'i bilan ajratilgan bekat maydonchasidan harakatlanish uchun foydalanishga ruxsat etiladimi?
+q0462	Chorrahani transport vositalari quyidagi tartibda kesib o'tadilar:
+q0463	Harakatlanish ruxsat etilgan:
+q0464	Mazkur vaziyatda qizil avtomobilga quvib o'tishga ruxsat etiladimi?
+q0465	Haydovchi aholi punktidan tashqarida harakat qoidalarini buzmoqdami?
+q0466	Transport vositalarining temir yo'l kesishmasiga qancha masofadan yaqinroqda to'xtab turishlari taqiqlanadi?
+q0467	Agar jonlantirishni (reanimatsiyani) 2 kishi bir vaqtda olib borganda yurakni bilvosita massaj qilish va sun'iy nafas oldirish qanday bajariladi?
+q0468	Tashiladigan yuk vaznini va o'qlar bo'yicha tushadigan og'irlikni taqsimlashni kim tartibga solib turadi?
+q0469	Belgilangan yo'nalishdagi transport vositalariga qaysilar kiradi?
+q0470	Qaysi belgi chapga burilishga ruxsat etadi?
+q0471	Bu belgi o'rnatilgan yo'lda avtobuslarga harakatlanish ruxsat etiladimi?
+q0472	Yo'lovchilarni tushirish uchun qaysi transport vositalari to'g'ri to'xtadi?
+q0473	Bunday yo'l belgisi bilan belgilangan yo'l qismlarida ruxsat etilgan to'la vazni 3,5 t dan ortiq bo'lgan yuk avtomobillarining qanday yuqori tezlik bilan harakatlanishiga ruxsat etiladi?
+q0474	Ko'k avtomobilning haydovchisi qanday yo'l tutishi kerak?
+q0475	"Gazel" yuk avtomobilining yuk bilan balandligi yo'l ustidan 3,8 m bo'lsa, uni tashish mumkinmi?
+q0476	Agar pnevmatik uzatmaning zichligi buzilib, kompressor ishlamay turganda boshqaruv asboblarining erkin holatida havo bosimining 30 daqiqada qancha MPa-ga pasayishiga sabab bo'lsa, tormoz tizimi nosoz hisoblanadi?
+q0477	Avtomobil harakatlanayotganda kutilmaganda shinasi yorilib ketsa, haydovchi nima qilishi zarur?
+q0478	Belgilardan qaysi biri bevosita yo'lning xavfli qismi oldiga o'rnatiladi?
+q0479	Bu yo'l belgisi bilan belgilangan yo'l qismida yengil avtomobilni shatakka olishga ruxsat etiladimi?
+q0480	Transport vositalari chorrahani quyidagi tartibda kesib o'tadi:
+q0481	Transport vositalariga qaysi yo'nalish bo'yicha harakatlanishga ruxsat etiladi?
+q0482	Qaysi avtomobil haydovchisiga to'xtashga ruxsat etilgan?
+q0483	Harakat tezligi 40 km/sdan oshmaydigan transport vositasiga qatnov qismining chap tasmasiga chiqishga qachon ruxsat etiladi?
+q0484	Kim o'quv yurtlarida boshqarishni o'rgatish huquqiga ega?
+q0485	Yuk transport vositasining o'lchamlaridan chiqib tursa, kunning qorong'i vaqtida va yetarli ko'rinmaydigan sharoitda qanday belgilanadi?
+q0486	"Ruxsat etilgan to'la vazn" nima?
+q0487	Bu belgida harakatlanish ruxsat etiladi:
+q0488	Avtomagistralda qatnov qismining chetini bildiruvchi sidirg'a oq chiziqni bosib o'tishga ruxsat etiladimi?
+q0489	Harakatlanishga ruxsat etilgan barcha transport vositalari qaysi javobda ko'rsatilgan?
+q0490	Aholi punktlarida ma'lum harakat tezligiga rioya etayotgan yirik o'lchamli transport vositasining haydovchisi qanday yo'l tutishi kerak?
+q0491	Mazkur vaziyatda quvib o'tishga ruxsat etilganmi?
+q0492	Siz chapga burilishga yoki qayrilishga qaror qildingiz. Orqa ko'rinadigan ko'zguga qarab, bildingizki, ortingizdagi haydovchi sizni quvib o'tmoqchi. Sizning bundan keyingi harakatingiz?
+q0493	O'ng va chap g'ildiraklarining shinalari turlicha yeyilgan avtomobilga tormoz berish qanday xavfli oqibatlarga olib kelishi mumkin?
+q0494	Yo'lovchi tashishga mo'ljallanmagan yuk avtomobilida yukni kuzatib boruvchi yoki qabul qilib oluvchi shaxslarning tashilishiga ruxsat beriladimi?
+q0495	Quvib o'tish nima?
+q0496	Qaysi belgi yo'lning bir tomonlamali harakatlanish yo'l qismini ko'rsatadi?
+q0497	Haydovchi, agar uning transport vositasi 40 km/s ga teng yoki undan ortiq tezlik bilan balandlikka chiqa olmasa, nima chora ko'rishi kerak?
+q0498	Qaysi rasmda haydovchi o'ngga to'g'ri burilyapti?
+q0499	Qaysi transport vositasining haydovchisi to'xtash qoidasini buzdi?
+q0500	Qizil avtomobilning haydovchisiga tramvay yo'li bo'yicha harakatlanishga ruxsat etiladimi?
+q0501	Chiziqlar bilan tasmalarga ajratilgan yo'lning qatnov qismida transport vositalarining harakatlanishi qanday amalga oshirilishi kerak?
+q0502	Boldir suyagi o'rtasidan singanda transportda olib yurish uchun taxtakach yoki uning o'rniga o'tuvchi narsa qanday qo'yiladi?
+q0503	Qanday sharoitlarda transport vositalaridan foydalanish taqiqlanadi?
+q0504	Mazkur belgi nima haqida xabar beradi?
+q0505	Qaysi belgi shlagbaumli temir yo'l kesishmasiga yaqinlashganlik haqida ogohlantiradi?
+q0506	Bu belgida yuk avtomobillaridan qaysi biriga harakatlanishni davom ettirishga ruxsat etiladi?
+q0507	Zanjirli bo'lgan qishloq xo'jalik, yo'l qurilishi va mexanik transport vositalariga temir yo'l kesishmasidan o'tishga ruxsat etiladimi?
+q0508	Harakatlanish qaysi yo'nalishga ruxsat etilgan?
+q0509	Chorrahani oxirgi kesib o'tadi:
+q0510	Bu yo'l belgisi
+q0511	Egiluvchan ulagichda shatakka olganda transport vositalari orasidagi masofa qanday bo'lishi kerak?
+q0512	Transport vositasini boshqarishni o'rgatyotgan shaxs haydovchi hisoblanadimi?
+q0513	Yonilg'i quyish joyidan yo'lga chiqish chorraha hisoblanadimi?
+q0514	Qaysi belgi "Mehmonxona"ni bildiradi?
+q0515	Belgilarning ta'siri qaysi transport vositalariga tatbiq etiladi?
+q0516	Chorrahani oxirgi bo'lib kim kesib o'tadi?
+q0517	Qizil avtomobil chorrahani kesib o'tadi:
+q0518	Shaharlararo qatnaydigan avtobusning haydovchisiga aholi punktlaridan tashqarida tezlikni 80 km/s dan oshirishga ruxsat etiladimi?
+q0519	Bu joyda to'xtashga ruxsat etilganmi?
+q0520	Aholi yashaydigan joylardan tashqarida transport vositalarining uzoq to'xtab turishi (dam olishi, tunash va hokazo)ga qayerda ruxsat etiladi?
+q0521	Shatakka olish qanday hollarda taqiqlangan?
+q0522	Ushbu yotiq chiziqlardan qaysi biri belgilangan yo'nalishdagi transport vositalari uchun to'xtashga ruxsat beradi?
+q0523	Qaysi yo'l asosiy yo'l hisoblanadi?
+q0524	Qaysi qo'shimcha axborot belgisi transport vositalarini to'xtab turish joyiga qo'yish usulini ko'rsatadi?
+q0525	Yotiq uzluksiz sariq chiziq "To'xtash taqiqlangan" belgisi bilan birga to'xtashga ruxsat etadi:
+q0526	Sekinyurar transport vositalarining temir yo'l kesishmasi orqali harakatlanishiga faqat temir yo'l boshlig'ining ruxsati bilan harakat tezligi quyidagidan kam bo'lganda yo'l qo'yiladi
+q0527	Qizil avtomobilning haydovchisi:
+q0528	Bu belgi bilan belgilangan yo'l qismlarida ajratuvchi mintaqaning uzilish joyida qayrilishga ruxsat etiladimi?
+q0529	Transport vositalarining trotuar va piyodalar yo'lkasi bo'ylab harakatlanishiga yo'l qo'yiladimi?
+q0530	Bunday yo'l belgisi bilan belgilangan yo'l qismlarida shaharlararo qatnaydigan avtobuslarning qanday eng yuqori tezlikda harakatlanishiga ruxsat etiladi?
+q0531	Motosikllarni shatakka olishga ruxsat etiladimi?
+q0532	Shatakka olingan yengil avtomobilda yo'lovchilarni tashish mumkinmi?
+q0533	Quyidagi belgi tagidagi qo'shimcha axborot belgisi haydovchiga nima haqida xabar beradi?
+q0534	Mazkur yotiq chiziq nimani anglatadi?
+q0535	Chorrahani birinchi bo'lib kesib o'tadi
+q0536	Temir yo'l kesishmasidan o'tishda haydovchi nimaga amal qilishi kerak?
+q0537	Haydovchi quvib o'tishni boshlashdan oldin nimaga ishonch hosil qilishi kerak?
+q0538	Uzunasiga ketgan sidirg'a chizig'i bilan to'xtagan transport vositalari o'rtasidagi masofa quyidagidan kam bo'lgan joylarda transport vositalarining to'xtashi va to'xtab turishi taqiqlanadi:
+q0539	Benzin bug'idan zaharlanishning alomatlari qanday?
+q0540	Yuk avtomobilining yukxonasida 8 nafardan ko'p odamlarni tashish qaysi haydovchilarga ruxsat beriladi?
+q0541	"Yetarli ko'rinmaslik" deganda nima tushuniladi?
+q0542	Yo'naltirgichlar bilan belgilangan yo'nalishlarning qaysi biridan harakatlanishga ruxsat etiladi?
+q0543	Sariq uzuq-uzuq yotiq chiziq qaysi yo'l belgisi bilan qo'llanilishi mumkin?
+q0544	Kesishma orqali harakatlanish hollarida haydovchi to'xtash chizig'i 2.5 "To'xtamasdan harakatlanish taqiqlangan" yo'l belgisi yoki svetofor bo'lmaganda, o'tib ketayotgan poezdni o'tkazib yuborishga qoida bo'yicha shlagbaumgacha kamida qancha masofa qolganida to'xtash kerak?
+q0545	Svetoforning ushbu ishorasida qaysi transport vositalariga harakatlanishga ruxsat etilgan?
+q0546	Og'ir vaznli va katta o'lchamli yuklarni tashiyotgan transport vositalarining aholi yashaydigan joylardan tashqarida qanday tezlik bilan harakatlanishiga ruxsat etiladi
+q0547	Mexanik transport vositasi shatakka olinganda egiluvchan ulagich qanday belgilanishi kerak?
+q0548	Qayerda transport vositalarining to'xtashi va to'xtab turishi taqiqlanadi?
+q0549	Tormoz tizimi ishlamayotgan transport vositasini shatakka olish mumkinmi?
+q0550	Mexanik transport vositalaridan foydalanish qanday sharoitlarda taqiqlanadi?
+q0551	Qora avtomobil chorrahani nechanchi bo'lib kesib o'tadi?
+q0552	Harakat qaysi yo'nalishga ruxsat etilgan?
+q0553	Bu belgida qaysi avtomobilga harakatlanishga ruxsat etilgan?
+q0554	Svetoforning qizil va sariq yoritkichlaridagi qora yo'naltirgichlar nima haqida axborot beradi?
+q0555	Yuk avtomobili yukxonasida yo'lovchilar tashishda, ularning soni nima bilan belgilanadi?
+q0556	Qaysi avtomobilning haydovchisi to'xtab turish qoidalarini buzmadi?
+q0557	Avtobuslarda bolalar guruhini tashkiliy ravishda tashishda qanday hollarda kunning yorug' vaqtida yaqinni yorituvchi fara chiroqlari yoqib qo'yilishi kerak?
+q0558	Qishda boldirga qon to'xtatadigan jgutni qancha muddatga qo'yish mumkin?
+q0559	M2; M3 toifadagi avtotransport vositalarining shina protektori naqshlarining balandligi quyidagilardan kam bo'lmasligi kerak:
+q0560	Yo'lda harakatlanishni tartibga solish uchun vakolatli shaxsda o'zi bilan bo'lishi kerak:
+q0561	Qaysi belgi qayrilishga ruxsat etadi?
+q0562	Agar avtomobilning balandligi (yuki bilan yoki yuksiz) belgida ko'rsatilganidan ortiq bo'lsa haydovchi:
+q0563	Harakatlanishda ustunlikka ega:
+q0564	Yo'l belgilari va chiziqlarining ma'nolari bir-birini inkor etganda haydovchi qaysi biriga rioya qilishi kerak?
+q0565	Qaysi transport vositasining haydovchisi quvib o'tishni to'g'ri bajaryapti?
+q0566	Sun'iy yoritilgan tunnellarda harakatlanayotganda qoidalar haydovchiga qanday majburiyat yuklaydi?
+q0567	Avtomobil haydovchisi tormoz pedalini bosganda sirpanib ketishning xavfli oqibatlarini oldini olish uchun majbur:
+q0568	Qaysi belgi yo'l boshi yoki oxirigacha bo'lgan masofasini bildiradi?
+q0569	Yo'l burilishlarida avtomobilning markazdan qochirma kuchi qanday hollarda oshadi?
+q0570	Belgilardan qaysi birining belgilangan yo'nalishdagi transport vositalariga dahli yo'q?
+q0571	Bu joyda qayrilishga ruxsat etiladimi?
+q0572	Qizil avtomobilning haydovchisiga shu vaziyatda piyodalar o'tish joyi orqali harakatlanishni davom ettirishga ruxsat etiladimi?
+q0573	Tartibga soluvchining xushtak ishorasi xizmat qiladi:
+q0574	Sanab o'tilgan joylardan qaysi birida transport vositalarining to'xtashi va to'xtab turishi taqiqlanmaydi?
+q0575	Quvib o'tilayotgan transport vositasining haydovchisiga nima taqiqlanadi?
+q0576	Ko'krak qafasining ko'p qismi jarohatlanganda uni qayerdan boshlab bint bilan bog'lash kerak?
+q0577	Sanab o'tilgan hollardan qaysi birida transport vositalaridan foydalanishga ruxsat etiladi?
+q0578	Reaksiya va diqqatni pasaytiruvchi dori-darmonlar ta'sirida bo'lgan haydovchiga transport vositalarini boshqarishga ruxsat etiladimi?
+q0579	Bu belgida ko'k fon bilan ajratilgan aholi punkti nimani bildiradi?
+q0580	Quyidagi chiziq nimani bildiradi?
+q0581	Ko'rsatilgan vaziyatda o'ngga burilar ekan haydovchi qanday yo'l tutishi kerak?
+q0582	Agar transport vositasida "Tezlik cheklangan" taniqli belgisi o'rnatilgan bo'lsa, bu transport vositasining haydovchisiga:
+q0583	Aholi punktlarida "Falokat" to'xtash belgisi yoki miltillovchi qizil chiroq mexanik transport vositasidan kamida qanday masofada qo'yilishi kerak?
+q0584	Aholi yashaydigan yo'llardan tashqarida yo'lning qatnov qismida haydovchilar transport vositalarini qayerda harakatlantirishlari kerak?
+q0585	Quvib o'tish qaysi hollardan taqiqlanadi?
+q0586	Transport vositasining bir o'qiga izlari har xil naqshli shinalar o'rnatishga ruxsat etiladimi?
+q0587	Qaysi rasmda haydovchi yo'lovchilarni tushirish uchun o'z avtomobilini to'g'ri to'xtatdi?
+q0588	Qaysi rasmda harakatlanishning to'g'ri yo'nalishi ko'rsatilgan?
+q0589	Mazkur chiziq nimani bildiradi?
+q0590	Qizil avtomobil chorrahani nechanchi bo'ib kesib o'tadi?
+q0591	Svetoforning qaysi ishorasida avtomobilning haydovchisi qayrilishni tugallashi mumkin?
+q0592	Sanab o'tilgan hollarning qay birida qatnov qismining o'ng chetidan yoki yo'lning o'ng yoqasidan qayrilishga ruxsat etiladi?
+q0593	Transport vositasi texnik tavsifnomasida ko'rsatilgan yuqori tezlikdan oshirilishi mumkinmi?
+q0594	Avtomagistrallarda transport vositalarining atayin to'xtashi qaysi joylarda ruxsat etilgan?
+q0595	Avtopoezdning belgisi qanday holda yoqilgan bo'lishi kerak?
+q0596	Ikkinchi daraja ta'mirlash yo'li bilan tiklangan shinalarni M1 toifadagi avtotransport vositalariga o'rnatishga ruxsat etiladimi?
+q0597	Qaysi belgi "Bir tomonlama harakatlanish yo'lining oxiri" deb ataladi?
+q0598	Bu chorrahada chapga burilishga ruxsat etiladimi?
+q0599	Transport vositalarining tezligi texnik tavsifnomasiga yoki holatiga ko'ra 40 km/s dan kam bo'lganda avtomagistral bo'ylab harakatlanishga ruxsat etiladimi?
+q0600	Bu joyda avtobusni quvib o'tishga ruxsat etiladimi?
+q0601	"Falokat" yorug'lik ishoralari yoqilishi kerak:
+q0602	"Reaksiya vaqti" tushunchasi nimani bildiradi?
+q0603	N2; N3; O3; O4; M2; M3 toifadagi avtotransport vositalarining orqa devoriga yozilishi kerak?
+q0604	Agar yo'l-transport hodisasi natijasida hech kim jabrlanmasa, moddiy zarar esa ahamiyatsiz bo'lsa, haydovchilarning o'zlari hodisa ro'y bergan joyni tark etib, DYHXXning eng yaqin yoki IIO idorasiga hodisani qayd qilish uchun bora oladilarmi?
+q0605	Qaysi transport vositalariga bu belgi o'rnatilgan yo'l bo'ylab harakatlanishga ruxsat etilgan?
+q0606	Chorrahani birinchi bo'lib kim kesib o'tadi?
+q0607	Mazkur svetoforning qizil yoritkichida harakat taqiqlanadi:
+q0608	Agar tegishli belgilar bilan belgilangan qiyaliklarda yuzma-yuz kelayotgan transportlarning o'tib ketishi qiyin bo'lsa, yo'l berish zarur:
+q0609	Yo'lning bu qismida quvib o'tishga ruxsat etiladimi?
+q0610	Harakat tezligini tanlashda haydovchiga taqiqlanadi?
+q0611	Qo'l jarohatlanganda jabrlanuvchining ko'ylagi, kiyimi qanday yechilsa to'g'ri bo'ladi?
+q0612	Mopedlarni shatakka olishga ruxsat etiladimi?
+q0613	Trotuar yoki piyodalar yo'lkasi bo'lmaganda, piyodalar velosiped yo'lkasi bo'ylab harakat qila oladilarmi?
+q0614	Bunday avtopoezdning ko'prikdan o'tishiga ruxsat etiladimi?
+q0615	Qaysi belgi bilan xavfli yo'lning uzunligi ko'rsatiladi?
+q0616	Mazkur svetofor harakatlanishni tartibga solish uchun qo'llaniladi:
+q0617	Qoidalarning qanday hollarida tumanga qarshi orqa chiroqlarni qo'llashga ruxsat beriladi?
+q0618	Yuk avtomobili haydovchisi rasmda ko'rsatilgan holatda maxsus tovush ishorasini eshitib yoki miltillovchi ishorani ko'rib nima qilishi kerak?
+q0619	Qatnov qismiga bevosita tutashgan trotuar chetida unga to'la yoki qisman chiqish bilan to'xtab turishga ruxsat etiladimi?
+q0620	Ishqalanish koeffisientiga shinalarni siyqalanib ketgan protektori qanday ta'sir qiladi?
+q0621	Qanday hollarda transport vositasidan foydalanishga ruxsat etiladi?
+q0622	Piyodalar qatnov qismining chetidan qanday yurishlari kerak?
+q0623	Bu belgilar nimani bildiradi?
+q0624	Ko'rsatilgan belgilardan qaysinisi orqaga harakatlanishni taqiqlaydi?
+q0625	O'tish navbati qaysi javobda to'g'ri ko'rsatilgan?
+q0626	Yengil avtomobilning oldingi o'rindig'ida bolalarni ushlab turuvchi maxsus qurilma o'rnatilmagan bo'lsa, ularni tashish qaysi yoshdan ruxsat etiladi?
+q0627	Agar haydovchi transport vositasining eshigini ochishga va undan chiqishga qaror qilsa, unga nima taqiqlanadi?
+q0628	Sanab o'tilganlardan qaysi joylarda transport vositalarining to'xtashi va to'xtab turishi taqiqlanadi?
+q0629	Tik cho'zilgan qiyaliklarda ajratilgan uzatma bilan avtomobilni uzoq tormozlashning qanday xavfi bor?
+q0630	Bolalarni tashishda transport vositasi qaysi taniqli belgisi bilan belgilanadi?
+q0631	To'xtash va to'xtab turish taqiqlanadi:
+q0632	Qaysi transport vositasiga to'xtash taqiqlangan?
+q0633	Ko'rsatilgan yo'l belgisi qaysi transport vositalariga harakatlanishni taqiqlaydi?
+q0634	Egiluvchan ulagichda shatakka olinganda qanday yuqori tezlik bilan harakatlanishga ruxsat etilgan?
+q0635	Qaysi rasmda haydovchi chapga burilish haqida ogohlantirish ishorasini bermoqda?
+q0636	Qornidan yopiq jarohat olgan jabrlanuvchi qanday tashiladi?
+q0637	Spidometr jihozlari tamg'alanmagan transport vositalaridan foydalanishga ruxsat etiladimi?
+q0638	Belgi ostidagi qo'shimcha axborot belgisi nimani anglatadi?
+q0639	Chorrahani birinchi bo'lib kesib o'tadi?
+q0640	Mazkur tik chiziqlar nimani anglatadi?
+q0641	To'xtash va to'xtab turish taqiqlangan:
+q0642	Qishloq xo'jalik ishlari olib boriladigan dalada yuk avtomobili va traktorning harakat trayektoriyasi kesishadi. Kim yo'l berishi kerak?
+q0643	Transport vositasini tik qiyaliklarda uzatma ajratilgan holatda tushishga ruxsat etiladimi?
+q0644	Qoidalar transport vositalarining harakatlanishni davom ettirishni qanday hollarda taqiqlaydi?
+q0645	Svetoforning yashil miltillovchi ishorasi nimani bildiradi?
+q0646	Ushbu joyda avtomobilni to'xtab turish uchun qo'yishga ruxsat etiladimi?
+q0647	Siz chorrahadan to'g'riga o'tmoqchisiz. Ushbu vaziyatda Sizning harakatingiz?
+q0648	Siz chorrahadan chapga burilmoqchisiz. Ushbu vaziyatda kimga yo'l berasiz?
+q0649	Qaysi hollarda yo'lning harakatlanish tasmasini ajratuvchi uzuq-uzuq chiziqni bosib o'tish mumkin?
+q0650	Ushbu ko'rsatilgan holatda mototsikl haydovchisi sizga yo'l berishi kerakmi?
+q0651	Sanab o'tilgan qaysi hollarda egiluvchan ulagichda shatakka olish taqiqlanadi?
+q0652	Ushbu belgilardan qaysi biri bir tomonlama harakat tashkil qilingan yo'lning boshida o'rnatiladi?
+q0653	Ushbu yo'l nechta harakatlanish tasmasiga ega?
+q0654	Yo'lda "To'xtash", yozuvi ko'rinishidagi yo'l chizig'i nimani bildiradi?
+q0655	Qaysi haydovchi to'xtab turish qoidasini buzdi?
+q0656	Turar joy dahalarida qanday harakatlar taqiqlangan?
+q0657	Transport vositalari qattiq ulagichda shatakka olinganda shatakka olgan va shatakka olingan transport vositalari orasidagi masofa qancha bo'lishi kerak?
+q0658	Sanab o'tilgan qaysi holatda transport vositasidan foydalanishga ruxsat etiladi?
+q0659	Yo'lning sirpanchiq qismida rul chambaragini keskin burganda hosil bo'ladigan sirpanishning oldini olish uchun haydovchi qanday ehtiyot choralarini ko'rishi kerak?
+q0660	Ko'rsatilgan yo'l belgilaridan qaysi biri faqat yo'l qoplamasi nam bo'lganda ta'sir etadi?
+q0661	Yuk avtomobili haydovchisi to'xtab turish qoidasini buzdimi?
+q0662	Qanday hollarda aholi punktlarida tovush moslamalaridan foydalanishga ruxsat etiladi?
+q0663	Ko'rsatilgan qaysi belgilar sizga yashash manzilingizga avtomobilda o'tishga ruxsat beradi?
+q0664	Chorrahaga kirganingizda tartibga soluvchi qo'lini yuqoriga ko'tardi, sizga harakatlanishga ruxsat etiladimi?
+q0665	Ko'rsatilgan belgilardan qaysi biri yo'lning ko'rinish masofasi cheklangan joylarda majburan to'xtagan transport vositalarini belgilash uchun qo'llaniladi?
+q0666	Haydovchi chapga burilishda qaysi yo'nalish bo'yicha qoidani buzmoqda?
+q0667	Ushbu ko'rsatilgan vaziyatda sizga hovliga orqa bilan kirib qayrilib olishga ruxsat beriladimi?
+q0668	Yo'l harakati qoidalari bo'yicha "yonlama oraliq masofa"ni ko'rsating:
+q0669	Tumanga qarshi chiroqlar va orqa tumanga qarshi chiroqlar birga yoqilishi mumkin?
+q0670	Agar avtomobil antiblokirovkali (ABS) tormoz tizimi bilan jihozlangan bo'lsa keskin tormoz berishni qanday amalga oshirish kerak?
+q0671	Haydovchiga transport vositasini boshqarish vaqtida telefondan foydalanishga ruxsat etiladimi?
+q0672	Ushbu yo'l belgisi chorrahaga yaqinlashayotganlik to'g'risida ogohlantiradi, bunda Siz:
+q0673	Shatakka olib harakatlanishingiz mumkin:
+q0674	Ko'rsatilgan qaysi belgi reversiv harakat boshlanishi haqida axborot beradi?
+q0675	108 km/s tezlikda harakatlanayotgan transport vositasi 1 sekundda qancha masofani bosib o'tadi?
+q0676	Sizga ruxsat etilgan to'la vazni 3,5 tonnadan ortiq yuk avtomobilida harakatlanish:
+q0677	M3 toifadagi avtotransport vositalarining boshqaruv qurilmasidagi qanday eng katta lyuft yig'indisiga yo'l qo'yiladi:
+q0678	Ushbu belgi axborot beradi:
+q0679	Ushbu yo'l chizig'i sizga qanday manyovr bajarishni taqiqlaydi?
+q0680	Svetofor ishoralari qaysi guruh yo'l belgilarini bekor qiladi (miltillovchi sariq ishoradan tashqari)?
+q0681	Kunning yorug' vaqtida aholi punktlarida quvib o'tilayotgan transport vositasi haydovchisining e'tiborini jalb qilish uchun mumkin:
+q0682	Qaysi hollarda transport vositasidan foydalanish taqiqlanadi?
+q0683	72 km/soat tezlikda harakatlanayotgan transport vositasi 1 sekundda qancha masofani bosib o'tadi?
+q0684	Qaysi yo'nalishda harakatlanishni davom ettirishingiz mumkin?
+q0685	Kunning yorug' vaqtida quyidagi hollarda yaqinni yorituvchi chiroqlar yoqilishi kerak:
+q0686	Siz yengil avtomobildan qaysi jihozlar mavjud bo'lmaganda foydalanishingiz mumkin?
+q0687	Qanday alomatlar charchash belgilari hisoblanadi?
+q0688	Chorrahadagi uzuq-uzuq chiziqlar nimani bildiradi?
+q0689	Quvib o'tishni bajarayotganda chapga burilishni ko'rsatuvchi chiroqni qachon o'chirishingiz kerak?
+q0690	Piyodalar turar joy dahasida qayerda harakatlanishlari mumkin?
+q0691	Yo'l transport hodisasiga daxldor haydovchilar birinchi navbatda nima qilishlari kerak?
+q0692	Qaysi yo'l belgilari chapga burilishni taqiqlaydi?
+q0693	Ushbu yo'lda sizga yo'l belgisidan keyin qaysi tasmalarda harakatlanishga ruxsat beriladi?
+q0694	Qaysi transport vositasining haydovchisi qoidani buzib burilmoqda?
+q0695	Kunning qorong'i vaqtida aholi punktlarida yo'lning yoritilgan qismida Siz qanday tashqi yoritish chiroqlaridan foydalanishingiz kerak?
+q0696	Qanday hollarda yo'lning burilish qismlarida yengil avtomobil ag'darilishga qarshi turg'unroq?
+q0697	Qaysi hollarda Sizga harakatni davom ettirish taqiqlanadi, hatto ta'mirlash ustaxonasiga ham, agarda faralar va orqa gabarit chiroqlar nosoz bo'lsa?
+q0698	Ko'rsatilgan yo'l belgilaridan qaysilari Siz yo'lning tor qismida yo'l berishingizni talab qiladi?
+q0699	Qaysi holatda siz majburiy to'xtashni amalga oshirasiz?
+q0700	Qaysi yo'l belgisi piyodalar yo'lkasini bildiradi?
+q0701	Birinchi uzatmada uzoq tezlanishda yurish yoqilg'i sarfiga qanday ta'sir etadi?
+q0702	Qaysi qo'shimcha axborot belgilari birga qo'llanilganda belgilarning ta'sir oralig'ini ko'rsatadi?
+q0703	Kunning yorug' vaqtida aholi punktlaridan tashqarida Siz quvib o'tayotgan transport vositasi haydovchisining e'tiborini qanday jalb qilasiz?
+q0704	Sanab o'tilgan qaysi transport vositalarini o't o'chirgichsiz tasarruf etishga ruxsat etiladi?
+q0705	Ushbu holatda Sizga temir yo'l kesishmasiga chiqishga ruxsat etiladimi?
+q0706	Qaysi yo'l belgisi barcha transport vositalarining harakatini istisnosiz taqiqlaydi?
+q0707	Chorrahaga kirishda Siz:
+q0708	Qattiq yoki egiluvchan ulagichda shatakka olgan yuk avtomobilining kabinasida odam tashishga ruxsat etiladimi?
+q0709	Yo'lning keskin burilishida yuzaga keladigan sirpanishning oldini olish uchun haydovchi nima qilishi kerak?
+q0710	Tormoz tizimiga ega bo'lmagan tirkama bilan harakatlanayotganda yengil avtomobilni tormoz yo'li qanday o'zgaradi?
+q0711	Kunning qorong'u vaqtida va bulutli ob-havoda ro'paradan kelayotgan avtomobil tezligi qanday tuyuladi?
+q0712	"Quvib o'tish" atamasi nimani bildiradi?
+q0713	Tuman sharoitida, agar ko'rinish masofasi 300 metrdan kam bo'lsa kunduzgi chiroqlarni yoqish etarlimi?
+q0714	Sanab o'tilgan qaysi hollarda haydovchi orqadagi vaziyatni e'tiborga olishi kerak?
+q0715	Ko'rsatilgan yo'l belgilaridan qaysi biri ruxsat etilgan to'la vazni 3,5 tonnadan kam bo'lgan yuk avtomobiliga o'ngga harakatlanishni buyuradi?
+q0716	Shatakka olingan avtomobilni falokat yorug'lik ishoralari nosoz bo'lganda transport vositasi qanday belgilanishi kerak?
+q0717	Avtomobilning antiblokirovka tizimi (ABS) burilishda sirpanish va yonga siljishni oldini oladimi?
+q0718	90 km/soat tezlikda harakatlanayotgan transport vositasi 1 sekundda qancha masofani bosib o'tadi?
+q0719	Transport vositasi qiyalikda joyidan qo'zg'alishda to'xtab turish tormoz dastagini qay vaqtda tushirishni boshlash kerak?
+q0720	Chorrahaning ko'rsatilgan joyida Sizga to'xtashga ruxsat etiladimi?
+q0721	Yengil avtomobilning orqa oynasiga parda yoki jalyuzilar o'rnatish mumkinmi?
+q0722	Siz chapga burilmoqchisiz, kimga yo'l berishingiz kerak?
+q0723	Ko'rsatilgan qaysi joyda siz avtomobilni qoidaga binoan to'xtatishingiz mumkin?
+q0724	Siz ro'paradan yaqinlashayotgan yuk avtomobiliga yo'l berishingiz kerakmi?
+q0725	Uzoq davom etadigan keng ravon yo'lda avtomobilni yuqori tezlikda boshqarganda haydovchiga tezlik qanday qabul qilinadi?
+q0726	Yo'lning qanday qismida harakatlanganda kuchli yonlama shamol xavfi ortadi?
+q0727	Ushbu holatda Siz bajarishingiz lozim:
+q0728	Cheklangan ko'rinish sharoitida orqaga harakatlanishda harakat xavfsizligini ta'minlash uchun:
+q0729	Ushbu vaziyatda quvib o'tishdan so'ng Siz o'rta tasmada qolishingiz mumkinmi?
+q0730	Yonlama oraliq masofani tanlashda tezlikning dahli bormi?
+q0731	Sizga ko'rsatilgan joyda yengil avtomobilda to'xtashga ruxsat etiladimi?
+q0732	Piyodalar to'xtab turgan avtobus va trolleybusning qaysi tomonidan yo'lni kesib o'tishlari kerak?
+q0733	Jamoat transporti bekatidan tashqarida yo'l chetidan qo'zg'alayotgan yo'nalishli transport vositasiga yo'l berishingiz kerakmi?
+q0734	Tormoz tizimi ishlamaydigan avtomobilni vazni sizning avtomobilingiz vaznini yarmidan ortiq bo'lsa, uni shatakka olishingizga ruxsat etiladimi?
+q0735	Yoqilg'i bilan ta'minlash tepkisini keskin tezlikni oshirish uchun bosayotganda, avtomobil sirpanishni boshlasa haydovchi qanday harakat qilishi kerak?
+q0736	Quruq ob-havo sharoitida asfalt -beton qoplamali yo'lda harakatlanayotgan haydovchi yomg'ir tomchilab qolganda nima qilishi kerak?
+q0737	Yengil avtomobilda qaysi yo'nalishlarda harakatlanishga ruxsat etiladi?
+q0738	Ushbu yo'l belgisi ta'sir oralig'ida Sizga odam tushirish (chiqarish) yoki yuk ortish (tushirish) ruxsat etiladimi?
+q0739	Qaysi yo'l belgilari qayrilib olishga ruxsat beradi?
+q0740	Burilish ko'rsatkichi bilan berilayotgan ogohlantiruvchi ishora qachon to'xtatilishi kerak?
+q0741	Aholi punktlariga tegishli yo'l harakati qoidalari qayerdan boshlanadi?
+q0742	Nosoz transpot vositasini shatakka olgan yengil avtomobil salonida odam tashishga ruxsat etiladimi?
+q0743	To'xtab turish qoidasini kim buzdi?
+q0744	Piyodalar o'tish joyi - bu...
+q0745	Ushbu belgi...
+q0746	Ushbu yotiq chiziq nimani bildiradi?
+q0747	Avtomobilni qanday boshqarish usuli yonilg'i sarfini tejaydi?
+q0748	Svetoforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qo'shimcha tarmoqning yo'naltirgichi yashil ishorasi yo'nalishida harakatlanayotgan transport vositasining haydovchisi kimga yo'l berishi kerak?
+q0749	Siz chorrahada chapga burilishda qaysi transport vositasiga yo'l berishingiz lozim?
+q0750	Moped haydovchilariga ruxsat beriladi:
+q0751	Quyidagi belgilardan qaysi biri haydovchini boshqa xavf-xatarlar to'g'risida ogohlantiradi?
+q0752	Yo'l transport hodisasi-
+q0753	Qaysi rasmda ikkita qatnov qismiga ega yo'l ko'rsatilgan?
+q0754	Ko'rsatilgan yo'l belgilaridan qaysi biri taqiqlovchi belgilar ilgari kiritgan barcha cheklovlarni bekor qiladi?
+q0755	Ushbu belgilardan qaysi biri haydovchining shu joydagi yashash yoki ishlash joyiga etib borishiga monelik qilmaydi?
+q0756	To'xtab turish tormoz tizimi N toifadagi avtotransport vositalarini aslahalangan holatda qanday qiyalikda ushlab tura olmasa foydalanish taqiqlanadi?
+q0757	Yo'lning qiyaliklarida qisqa muddatga to'xtagan mexanik uzatmali avtomobilni joyidan to'satdan harakatlanib ketishini oldini olish uchun:
+q0758	Qaysi belgi yo'lning tor qismlarida ro'paradan kelayotgan transport vositasiga yo'l berish lozimligini bildiradi?
+q0759	Piyodalar yo'lkasi - bu...
+q0760	G'ildiraklarni yo'l bilan ilashishi yo'qolganda (kuchli yomg'ir, sel yoki suv toshgan yo'l qismlari) haydovchi:
+q0761	Bosh miya jarohatlanishining asosiy alomatlari:
+q0762	Qaysi belgi tartibga solinmagan piyodalar o'tish joyiga yaqinlashayotganlik haqida ogohlantiradi?
+q0763	Chorraha bu - ...
+q0764	Qaysi belgi "Xavfli yuk tashiyotgan transport vositalarining harakatlanishi taqiqlangan" deb nomlanadi?
+q0765	Agar haydovchi keskin tormoz bermasdan harakatni to'xtata olmasa, svetoforning yashil ishorasidan keyin yongan sariq ishorasida harakatni davom ettirishga ruxsat beriladimi?
+q0766	Ushbu belgi qaysi turdagi transport vositalarini to'xtamasdan o'tishlarini taqiqlaydi?
+q0767	Xavfsiz oraliq masofani ko'rsating
+q0768	Qaysi belgi velosiped yo'lkasini ko'rsatadi?
+q0769	Quvib o'tishga taalluqli belgilarni ko'rsating?
+q0770	Shokning belgilari:
+q0771	Yo'l harakati xavfsizligini ta'minlash - ...
+q0772	Qaysi belgi to'xtash chizig'i oldida, u bo'lmaganda, kesib o'tiladigan qatnov qismining chetida to'xtamasdan harakatlanishni taqiqlaydi?
+q0773	Transport vositalarini qatnov qismining kengaytirilmagan joylarida qanday tartibda to'xtash va to'xtab turishga ruxsat etiladi?
+q0774	Svetoforning miltillovchi sariq ishorasi nima haqida ogohlantiradi?
+q0775	Qaysi belgilar yuk avtomobillariga quvib o'tish taqiqlangan hududning oxirini bildiradi?
+q0776	Hayvonlarni yo'lda haydab borishga qoidaga ko'ra ruxsat etiladi:
+q0777	Chorrahadan tashqaridagi tartibga solinmagan velosiped yo'lkasi bilan yo'l kesishmasida kim yo'l berishi kerak?
+q0778	Bosh miya jarohatlanishining quyidagi alomatlar bilan xarakterlanadi:
+q0779	Avtomobillarning bir qator bo'lib harakatlanishi uchun etarlicha keng bo'lgan, yo'l chiziqlari bilan belgilangan yoki belgilanmagan yo'l qatnov qismining har qanday bo'ylama tasmasi nima deb ataladi?
+q0780	Ushbu chorrahada kim yo'l beradi?
+q0781	Ushbu holatda qaysi transport vositasi yo'l berishi kerak?
+q0782	Quyidagi izoh qaysi atamaga tegishli? Texnik nuqson, tashilayotgan yuk, haydovchi va yo'lovchining holati, yo'ldagi biror to'siq tufayli xavf yuzaga kelganda yoxud ob-havo sharoitiga bog'liq holda transport vositasi harakatini to'xtatish
+q0783	Qattiq ulagichda shatakka olingan avtobusda yoki trolleybusda odam tashishga ruxsat etiladimi?
+q0784	Qaysi belgi falokatli holatlar uchun kirish yo'lini bildiradi?
+q0785	Qaysi belgi svetoforning (tartibga soluvchining) taqiqlovchi ishorasida transport vositalari to'xtaydigan joyni bildiradi?
+q0786	Chap qo'lni yonga cho'zish yoki o'ng qo'lni tirsakdan to'g'ri burchak ostida bukib, yuqoriga ko'tarish ishorasi nimani bildiradi?
+q0787	Ko'rsatilgan qaysi belgi yo'lning o'ta sirpanchiq bo'lgan qismini bildiradi?
+q0788	Arterial qon kelish alomatlarini ko'rsating
+q0789	"Imtiyoz" atamasiga tegishli ta'rifni ko'rsating
+q0790	Agar biror-bir to'siq sababli qarama-qarshi yo'nalishlarda harakatlanish qiyin bo'lsa kim yo'l berishi kerak?
+q0791	Yengil avtomobil tirkamasi burilishda qanday trayektoriya bo'yicha harakatlanadi?
+q0792	Ushbu belgilardan qaysi biri-bir yoki bir necha tasmalarda harakatlanish yo'nalishi qarama-qarshi tomonga o'zgarishi mumkin bo'lgan yo'l qismining boshlanishini bildiradi?
+q0793	Turar joy dahalaridan chiqishda haydovchilar:
+q0794	Venoz qon ketish alomatlarini ko'rsating:
+q0795	Chorrahada qaysi avtomobil yo'l berishi kerak?
+q0796	Sekinlashish tasmasi bo'lgan yo'llarda burilmoqchi bo'lgan haydovchi qachon tezlikni kamaytirishi lozim?
+q0797	Qaysi belgi oldinda boshqariladigan to'suvchi qurilma bilan jihozlanganligi haqida ogohlantiradi?
+q0798	Tumanga qarshi chiroqlarni qorong'i vaqtda yo'lning yoritilmagan qismlarida uzoqni yorituvchi chiroqlar bilan birga qo'llash mumkinmi?
+q0799	Yo'l harakati qoidalariga ko'ra yo'l belgilari nechta guruhga bo'linadi
+q0800	Ushbu belgi nimani bildiradi?
+q0801	Aholi punktlaridan tashqarida tirkamali yuk avtomobillari qanday yuqori tezlik bilan harakatlanishi mumkin?
+q0802	Ushbu belgilardan qaysi biri "Notekis yo'l" deb ataladi?
+q0803	Tormoz yo'li deb nimaga aytiladi?
+q0804	Ushbu holatda ko'k avtomobil haydovchisi kimga yo'l berishi lozim?
+q0805	Yengil avtomobilga qaysi yo'nalishlarda harakatlanishga ruxsat etiladi?
+q0806	Mexanik transport vositasi - bu ...
+q0807	Tezlik ortishi bilan haydovchining ko'rish maydoni qanday o'zgaradi?
+q0808	Qorin bo'shlig'i jarohatlangan odamga ovqat, suv, dori-darmon berishi mumkinmi?
+q0809	Yondosh hudud bu - ...
+q0810	M3 toifadagi avtotransport vositalarining boshqaruv qurilmasidagi qanday eng katta lyuft yig'indisiga yo'l qo'yiladi?
+q0811	Ushbu yo'l belgisi qanday maqsadda qo'llaniladi?
+q0812	Ushbu tik chiziq nimani bildiradi?
+q0813	Ushbu chorrahada haydovchiga orqaga harakatlanib ko'rsatilgan manyovrni bajarishga ruxsat etiladimi?
+q0814	Haydovchining o'rtacha reaksiya vaqti deb qabul qilingan
+q0815	Ushbu yo'l belgisi nimani bildiradi?
+q0816	Yo'lning xavfli burilishlarida oldingi uzatmali avtomobilning orqa o'qi yon tomonga sirpanganda siz qanday harakat qilasiz?
+q0817	Bosh miya jarohatlanganda, miya chayqalganda yoki bo'yin qismi jarohatlanganda birinchi yordam ko'rsatish:
+q0818	Qaysi yo'l belgilari yo'lning tor qismida haydovchiga ustunlik beradi?
+q0819	Kunning qorong'u vaqtida harakatlanayotgan transport vositasining haydovchi tezlikni tanlashda qanday eng asosiy hal qiluvchi omilni e'tiborga olishi kerak?
+q0820	Agar avtomobilning o'ng g'ildiraklari nam qoplamali yo'l yoqasiga chiqib qolsa, tavsiya etiladi?
+q0821	M2 toifali avtotransport vositalarining boshqaruv qurilmasidagi qanday eng katta lyuft yig'indisiga yo'l qo'yiladi
+q0822	Ushbu chorrahada avtobus haydovchisi kimga yo'l berishi kerak?
+q0823	Chapga burilayotgan haydovchi kesishayotgan yo'lning qatnov qismidan o'tayotgan piyodalarga yo'l berishi kerakmi?
+q0824	Ushbu qo'shimcha axborot yo'l belgisi bildiradi:
+q0825	Aylanma harakatlanish chorrahasida...
+q0826	Muskul va paylarning ezilishi hamda cho'zilishi alomatlari qanday?
+q0827	"Aholi punkti" atamasi nimani bildiradi?
+q0828	Tumanga qarshi old chiroqlarni qorong'i vaqtda, yo'lning yoritilmagan qismlarida uzoqni yoki yaqinni yorituvchi chiroqlar bilan birga qo'llash mumkinmi?
+q0829	Qaysi belgi haydovchiga kesib o'tilayotgan yo'lda harakatlanayotgan transport vositalariga yo'l berish lozimligini bildiradi?
+q0830	Tik nishabliklarda dvigatel bilan tormozlashda qiyalikka nisbatan qanday uzatma tanlanadi?
+q0831	Ushbu ko'rsatilgan holatda kim yo'l berishi kerak?
+q0832	Agar avtomobilning o'ng g'ildiraklari nam qoplamali yo'l yoqasiga chiqib qolsa, tavsiya etiladi:
+q0833	Shokning belgilari qanday ?
+q0834	Turar joy dahalarida eng katta tezlikda harakatlanishga ruxsat etiladi:
+q0835	Ajratuvchi mintaqa - ...
+q0836	Ushbu belgilardan qaysi biri oldinda yo'l qoplamasi ustida sun'iy notekislik borligi haqida ogohlantiradi?
+q0837	Qaysi rasmda ajratuvchi mintaqa bor yo'l ko'rsatilgan?
+q0838	Qaysi belgi to'siqni o'ng yoki chap tomonidan chetlab o'tishga ruxsat etilishini bildiradi?
+q0839	Qanday hollarda sizga 50 km/s dan yuqori tezlikda harakatlanish taqiqlangan?
+q0840	Bu joyda yo'lovchilarni chiqarish yoki tushirish maqsadida to'xtash mumkinmi?
+q0841	Ushbu vaziyatdas siz
+q0842	Qizil avtomobil chorrahani nechinchi bo'lib kesib o'tadi?
+q0843	Ushbu yo'l belgisi qaysi transport vositalarining harakatlanishini taqiqlaydi?
+q0844	Ushbu vaziyatda siz o'ngdagi tasmada harakatlanayotib sizning tasmangizga qayta tizilmoqchi bo'lgan transport vositasiga yo'l berishingiz kerakmi?
+q0845	To'xtash qoidasini qaysi transport haydovchisi buzdi?
+q0846	Qaysi belgi ikkinchi darajali yo'l bilan kesishuvni bildiradi?
+q0847	Miltillovchi sariq ishorali svetofor:
+q0848	Yuk avtomobili haydovchisiga qaysi yo'nalishda harakatlanishga ruxsat beriladi?
+q0849	Bu vaziyatda siz o'ngga burilayotib, Siz:
+q0850	Qaysi belgi yo'lning ko'rsatilgan yo'nalishida oxiri berk ko'chaligini bildiradi?
+q0851	Qaysi rasmda ikkita qatnov qismiga ega bo'lgan yo'l ko'rsatilgan?
+q0852	Ushbu yo'l nechta qatnov qismiga ega?
+q0853	Qaysi transport vositalariga harakatlanishga ruxsat berilgan?
+q0854	Ushbu svetofor qaysi yo'nalishida harakatlanishga ruxsat beradi?
+q0855	N1 toifadagi avtotransport vositalarining boshqaruv qurilmasidagi qanday eng katta lyuft yig'indisiga yo'l qo'yiladi?
+q0856	Yo'nalishli bo'lmagan transport vositalari "A" xarfi bilan belgilangan o'ng tasmada qaysi holatlarda harakatlanishlari mumkin?
+q0857	Ushbu qo'shimcha axborot yo'l belgisi:
+q0858	Qaysi belgi ikkinchi darajali yo'l bilan tutashuvni bildiradi?
+q0859	Rasmda ko'rsatilgan chorraha- ...
+q0860	Qaysi belgilar axborot-ishora belgilari hisoblanadi?
+q0861	Yo'l to'sig'iga chizilgan tik chiziq nimani bildiradi?
+q0862	Motosikl haydovchisi qo'lini yuqoriga ko'tarib nima haqida axborot berayapti?
+q0863	Qaysi belgi yo'lning kichik radiusli burilish joyiga yaqinlashayotganlik haqida ogohlantiradi?
+q0864	Qaysi rasmda ajratuvchi mintaqa ko'rsatilgan?
+q0865	Avtomobil haydovchisi qayrilib olmoqchi:
+q0866	Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi bilan qancha oraliq masofa saqlab harakatlanishi kerak?
+q0867	Ushbu yo'l belgisi:
+q0868	Qaysi transport vositasiga harakatlanish taqiqlangan?
+q0869	Yengil avtomobil burilishda ag'darilib ketishga qarshi turg'unroq:
+q0870	Chorrahadan oxirgi bo'lib qaysi transport vositasi kesib o'tadi?
+q0871	Chap tomondagi yondosh hududdan foydalanib qayrilib olishning ko'rsatilgan qaysi usuli harakat xavfsizligini ta'minlaydi?
+q0872	Shatakka olingan avtobusda odam tashishga ruxsat beriladimi?
+q0873	Qaysi javobda orqaga harakatlanish taqiqlangan joylar ko'rsatilgan?
+q0874	Haydovchi yo'lning relssiz transport vositalari harakatlanadigan tasmalar sonini belgilaydigan chiziqlar yoki yo'l belgilari bo'lmasa, tasmalar sonini qanday aniqlashi kerak?
+q0875	Yo'lning qatnov qismi:
+q0876	Ushbu yo'l belgisi qanday nomlanadi?
+q0877	Ko'rsatilgan qaysi belgilar chapga burilishni taqiqlaydi?
+q0878	Chapga burilayotgan sariq avtomobil haydovchisi qaysi tasmalarni egallashi kerak?
+q0879	Balandlikda yo'l chetida to'siq mavjud bo'lganda to'xtagan avtomobilni joyidan g'ildirab ketishini oldini olish uchun oldingi g'ildiraklarni burib qo'yish usuli qaysi javobda to'g'ri ko'rsatilgan:
+q0880	Chorrahani oxirgi bo'lib qaysi transport vositasi kesib o'tadi?
+q0881	O'ng tomondagi yondosh hududdan foydalanib qayrilib olishning ko'rsatilgan qaysi usuli harakat xavfsizligini ta'minlaydi
+q0882	Qaysi rasmdagi avtomobil haydovchisi yuk tashish qoidasini buzayapti?
+q0883	M toifadagi avtotransport vositalari bu:
+q0884	Trotuar va piyodalar yo'lkasi bo'lmaganda bolalar guruhini yo'lda qanday tartibda olib yurish mumkin?
+q0885	Bu qo'shimcha-axborot yo'l belgisi qaysi yo'l belgisi bilan birgalikda qo'llaniladi?
+q0886	Ko'rsatilgan qaysi yo'l belgisi yengil yo'nalishsiz taksilarga yo'lovchilarni tushirish-chiqarish (yuklarni ortish-tushirish) vaqtida ta'sir qilmaydi?
+q0887	Agar piyodalar o'tish joylaridan keyin tirbandlik paydo bo'lsa haydovchi qayerda to'xtashi kerak?
+q0888	Avtomagistralda to'xtashga ruxsat berilgan
+q0889	Kunning yorug' vaqtida harakatlanayotgan qaysi rasmdagi avtomobil haydovchisi yuk tashish qoidasini buzayapti?
+q0890	Qaysi holatlarda jabrlanuvchiga yurak-o'pka reanimatsiyasini boshlash kerak?
+q0891	To'la vazni 3,5 tonnadan oshmaydigan yuk avtomobillarini quyidagilar bilan jihozlanmagan bo'lsa ham foydalanishga ruxsat etiladi:
+q0892	Harakatlanish tasmasi:
+q0893	Yo'lovchilarga taqiqlanadi?
+q0894	Ko'rsatilgan qaysi belgilar faqat shu o'rnatilgan tasmani o'ziga ta'sir qiladi?
+q0895	Svetofor ishoralari imtiyoz belgilari talablariga zid kelgan hollarda?
+q0896	Turar joy dahasidan yo'lga chiqishda yo'l berish zarur?
+q0897	Sariq avtomobil chorrahani nechanchi bo'lib kesib o'tadi?
+q0898	Temir yo'l kesishmalari va ularga yaqin joylarda quvib o'tishga tegishli qanday yo'l harakati qoidalari amal qiladi?
+q0899	Mexanik transport vositalarini shatakka olishda egiluvchan ulagichga kamida nechta ogohlantiruvchi qurilma o'rnatiladi?
+q0900	Siz to'g'ri yo'lda harakatlanayotib to'satdan yo'lning qisman katta bo'lmagan sirpanchiq qismiga duch keldingiz. Bunda qanday ehtiyot choralarini ko'rasiz?
+q0901	Harakatlanish tasmasidagi uchburchak shaklidagi chiziq:
+q0902	Transport vositasining ruxsat etilgan to'la vazn bu - ...
+q0903	Turar joy dahalarida piyodalar yo'lning qaysi qismida harakatlanishlari kerak?
+q0904	Ko'rsatilgan belgilardan qaysi biri texnik tavsifnomasiga yoki holatiga ko'ra tezligi soatiga 40 kilometrdan kam bo'lgan transport vositalarining harakatlanishini taqiqlaydi?
+q0905	Ko'rsatilgan belgilardan qaysi biri ruxsat etilgan to'la vazni 3,5 tonnadan oshmaydigan yuk avtomobillariga harakatlanishga ruxsat beradi?
+q0906	Ushbu "50" yozuvli yo'l chizig'i nimani bildiradi?
+q0907	Chorrahadan birinchi bo'lib qaysi avtomobil kesib o'tadi
+q0908	Chorrahadan uchinchi bo'lib qaysi avtomobil kesib o'tadi:
+q0909	Qaysi holatlarda aholi punktlarida tovushli ishoralardan foydalanish mumkin?
+q0910	Qo'l-oyoq uchlari (tirsakdan past qismi, boldir) sinishida transport shinalari yoki ularni qo'lda yasash uchun vositalar bo'lmasa birinchi tibbiy yordam qanday ko'rsatiladi?
+q0911	Qaysi transport vositalari yo'nalishli transport vositalari hisoblanadi?
+q0912	Asosiy yo'l:
+q0913	Tartibga solinmagan chorrahada qaysi belgi albatta to'xtashni talab qiladi?
+q0914	Ko'rsatilgan belgilardan qaysilarining talabi bevosita o'rnatilgan joyidan kuchga kiradi?
+q0915	Chorrahadan ikkinchi bo'lib qaysi transport vositasi kesib o'tadi?
+q0916	Chorrahadan birinchi bo'lib kesib o'tadi:
+q0917	Qatnov qismi yo'l chiziqlari bilan ajratilgan bo'lsa haydovchilar qanday holatlarda qat'iy tasmalar bo'yicha harakatlanishlari kerak?
+q0918	Old chiroqlar va orqa gabarit chiroqlari ishlamay qolgan transport vositasi harakatini davom ettirishi taqiqlanadi:
+q0919	Yengil avtomobilning tormoz yo'li tormoz tizimiga ega bo'lmagan tirkama bilan harakatlanayotganda qanday o'zgaradi?
+q0920	Yengil avtomobilning tom qismiga o'rnatilganyukxonasida yukning balandligi(maxsus moslamalar bilan mustahkamlangan holda velosipedlarni tashish bundan mustasno) necha metrdan oshmasligi kerak ?
+q0921	Quyidagi javoblardan qaysi birida "Yo'lovchi"atamasining to'g'ri ta'rifi ko'rsatilgan?
+q0922	Bir yo'nalishda uch va undan ortiq tasmali har qanday yo'lda yuk avtomobillariga chetki chap qatorni egallashga ruxsat etiladi:
+q0923	Odam tashish uchun mo'ljallangan yuk avtomobili yukxonasiga o'rnatilgan o'rindiqlar, yukxona pastki qismidan qancha balandlikdamahkamlangan bo'lishi kerak?
+q0924	Oq-qizil (1.14.4 zebra) yo'l chizig'i qanday joylarda piyodalar o'tish joyini belgilash uchun chiziladi?
+q0925	Bunday vaziyatda siz:
+q0926	Kesishayotgan qatnov qismi chetiga qanchadan kam masofa qolganda to'xtash taqiqlanadi?
+q0927	Transport vositalarining qayrilib olishjoylarida va unga yetmasdan yoki o'tib qanchadan kam masofada to'xtashi taqiqlanadi?
+q0928	Odam tashish uchun mo'ljallangan yuk avtomobilining yuk xonasi bortining balandligi:
+q0929	Maktab va maktabgacha ta'lim tashkilotlari atrofidagi yo'llarda 300 metrgacha bo'lgan masofada qanday eng yuqori tezlikda harakatlanishga ruxsat etiladi
+q0930	O'zib ketish deb nimaga aytiladi?
+q0931	To'siq deb nimaga aytiladi?
+q0932	Qayta tizilish deb nimaga aytiladi?
+q0933	Quyidagi javoblardan qaysi birida "Xavf"atamasining to'g'ri ta'rifi ko'rsatilgan?
+q0934	Yengil avtomobilning tom qismiga o'rnatilgan yukxonasida yuk tashishdan, yukning uzunligi avtomobilning gabaritidan necha metrdan oshmasa tashishga yo'l qo'yiladi?
+q0935	Piyodalar o'tish joyiga qancha masofa yetmasdan to'xtash va to'xtab turishga ruxsat beriladi?
+q0936	Bekat maydonchalaridan harakatlanish yo'nalishi bo'ylab qanchadan kam masofada (yetmasdan va o'tib ketib) to'xtash va to'xtab turish taqiqlanadi?
+q0937	Mazkur yo'l belgisi:
+q0938	Odam tashish uchun mo'ljallangan yuk avtomobili yuk xonasi bortlari balandligi :
+q0939	Ushbu yo'l belgisi qanday nomlanadi:
+q0940	Ushbu belgilaridan qaysilari vaqtinchalik yo'l belgilari hisoblanadi:
+q0941	Quyidagi shaxslarga xavfsizlik kamarini (konstruksiyasida xavfsizlik kamari nazarda tutilgan transport vositalarida) taqmaslikka ruxsat beriladi:
+q0942	Bu belgilardan qaysi biri maktab va maktabgacha ta'lim tashkilotlari oldida o'rnatiladi?
+q0943	Velosipedlarda yuk tashilganda gabaritidan bo'yiga va eniga qanchadan ortiq chiqib tursa, yuk tashish taqiqlanadi?
+q0944	Qaysi yo'nalish bo'yicha harakatlanishga ruxsat beriladi?
+q0945	Chorrahadan chapga burilmoqchisiz, sizning harakatingiz:
+q0946	Mayoqchasi yoqilgan transport vositasiga harakatni to'g'riga davom ettirishga ruxsat beriladimi?
+q0947	Tramvayni ko'rsatilganidek old qismidan yo'lni kesib o'tishga ruxsat beriladimi?
+q0948	Chorrahadan qaysi yo'nalishda harakatlanishingizga ruxsat berilgan?
+q0949	Bu belgi qayerlardan oldin o'rnatildi?
+q0950	Bir vaqtda qayrilishda qaysi transport vositasi yo'l berishi kerak?
+q0951	Qaysi transport vositasi haydovchisi qoida buzib harakatlanmoqda?
+q0952	Siz qizil avtomobilda to'xtab turish joyidan chiqyapsiz, boshqa transport vositasi bilan yo'llaringiz kesishdi, ushbu holatda qanday harakat qilishingiz kerak?
+q0953	Qaysi yo'l chizig'i maktablar oldidagi piyodalar o'tish joylarida qo'llaniladi?
+q0954	Qaysi belgi "Avtomobillar uchun mo'ljallangan yo'l" deb nomlanadi?
+q0955	Qaysi yo'nalishda harakatlanish taqiqlangan?
+q0956	Belgilardan qaysi biri qatnov qismi kesishmasi hududini bildiradi?
+q0957	Bu belgi o'rnatilgan joyda tirkamali yengil avtomobilni harakatlanishga ruxsat beriladimi?
+q0958	Ushbu svetofor tramvayga qaysi yo'nalishda harakatlanishga ruxsat beradi?
+q0959	Bu yo'l belgisi qanday nomlanadi?
+q0960	Belgilardan qaysi biri Yerusti avtomobil quyish joyini bildiradi?
+q0961	Quyidagi belgilardan qaysi biri yengil avtomobillar harakati deb nomlanadi?
+q0962	Ko'rsatilgan belgilardan qaysi biri bolalar deb nomlanadi?
+q0963	Yovvoyi hayvonlar belgisini ko'rsating:
+q0964	Kemiruvchi va sudralib yuruvchi hayvonlar qaysi javobda ko'rsatilgan?
+q0965	Qaysi rasmda piyoda(lar) yo'lni qoidani buzgan holda kesib o'tmoqda?
+q0966	01.01.1981- yilgacha ishlab chiqarilgan yengil avtomobillar uchun Qoidalar tormozlashning 40km/s tezlikda harakatlanish tartibida ishchi tormoz tizimining qanday samaradorlik me'yoriga ruxsat berilgan?
+q0967	Haydovchi qaysi rasmda qoidani buzmay to'xtagan?
+q0968	Agar haydovchi o'zi harakatlanayotgan yo'lning qoplamasini bor- yo'qligini aniqlay olmasa ( qorong'i vaqt, loy, qor) va imtiyoz belgilari bo'lmasa )?
+q0969	Qaysi haydovchi to'xtash qoidasini buzdi?
+q0970	Ogohlantiruvchi belgilarni toping
+q0971	Ushbu vaziyatda qaysi transport vositasining haydovchisi yo'l berishi kerak?
+q0972	Ushbu vaziyatda kim yo'l berishi kerak?
+q0973	Tramvay relssiz transport vositalariga
+nisbatan imtiyozga ega bulmagan holat:
+q0974	Qaysi yotiq yo'l chizig'i avtomobil yo'llarida 3D ko'rinishidagi piyodalar o'tish joyini bildiradi?
+q0975	Qaysi yotiq yo'l chizig'i avtomobil yo'llarida 3D ko'rinishidagi baland piyodalar o'tish joyini bildiradi?
+q0976	Qaysi yotiq yo'l chizig'i baland piyodalar o'tish joyini bildiradi?
+q0977	Bu taniqli belgisi o'rnatiladi:
+q0978	Qoidalarda nechta asosiy tushuncha va atamalardan foydalaniladi?
+q0979	Doimiy va vaqtinchalik yo'l belgilari ma'no jihatidan bir birini inkor etganda qaysi biriga amal qilasiz?
+q0980	Moped haydovchisi majbur:
+q0981	Yo'naltirgichlar bilan ko'rsatilgan qaysi yo'nalishlarda harakatlanish ruxsat etilgan?
+q0982	Qaysi belgilarda oyning juft kunlarida to'xtash mumkin
+q0983	Tezkor va maxsus xizmatlarning transport vositalari yo'l harakatining boshqa qatnashchilariga nisbatan imtiyozga ega bo'lishi uchun:
+q0984	Ushbu belgi qanday nomlanadi?
+q0985	Ko'rsatilgan holatda qayrilib olishga ruxsat etiladimi?
+q0986	Quyidagi ta'rif "transport vositasi harakatini 10 daqiqagacha bo'lgan muddatga to'xtatish (harakatsiz holatga keltirish)" qaysi atamaga tegishli?
+q0987	Qaysi avtomobil haydovchisi yo'l berishi kerak?
+q0988	Ushbu belgi aholi punktlarida xavfli yo'l qismi boshlanishidan qancha masofa oldin o'rnatiladi?
+q0989	Qaysi yo'nalish bo'yicha burilish mumkin?
+q0990	Qaysi transport vositasining haydovchisi aholi punktlarida to'xtash qoidasini buzmoqda?
+q0991	Qaysi transport vositalariga yo'lovchilarni tushirishga ruxsat etiladi?
+q0992	Ushbu yotiq yo'l chizig'i qaysi guruh yo'l belgilarini takrorlaydi?
+q0993	Velosiped yo'lkasi bilan kesishuvga qanchadan kam masofa qolganda to'xtash taqiqlanadi?
+q0994	Qizil avtomobil haydovchisi qaysi yo'nalishlarda harakatlanishiga ruxsat berilgan?
+q0995	Ushbu transport vositasi qaysi yo'nalishda harakatlanishiga ruxsat etiladi?
+q0996	Ushbu vaziyatda haydovchilar birinchi temir yo'l iziga eng kamida necha metr qolganda to'xtashlari kerak?
+q0997	Qaysi belgi piyodalar o'tish joyini bildiradi?
+q0998	Ko'k rangli yalt-yalt etuvchi mayoqchalari va maxsus tovushli ishorasi yoqilgan maxsus transport vositasi chorrahani nechanchi bo'lib kesib o'tadi?
+q0999	Qaysi rasmdagi haydovchilar to'xtash qoidasini buzdilar?
+q1000	Ushbu transport vositasiga chorraha orqali qaysi yo'nalishlar bo'yicha harakatlanishga ruxsat etiladi?
+q1001	Qaysi rasmlarda quvib o'tish Ko'rsatilgan?
+q1002	Qaysi rasmda piyodalarning tashkiliy jamlanmasi yo'lning qatnov qismida qoidani buzmay harakatlanmoqda?
+q1003	Ushbu qo'shimcha axborot belgisi qaysi yo'l belgisi bilan qo'llaniladi?
+q1004	Ushbu transport vositasi qaysi toifaga kiradi?
+q1005	Bu xavflilik belgisi qanday nomlanadi?
+q1006	Quyidagi 3.24. "yuqori tezlik cheklangan" yo'l belgisining ta'sirini qaysi belgilar bekor qiladi?
+q1007	Quyidagi joyda to'xtashga ruxsat beriladimi?
+q1008	Yo'l harakat qoidalarida nechta bob va bandidan iborat?
+q1009	Mexanik transport vositasining egasi yonida haydovchilik guvohnomasi bo'lmaganida qanday hujjat bilan boshqarishga ruxsat etiladi?
+q1010	Faqat belgilangan yo'nalishli transport vositalariga qatnov qismida ajratilgan tasmasida boshqa turdagi transport vositalari harakatlanishga ruxsat etiladimi?
+q1011	Odamlarni quyidagi hollarda tashishga ruxsat etiladi:
+q1012	Imtiyoz belgilari qaysi joylarda harakatlanish navbatini belgilaydi?
+q1013	Agar yo'l belgilari va chiziqlari boshqa yo'nalishni ko'rsatmagan bo'lsa, haydovchilar ajratuvchi bo'lagi bo'lmagan ikki tomonlama harakat tashkil etilgan yo'llardagi xavfsizlik orolchalari, ustunchalar va yo'l inshooti qismlari (ko'prik, yo'l o'tkazgich ustunlari va shunga o'xshashlar)ni qaysi tomondan aylanib o'tishlari kerak?
+q1014	Transport vositalarini boshqarishni dastlabki o'rgatish (boshlang'ich mashg'ulot) qayerda amalga oshiriladi?
+q1015	Ushbu kesishmadan o'ngga burilishga ruxsat beriladimi?
+q1016	Chorrahadan to'g'riga harakatlanmoqchisiz - sizning harakatingiz:
+q1017	Siz chorrahadan chapga burilmoqchisiz, kimga yo'l berishingiz kerak?
+q1018	Ushbu joyda quvib o'tishga ruxsat beriladimi?
+q1019	Ushbu vaziyatda qaysi yo'nalishda harakatlanishingiz mumkin?
+q1020	Ushbu chorrahada chapga burilishga ruxsat etiladimi?
+q1021	Harakatlanish vaqtida velosipedchi bilan avtomobil yo'llari kesishganda kim yo'l berishi kerak?
+q1022	Haydovchi poyezdni o'tkazib yuborishi uchun to'g'ri to'xtaganmi?
+q1023	Qaysi avtomobil haydovchisi qoidani buzib hovliga burildi?
+q1024	Yo'naltirgichlar bilan ko'rsatilgan qaysi yo'nalishlarda harakat ruxsat etilgan?
+q1025	Qaysi avtomobil haydovchisiga burilishga ruxsat etilgan?
+q1026	Qaysi yo'l belgisi qayrilib olishga ruxsat beradi?
+q1027	Quyidagi yo'l belgilaridan qaysilari qo'shimcha axborot belgilari hisoblanadi?
+q1028	Qaysi avtomobil haydovchisi svetoforning taqiqlovchi ishorasida to'g'ri to'xtadi?
+q1029	Qaysi avtomobilga qayrilib olishga ruxsat beriladi?
+q1030	Quyidagi joyda sariq avtomobilga quvib o'tishga ruxsat beriladimi?
+q1031	Avtomobil haydovchisi qaysi yo'nalishlarda harakatlanishga ruxsat beradi?
+q1032	Chorrahadan o'tish navbatini ko'rsating:
+q1033	Qaysi avtomobil chorrahada burilish qoidasini buzdi?
+q1034	Rasmda ko'rsatilgan vaziyatda qizil avtomobil haydovchisi harakatni davom ettirish kerakmi?
+q1035	Qaysi transport vositasi qoidani buzmoqda?
+q1036	Qaysi yo'nalishda qayrilib olishga ruxsat beradi?
+q1037	Bir yo'nalishda harakatlanayotgan (burilishga kirishmagan) relssiz transport vositasidan o'zib ketishga ruxsat beriladi:
+q1038	To'xtab turish deb nimaga aytiladi?
+q1039	To'xtash deb nimaga aytiladi?
+q1040	O'quv muddati yakunida "A" toifadagi mototransport vositasini boshqarish huquqiga ega bo'lish uchun necha yoshga to'lgan shaxslarga imtihonlar topshirishga ruxsat etiladi?
+q1041	Avtomobillar harakatlanayotgan qatnov qismida necha harakatlanish tasmasi bor?
+q1042	Qaysi yo'nalish bo'yicha harakatlanishga ruxsat berilgan?
+q1043	Avtomobil haydovchisiga qaysi yo'nalish bo'yicha harakatlanishga ruxsat etiladi?
+q1044	Sariq mashina haydovchisi o'tib ketayotgan mashina orqasida to'xtagan bo'lsa, "STOP" belgisida ham to'xtashi kerakmi?
+q1045	Avtomobil qaysi yo'nalishda qayrilib olishiga ruxsat beriladi?
+q1046	Qaysi belgida haydovchiga quvib o'tish taqiqlangan?
+q1047	Svetoforning asosiy yashil ishorasiga yo'naltirgich (yo'naltirgichlar)ning shakli tushirilgan bo'lsa, haydovchilarga nima haqida axborot beradi?
+q1048	Qizil avtomobil kimga yo'l berishi kerak?
+q1049	Avtomobil haydovchisi qaysi yo'nalish bo'yicha qoidani buzib burilmoqda?
+q1050	Chapga burilish sizga qaysi trayektoriya bo'yicha amalga oshirishga ruxsat etiladi?
+q1051	Aholi punktlaridan tashqarida qaysi avtomobil to'xtab turish qoidasini buzmadi?
+q1052	Yo'nalishli transport vositalariga (taksilar bundan mustasno) bu joyda odam tushirishga ruxsat etiladimi?
+q1053	Qaysi yo'nalishlarda harakat qilish mumkin?
+q1054	Yengil avtomobil qaysi yo'nalish bo'yicha to'g'ri burilmoqda?
+q1055	Yo'nalishli transport vositalariga bekatlardan tashqari joylarda yo'lovchi olish va tushirishga (yo'nalishli taksilar bundan mustasno) ruxsat etiladimi?
+q1056	Velosipeddan foydalanishda yo'lovchi tashish qaysi hollarda ruxsat etiladi?
+q1057	Ushbu avtomobilga ko'rsatilgan yo'nalishlardan qaysi biriga harakatlanishga ruxsat etiladi?
+q1058	Qaysi transport vositalari o'ngga harakatlanishga ruxsat etiladi?
+q1059	Qaysi rasmda sariq avtomobil haydovchisi qizil avtomobilga yo'l berishi kerak?
+q1060	Avtomobillarga qaysi yo'nalishlarda harakatlanishga ruxsat beriladi?
+q1061	Ushbu avtomobil qaysi yo'nalishlarda harakatlanishga ruxsat beriladi?
+q1062	Individual harakatlanish vositalarini necha yoshdan boshqarishga ruxsat beriladi?
+q1063	Harakat tezligi 40 km/soatdan oshmaydigan transport vositasiga qatnov qismining o'ng qatoridan chiqishga qachon ruxsat etiladi?
+q1064	Qaysi javobda "avariya holatini yuzaga keltirish" atamasi ta'rifi to'g'ri ko'rsatilgan?
+q1065	Qizil avtomobil qaysi yo'nalishlarda qayrilib olishga ruxsat beriladi?
+q1066	Miltillovchi qizil ishora?
+q1067	Aholi yashash joylaridan tashqaridagi ikki tomonlama harakat tashkil etilgan ikki tasmali yo'llarda tezligini soatiga 50 kilometrdan oshirishi mumkin bo'lmagan, shuningdek, uzunligi 7 metrdan ortiq bo'lgan transport vositalarining (transport vositalarining tarkibi) haydovchilari o'zi va oldida harakatlanayotgan transport vositasi orasida qancha masofani saqlashlari kerak?
+q1068	Vazirlar Mahkamasining 172-sonli qaroriga muvofiq, Yo'l harakati qoidalari nechta banddan iborat?
+q1069	Yo'l chiziqlari nechta guruhdan iborat?
+q1070	Velosipedni boshqarishga necha yoshdan ruxsat etiladi?
+q1071	Miniladigan uy hayvonlarini boshqarishga necha yoshdan ruxsat etiladi?
+q1072	Qaysi avtomobil haydovchisi qoidani buzmasdan harakatlanmoqda?
+q1073	Yondosh hududlardan yo'lga chiqish joylarida yoki yo'lning dala, o'rmon yo'llari va boshqa doimiy harakatlanish, o'tib ketish uchun mo'ljallanmagan yo'llar bilan kesishgan (tutashgan) joylarida, ularning oldida tegishli belgilar o'rnatilmagan bo'lsa, bu belgilarning ta'siri yo'qoladimi?
+q1074	Qizil avtomobil haydovchisi yaqinlashib kelayotgan poyezdni o'tkazib yuborish uchun to'g'ri to'xtadimi?
+q1075	Qaysi yo'nalish bo'yicha chapga burilishga ruxsat etiladi?
+q1076	Yuk avtomobiliga qaysi yo'nalishlar bo'yicha harakatlanishga ruxsat etiladi?
+q1077	Qaysi Javobda belgining nomi to'g'ri ko'rsatilgan?
+q1078	Ushbu belgi o'rnatiladi:
+q1079	Velosipedchilarga velosiped yo'lkasi bo'lganda qatnov qismidan harakatlanishga ruxsat etiladimi?
+q1080	Qaysi belgida qayrilishga ruxsat etiladi?
+q1081	Qaysi transport vositasi o'ngga to'g'ri burilmoqda?
+q1082	Qaysi avtomobil haydovchisi qoidani buzmay harakatlanmoqda?
+q1083	Belgilangan yo'nalishlarda harakatlanishga ruxsat etiladimi?
+q1084	Aholi punktlarida quvib o'tishda qanday ogohlantirish ishoralaridan foydalanish mumkin?
+q1085	Qaysi haydovchi burilishni to'g'ri bajardi?
+q1086	Ushbu xavflilik belgisi qaysi turdagi moddalarni bildiradi
+q1087	Transport vositasi haydovchisi tomonidan chiqarilgan havodagi etanol bug'lari kontsentratsiyasi qancha miqdorni ko'rsatgan hollarda DYHXX xodimi haydovchiga nisbatan alkogolli ichimlik iste'mol qilganligi fakti yuzasidan ma'muriy bayonnoma rasmiylashtiradi?
+q1088	Qaysi haydovchi birinchi bo'lib harakatni davom ettiradi?
+q1089	Avtomobil haydovchisi qaysi yo'nalish bo'yicha to'g'ri burilmoqda?
+q1090	Ko'rsatilgan yo'l belgilarining qaysi birida eng kam tezlikda harakatlanish kerak ?
+q1091	Qaysi javobda yo'l belgilari guruhlarining ketma-ketligi to'g'ri ko'rsatilgan?
+q1092	Harakatlanish tartibini ko'rsating:
+q1093	Qizil avtomobil qaysi yo'nalishlar bo'yicha harakatlanishga ruxsat etiladi?
+q1094	Qaysi yo'nalishlarda sizga harakatni davom ettirishga ruxsat etiladi?
+q1095	Avtomobilga shu vaziyatda to'xtashga ruxsat etiladimi?
+q1096	Ushbu yo'l belgisi chorrahalarda o'ngga burilayotgan relssiz transport vositalariga svetoforning qaysi ishorasida harakatlanishga ruxsat etiladi?
+q1097	Ushbu qora transport vositasining haydovchisining yo'nalishni o'zgartirishi qanday nomlanadi?
+q1098	Bunday holatda qaysi haydovchi yo'l berishi kerak?
+q1099	Aholi punktlaridan tashqarida quvib o'tishda qanday ogohlantirish ishoralaridan foydalanish mumkin?
+q1100	Qaysi rasmdagi haydovchilarga qayrilib olish taqiqlangan?
+q1101	Qaysi yo'l chizig'i haydovchining hushyorligini oshiradi?
+q1102	Avtomobilda bolalarni himoya qilish tizimini joylashtirish uchun qaysi joy eng xavfsiz hisoblanadi?
+q1103	Ushbu vaziyatda oxirgi bo'lib kim o'tadi?
+q1104	Avtomobillar harakatlanayotgan qatnov qismida nechta harakatlanish tasmasi bor?
+q1105	Ko'k va Qora avtomobillar haydovchilariga o'ngga burilishni amalga oshirishga ruxsat etilganmi?
+q1106	Yo'l-patrul xizmati xodimlari "Yo'l-patrul xizmati xodimlarining yo'l harakati qatnashchilari bilan o'zaro munosabatlari hamda maxsus moslamalardan foydalanishi tartibi to'g'risida"gi nizomga ko'ra qanday huquqlarga ega?
+q1107	Ko'k avtomobil haydovchisiga avtoturargohga kirishga ruxsat etiladimi?
+q1108	Ko'k avtomobil haydovchisi qaysi yo'nalishlarda harakatlanishga ruxsat etilmaydi?
+q1109	Piyodalarga qatnov qismini kesib o'tishga ruxsat etiladimi?
+q1110	Qaysi rasmda to'rt tasmali yo'l ko'rsatilgan?
+q1111	Velosipedchilar va individual harakatlanish vositalarida ishonchli oyoq qo'ygich bilan jihozlangan qo'shimcha o'rindiqda necha yoshgacha bo'lgan bolani tashish mumkin?
+q1112	Tartibga soluvchining ushbu ishorasida qaysi transport vositalariga harakatlanishga ruxsat etiladi?
+q1113	Ushbu holatda siz qanday yo'l tutishingiz kerak?
+q1114	Ushbu belgi o'rnatilgan hududda qaysi toifalarga ega avtotransport vositalari harakatlanishi mumkin?
+q1115	Ikki tomonlama yo'lda harakatsiz holda bo'lgan jism bor (bo'chka, meshok, ...). Siz bu narsalarni qaysi tomonidan aylanib o'tasiz?
+q1116	Qaysi rasmda quvib o'tishning to'g'ri holati ko'rsatilgan?
+q1117	L- toifasi bu?
+q1118	Ushbu ko'rsatilgan joyda to'xtashga ruxsat etiladimi?
+q1119	Yo'l patrul hizmat hodimlariga yo' l harakat qatnashchilari bilan o'zaro munosabatlari va maxsuz moslamalardan foydalanishda nizom to'grisidagi qonunda qanday tartib qo'yilgan ?
+q1120	Ushbu ko'rsatilgan yo'l nechta qatnov qismiga ega?
+q1121	Chorahada o'nga borilayotgan qizil transport vositasi oldindagi transport vositasiga qanday ishora berish kerak?
+q1122	Ushbu belgilardan qaysi biri "Sun'iy yo'l notekisligi" deb ataladi?
+q1123	Zarg'aldoq yoki sariq rangli yalt - yalt etuvchi mayoqchasi yoqilganligi transport vositalariga harakatlanishda imtiyoz beradimi?
+q1124	Tegishli yo'l belgilari o'rnatilgan maktab va maktabgacha ta'lim tashkilotlariga etmasdan va o'tib ketib 300 metrdan kam masofada qanday eng yuqori tezlikda harakatlanishga ruxsat etiladi?
+q1125	Tormoz yo'li deganda nima tushuniladi?
+q1126	Bu erda avtomobil to'xtashiga ruxsat berilganmi?
+q1127	Tashiladigan yuk vazni va o'qlar bo'yicha tushadigan og'irlik miqdorining taqsimlashni kim tomonidan belgilanadi?
+q1128	"Gazel" yuk avtomobilining yuk bilan balandligi yo'l sathidan 3,8 metr bo'lsa, yukni tashishga ruxsat beriladimi?
+q1129	Velosiped va mopedlarda tashilayotgan yuk, transport vositasining gabaritidan bo'yiga va eniga necha metrdan ortiq chiqib turmasligi kerak?

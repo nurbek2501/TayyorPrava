@@ -1,0 +1,194 @@
+Shlagbaumli temir yo'l kesishmasi
+Shlagbaumsiz temir yo’l kesishmasi
+Diqqat "UZP"
+Bir izli temir yo’l
+Ko’p izli temir yo’l
+Temir yo’l kesishmasining yaqinligi haqida ogohlantirish
+Tramvay yo’li bilan kesishuv
+Teng ahamiyatli yo’llar kesishuvi
+Aylanma harakatlanish bilan kesishuv
+Svetofor tartibga soladi
+Ko’tarma ko’prik
+Sohilga chiqish
+Xavfli burilish
+Xavfli burilishlar
+Tik nishablik
+Tik balandlik
+Sirpanchiq yo’l
+Notekis yo’l
+Tosh otilish xavfi
+Yo’lning torayishi
+torayishi
+Ikki tomonlama harakatlanish
+Piyodalar o’tish joyi
+Bolalar
+Velosiped yo’lkasi bilan kesishuv
+Ta’mirlash ishlari
+Mol haydab o’tish
+Yovvoyi hayvonlar
+Toshlar tushishi
+Yonlama shamol
+Pastlab uchuvchi samolyotlar
+Tonnel
+Boshqa xavf-xatar
+Sun'iy yo'l notekisliklari
+Burilishning yo’nalishi
+Tirbandlik
+Asosiy yo’l
+Asosiy yo’lning oxiri
+Ikkinchi darajali yo’l bilan kesishuv
+– tutashuv o’ngdan
+– tutashuv chapdan
+Yo’l bering
+To’xtamasdan harakatlanish taqiqlangan
+Ro’para harakatlanishning ustunligi
+Ro’paradagi harakatlanishga nisbatan imtiyoz
+Kirish ta'qiqlangan
+Harakatlanish ta'qiqlangan
+Mexanik transport vositalarining harakatlanishi taqiqlangan
+Yuk avtomobillarining harakatlanishi taqiqlangan
+Mototsikllar harakatlanishi taqiqlangan
+Traktorlar harakatlanishi taqiqlangan
+Tirkama bilan harakatlanish taqiqlangan
+Ot-arava harakatlanishi taqiqlangan
+Velosipedda harakatlanish ta'qiqlangan
+Piyodalarning harakatlanishi ta'qiqlangan
+Vazn cheklangan
+O‘qqa tushadigan og‘irlik cheklangan
+Cheklangan balandlik
+Cheklangan kenglik
+Cheklangan uzunlik
+Eng kam oraliq
+Bojxona
+Xavf-xatar
+O’ngga burilish ta'qiqlanadi
+Chapga burilish taqiqlanadi
+Qayrilish ta'qiqlanadi
+Quvib o’tish taqiqlanadi
+Quvib o’tish ta'qiqlangan hududning oxiri
+Yuk avtomobillarida quvib o’tish taqiqlangan
+Yuk avtommobillarida quvib o’tish taqiqlangan hududning oxiri
+Yuqori tezlik cheklangan
+Yuqori tezlik cheklangan hududning oxiri
+Tovuch moslamalaridan foydalanish ta'qiqlangan
+To’xtash taqiqlangan
+To’xtab turish ta'qiqlangan
+Oyning toq kunlarida to’xtab turish taqiqlanadi
+Oyning juft kunlarida to’xtab turish taqiqlanadi
+Barcha cheklovlarning oxiri
+Xavfli yuklarga ega transport vositalarining harakati ta'qiqlanadi
+Portlovchi va yonuvchan yuklarga ega transport vositalarining harakatlanishi ta'qiqlanadi
+Harakatlanish to’g’riga
+Harakatlanish o’ngga
+Harakatlanish chapga
+Harakatlanish to’g’riga yoki o’ngga
+Harakatlanish to’g’riga yoki chapga
+Harakatlanish o’ngga yoki chapga
+To’siqni o’ngdan chetlab o’tish
+To’siqni chapdan chetlab o’tish
+To’siqni o’ngdan yoki chapdan chetlab o’tish
+Aylanma harakatlanish
+Yengil avtomobillar harakatlanadi
+Velosiped yo’lkasi
+Piyodalar yo’lkasi
+Piyoda va velosipedlar birgalikda harakatlanish yo'li
+Piyoda va velosipedlar birgalikda harakatlanish yo'li oxiri
+Ajratilgan piyoda va velosiped harakatlanish yo'li
+Ajratilgan piyoda va velosiped harakatlanish yo'li oxiri
+Eng kam tezlik
+Eng kam tezlik belgilangan yo’lning oxiri
+Transport vositalarining xavfli yuklar bilan harakatlanish yo'nalishi
+Otda yurish yo'li
+Avtomagistral
+Avtomagistralning oxiri
+Avtomobillar uchun mo’ljallangan yo’l
+Avtomobillar uchun mo’ljallangan yo’lning oxiri
+Bir tomonlama harakatlanish yo’li
+Bir tomonlama harakatlanish yo’lining oxiri
+Bir tomonlama harakatlanish yo’liga chiqish
+Bo’laklar bo’yicha harakatlanish yo’nalishi
+Bo’lak bo’yicha harakatlanish yo’nalishi
+Bo’lakning boshlanishi
+Bo’lak oxiri
+Bo’laklar soni
+Belgilangan yo’nalishli transport vositalari uchun mo’ljallangan bo’lak
+Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’l
+Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’lning oxiri
+Qayirilish joyi
+Qayirilish oralig’i
+Avtobus va trolleybus to’xtash joyi
+Tramvay to’xtash joyi
+Taksi to’xtab turish joyi
+To’xtab turish joyi
+Piyodalarning yer ostidan o’tish joyi
+Piyodalarning yer ustidan o’tish joyi
+Tavsiya etilgan tezlik
+Oxiri berk yo’l, ko’cha
+Yo’nalishlarning dastlabki ko’rsatkichi
+Harakatlanish tasviri
+Yo’nalish ko’rsatkichi
+Yo’nalishlar ko’rsatkichi
+Aholi yashaydigan joyning boshlanishi
+Aholi yashaydigan joyning oxiri
+Manzil nomi
+Masofalar ko’rsatkichi
+Kilometr belgisi
+Yo’l raqami
+Yuk avtomobillari uchun harakatlanish yo’nalishi
+Aylanib o’tish tasviri
+Chetlab o’tish yo’nalishi
+To’xtash
+Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi
+Reversiv harakatlanish
+Reversiv harakatlanish oxiri
+Reversiv harakatlanish yo’liga chiqish
+Turar-joy dahasi
+Turar-joy dahasining oxiri
+Falokatli holatlar uchun kirish yo’li
+Surat va video
+Radar
+Qizil rangda o'ng tomonga burilish
+Velosipedlar uchun harakatlanish bo'lagi
+Velosipedlar uchun harakatlanish bo'lagining oxiri
+Tibbiy yordam ko’rsatish joyi
+Shifoxona
+Yonilg’i shaxobchasi
+Texnik xizmat ko’rsatish joyi
+Transport vositalarini yuvish joyi
+Telefon
+Oshxona
+Ichimlik suvi
+Mehmonxona
+Kemping
+Dam olish joyi
+Yo’l patrul xizmati maskani
+Xalqaro avtomobillarni tashish nazorat punkti
+Xojatxona
+Axlat quti
+Basseyn yoki sohil bo'yi
+Polisiya
+Manzilgacha bo’lgan masofa
+Ta’sir oralig’i
+Ta’sir yo’nalishlari
+Transport vositasining turi
+Shanba, yakshanba va bayram kunlari
+Ish kunlari
+Hafta kunlari
+Amal qilish vaqti
+Transport vositasini to’xtab turish joyiga qo’yish usuli
+Yurgizgichni ishlatmasdan to’xtab turish joyi
+Pullik xizmat ko’rsatish joyi
+To’xtab turish muddati cheklangan
+Avtomobillarni ko’rikdan o’tkazish joyi
+To’la vazni cheklangan
+Xavfli yo’l yoqasi
+Asosiy yo’lning yo’nalishi
+Harakatlanish bo’lagi
+Ko’zi ojiz piyodalar
+Nam qoplama
+Nogironlar
+Nogironlar mustasno
+Chorrahadagi kamera
+Xavfli yuk
+Evakuator ishlamoqda
+Marshrutli transport vositasi turi

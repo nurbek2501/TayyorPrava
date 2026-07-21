@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+*.db
+*.db.*
+*.bak
+*-bak
+.env
+.env.*
+.pytest_cache/
+tests/
+# Katta manba/ish papkalari — image'ga kerak emas (uploads volume sifatida ulanadi)
+uploads/
+seed_3lang/
+seed_belgilar/
+_build3lang/
+_build_belgilar/
+analyze.py
+*.md

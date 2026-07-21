@@ -1,0 +1,35 @@
+# Prava Pro — production runtime (backend + telegram bot).
+# Frontend statik build'i nginx orqali tarqatiladi (qarang: DEPLOY.md).
+#
+# Birinchi ishga tushirish:
+#   1) backend/.env va telegram_bot/.env to'ldiring (.env.example dan)
+#   2) docker compose build
+#   3) docker compose run --rm backend python -m app.seed   # bazani to'ldirish (bir marta)
+#   4) docker compose up -d
+
+services:
+  backend:
+    build: ./backend
+    env_file: ./backend/.env
+    environment:
+      # Baza fayli nomli volume ichida (konteyner qayta qurilsa ham saqlanadi)
+      DATABASE_URL: sqlite+aiosqlite:////app/data/app.db
+    volumes:
+      - ./backend/uploads:/app/uploads   # rasm kontenti (hostdan)
+      - backend_db:/app/data             # SQLite baza (saqlanadigan volume)
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  bot:
+    build: ./telegram_bot
+    env_file: ./telegram_bot/.env
+    environment:
+      # Bot konteyner ichidan backendga shu nom orqali ulanadi
+      BACKEND_URL: http://backend:8000/api
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend_db:

@@ -1,0 +1,530 @@
+d0001	YHQ 176-band,1-ilova3-bo'lim 3.27 yo'l belgisi.
+d0002	YHQ 3-ilova 7.10-bandiga muvofiq, M1, M2, M3, N1, N2, N3 toifasidagi transport vositalarida tibbiyot qutichasi (aptechka), o't o'chirgich, majburiy to'xtaganligini bildiruvchi belgi (falokat taniqlik belgisi) yoki miltillovchi qizil chiroq va nur qaytargichli kamzul (jilet) bo'lishi kerak.
+d0003	YHQ 16-bobi 105-bandiga asosan, teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ng tomondan yaqinlashib kelayotgan transport vositalariga yo'l berishi shart.
+d0004	YHQ 91-band.
+d0005	YHQ 176-band
+d0006	YHQ 2-ilovasidagi 1.21 chizig'i talabiga asosan, "to'xtash" yozuvi - 2.5 "To'xtamasdan harakatlanish taqiqlangan" belgisi bilan birga qo'llanilganda, haydovchini 1.12 chizig'iga yaqinlashayotganligi haqida ogohlantiradi.
+d0007	YHQ 121-band.
+d0008	YHQ 100-band.
+d0009	YHQ 9-bobi 63-bandiga asosan, transport vositasini orqaga harakatlantirishda haydovchi yo'l harakati xavfsizligini ta'minlashi va boshqa yo'l harakati qatnashchilariga xalaqit bermasligi shart. Zarurat tug'ilganda, haydovchi boshqa shaxslarning yordamidan foydalanishi mumkin.
+d0010	YHQ 65-band.
+d0011	V.I.Konoplyanko Burilishda harakatlanayotgan avtomobilda markazdan qochma kuch vujudga keladi. Burilish o'ng tomonga bo'lgan holda siz qarama-qarshi yo'nalishda harakatlanish bo'lagiga, chap tomonga bo'lsa, yo'l yoqasi yoki uning tashqarisiga chiqib ketishingiz ehtimoli mavjud. Uzatma ajratilgan holatda avtomobil o'zi harakatlanib, uni boshqarish murakkablashadi. Shu bois burilishga yaqin masofa qolganda, uning tikligini va tezligingizni baholab, uzatma mexanizmini ajratmay harakatni davom ettiring.
+d0012	YHQ 3-ilovasi 1-bo'lim 1.3, 1.4-bandlariga asosan, transport vositasidan foydalanishni taqiqlovchi holatlar: gidravlik tormoz uzatmasining zichligi (germetikligi) buzilgan bo'lsa. Pnevmatik tormoz uzatmasining zichligi buzilishi natijasida havo siquvchi moslama (kompressor) ishlamay turganda va boshqaruv qismlari ulanmaganda - 30 daqiqada, ulanganida - 15 daqiqada tizimdagi havo bosiminig 0,05 MP (0,5 kg/kv.sm)dan ko'p pasayishiga sabab bo'lsa. YHQ 2-bobi 12-bandi asosan, transport vositasining tormoz tizimi yoki boshqaruvi ishdan chiqsa, transport vositasini boshqarish taqiqlanadi.
+d0013	YHQ 1-ilovasining 4-bo'limi 4.1.1. "Harakatlanish to'g'riga" belgisi yo'l qismini boshlanishiga o'rnatilsa, unga yaqin chorrahagacha amal qilinadi. Belgi o'ng tomonda joylashgan hovli va yo'lga tutash boshqa hududlarga burilishni taqiqlamaydi.
+d0014	YHQ 1-ilova 2-bo'lim 2.6 yo'l belgisi.
+d0015	YHQ 1-ilova 5-bo'lim 5.23 yo'l belgisi.
+d0016	YHQ132-band.
+d0017	YHQ 15-bobi 100-bandiga asosan, svetoforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qo'shimcha tarmoqning yashil ishorasidagi yo'naltirgich yo'nalishida harakatlanayotgan transport vositasining haydovchisi boshqa yo'nalishlardagi transport vositalariga yo'l berishi kerak.
+d0018	E.V.Bocharov "Bezopasnost dorojnogo dvijeniya"-46 str.Inertsiya kuchi ta'siri ostida avtomobilni tormozlash vaqtida o'qlarga tushadigan og'irlik qayta taqsimlanishi ro'y beradi. Old o'qqa nisbatan og'irlik ko'payadi, orqa o'qqa esa nisbatan kamayadi. Tormozlash sur'ati qanchalik baland bo'lsa, o'qlarga tushadigan og'irlik qayta taqsimlanishi sezilarliroq bo'ladi. Orqa o'qda og'irlik kamayishi bilan g'ildirakni yo'lga bosuvchi kuchi kamayadi; shunday ekan g'ildirakning sirg'anish (aylanmasdan siljish) va avtomobilning surilib ketishi ehtimoli yuzaga keladi. Old o'qda og'irlik ko'payishi g'ildirakni yo'lga bosish kuchini ko'paytiradi, shunday ekan, sirg'anish ehtimoli kamayadi.
+d0019	YHQ 89-band.
+d0020	Yu.V.Bashuev.K.A.KarimovaBYoK.bet.33 b.20 Shikastlangan qo'l yoki oyoqni majburiy harakatga solmasdan kiyim kiydirish imkonini yaratish uchun avval kiyim shikastlangan, so'ngra shikastlanmagan qo'l yoki oyoqqa ehtiyotlik bilan kiydiriladi.
+d0021	YHQ 1-ilovasining 1-bo'limi 1.20-bandiga asosan, "Piyodalar o'tish joyi" 5.16.1, 5.16.2 belgilari (yoki) 1.14.1-1.14.3 chiziqlari bilan belgilangan piyodalar o'tish joyi.
+d0022	YHQ 1-ilova 7-bo'lim 7.4.1 yo'l belgisi.
+d0023	YHQ 1-ilovasining 1-bo'limidagi 1.3.1 belgi "Bir izli temir yo'l" - shlagbaum bilan jihozlanmagan bir izli temir yo'l kesishmasi haqida ogohlantiradi.
+d0024	YHQ 15-bobi 99-bandiga asosan, svetoforning yashil ishorasida chapga burilayotgan yoki qayrilib olayotgan relssiz transport vositasining haydovchisi qarama-qarshi tomondan to'g'riga harakatlanayotgan va o'ngga burilayotgan transport vositalariga yo'l berishi shart.
+d0025	YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining QO'LLARI YoN TOMONGA UZATILGANDA YoKI TUShIRILGANDA, chap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat etiladi. Old va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi.
+d0026	YHQ 56-band.
+d0027	K.X.Azizov3 bob BYoK.bet.238 Suyaklar singanda shikastlangan qo'l yoki oyoqni har qanday qattiq vosita yordamida mustahkamlab, harakatsizlantirish (immobilizatsiya qilish) lozim.
+d0028	YHQ 11-band
+d0029	YHQ 1-ilovasi 2.6 belgisiga asosan, "Ro'para harakatning ustunligi" qarama-qarshi harakatlanishni qiyinlashtiradigan hollarda yo'lning tor qismiga kirishga taqiqlaydi. Haydovchi yo'lning tor qismida bo'lgan yoki ro'paradan unga yaqin bo'lgan transport vositasiga yo'l berishi kerak.
+d0030	YHQ 1-ilovasining 3-bo'limi 3.16 belgisiga asosan, "Eng kam oraliq" belgisida ko'rsatilganidan kam oraliq masofada harakatlanish taqiqlanadi.
+d0031	YHQ 132-band.
+d0032	YHQ 7-bobi 38-bandiga asosan, O'NG QO'LI OLDINGA UZATILGANDA, chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo'nalishlarda, oldi tomonidan barcha transport vositalariga faqat o'ngga harakatlanishga ruxsat etiladi. Orqa tomonidan va o'ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi. Piyodalarga tartibga soluvchining orqa tomonidan qatnov qismini kesib o'tishga ruxsat etiladi.
+d0033	YHQ 11-bobi 79-bandiga asosan, aholi punktlaridan tashqarida engil avtomobillarga va ruxsat etilgan to'la vazni 3,5 tonnadan oshmaydigan yuk avtomobillariga tezlikni soatiga 100 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi.
+d0034	Avtotest 2.0- 2.9 Ishchi (asosiy) tormoz tizimi avtomobil harakatlanishi vaqtida doimiy foydalanishga mo'ljallangan va haydovchiga avtomobil harakatini har xil intensivlikda sekinlashtirish yoki uni to'xtatish uchun xizmat qiladi. To'xtab turish tormoz tizimi avtomobilni uzoq muddatli to'xtash yoki to'xtab turish vaqtida o'z-o'zidan harakatlanib ketishidan saqlab qolish uchun mo'ljallangan.
+d0035	YHQ 168-band.
+d0036	YHQ 17-band.
+d0037	YHQ 2-ilova 1-bo'lim 1.11 yotiq chizig'i
+d0038	YHQ 17-bobi 105-bandiga asosan, teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ngdan kelayotgan transport vositalariga yo'l berishi shart. Bu qoidaga tramvay haydovchilari ham o'zaro amal qilishlari kerak. Bunday chorrahalarda, keyingi harakat yo'nalishidan qat'iy nazar, tramvay relssiz transport vositalariga nisbatan oldin o'tish huquqiga ega bo'ladi.
+d0039	YHQ 11-bobining 79-bandiga asosan, aholi punktlaridan tashqarida: tirkamali engil avtomobillar, mototsikllar, ruxsat etilgan to'la vazni 3,5 tonnadan ortiq bo'lgan yuk avtomobillariga tezlikni soatiga 80 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi.
+d0040	YHQ 1-ilova 5-bo'lim 5.19.1 yo'l belgisi.
+d0041	YHQ 3 ilovaga ko'ra, 5.1. Shina protektori naqshlarining qoldiq balandligi N2, N3, O3, O4 toifali avtotransport vositalari uchun- 1 mm. dan kam emas, M1, N1, O1, O2 toifadagi avtotransport vositalari uchun 1,6 mm.dan kam emas, M2, M3 toifadagi avtotransport vositalari uchun-2 mm. dan kam emas, mototsikl va mopedlar (skutorlar, kvadrotsikllar) uchun 0,8 mm.dan kam emas bo'lishi kerak
+d0042	YHQ 5-bobi 23-bandi 1-xatboshiga asosan, yo'lovchilar transport vositasiga faqat u to'liq to'xtagandan so'ng trotuar yoki yo'l yoqasi tomonidan chiqishga va tushishga majburdirlar. Yo'lovchilarning transport vositalaridan trotuar yoki yo'l yoqasi tomonidan tushishi yoki ularga chiqishining iloji bo'lmagan hollarda u yo'lning qatnov qismi tomondan amalga oshirilishi mumkin, bunda boshqa yo'l harakati qatnashchilariga xalaqit berilmasligi va xavf tug'dirilmasligi kerak.
+d0043	YHQ 1-ilova 3-bo'lim 3.2 yo'l belgisi va 7-bo'lim 7.3.2 yo'l belgisi .
+d0044	YHQ 1-ilovasining 7-bo'limidagi 7.6.2 qo'shimcha axborot belgisi asosan, piyodalar yo'lkasi yonidagi to'xtab turish joyiga engil avtomobillar va mototsikllarni qanday qo'yish usulini ko'rsatadi.
+d0045	YHQ 17-bobi 113-bandiga asosan, barcha hollarda, shu jumladan, piyodalar o'tish joylaridan tashqarida ham haydovchi oq hassa bilan ishora berayotgan ko'zi ojiz piyodalarni o'tkazib yuborishi kerak.
+d0046	YHQ 7-bobi 38-bandiga asosan, QO'LLARI YoN TOMONGA UZATILGANDA YoKI TUShIRILGANDA, chap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat etiladi. Old va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi.
+d0047	YHQ 3-ilovasi 3.1 belgi talabiga asosan, "Kirish taqiqlangan". Barcha transport vositalarining kirishi taqiqlanadi.
+d0048	YHQ 58-band.
+d0049	YHQ 24-bobi 144-bandiga asosan, egiluvchan ulagich bilan shatakka olishda shatakka olgan va shatakka olingan transport vositalari o'rtasidagi masofa 4-6 metr oralig'ida bo'lishi, qattiq ulagich yordamida esa 4 metrdan ko'p bo'lmasligi kerak.
+d0050	YHQ 28-bobi 166-bandiga asosan, velosipedlar, mopedlar, aravalarni boshqarish, hayvonlarni minib borish yoki haydab ketish paytida yo'lning chetki o'ng bo'lagida imkoni boricha o'ng tomonidan bir qator bo'lib harakatlanishga yo'l qo'yiladi. Agar piyodalarga xalaqit bermasa, yo'l yoqasida ham harakatlanishga ruxsat etiladi.
+d0051	YHQ 24-bobi 143-bandiga asosan, qattiq yoki egiluvchan ulagich yordamida shatakka olingan avtobusda, trolleybusda va yuk avtomobili yukxonasida odam tashish, qisman ortish yo'li bilan shatakka olishda esa shatakka olingan transport vositasining kabinasida va yukxonasida, shuningdek, shatakka olgan transport vositasining yukxonasida odamlar bo'lishi taqiqlanadi.
+d0052	YHQ 1-ilova 3-bo'lim 3.22 belgisiga asosan, "Yuk avtomobillarida quvib o'tish taqiqlangan" Yo'l belgisi talabiga muvofiq, to'la vazni 3,5 tonnadan ortiq bo'lgan yuk avtomobillarida barcha transport vositalarini quvib o'tish taqiqlanadi (soatiga 40 km.dan kam tezlikda harakatlanayotgan transport vositasi, traktor, ot arava, velosiped bundan mustasno) 3.22 "Yuk avtomobillarida quvib o'tish taqiqlangan" belgisi ostidagi 7.1.1. "Ob'ektgacha bo'lgan masofa" qo'shimcha axborot belgisi 3.22 belgisi ta'sir hududi boshlanadigan joygacha bo'lgan masofani ko'rsatadi.
+d0053	YHQ 1-ilova 1-bo'lim 1.31.3. yo'l belgisi.
+d0054	YHQ 110-band.
+d0055	YHQ 86-band.
+d0056	YHQ 44-band.
+d0057	Konoplyanko V.I. 9 bet. Joydan qo'zg'alayotgan vaqtda katta inertsiya kuchi vujudga keladi va uni bartaraf qilish uchun etaklovchi g'ildiraklarga katta tortish kuchini qo'shish lozim. Gorizontal yo'lda katta bo'lmagan tezlikda bir tekis harakat paytida qarshilik kuchi katta emas va uni bartaraf qilish uchun kamroq tortish kuchi etarli. Ko'proq tortilganda boshqaruvchi g'ildiraklar o'rnidan jilmay aylanadi.
+d0058	YHQ 3-ilova 5.7-band.
+d0059	YHQ 7-bobi 32-bandiga asosan, yo'naltirgich ko'rinishidagi qizil, sariq va yashil rangli svetofor ishoralari ham doira shaklidagi svetofor ishoralari bilan bir xil ma'noga ega bo'ladi. Agar tegishli yo'l belgisi bilan qayrilib olish taqiqlanmagan bo'lsa, chapga burilishga ruxsat beruvchi yashil yo'naltirgich qayrilib olishga ham ruxsat beradi. Qo'shimcha tarmoqdagi yashil yo'naltirgich ham xuddi shunday ma'noni bildiradi.
+d0060	YHQ 67-band.
+d0061	YHQ 2-ilovasining 1-bo'limi 1-xatboshiga asosan, 1.1 chizig'i qarama-qarshi yo'nalishdagi transport oqimini ajratadi va yo'lning xavfli hududlarida bo'laklar chegarasini bildiradi; kirish mumkin bo'lmagan joylarda qatnov qismining chegarasini bildiradi; transport vositalarining to'xtab turish joylari chegaralarini va avtomagistrallarga taalluqli bo'lmagan yo'lning qatnov qismi chegarasini bildiradi. 1.1chizig'ini bosib o'tish taqiqlanadi, harakatlanish qismining chetini bildirish uchun qo'llanilgan 1.1 chizig'i bundan mustasno.
+d0062	YHQ 35-band.
+d0063	YHQ 11-bobi 79-bandi 1-xatboshiga asosan, aholi punktlaridan tashqarida: engil avtomobillarga va ruxsat etilgan to'la vazni 3,5 tonnadan oshmaydigan yuk avtomobillariga tezlikni soatiga 100 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi.
+d0064	YHQ 13-bobi 91-bandiga asosan, quyidagi joylarda to'xtash taqiqlanadi: to'xtagan transport vositasi bilan sidirg'a chiziq (qatnov qismining chetini belgilagan chiziqdan tashqari) orasidagi masofa 3 metrdan kam bo'lgan joylarda.
+d0065	E.V.Bocharov "Bezopasnost dorojnogo dvijeniya"-27-31 bet. Tormoz yo'li kattaligini quyidagi formula orqali aniqlash mumkin: S=ke*va^2/2gp bunda S - tormoz yo'li; ke - avtomobilning ushbu yo'lda mumkin qadar haqiqiy sekinlashishi nazariy sekinlashishidan necha baravar kamligini ko'rsatuvchi tormozlanish samaradorligi koeffitsienti; va - avtomobil harakatining boshlang'ich tezligi; p - shinaning yo'l bilan tishlashish koeffitsienti. Ushbu formulada ko'rinadiki, tormoz yo'li kattaligi tormozlanishdan avval harakatlanayotgan avtomobil tezligi kvadratiga nisbatan mutanosibdir. Shu bois harakat tezligi ikki baravar ko'paysa, tormoz yo'li to'rt baravar ko'payadi.
+d0066	YHQ 164-band.
+d0067	YHQ 1-ilovasining 1-bo'limidagi 1.6 belgiga asosan, "Teng ahamiyatli yo'llar kesishuvi" haydovchilarni teng ahamiyatli yo'llar chorrahasiga yaqinlashayotganligi haqida axborot beradi.
+d0068	YHQ 18-bobi 119-bandiga asosan,- Kesishma orqali harakatlanish taqiqlangan hollarda haydovchi to'xtash chizig'i, 2.5 yo'l belgisi yoki svetofor oldida, ular bo'lmaganda shlagbaumga kamida 5 metr, shlagbaum bo'lmaganda esa birinchi temir yo'l iziga kamida 10 metr qolganda to'xtashi kerak.
+d0069	YHQ 104-band.
+d0070	YHQ 142-band.
+d0071	YHQ 25-bobi 150-bandiga asosan, boshqarishni o'rgatish uchun mo'ljallangan mexanik transport vositalari "Boshqarishni o'rgatish transport vositasi" taniqlik belgisi va yo'riqchi uchun orqani ko'rsatuvchi ko'zgu bilan jihozlanishi kerak. Bundan tashqari boshqarishni o'rgatish uchun mo'ljallangan transport vositalarida yo'riqchi uchun qo'shimcha ulovchi (stseplenie) va to'xtatish tepkilari ham bo'lishi kerak.
+d0072	YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining O'NG QO'LI OLDINGA UZATILGANDA, chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo'nalishlarda, oldi tomonidan barcha transport vositalariga faqat o'ngga harakatlanishga ruxsat etiladi. YHQ 8-bobi 8.14-bandiga muvofiq, haydovchilar va piyodalar tartibga soluvchining ishorasi va ko'rsatmalariga ular svetofor ishoralari, yo'l belgilari va chiziqlariga zid kelgan taqdirda ham amal qilishlari kerak.
+d0073	YHQ 1-ilovasining 2-bo'limidagi 2.6 belgiga asosan, "Ro'para harakatlanishning ustunligi" belgisida qarama-qarshi harakatlanishni qiyinlashtiradigan hollarda yo'lning tor qismiga kirish taqiqlanadi. Haydovchi yo'lning tor qismida bo'lgan yoki ro'paradan harakatlanayotgan transport vositasiga yo'l berishi kerak.
+d0074	YHQ 36-band.
+d0075	YHQ 14-bobi, 98 band: Aylanma harakatlanish chorrahasida harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka (imtiyozga) ega.
+d0076	YHQ 68-band.
+d0077	YHQ 8-bobi 46-bandi 3-xatboshiga asosan, ogohlantiruvchi ishora berish haydovchiga oldin o'tish huquqini bermaydi va uni zaruriy ehtiyot choralarini ko'rish mas'uliyatidan ozod qilmaydi.
+d0078	YHQ 145-band.
+d0079	YHQ 149-band.
+d0080	E.V.Bocharov "Bezopasnost dorojnogo dvijeniya"-41-48 str. Avtomobilning sirpanchiq yo'lda surilishi orqa g'ildiraklarining blokirovkasi sababli tormozlanishda vujudga keladi. Bu holda birinchi navbatda surilish sababini bartaraf etish, ya'ni boshlangan tormozlanishni to'xtatish lozim. Keyinchalik rul chambaragini surilish tomon burib, harakat yo'nalishini to'g'rilab olish mumkin.
+d0081	YHQ 2-ilova 1-bo'lim 1.1 yotiq chizig'i.
+d0082	YHQ 18-bobi 118-bandi 6-xatboshiga asosan, temir yo'l kesishmasida taqiqlanadi: kesishma oldida turgan transport vositalarini qarama-qarshi harakatlanish bo'lagiga chiqib aylanib o'tish taqiqlanadi.
+d0083	YHQ 25, 26, 104 va 106-bandlar
+d0084	YHQ 9-bobi 54-bandiga asosan, yondosh hududlardan yo'lga chiqayotgan haydovchi unda harakatlanayotgan transport vositalariga va piyodalarga, shuningdek, undan chiqishda o'zining harakat yo'nalishini kesib o'tayotgan piyodalar va velosipedchilarga yo'l berishi kerak.
+d0085	YHQ 13-bobi 91-bandi 9-xatboshiga asosan, to'xtash taqiqlanadi: transport vositasi svetofor ishoralari, yo'l belgilarini boshqa haydovchilardan to'sib qo'yadigan yoki boshqa transport vositalarining harakatlanishiga (kirish va chiqishga) imkon qoldirmaydigan va piyodalarning harakatiga xalaqit beradigan joylarda.
+d0086	YHQ 3-ilovasining 2-bo'limi 2.1-bandiga asosan, N2, N3 toifadagi avtotransport vositalarini boshqaruv qurilmasida erkin harakatlanuvchi qismlar o'rtasidagi yoyilish yig'indisi - lyuft ko'pi bilan 25 gradus bo'lishi kerak.
+d0087	YHQ 105, 107-bandlari.
+d0088	YHQ 88-band.
+d0089	YHQ 1-ilova 2-bo'lim 2.4 yo'l belgisi.
+d0090	YHQ 18-bobi 120-bandi 5-xatboshi izohiga asosan, umumiy xatar ishorasi bitta uzun va uchta qisqa tovush ishorasi orqali beriladi.
+d0091	YHQ 16-bobi 105-bandiga asosan, teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ng tomondan kelayotgan transport vositalariga yo'l berishi shart.
+d0092	Konoplyanko V.I. 17-20 ,betlar. Orqa o'qi etakchi bo'lgan avtomobillarda sirpanchiq yo'lda sirpanish holati rul chambaragini birdan (keskin) burish natijasida kelib chiqadi. Bu holda rul chambaragini tez, biroq ravonlik bilan surilish tomon burib, sirpanish tugashini kutmasdan, rul chambaragiga oldinroq ta'sir etgan holda avtomobil yo'nalishini to'g'rilab olish lozim.
+d0093	YHQ 8-bobi 48-bandiga asosan, aholi punktlaridan tashqarida boshqa haydovchilarni quvib o'tish haqida ogohlantirish uchun tovushli ishoralar qo'llanilishi mumkin. 49-bandi 1-xatboshi: quvib o'tish haqida tovushli ishora o'rniga yoki u bilan birga fara chiroqlarini yoqib-o'chirib ogohlantirish ishorasini berish mumkin.
+d0094	Yu.V.Bashuev.K.A.Karimova 32 bet, 6- savol. Qon tomirlari (o'mrov ostidagi arteriya (ko'ktomir) va nervlarning shikastlanishiga olib kelishi mumkin bo'lgan singan o'mrov suyagining siljishiga yo'l qo'ymaslik uchun to'g'ri burchak ostida tirsakda bukilgan qo'lni uchburchak ro'molga osib qo'yib, bint bilan gavdaga bog'lab o'rash lozim.
+d0095	YHQ 3-ilova 3.1-band. O'zbekiston Respublikasi Vazirlar Mahkamasining 04.07.2012 yildagi 191-sonli qarori.
+d0096	YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining O'NG QO'LI OLDINGA UZATILGANDA, chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo'nalishlarda, oldi tomonidan barcha transport vositalariga faqat o'ngga harakatlanishga ruxsat etiladi. Orqa tomonidan va o'ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi. Piyodalarga tartibga soluvchining orqa tomonidan qatnov qismini kesib o'tishga ruxsat etiladi.
+d0097	YHQ 16-bobi 104, 106-bandlariga asosan, teng ahamiyatga ega bo'lmagan yo'llar kesishgan chorrahada, keyingi harakat yo'nalishidan qat'iy nazar, asosiy yo'ldan kelayotgan transport vositasiga ikkinchi darajali yo'ldan kelayotgan transport vositasining haydovchisi yo'l berishi kerak. Asosiy yo'lning yo'nalishi chorrahada o'zgarganda, asosiy yo'lda harakatlanayotgan haydovchilar o'zaro teng ahamiyatli yo'llar chorrahasidan o'tish qoidasiga amal qilishlari kerak. Ikkinchi darajali yo'llarda harakatlanayotgan haydovchilar ham o'zaro shu qoidaga amal qilishlari lozim.
+d0098	E.V.Bocharov 34-36 bet.Sirpanchiq yo'lda to'xtatish tepkisini uzuq-uzuq bosib, uzatma va ilashish mexanizmini ajratmay, dvigatel orqali tormozlanishni qo'llab va g'ildiraklarning blokirovkasi (aylanmasdan sirpanishi)ga yo'l qo'ymagan holda to'xtash lozim.
+d0099	YHQ 3-ilovasining 5-bo'limi 5.5-bandiga asosan, transport vositasining bitta o'qiga diagonal va radial, shuningdek, har xil naqshli shinalar o'rnatilishi taqiqlanadi.
+d0100	YHQ 8 va 23-boblari 44 va 135-bandlariga asosan, quyidagilar ogohlantiruvchi ishoralar hisoblanadi: burilishni ko'rsatadigan miltillovchi chiroq yoki qo'l bilan beriladigan ishoralar; tovushli ishoralar; fara chiroqlarining yoqib-o'chirilishi; kunduz kuni yaqinni yorituvchi fara chirog'ining yoqilishi.
+d0101	YHQ 1-ilovasining 1-bo'limi 1.7 belgiga asosan, "Aylanma harakatlanish bilan kesishuv", 1.18.2-bandi "Yo'lning torayishi", 1.31.1-bandi "Burilishning yo'nalishi", 1.11.1-bandi "Xavfli burilish", 1.12.1-bandi "Xavfli burilishlar" belgilar ogohlantiruvchi belgilar jumlasiga kiradi.
+d0102	YHQ 83-band.
+d0103	YHQ 2-ilovasining 1-bo'limi 1.3-bandiga asosan, sidirg'a chiziq to'rt va undan ortiq harakatlanish bo'lagi bo'lgan yo'llarda qarama-qarshi yo'nalishdagi transport vositalari oqimini ajratadi.
+d0104	YHQ 1-ilovasining 2-bo'limi 2.5-bandiga asosan, "To'xtamasdan harakatlanish taqiqlangan" belgisi to'xtash chizig'i oldida, agar u bo'lmasa, kesib o'tiladigan qatnov qismining chetida to'xtamasdan harakatlanish taqiqlanadi. Haydovchi kesib o'tilayotgan yo'ldan, 7.13 qo'shimcha-axborot belgisi bo'lganda esa asosiy yo'ldan harakatlanayotgan transport vositalariga yo'l berishi kerak.
+d0105	YHQ 1-ilovasining 3-bo'limi 4-xatboshiga asosan, 3.18.1 belgisi qatnov qismlarining qaysi kesishmasi oldiga o'rnatilsa, shu kesishmaga tatbiq etiladi.
+d0106	YHQ 2-ilova 1-bo'lim 1.4 yotiq chizig'i.
+d0107	YHQ 7 bobi 38 bandiga asosan tartibga soluvchiningqo'llari yon tomonga uzatilganda yoki tushirilganda: chap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat beriladi; old va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi;
+d0108	YHQ 104, 107-bandlari.
+d0109	YHQ 6-band.
+d0110	YHQ 95-band.
+d0111	Yu.V.Bashuev.K.A.Karimova 33 bet, 22- savol. Son suyagi singan holda ikkita taxtakach: biri - tashqari tarafda oyoq kaftidan to qo'ltiqosti chuqurigacha, boshqasi - ichki tarafda oyoq kaftidan to chovgacha qo'yiladi. Son suyagi singan holda immobilizatsiya vositasi bo'lmasa, shikastlangan oyoq sog' oyoqqa mahkamlanib qo'yiladi. Mahkamlovchi bog'ich singan suyakni siljitmasligi va jabrlanuvchiga qo'shimcha og'riq etkazmasligi lozim. Mahkamlovchi bog'ich oyoqning sog' qismiga bog'lanadi.
+d0112	YHQ 1-ilovasining 7-bo'limi 3-xatboshiga asosan, vaqtinchalik (ko'chma tirgakdagi) va doimiy belgilar ma'no jihatidan bir-biriga zid kelgan hollarda, haydovchilar vaqtincha o'rnatilgan belgilarga amal qilishlari kerak.
+d0113	YHQ 18-bobi 116-bandiga asosan, transport vositalarining haydovchilari temir yo'llarni faqat temir yo'l kesishmalari orqali poezd (lokomotiv, drezina)larga yo'l berib kesib o'tishlari mumkin.
+d0114	Konoplyanko V.I. 17-20 betlar. Burilishlarda yo'lovchisi va yuki bo'lmagan avtomobillar ko'proq muvozanat saqlab qoladi, chunki bunday avtomobilda og'irlik markazi eng pastda joylashgan bo'lib, eng kam ag'darilish jihatiga ega bo'ladi.
+d0115	Yu.V.Bushuev,K.A.Karimova 33 bet, 23- savol.Tos suyagi singanda jabrlanuvchi tekislikka yotqiziladi, oyoqlarni tizzalarida bukib, tagiga valik qo'yiladi. Shu holatda jabrlanuvchi davolash muassasasiga olib boriladi.
+d0116	YHQ 1-ilovasining 5-bo'limi 5.41-belgisi izohiga binoan, ushbu belgi yo'l qismida maxsus avtomatlashtirilgan foto va video qayd etish texnika vositalari o'rnatilganligi haqida axborot beradi.
+d0117	YHQ 1-ilovasining 3-bo'limi 3.15 belgi talabiga asosan, "Cheklangan uzunlik". Gabarit uzunligi (yuk bilan yoki yuksiz) belgida ko'rsatilganidan ortiq bo'lgan transport vositalari (transport vositalari tarkiblari)ning harakatlanishi taqiqlanishini bildiradi.
+d0118	YHQ 17-bobi 114-bandiga asosan, agar yo'lovchilarni tushirish yoki chiqarish qatnov qismida yoki unda joylashgan maydonchada amalga oshirilayotgan bo'lsa, haydovchi bekatda to'xtagan belgilangan yo'nalishdagi transport vositasi eshiklari tomon borayotgan yoki undan kelayotgan piyodalarga yo'l berishi kerak.
+d0119	YHQ 135-band.
+d0120	YHQ 12-bobi 86-bandi 2-xatboshiga asosan, quvib o'tish quyidagi hollarda taqiqlanadi: tartibga solinmaydigan chorrahalarda asosiy hisoblanmaydigan yo'llarda harakatlanishda.
+d0121	YHQ 8-bobi 50-bandi 4-xatboshiga asosan, avariya yorug'lik ishoralari quyidagi hollarda yoqilishi kerak: shatakka olishda (shatakka olingan transport vositasida). YHQ 8-bobi 52-bandiga muvofiq, shatakka olingan transport vositasida avariya yorug'lik ishoralari nosoz bo'lganda yoki bo'lmagan hollarda uning orqa tomoniga avariya sababli to'xtash belgisi o'rnatilishi kerak.
+d0122	YHQ 1-ilovasining 3-bo'limi 11-xatboshiga asosan, 3.27 belgisi 1.4 yotiq chizig'i bilan birgalikda, 3.28 belgisi esa 1.10 yotiq chizig'i bilan birgalikda qo'llanishi mumkin, bunda belgilarga amal qilish chiziqlar uzunligi bilan aniqlanadi.
+d0123	YHQ 3-ilovasining 5-bo'limi 5.1-bandiga asosan, transport vositalaridan foydalanishni taqiqlovchi shartlar - M1, N1, O1, O2 toifali transport vositalari shinalari protektori naqshlarining qoldiq balandligi 1,6 mm.dan kam bo'lsa.
+d0124	YHQ 1-ilovasining 1-bo'limiga asosan, aholi punktlaridan tashqarida 1.1, 1.2, 1.9, 1.10, 1.21 va 1.23 belgilari takrorlanadi. Ikkinchi belgi yo'lning xavfli qismi boshlanishiga kamida 50 metr qolganda o'rnatiladi.
+d0125	YHQ 62-band.
+d0126	YHQ 9-bobi 55-bandi 1-xatboshiga asosan, haydovchi qayta tizilishda yon bo'lakda yo'lakay harakat yo'nalishini o'zgartirmasdan ketayotgan transport vositalariga yo'l berishi kerak.
+d0127	YHQ 13-band.
+d0128	YHQ 1-ilovasining 7-bo'limidagi 7.2.1 qo'shimcha belgiga asosan, "Ta'sir oralig'i" belgisi ogohlantiruvchi, taqiqlovchi, buyuruvchi, axborot-ishora belgilarining ta'sir oralig'ini ko'rsatadi. Ogohlantiruvchi, taqiqlovchi, buyuruvchi, axborot-ishora yo'l belgilarining tagida mazkur yo'l belgisining ta'sir oralig'ini ko'rsatuvchi 7.2.1 qo'shimcha axborot belgisi o'rnatilgan bo'lsa, yo'l belgilarining ta'sir oralig'i oxirini ko'rsatuvchi yo'l belgisi o'rnatilishi shart emas.
+d0129	YHQ 1-ilova 4-bo'lim 4.2.2 yo'l belgisi.
+d0130	Yu.V.Bashuev.K.A.Karimova 24 bet. Ishlayotgan tormozning birdan ishdan chiqishi holati alomatlari ko'p: avtomobil tezligi, to'xtab turish tormozining ishlash qobiliyati, harakat oqimining zichligi, yo'l kengligi, piyodalar, ko'kalamzorlashtirilgan joylar, qurilayotgan imoratlarning zichligi, qarama-qarshi yo'nalishda kelayotgan transport vositalarining zichligi va boshqalar. Shuningdek, ko'pgina to'xtamlarga kelish mumkin. "Tormoz ishlamay qolganda nima qilish kerak?" degan savolga barcha holatlarga to'g'ri keladigan javob berib bo'lmaydi. Shunday qilib, xavfli vaziyatda eng asosiy narsa bu: o'ziga ishonish va osoyishtalikni saqlash; kelib chiqqan holatni tezda baholash; inson hayotiga xavf-xatar solmaydigan va ziyon etkazmaydigan qaror qabul qilish va qabul qilingan qarorni amalga oshirayotgan vaqtda vaziyatning o'zgarishi natijasida taktikani o'zgartirishga tayyor turish.
+d0131	YHQ 9 bob62-bandiga asosan, piyodalarning o'tish joylarida qayrilib olish taqiqlanadi.
+d0132	YHQ 3-ilova 5.1-band.
+d0133	YHQ 16-bobi 105-bandiga asosan, teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ng tomondan yaqinlashib kelayotgan transport vositalariga yo'l berishi shart. YHQ 6-bobi 29-bandiga asosan, zarg'aldoq yoki sariq rangli chiroq-mayoqchasi yoqilgan transport vositasi haydovchilari yo'l qurulishi ta'mirlanishi va tozalanishi jarayonida xamda texnik shikastlangan, nosoz bo'lgan, shuningdek qonunda ko'zda tutilgan hollarda boshqa transport vositalarini ortishda yo'l harakati xavfsizligini ta'minlash sharti bilan, Qoidalar Yo'l belgilari (2.2, 2.4.-2.6,3.11.-3.14,3.17.2,3.20 yo'l belgilaridan tashqari) yo'l chiziqlari hamda 67-71 va 121 bandlari talablaridan chetga chiqishlari mumkin.
+d0134	YHQ 1-ilova 5-bo'lim 5.7.1, 5.7.2 yo'l belgilari. rasmdagi 4-belgi o'rniga bu belgini qo'yish
+d0135	YHQ 2-ilova 1-bo'lim 1.11 yotiq chizig'i.
+d0136	YHQ 18-bobi 118-bandiga asosan, temir yo'l kesishmasiga kirish quyidagi hollarda taqiqlanadi: shlagbaumning bor-yo'qligidan, uning holatidan qat'iy nazar, svetoforning taqiqlovchi ishorasida.
+d0137	V.I.Konoplyanko 8 bet. Haydovchi, yo'lovchilar hamda mahkamlanmagan yuk birdan tormozlash, to'qnashuv yoki avtomobilning keskin to'xtashidan keyin avtomobil to'xtashidan oldin mavjud harakat tezligini saqlagan holda harakatda davom etadilar. Aynan shu vaqtda jarohatlarning ko'pgina qismi boshning old peshoynaga, ko'krak qismining rul chambaragi va rul kolonkasiga, tizzaning asboblar o'rnatilgan shchit qirrasiga urilishi natijasida yuzaga keladi. Yuk siljishi natijasida avtomobil muvozanatini yo'qotib, ag'darilishi mumkin. Shu bois, harakatdan oldin haydovchi va yo'lovchilar xavfsizlik kamarini taqishi, yuk mahkamlanishi lozim.
+d0138	YHQ 163-band.
+d0139	YHQ 2-ilovasining 1-bo'limi 1.14.2 (zebra) chizig'i - tartibga solinmagan va solingan piyodalarning o'tish joyini belgilaydi. Belgining ishorali yo'naltirgichlari piyodalarning harakatlanish yo'nalishini ko'rsatadi.
+d0140	Yu.V.Bashuev.K.A.Karimova str.25 Sirpanchiq yo'lda surilish hollari avtomobil g'ildiraklarining shataksirashi (joyida aylanishi) natijasida harakatning birdan tezlashishidan kelib chiqadi. Bu holda surilish sabablarini bartaraf qilish, ya'ni yonilg'i o'tishini boshqaruvchi tepkisini (drossel zaslonkasi keskin ochilishi g'ildiraklarni joyida aylanishiga olib keladi) bosishni kamaytirish lozim.
+d0141	YHQ 26-band.
+d0142	YHQ 1-ilovasining 7-bo'limi 7.19 belgisi yo'l harakati qatnashchilarining harakatlari maxsus avtomatlashtirilgan foto va video qayd etish texnika vositalari orqali qayd etilayotganligini bildiradi.
+d0143	YHQ 2-ilovasining 1-bo'limi 1.11 chizig'iga asosan, 1.11 chizig'ini uzuq-uzuq tomondan, shuningdek, sidirg'a chiziq tomonidan esa faqat quvib yoki chetlab o'tishni tugatayotganda bosib o'tishga ruxsat etiladi.
+d0144	YHQ 104, 106-bandlar.
+d0145	YHQ 51, 93, 136-bandlari.
+d0146	YHQ 1-ilovasining 3-bo'limi 3.19 belgi talabiga asosan, faqat qayrilish taqiqlanadi.
+d0147	YHQ 140-band.
+d0148	YHQ 3-ilovasining 5-bo'limi 5.3-bandiga asosan, transport vositalaridan foydalanishni taqiqlovchi shartlar: qo'shaloq shinalar orasiga xavf-xatar tug'diruvchi begona jismlar tiqilib qolganda.
+d0149	YHQ 14-bobi 97-bandiga asosan, tirbandlik tufayli to'xtashga majbur bo'lgan haydovchi, agar u ko'ndalang yo'nalishdagi transport vositalarining harakatlanishiga to'sqinlik tug'diradigan bo'lsa, uning chorraha yoki qatnov qismlari kesishmasiga kirishi taqiqlanadi.
+d0150	YHQ 1-ilova 4-bo'lim 4.1.1 yo'l belgisi.
+d0151	YHQ 1-ilovasining 4-bo'limidagi 4.7 belgiga asosan, "Eng kam tezlik" belgisi faqat unda ko'rsatilgan yoki undan yuqori tezlikda (km/soat) harakatlanishga ruxsat etiladi.
+d0152	Konoplyanko V.I. 13 bet To'xtash yo'liga haydovchining xavf-xatarni sezgan vaqtidan boshlab transport vositasining butunlay to'xtagunga qadar yurib o'tgan masofasi tushuniladi. To'xtash yo'li doim tormoz yo'lidan ko'proq bo'ladi, chunki tormozlanish boshlanishidan avval transport vositasi haydovchining reaktsiya vaqti va tormoz uzatmasining ishlab ketish vaqtiga bog'liq bo'lgan masofadan o'tib oladi.
+d0153	YHQ 159-band.
+d0154	YHQ 1-ilovasining 3-bo'limidagi 3.9 belgiga asosan, "Velosipedda harakatlanish taqiqlangan". Velosiped va mopedlarning harakatlanishi taqiqlanishini bildiradi.
+d0155	YHQ 22-bobi 132-bandiga asosan, agar bu bo'lak 5.9 belgisi bilan belgilangan va yo'l qatnov qismi boshqa joyidan uzuq-uzuq chiziq bilan ajratilgan bo'lsa, burilmoqchi bo'layotgan transport vositalari bu bo'lakka qayta tizilishlari kerak. Shuningdek, bunday joylarda belgilangan yo'nalishdagi transport vositalarining harakatiga xalaqit bermaslik sharti bilan yo'lga chiqish, qatnov qismining chetki o'ng tomonida yo'lovchilarni chiqarish va tushirish uchun bu bo'lakka o'tishga ruxsat etiladi.
+d0156	YHQ 109-band.
+d0157	YHQ 104, 106-bandlari.
+d0158	E.V.Bocharov 40-48 bet. Burilishlarda yo'lovchisi va yuki bo'lmagan avtomobillar ko'proq muvozanat saqlab qoladi, chunki bunday avtomobilda og'irlik markazi eng past joylashgan bo'lib, eng kam ag'darilish ehtimoliga ega bo'ladi.
+d0159	YHQ 55-band.
+d0160	YHQ 24-bobi 145-bandi 1-xatboshiga asosan, shatakka olish quyidagi hollarda taqiqlanadi: rul boshqaruvi ishlamayotgan transport vositalarini (qisman ortish usuli bilan shatakka olish bundan mustasno).
+d0161	YHQ 15-band.
+d0162	YHQ 2-ilovasining 1-bo'limidagi 1.19 chizig'iga asosan, harakatlanish qismining toraygan (shu yo'nalishdagi harakatlanish bo'laklarining soni kamaygan) joyiga yoki qarama-qarshi yo'nalishdan kelayotgan transport vositalari oqimlarini ajratuvchi 1.1 yoki 1.11 chizig'iga yaqinlashganlik haqida ogohlantiruvchi chizig'i. Birinchi holda 1.18.1-1.18.3 yo'l belgilari bilan qo'llanilishi mumkin.
+d0163	YHQ 18-bobi 120-bandi 5-xatboshiga asosan, to'xtash ishorasi qo'lni (kunduzi yorqin mato parchasi yoki aniq ko'rinadigan biror narsa bilan, tunda esa mash'ala yoki chiroq bilan) gir aylantirish orqali beriladi.
+d0164	YHQ 9-bobi 55-bandiga asosan, yo'lakay yo'nalishda harakatlanayotgan transport vositalari bir vaqtda qayta tizilayotganda, haydovchi o'ng tomondagi transport vositasiga yo'l berishi kerak.
+d0165	YHQ 169-band.
+d0166	YHQ 22-band.
+d0167	YHQ 1-ilovasining 5-bo'limi 5.11.1 belgisiga asosan, "Qayrilib olish joyi". Chapga burilish taqiqlanadi
+d0168	YHQ 137-band.
+d0169	YHQ 66-band.
+d0170	V.I.Konoplyanko str.12-16 Tormoz yo'lining kamayishi blokirovka chegarasida erishiladi, chunki blokirovka qilingan g'ildiraklar aylanmay (sirg'anib to'xtash) yo'lda sirg'anadi va tormoz yo'lini uzaytiradi.
+d0171	YHQ 12-band, 3-ilova 6.2-band.
+d0172	YHQ 24-bobi 145-bandi 6-xatboshiga asosan, shatakka olish quyidagi hollarda taqiqlanadi: yo'l yaxmalak, sirpanchiq bo'lgan hollarda egiluvchan ulagichda.
+d0173	YHQ 1-ilova 3-bo'lim 3.22 yo'l belgisi.
+d0174	YHQ 2-ilovasi 1-bo'lim 1.9-bandiga asosan chiziq, reversiv harakat tashkil etilgan bo'laklarning chegarasini belgilaydi. Reversiv harakatlanish amalga oshirilgan yo'llarda (reversiv svetofori o'chirilgan holatda) qarama-qarshi yo'nalishdagi transport oqimini ajratadi.
+d0175	YHQ 118-band.
+d0176	YHQ 73-band.
+d0177	YHQ 82-band.
+d0178	YHQ 50, 93-bandlar.
+d0179	V.I.Konoplyanko str.12-16 Inertsiya kuchi ta'siri ostida avtomobilni tormozlash vaqtida o'qlarga tushadigan inertsiya kuchi miqdorining taqsimlanishi o'zgaradi. Natijada old o'qqa og'irlik ko'payadi, orqa o'qqa nisbatan kamayadi. Tormozlash intensivligi qanchalik baland bo'lsa, o'qlarga tushadigan og'irlik miqdorining taqsimlanishi sezilarliroq bo'ladi. Orqa o'qda og'irlik kamayishi bilan g'ildirakni yo'lga bosish kuchi kamayadi; shunday ekan g'ildirakning sirg'anish (aylanmasdan siljish) va avtomobilning surilib ketishi ehtimoli yuzaga keladi. Old o'qda og'irlik ko'payishi g'ildirakni yo'lga bosish kuchini ko'paytiradi, shunda sirg'anish ehtimoli kamayadi.
+d0180	YHQ 2-bobi 8-bandiga asosan, tegishli toifadagi transport vositasini boshqarish huquqini beruvchi haydovchilik guvohnomasiga, uning taloniga, vaqtinchalik ruxsatnomasiga ega bo'lgan shaxs, o'ziga tegishli bo'lmagan transport vositasini, uni egasi yonida bo'lganda yoxud tasarruf etish huquqini beruvchi yoki egalik qilishga, foydalanishga berilganligini tasdiqlovchi xujjatlari bo'lgan shaxs ishtirokidagina (ular roziligi bilan) boshqarish mumkin, agar transport vositalari egalarining fuqarolik javobgarligini majburiy sug'urta qilish bo'yicha shartnoma ushbu transport vositasidan cheklanmagan shaxslarning foydalanishini hisobga olgan holda tuzilgan yoki transport vositasini boshqarayotgan shaxs sug'urta polisida ko'rsatilgan bo'lsa.
+d0181	YHQ 1-ilova 3-bo'lim 3.7 yo'l belgisi.
+d0182	YHQ 2-ilova 1-bo'lim 1.13 yotiq chizig'i
+d0183	YHQ 79-band.
+d0184	Yu.V.Bashuev.K.A.Karimova 33 bet. Yod nastoykasi jarohat ichida to'qimaning kimyoviy shikastlanishiga olib keladi. Ushbu qorishma surtilganda terining tashqi qatlami shikastlanmaydi, balki foydali ravishda dezinfektsiya qilinadi va bu jarayonni bog'lashdan avval amalga oshirish kerak.
+d0185	YHQ 138, 156-bandlari.
+d0186	YHQ 26, 105-bandlari.
+d0187	YHQ 1-ilovasining 1-bo'limidagi 1.22 belgi "Velosiped yo'lkasi bilan kesishuv"ni bildiradi.
+d0188	YHQ 18-bobi 119-bandiga asosan, kesishma orqali harakatlanish taqiqlangan hollarda haydovchi to'xtash chizig'i, 2.5 yo'l belgisi yoki svetofor oldida, ular bo'lmaganda shlagbaumgacha kamida 5 metr, shlagbaum bo'lmaganda esa birinchi temir yo'l iziga kamida 10 metr qolganda to'xtashi kerak.
+d0189	YHQ 3-ilova 7.1-band.
+d0190	YHQ 1-ilovasining 4-bo'limidagi 4.7 belgi talabiga asosan, "Eng kam tezlik" faqat belgida ko'rsatilgan yoki undan yuqori tezlikda (km/soat) harakatlanishga ruxsat etiladi.
+d0191	YHQ 48-band.
+d0192	YHQ 20-bobi 126-bandiga asosan, turar-joy dahalaridan chiqishda haydovchilar boshqa harakat qatnashchilariga yo'l berishlari kerak.
+d0193	YHQ 154-band.
+d0194	YHQ 2-ilovasining 1-bo'limidagi 1.23 chizig'i faqat yo'nalishli transport vositalari uchun mo'ljallangan bo'lakni bildiradi.
+d0195	YHQ 32-band.
+d0196	E.V.Bocharov 40-44 bet.Burilishda o'tayotgan vaqtda haydovchi shuni inobatga olishi lozimki, avtomobil harakati tezligi kattalashganida markazdan qochma kuch ortadi va transport vositasini ag'darilishiga olib kelishi mumkin.
+d0197	YHQ 128-band.
+d0198	YHQ 1-ilova 3-bo'lim 3.28 yo'l belgisi.
+d0199	E.V.Bocharov str.40-44 Avtopoezd bilan bir vaqtda burilishni o'tayotganda ushbu trasport vositasigacha bo'lgan yon oraliq masofasini ko'paytirishingiz lozim, chunki avtopoezd (tirkama)ning orqa g'ildiraklari burilish markazi tomon siljiydi va avtopoezd harakat bo'lagi kattalashadi.
+d0200	YHQ 1-ilova 7-bo'lim 7.18 yo'l belgisi.
+d0201	YHQ 1-ilova 1-bo'lim 1.11.2 yo'l belgisi.
+d0202	YHQ 19-bo'limi 121-bandi 6-xatboshiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: transport vositasini o'rganish uchun boshqarish taqiqlanadi.
+d0203	Yu.V.Bashuev.K.A.Karimova str.27 Keskin tormoz berish - bu birdan paydo bo'lgan yoki kech ko'rib qolingan to'siqqa kelib urilishning oldini olish uchun katta intensivlik (jadallik) bilan tormoz berish tushuniladi. Shu bois, masalan yosh bolaning yo'lda birdan paydo bo'lish ehtimolini inobatga olgan holda haydovchi keskin tormoz berish vaqtida o'zini qanday tuta olishini bilishi lozim. Bunda quyidagi usullar mavjud: rul chambaragini ikki qo'lingiz bilan mahkam ushlang; avtomobil g'ildiraklarini blokirovka qilmang, chunki g'ildiraklarning uzunasiga sirg'alishi tormoz yo'lini qisqartirmaydi; harakatda to'xtab turish tormozini qo'llamang, chunki bu hol orqa g'ildiraklarning sirg'alishini kuchaytirishi mumkin. Tormoz tepkisini qattiq (shiddat bilan emas) va ravon, shinaning yo'lga nisbatan ilashishiga qarab, kuchaytirib bosish darkor. Keskin tormoz berish vaqtida ham avtomobil ustidan nazoratni yo'qotmang.
+d0204	YHQ 1-ilova 1-bo'lim 1.10 yo'l belgisi.
+d0205	YHQ 104, 107-bandlar.
+d0206	YHQ 77-band.
+d0207	YHQ 1-ilova 7-bo'lim 7.6.1 yo'l belgisi.
+d0208	YHQ 159-band
+d0209	YHQ 5-bobi 24-bandi 1-xatboshiga asosan, yo'lovchilarga transport vositasi harakatlanayotgan vaqtda haydovchini boshqarishdan chalg'itish va unga halaqit berish taqiqlanadi
+d0210	YHQ 2-ilova 1-bo'lim 1.4, 1.10, 1.17 yotiq chiziqlari.
+d0211	YHQ 2-ilova 1-bo'lim 1.8 yotiq chizig'i.
+d0212	E.V.Bocharov str.22-25 O'zining tormoz tizimi mavjud bo'lmagan tirkamani ulash vaqtida ulangan transport vositalarining umumiy vazni kattalashgani bois avtomobilning tormoz yo'li ortadi. Avtopoezdni faqat yo'lning to'g'ri uchastkalarda to'xtatish mumkin, bunda uning to'liq vazni bir chiziqda bo'lishi kerak. Aylana yo'lda shatakchi avtomobilning ag'darilishi, yo'l chetidagi ariqqa chiqib ketishi yoki shatakchi moslamaning ishdan chiqishiga olib keluvchi tirkamaning surilib ketishi yoki avtopoezdning buklanishi yuzaga kelishi mumkin.
+d0213	YHQ 2-ilova 1-bo'lim 1.16.1-1.16.3 yotiq chiziqlari.
+d0214	YHQ 1-ilova 5-bo'lim 5.8.1 yo'l belgisi.
+d0215	YHQ 79, 80-bandlari.
+d0216	YHQ 69-band.
+d0217	V.I.Konoplyanko 39-40 str. Haydovchi toliqishining o'ziga xos alomatlariga uyqu kelishi, lanjlik va diqqatning pasayishi kiradi. Bu holatda transport vositasini boshqarish xavfli bo'lganligi bois, taqiqlangan.
+d0218	YHQ 1-ilova 1-bo'lim 1.23 yo'l belgisi, 7-bo'lim 7.12 yo'l belgisi
+d0219	YHQ 2-ilova 1-bo'lim 1.6 yotiq chizig'i.
+d0220	YHQ 17-bobi 114-bandiga asosan, agar yo'lovchilarni tushirish yoki chiqarish qatnov qismida yoki unda joylashgan maydonchada amalga oshirilayotgan bo'lsa, haydovchilar bekatda to'xtagan belgilangan yo'nalishdagi transport vositasiga chiqish uchun borayotgan yoki undan kelayotgan piyodalarga yo'l berishi kerak.
+d0221	YHQ 15-bobi 101-bandiga asosan, agar svetofor yoki tartibga soluvchining ishoralari tramvay va relssiz transport vositalariga bir vaqtda harakatlanishga ruxsat bersa, harakatlanish yo'nalishidan qat'iy nazar, tramvay oldin o'tish huquqiga ega bo'ladi.
+d0222	YHQ 103-band
+d0223	YHQ 21-band.
+d0224	YHQ 1-ilova 7-bo'lim 7.2.1 yo'l belgisi.
+d0225	YHQ 16-bobi 105-bandiga muvofiq, teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ngdan yaqinlashib kelayotgan transport vositalariga yo'l berishi shart. Bu qoidaga tramvay haydovchilari ham o'zaro amal qilishlari kerak. Bunday chorrahalarda, keyingi harakat yo'nalishidan qat'iy nazar, tramvay relssiz transport vositalariga nisbatan oldin o'tish huquqiga ega bo'ladi.
+d0226	YHQ 81-band.
+d0227	Yu.V.Bashuev.K.A.Karimova str.33 Bosh miya suyagi shikastlangan jabrlanuvchi faqat maxsus jihozlangan tez tibbiy yordam yoki qutqarish xizmati avtomobillarida tashiladi.
+d0228	YHQ 63, 121-bandlari.
+d0229	E.V.Bocharov str.33 Yo'l-transport hodisasining oldini olish zaruriyati bo'lmaganda keskin tormoz berish taqiqlanadi.
+d0230	YHQ 23-band.
+d0231	YHQ 2-ilova 1-bo'lim 1.18 yotiq chizig'i.
+d0232	YHQ 32-band. O'z Res Konstitutsiyasi 20-modda.
+d0233	YHQ 117-band.
+d0234	YHQ 11-bobining 79-bandi 3-xatboshisiga muvofiq, aholi punktlaridan tashqarida - boshqa avtobuslar, tirkamali engil avtomobillar, mototsikllar, ruxsat etilgan to'la vazni 3,5 tonnadan ortiq bo'lgan yuk avtomobillariga tezlikni soatiga 80 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi
+d0235	YHQ 1-ilova 3-bo'lim 3.28 yo'l belgisi va YHQ 88-band.
+d0236	YHQ 1-ilova 3-bo'lim 3.4 yo'l belgisi.
+d0237	YHQ 106-band.
+d0238	YHQ 22-bobi 133-bandiga asosan, haydovchilar aholi punktlarida bekatdan harakatlanishni boshlayotgan avtobus va trolleybuslarga yo'l berishlari kerak. O'z navbatida avtobus va trolleybus haydovchilari o'zlariga yo'l berilganligiga ishonch hosil qilganliklaridan keyingina harakatlanishni boshlashlari mumkin.
+d0239	YHQ 1-ilova 3-bo'lim 3.28 yo'l belgisi va YHQ 92-band.
+d0240	E.V.Bocharov str.33 Keskin tormoz berish oqibatida blokirovka bo'lgan g'ildiraklarga rul chambaragining burilishi ta'sir qilmaydi. Sirpanchiq yo'lda dvigatel orqali, g'ildiraklarni blokirovka qilmasdan tormoz berish samarali tormoz berishga yordam beradi.
+d0241	YHQ 26, 104, 106-bandlari.
+d0242	YHQ 96-band.
+d0243	YHQ 15-bobi 99, 101-bandlariga asosan, svetoforning yashil ishorasida chapga burilayotgan yoki qayrilib olayotgan relssiz transport vositasining haydovchisi qarama-qarshi tomondan to'g'riga harakatlanayotgan va o'ngga burilayotgan transport vositalariga yo'l berishi shart. Tramvay haydovchilari ham o'zaro ushbu qoidaga amal qilishlari kerak. Agar svetofor yoki tartibga soluvchining ishoralari tramvay va relssiz transport vositalariga bir vaqtda harakatlanishga ruxsat bersa, harakatlanish yo'nalishidan qat'iy nazar, tramvay oldin o'tish huquqiga ega bo'ladi.
+d0244	YHQ 112-band.
+d0245	V.I.Konoplyanko str.76 Suv kechuvlaridan o'tgandan keyin, tormoz kolodkalarini quritish joiz. Tormoz tepkisini ko'p marotaba qisqa-qisqa bosish avtomobilning barcha g'ildiraklari tormozlarining samaradorligini qayta tiklaydi.
+d0246	YHQ 1-ilova 3-bo'lim 3.27 yo'l belgisi, 7-bo'lim 7.18 yo'l belgisi.
+d0247	YHQ 1-ilova 3-bo'lim 3.31 yo'l belgisi.
+d0248	YHQ 1-ilova 4-bo'lim 4.1.1 yo'l belgisi, 5-bo'lim 5.5 yo'l belgisi.
+d0249	Yu.V.Bashuev.K.A.Karimova str.34 Suyak siniqlarining bir biriga nisbatan qo'zg'almasligini ta'minlash uchun ko'krak qafasiga bog'ich tarang qilib bog'lanadi. Bu holda nafas olish o'tirgan holatda erkin bo'lgan ko'krak-qursoq diafragma pardasi harakatlari hisobiga amalga oshiriladi.
+d0250	YHQ 64-band.
+d0251	V.I.Konoplyanko str.58-59 Tuproqli yo'lda chuqur qor bo'ylab oldindan tanlangan pastki uzatmada rul chambaragini keskin burmasdan va to'xtamasdan harakatda bo'lish ushbu uchastkada yuzaga keluvchi katta qarshilik kuchini bartaraf qilish uchun zarur bo'lgan quvvat zapasi bilan ta'minlaydi.
+d0252	YHQ 2-ilova 1-bo'lim 1.16.2 yotiq chizig'i va 1.1 yotiq chizig'i.
+d0253	YHQ 84-band.
+d0254	YHQ 8-bobi 46-bandi 1-xatboshisiga asosan, burilish ko'rsatgichi yoki qo'l bilan berilayotgan ishora manyovrni bajarishdan oldinroq berilishi va uni tugallagach darhol to'xtatilishi lozim biroq, qo'l bilan berilayotgan ishorani manyovr qilishdan bevosita oldin tugallash mumkin.
+d0255	YHQ 29-bobi 176-bandida berilgan 1-izohga asosan, "Avtopoezd" - yuk avtomobillari va g'ildirakli traktor (1,4 tonna va undan yuqori)larda tirkama bo'lganda, shuningdek, tutashtirilgan avtobus va trolleybus kabinalari tomining old qismi o'rtasiga bir qator qilib 150 mm.dan 300 mm.gacha oraliqda ko'ndalang joylashgan uchta zarg'aldoq rangli chiroq yoki ichidan yoritiladigan, tomonlarning har biri 250 mm bo'lgan sariq rangli uchburchak shaklidagi belgi.
+d0256	YHQ 2-ilova 1-bo'lim 1.12 yotiq chizig'i.
+d0257	YHQ 115-band.
+d0258	YHQ 80-band.
+d0259	YHQ 9-bobi 55-bandiga asosan, haydovchi qayta tizilishda yon bo'lakda harakat yo'nalishini o'zgartirmasdan harakatlanayotgan transport vositalariga yo'l berishi kerak.
+d0260	YHQ 1-ilova 4-bo'lim 4.4 yo'l belgisi.
+d0261	YHQ 1-ilovaning 5-bo'limidagi 5.29.1 "Yo'l raqami" belgisi.
+d0262	YHQ 19-bobi 121-bandi 4-xatboshiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: ajratuvchi bo'lakning texnologik uzilish joylariga kirish va qayrilib olish.
+d0263	YHQ 8-bobi 45-bandiga asosan, harakatlanishni boshlashdan, qayta tizilishdan, burilish (qayrilib olish)dan va to'xtashdan oldin haydovchi tegishli yo'nalishni bildiruvchi burilish yorug'lik ko'rsatgichi, ular bo'lmaganda yoki nosoz bo'lganda qo'l bilan ishora qilishi shart.
+d0264	YHQ 1-ilova 4-bo'lim 4.1.4 yo'l belgisi.
+d0265	YHQ 7-bobi 38-bandiga muvofiq, tartibga soluvchining QO'LLARI YoN TOMONGA UZATILGANDA YoKI TUShIRILGANDA, chap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat beriladi. Oldi va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi; O'NG QO'LI OLDINGA UZATILGANDA, chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo'nalishlarda, oldi tomonidan barcha transport vositalariga faqat o'ngga harakatlanishga ruxsat beriladi. Orqa tomonidan va o'ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi. Piyodalarga tartibga soluvchining orqa tomonidan qatnov qismini kesib o'tishga ruxsat etiladi.
+d0266	YHQ 46-band.
+d0267	V.I.Konoplyanko str.65 Burilishdan o'tayotgan haydovchi shuni inobatga olishi lozimki, avtomobil harakati tezligi kattalashganida markazdan qochma kuch tezlik kvadratiga mos ravishda ortadi va transport vositasining ag'darilishiga olib kelishi mumkin.
+d0268	YHQ 1-ilovasining 4-bo'limidagi 4.1.3 belgi "Harakatlanish chapga" - faqat yo'naltirgichlar ko'rsatgan tomonga harakatlanishga ruxsat etiladi.
+d0269	YHQ 133-band.
+d0270	YHQ 38-band.
+d0271	YHQ 66, 86-bandlari.
+d0272	V.I.Konoplyanko str.11-12 str. Sirpanchiq yo'lda to'xtatish tepkisini uzuq-uzuq bosib, uzatma va ilashish mexanizmini ajratmagan, dvigatel bilan tormozlanishni ishlatgan hamda g'ildiraklarning blokirovkasi (sirg'anish)ga yo'l qo'ymagan holda to'xtatish lozim.
+d0273	YHQ 1-ilova 3-bo'lim 3.17.1 yo'l belgisi.
+d0274	YHQ 113-band.
+d0275	YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining QO'LLARI YoN TOMONGA UZATILGANDA YoKI TUShIRILGANDA, chap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat beriladi. Oldi va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi.
+d0276	YHQ 88, 91-bandlari.
+d0277	YHQ 59-band.
+d0278	YHQ 31-band.
+d0279	YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining qo'llari yon tomonga uzatilganda yoki tushirilganda, chap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat etiladi. Oldi va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi.
+d0280	Yu.V.Bashuev.K.A.Karimova str.33 O'pkaning sun'iy ventilyatsiyasi samarali bo'lishi uchun nafas olish yo'llariga havoning erkin o'tishini ta'minlash zarur. Og'iz bo'shlig'i shilliq, qon, qusuq va boshqa jismlardan xoli ekanligiga ishonch hosil qilish kerak. To'qimalarga kislorod kelishi va qon aylanishini ta'minlash uchun o'pkaga kislorod kelishini kuchaytirish bilan birga yurak urish faoliyatini qayta tiklashga darhol kirishish lozim.
+d0281	YHQ 3-ilova 1.3-band.
+d0282	YHQ 1-ilovasining 3-bo'limidagi 3.7 belgi talabiga asosan, "Tirkama bilan harakatlanish taqiqlangan" belgisi istalgan turdagi tirkamali avtomobil va traktorlarning hamda barcha turdagi transport vositalarining shatakka olib harakatlanishini taqiqlaydi.
+d0283	YHQ 1-ilova 5-bo'lim 5.34.1 yo'l belgisi.
+d0284	YHQ 2-ilovasining 1-bo'limidagi 1.1 chizig'i yo'lning kirish taqiqlangan qismi chegarasini bildiradi.
+d0285	YHQ 16-bobi 105-bandiga asosan, teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ngdan kelayotgan transport vositalariga yo'l berishi shart. Bu qoidaga tramvay haydovchilari ham o'zaro amal qilishlari kerak. Bunday chorrahalarda, keyingi harakat yo'nalishidan qat'iy nazar, tramvay relssiz transport vositalariga nisbatan oldin o'tish huquqiga ega bo'ladi.
+d0286	Yu.V.Bashuev.K.A.Karimova str.33 Agar jabrlanuvchida yurak urishi faoliyati va nafas olishi to'xtagan bo'lsa, yurakning tashqi massaji bilan birga sun'iy nafas oldirish amalga oshiriladi. Bunday hollarda tin (nafas) olish oraliqlarida ko'krak qafasi 30 marta keskin bosiladi.
+d0287	YHQ 1-ilovasining 3-bo'limidagi 3.19 belgi talabiga asosan, "Qayrilish taqiqlangan" belgi o'rnatilgan birinchi chorrahagacha qayrilishni taqiqlaydi. Belgi chapga burilishni taqiqlamaydi.
+d0288	YHQ 3-ilova 1.4-band.
+d0289	Yu.V.Bashuev.K.A.Karimova str.26 Shinalarning birida bosimning kamayishi uning aylanishiga qarama-qarshiligini kuchaytiradi va ko'ndalang qattiqligini kamaytiradi. Shuning uchun bosimi bo'lmagan shina bilan avtomobil yon tomonga og'adi. Boshqarishni saqlab qolish uchun haydovchi rul chambaragini ushlab turib, tezlikni pasaytirishi va to'xtashi lozim.
+d0290	YHQ 1-ilova 1-bo'lim 1.3.1 yo'l belgisi.
+d0291	YHQ 2-ilova 1-bo'lim 1.2 yotiq chizig'i.
+d0292	YHQ 91, 87-bandlar.
+d0293	YHQ 12-bobi 86-bandi 4-xatboshiga asosan, quvib o'tish quyidagi hollarda taqiqlanadi: temir yo'l kesishmalarida va ulargacha 100 metrdan kam masofa qolganda.
+d0294	YHQ84 ,47-bandiga muvofiq, quvib o'tilayotgan transport vositasining haydovchisiga harakat tezligini oshirish yoki boshqa xatti-harakatlar bilan quvib o'tishga to'sqinlik qilish taqiqlanadi.Haydovchi harakat yo'nalishini o'zgartirish haqidagi ogohlantiruvchi ishorani berishdan oldin orqadan kelayotgan, uni quvib o'tishni boshlagan va boshqa harakat ishtirokchilariga xalaqit bermayotganligiga ishonch hosil qilishi kerak.
+d0295	Yu.V.Bashuev.K.A.Karimova str. 23 Bir o'qda o'rnatilgan (chap va o'ng) shinalar naqshining ustki shakli va uning eyilganlik darajasi barcha hollarda bir xil bo'lishi lozim, chunki bu hol tormozlanayotganda avtomobilning muvozanatini ta'minlovchi shartlardan biri hisoblanadi. Ushbu tartib inobatga olinmasa tormozlanish vaqtida har xil tormoz kuchlari yuzaga kelib, muvozanatni yo'qotishga olib keluvchi hollarni vujudga keltiradi. Avtomobilning naqshi eyilgan shina tomoni oldinga intilib, aks tomoni orqada qoladi. Bu holda avtomobil bir tomonga siljib, maqbul bo'lmagan sharoitlarda muvozanatini yo'qotib, ag'darilishi mumkin.
+d0296	YHQ 1-ilova 5-bo'lim 5.8.3 yo'l belgisi.
+d0297	YHQ 91, 132-bandlari.
+d0298	YHQ 70-band.
+d0299	Yu.V.Bashuev.K.A.Karimova str.34 Suyak siniqlarining bir biriga nisbatan qo'zg'almasligini ta'minlash uchun boldirni ikki taxtakach orasida mahkamlab, boldir-tovon bo'g'in va tizza bo'g'inining harakatini chegaralash lozim.
+d0300	YHQ 1-ilova 1-bo'lim 1.1 yo'l belgisi.
+d0301	YHQ 144-band.
+d0302	YHQ 25, 26-bandlari.
+d0303	YHQ 11-bobi 79-bandiga asosan, aholi punktlaridan tashqarida shaharlararo qatnaydigan avtobuslarga va mikroavtobuslarga tezlikni soatiga 90 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi.
+d0304	YHQ 24-bobi 145-bandiga asosan, yo'l yaxmalak, sirpanchiq bo'lgan hollarda egiluvchan ulagichda shatakka olish taqiqlanadi.
+d0305	YHQ 1-ilovasining 7-bo'limidagi 7.6.1-7.6.9 qo'shimcha axborot belgilari "Transport vositasini to'xtab turish joyiga qo'yish usuli" belgilaridir.
+d0306	YHQ 2-ilova 1-bo'lim 1.4 yotiq chizig'i va 1-ilova 3-bo'lim 3.27 yo'l belgisi.
+d0307	YHQ 72-band.
+d0308	YHQ 11-bobi 79-bandi 2-xatboshiga asosan, aholi punktlaridan tashqarida shaharlararo qatnaydigan avtobuslarga va mikroavtobuslarga tezlikni soatiga 90 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi.
+d0309	YHQ 24-bobning 143-bandiga muvofiq, qattiq yoki egiluvchan ulagich yordamida shatakka olingan avtobusda,trolleybusda va yuk avtomobili yukxonasida odam tashish, qisman ortish yo'li bilan shatakka olishda esa shatakka olingan transport vositasining kabinasida va yukxonasida, shuningdek, shatakka olgan transport vositasining yukxonasida odamlar bo'lishi ta'qiqlanadi.
+d0310	YHQ 2-ilova 1-bo'lim 1.9 yotiq chizig'i.
+d0311	Yu.V.Bushuev,K.A.Karimova str.34 Etillangan benzin (tetraetilqo'rg'oshin qo'shilgan benzin)ning birdan katta miqdori havoga ajralishidan o'tkir zaharlanish kelib chiqadi va unda ko'ngil aynish, qusish, holsizlanish, bosh aylanishi, ishtahaning yo'qolishi hollari yuzaga keladi. Og'izda metall ta'mi, tilda yot jizm sezilishi kabilar o'ziga xos belgilaridan biridir. Og'ir holatlarda asabiylashish, chayqalib yurish, alahsirash, ko'rish va eshitishga oid gallyutsinatsiyalar va tomir tortishlar kuzatiladi. Etillanmagan benzindan ham zaharlanish mumkin. Shu kabi zaharlanishning alomatlari etillangan benzindan zaharlanishni eslatadi, biroq engilroq tarzda o'tadi.
+d0312	YHQ 1-ilovasining 3.18.2 belgisi talabiga muvofiq, "Chapga burilish taqiqlangan" belgisi o'rnatilgan kesishmaga taluqli. Belgi orqaga qayrilib olishni taqiqlamaydi.
+d0313	YHQ 2-ilovasining 1-bo'limidagi 1.10 chizig'i yo'lning harakatlanish qismi chetiga yoki yo'l chetidagi to'siq (bordyur) ustidan chizilgan sariq chiziq to'xtab turishni taqiqlaydi. O'zi alohida yoki 3.28 "To'xtab turish taqiqlangan" belgisi bilan qo'llanilishi mumkin.
+d0314	18-bobning 119-bandiga muvofiq, kesishma orqali harakatlanish taqiqlangan hollarda haydovchi 5.1 to'xtash chizig'i, 2.5 yo'l belgisi yoki svetofor oldida, ular bo'lmaganda shlagbaumgacha kamida 5 metr, shlagbaum bo'lmaganda esa birinchi temir yo'l iziga kamida 10 metr qolganda to'xtashi kerak.
+d0315	YHQ 7-bobi 32-bandi 3-xatboshiga asosan, qo'shimcha tarmoqdagi ishora o'chirilgan bo'lsa, shu tarmoq tartibga solayotgan yo'nalishda harakatlanish taqiqlanganligini bildiradi.
+d0316	YHQ 12-bobi 80-bandi 4-xatboshiga asosan, har qanday yo'llarda: - xavfli, og'ir vaznli va katta o'lchamli yuklarni tashiyotgan, tashkiliy jamlanmada harakatlanayotgan transport vositalariga DYHXX bilan kelishilgan tezlikdan oshirmasdan harakatlanishga ruxsat etiladi.
+d0317	YHQ 177-band.
+d0318	YHQ 138-band.
+d0319	Yu.V.Bushuev,K.A.Karimova str.34 Qon to'xtatish jguti yilning sovuq fasllarida bir soatdan ortiq bo'lmagan vaqtga qo'yiladi. Jgut qo'yilishi barcha quyi joylashgan to'qimalarda qon aylanishini to'xtatish bilan bog'liq. Qon aylanishini uzoqroq vaqtga to'xtatish qo'l yoki oyoqda qon tomirlari yo'nalishi bo'yicha jgutdan quyiroq qismda halokatli o'zgarishlarga olib keladi.
+d0320	YHQ 1-ilova 3-bo'lim 3.13 yo'l belgisi.
+d0321	YHQ 102, 103-bandlar.
+d0322	Yu.V.Bushuev,K.A.Karimova str.25 Avtomobilning sirpanchiq yo'lda sirpanishi orqa g'ildiraklarining blokirovkasi sababli vujudga keladi. Bu holda birinchi navbatda surilish sababini bartaraf etish, ya'ni boshlangan tormozlanishni to'xtatish lozim. Keyinchalik rul chambaragini surilish tomon burib, harakat yo'nalishini to'g'rilab olish mumkin.
+d0323	YHQ 1-ilovasining 5-bo'limidagi 5.28 "Kilometr belgisi" belgi yo'lning boshi yoki oxirigacha bo'lgan masofani bildiradi (km).
+d0324	E.V.Bocharov str.41 Inertsiya (markazdan qochma) kuchi avtomobilning burilish bo'ylab harakatida vujudga keladi. Bu holda u burilish markazidan qarama qarshi yo'nalish tomon yo'naltirilgan va harakat tezligi kattalashishi hamda burilish radiusi kamayishi bilan ko'payadi.
+d0325	YHQ 7-bobi 40-bandiga muvofiq, yo'l harakati qatnashchilarining e'tiborini jalb etish uchun hushtak bilan qo'shimcha ishora berilishi mumkin.
+d0326	Yu.V.Bushuev,K.A.Karimova str.34 Ko'krak qafasining keng yaralanishida jabrlanuvchiga tarang bog'ich bog'lanadi. Ko'krak qafasining quyiroq qismlaridan boshlab bint o'raladi . Nafas chiqarish paytida mustahkamlanadi.
+d0327	YHQ 12-band
+d0328	YHQ 2-ilova 1-bo'lim 1.15 yotiq chizig'i.
+d0329	YHQ 3-ilova 5.5-band.
+d0330	YHQ 19-bobi 121-bandi 3-xatboshiga muvofiq, avtomagistrallarda 5.15. yoki 6.11. belgilari bilan belgilangan maxsus to'xtab turish maydonchalaridan boshqa joylarda to'xtash taqiqlanadi.
+d0331	YHQ 1-ilova 5-bo'lim 5.6 yo'l belgisi.
+d0332	YHQ 12-bobi 86-bandi 4-xatboshiga muvofiq, quvib o'tish quyidagi hollarda taqiqlanadi: temir yo'l kesishmalarida va ulargacha 100 metrdan kam masofa qolganda.
+d0333	YHQ 1-ilova 3-bo'lim 3.11 yo'l belgisi.
+d0334	YHQ 1-ilovasining 7-bo'limidagi 7.2.1 "Ta'sir oralig'i" qo'shimcha belgisi: ogohlantiruvchi belgilar bilan qo'llansa, yo'lning xavfli qismi qanchagacha davom etishini, taqiqlovchi belgilar bilan qo'llansa, ularning cheklov oralig'ini, axborot-ishora belgilari bilan qo'llansa, "5.15", "5.18" belgilarining ta'sir oralig'ini ko'rsatadi.
+d0335	YHQ 3-ilova 7-bo'lim 7.19-bandiga muvofiq, gaz bilan ta'minlash tizimi bilan jihozlangan avtobus va avtomobil gaz balonlarini tashqi tomonida ko'rsatilgan texnik ko'rsatkichlar (parametrlar) texnik pasportdagi ma'lumotlarga (ko'rsatkichlarga) mos kelmasa, oxirgi va rejalashtirilayotgan tekshiruvlarning sanasi bo'lmasa.
+d0336	YHQ 19-bob 121-bandi 5-xatboshiga muvofiq, avtomagistrallarda orqaga harakatlanish taqiqlanadi.
+d0337	YHQ 94-band.
+d0338	V.I.Konoplyanko str.62 Tik nishablikda uzatma va ilashish mexanizmini ajratgan holatda uzoq tormoz berish xavfi tormoz mexanizmlarining qizib ketishi, tormozlanish samarasining kamayishi va uning ishdan chiqishidadir.
+d0339	YHQ 176-band.
+d0340	YHQ 11-bobi 80-bandi 3-xatboshiga muvofiq, har qanday yo'llarda: mexanik transport vositalarini shatakka olgan transport vositalariga tezlikni soatiga 50 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi.
+d0341	YHQ 8-bobi 45-bandi 2-xatboshiga muvofiq, chapga burilish (qayrilib olish)ni bildiruvchi ishoraga chap qo'lni yoki tirsakdan to'g'ri burchak ostida bukilgan o'ng qo'lni, o'ngga burilishni bildiruvchi ishoraga o'ng qo'lni yoki tirsakdan to'g'ri burchak ostida bukilgan chap qo'lni yonga uzatish mos keladi.
+d0342	Yu.V.Bushuev,K.A.Karimova str.34 Qorin bo'shlig'ining yopiq jarohatlari hollarida gavdaning holati oyoqlarni tizzalaridan bukib, yon tarafga qarab yotiladi. Qorin qismiga muz xaltachasi qo'yiladi.
+d0343	YHQ 3-ilovasi 7-bo'lim 7.6 bandiga muvofiq, transport vositalaridan foydalanishni taqiqlovchi shartlar: spidometr qurilmasi nosoz yoki tamg'alanmagan (shaxsiy transport vositalari, mototsikl va mopedlardan tashqari) bo'lsa.
+d0344	YHQ 1-ilovasining 7-bo'limidagi 7.1.1 qo'shimcha axborot belgisi - "Ob'ektgacha bo'lgan masofa". Belgidan yo'lning xavfli joyi, yo'l harakatiga tegishli cheklovlar kiritiladigan joyi yoki harakat yo'nalishi bo'yicha oldindagi muayyan obektgacha bo'lgan masofani ko'rsatadi.
+d0345	YHQ 60-band.
+d0346	YHQ 61-band.
+d0347	YHQ 24-bobi 145 band. Shatakka olish quyidagi holatlarda taqiqlanadi: yo'l yaxmalak, sirpanchiq bo'lgan hollarda egiluvchan ulagichda.
+d0348	YHQ 124-band.
+d0349	YHQ 3 ilova: 3.2. band- Yorituvchi chiroq nurining yo'nalishi buzilgan bo'lsa. 3.3. Agar tashqi yoritqichlar va nur qaytargichlar belgilangan tartibda ishlamayotgan yoki ifloslangan bo'lsa. 3.6. Transport vositasida quyidagilar: old qismida - oq yoki sariq rangdan boshqa rangli tumanga qarshi faralar, sariq yoki zarg'aldoq rangdan boshqa rangli burilish ko'rsatgichlari, oq rangdan boshqa rangli nur qaytargichlar o'rnatilgan bo'lsa;
+d0350	YHQ 1 ilova: 7.16. belgisi "Nam qoplama". Belgi qatnov qismining qoplamasi nam bo'lgan vaqtda ta'sir etishini ko'rsatadi.
+d0351	YHQ 1 ilova: 7.6.1 - 7.6.9.belgilari"Transport vositasini to'xtab turish joyiga qo'yish usuli". 7.6.2 - 7.6.9 trotuar yonidagi to'xtab turish joyiga engil avtomobillar va mototsikllarni qo'yish usulini bildiradi.
+d0352	YHQ 1-ilova 3-bo'lim 3.2 - 3.8 yo'l belgilari.
+d0353	YHQ 7-bobi 42 bandi:Sariq ishora yonganda yoki tartibga soluvchining qo'li yuqoriga ko'tarilganida, ushbu Qoidalarning 41-bandida nazarda tutilgan joylarda, keskin tormoz bermasdan to'xtashga ulgura olmaydigan transport vositalarining haydovchilariga harakatni davom ettirishga ruxsat etiladi.
+d0354	YHQ 8-bobi 51 bandi: Transport vositasi to'satdan to'xtab qolganida zudlik bilan avariya yorug'lik ishorasini yoqish, agar ishlamasa avariya to'xtash belgisini (miltillovchi qizil chiroq) darhol o'rnatish kerak. U quyidagi hollarda qo'llaniladi: yo'l-transport hodisasi sodir bo'lganda; to'xtash taqiqlangan joylarda yoki to'xtagan joyidagi ko'rinish transport vositasini boshqa haydovchilar tomonidan o'z vaqtida payqab olishga to'sqinlik qiladigan joylarda majburiy to'xtab qolganda.
+d0355	YHQ 1 ilova: 5.8.1.belgisi "Bo'laklar bo'yicha harakat yo'nalishi" va 2 ilova: 1.1 chizig'i
+d0356	YHQ 9-bobi 63 bandi: Transport vositasini orqaga harakatlantirishda haydovchi yo'l harakati xavfsizligini ta'minlashi va boshqa yo'l harakati qatnashchilariga xalaqit bermasligi shart. Zarurat tug'ilganda haydovchi boshqa shaxslarning yordamidan foydalanishi kerak. Orqaga harakatlanish chorrahalarda va ushbu Qoidalarning 62-bandiga muvofiq qayrilib olish mumkin bo'lmagan joylarda taqiqlanadi.
+d0357	YHQ 10-bobi 73 bandi: Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi keskin tormoz berganida to'qnashib ketmaslik kafolatini beradigan darajadagi oraliq masofani, shuningdek yo'l harakati xavfsizligini ta'minlaydigan yonlama oraliq masofani saqlashi kerak.
+d0358	YHQ 137, 140-bandlari.
+d0359	Yu.V.Bushuev,K.A.Karimovastr.27 Agar transport vositasi antiblokirovkali (ABS) tormoz tizimi bilan jihozlangan bo'lsa, shinaning qatnov qismi qoplamasi bilan tishlashishini shu tizim nazorat qiladi. Shuning uchun favqulodda tormozlash paytida tormoz pedalini oxirigacha bosib turish kerak.
+d0360	YHQ 12-band.
+d0361	YHQ 105-band va 1-ilova 1-bo'lim 1.6 yo'l belgisi.
+d0362	YHQ 1 ilova 3.7. yo'l belgisi "Tirkama bilan harakatlanish taqiqlanadi". Yuk tashuvchi transport vositalari, traktorlarning barcha turdagi tirkamalar bilan harakatlanishi, shuningdek mexanik transport vositalarini har qanday usulda shatakka olish taqiqlanishini bildiradi.
+d0363	YHQ 1 ilova 5.35. yo'l belgisi "Reversiv harakatlanish". Bir yoki bir necha bo'laklarda harakatlanish yo'nalishi qarama-qarshi tomonga o'zgarishi mumkin bo'lgan yo'l qismining boshlanishini bildiradi.
+d0364	Maktab dasturiga asosan bir soat 60 daqiqadan iborat bo'ladi yoki 3600 soniyaga teng. Bir kilometrda esa1000 metr bor. Bundan chiqadiki :72*1000=72000metr/3600 sek.=20 metr bir soniyada.
+d0365	YHQ 1ilova: 4.1.1.belgisi "Harakatlanish to'g'riga",7.4.1 belgi bilan o'rnatilgan yo'l belgisining ta'siri yuk tashuvchi, shu jumladan, tirkamali, to'la vazni 3,5 tonnadan ortiq bo'lgan transport vositalariga.
+d0366	YHQ 3 ilova: 2.1.band. Boshqaruv qurilmasidagi lyuft yig'indisi reglament (qat'iy belgilangan) sharoitlardagi sinovlarda quyidagi ko'rsatkichdan katta bo'lmasligi kerak: M1-10°; M2, M3, N1-20°; N2, N3-25°.
+d0367	YHQ 1-ilova 5-bo'lim 5.37 yo'l belgisi.
+d0368	YHQ 48, 49-bandlari.
+d0369	YHQ 3-ilova 7.10 - band.
+d0370	Avtotest 2.0 o'quv qo'llanmasi, Toshkent, "Turon zamin ziyo" 2015, 250-bet
+d0371	YHQ 2-ilova 1-bo'lim 1.7 yotiq chizig'i.
+d0372	YHQ 2-bobi 13 bandi: Yo'l-transport hodisasi sodir bo'lganda unga daxldor haydovchilar quyidagilarni bajarishlari shart: transport vositasini darhol to'xtatishi, avariya ishoralarini yoqishi va avariya sababli to'xtash belgisini o'rnatishi, transport vositasini va hodisaga daxldor buyumlarni joyidan qo'zg'atmasligi;
+d0373	YHQ 1 ilova: 5.7.1, 5.7.2. belgilari "Bir tomonlama harakatli yo'lga chiqish". Harakatlanish bir tomonlama bo'lgan yo'lga yoki qatnov qismiga chiqishni bildiradi. 5.10.2. "Yo'nalishli transport vositalari uchun bo'lagi bor yo'lga chiqish". Yo'nalishli transport vositalarining umumiy oqimga qarshi harakatlanishi uchun ajratilgan bo'lakni bildiradi.
+d0374	YHQ 7-bobi 43 bandiva 1 ilova: 4.1.1.belgisi "Harakatlanish to'g'riga". 4.1.1 - 4.1.6 belgilarining ta'sir oralig'ida faqat yo'naltirgichlar buyurgan tomonga harakatlanishga ruxsat etiladi.
+d0375	Avtotest 2.0 o'quv qo'llanmasi, Toshkent, "Turon zamin ziyo" 2015, 302 bet
+d0376	YHQ 1ilova: 4.6.belgisi "Piyodalar yo'lkasi". Faqat piyodalar yurishiga ruxsat etiladi.
+d0377	Avtotest 2.0 o'quv qo'llanmasi, Toshkent, "Turon zamin ziyo" 2015, 299-300 bet.
+d0378	YHQ 1ilova: 7.2.1.belgisi "Ta'sir oralig'i". Ogohlantiruvchi belgilar bilan belgilangan xavfli joyning uzunligini yoki taqiqlovchi va axborot-ko'rsatkich belgilarining ta'sir oralig'ini ko'rsatadi. 7.2.2 - 7.2.6. "Ta'sir oralig'i"
+d0379	YHQ 49-band.
+d0380	YHQ 3 ilova: 7.10.belgisi band Transport vositalari quyidagilar bilan jihozlanmagan bo'lsa: M1, N1, N2, N3 toifadagi, mikroavtobus va g'ildirakli traktorlarda tibbiyot qutichasi, o't o'chirgich, majburiy to'xtaganligini bildiruvchi belgi (yoki miltillovchi qizil chiroq) va nur qaytargichli kamzul (jilet);
+d0381	YHQ 18 bobi 118 bandi, Temir yo'l kesishmasiga quyidagi hollarda kirish taqiqlanadi: kesishmadan keyin hosil bo'lgan tirbandlik tufayli haydovchi kesishmada to'xtashga majbur bo'ladigan hollarda;
+d0382	YHQ 1-ilova 3-bo'lim 3.17.2 yo'l belgisi.
+d0383	YHQ 14 bobi 98 bandi: Aylanma harakatlanish chorrahasida harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka (imtiyozga)ega.
+d0384	YHQ 24 bobi 143 bandi: Qattiq yoki egiluvchan ulagich yordamida shatakka olingan avtobusda, trolleybusda va yuk avtomobili yukxonasida odam tashish, qisman ortish yo'li bilan shatakka olishda esa shatakka olingan transport vositasining kabinasida va yukxonasida, shuningdek shatakka olgan transport vositasining yukxonasida odamlar bo'lishi taqiqlanadi.
+d0385	Avtotest 2.0 o'quv qo'llanmasi, Toshkent, "Turon zamin ziyo" 2015 y.304 bet
+d0386	E.V.Bocharov 29 bet.Tormoz tizimiga ega bo'lmagan tirkama bilan harakatlanayotganda engil avtomobilni tormoz yo'liuzayadi.
+d0387	Yu.V.Bushuev,K.A.Karimova str.19 Sutkaning qorong'i vaqtida va bulutli ob-havoda ro'paradan kelayotgan avtomobil tezligi aslidagidan kam tezlikda tuyuladi
+d0388	YHQ 23 Bob 137 band. Kunduzgi chiroqlarda ishlatiladigan yorug'lik diodlarining yorug'ligi kunduz kuni transport vositasini yaqinni yorituvchi chiroqlar bilan belgilash o'rniga ishlatish uchun etarli bo'ladi. Lekin tumanda yoki boshqa etarli ko'rinmaslik sharoitlarida harakatlanganda transport vositasida tumanga qarshi chiroqlar yoki yaqinni yorituvchi chiroqlar yoqilgan bo'lishi shart.
+d0389	Avtotest 2.0 o'quv qo'llanmasi, Toshkent, "Turon zamin ziyo" 2015y. 294 bet.
+d0390	YHQ 1 ilova: 4.1.2.belgisi "Harakatlanish o'ngga".
+d0391	YHQ 52-band.
+d0392	V.Domashnev "Texnika vojdeniya bez DTP " str.41 Antiblokirovka tizimi (ABS) avtomobilning tormoz tizimi bilan birga qarama qarshi ishlab uni tartibga soladi, ya'ni g'ildiraklarni keskin tormozlaganda ularni blokirovkadan asraydi. Bu bilan avtomobilni turg'unligini va boshqaruvchanligini engillashtiradi. Bu tizimning o'ziga yarasha qulayligi va shu bilan bir qatordakamchiliklari hammavjud.Qo'qqisdan tormozlanganda hatto quruq,qattiq qoplamali yo'llarda ABS tizimi avtomobilni to'xtata olmaydi uni ishga tushish vaqti (1-2 sek.) ushbu vaziyatga haydovchi ko'nikmahosil qilishikerak. Buesao'z navbatida tajriba talab etadi. Burilishlarda markazdan qochma kuch evazigaABS sirpanish va siljishga ta'sireta olmay qolishehtimoliyuzaga keladi.
+d0393	V.I.Konoplyanko str.62 Transport vositasi qiyalikda joyidan qo'zg'alishda to'xtab turish tormoz dastagini harakatni boshlash bilan bir vaqtda tushirishni boshlash kerak
+d0394	Vazirlar Mahkamasining 2019 yil 2 avgustdagi 646-son qarori: b) avtotransport vositalari orqa oynasining tusini, shuningdek, avtotransport vositalari old oynasining tepa qismi tusini 14 sm dan ko'p bo'lmagan polosa shaklida yorug'lik o'tkazuvchanligi cheklanmagan darajada o'zgartirish (qoraytirish)ruxsatnomasiz, tasdiqlangan davlat standarti asosida amalga oshiriladi.
+d0395	YHQ 10 bobi 75 bandi: Agar biror-bir to'siq sababli qarama-qarshi yo'nalishlarda harakatlanish qiyin bo'lsa, to'siq o'z tomonida bo'lgan haydovchi yo'l berishi kerak.
+d0396	Avtotest 2.0 o'quv qo'llanmasi, Toshkent, "Turon zamin ziyo" 2015y. 248 bet.Uzoq davom etadigan keng ravon yo'lda avtomobilni yuqori tezlikda boshqarganda haydovchiga tezlik aslidagidan sekin harakatlanayotganday qabul qilinadi
+d0397	G.I.Penejko "Bezopasnost dvijeniya" str.146 Yo'lning yopiq qismidan ochik qismiga chiqishda kuchli yonlama shamol xavfi ortadi va avtopoezdni sirpanib ketishiga yoki ag'darilishiga olib keladi
+d0398	YHQ 1 ilova: 2.5 belgisi "To'xtamasdan harakatlanish taqiqlangan". To'xtash chizig'i oldida, agar u bo'lmasa, kesib o'tiladigan qatnov qismining chetida to'xtamasdan harakatlanish taqiqlanadi. Haydovchi kesib o'tilayotgan yo'ldan, 7.13 qo'shimcha-axborot belgisi bo'lganda esa asosiy yo'ldan harakatlanayotgan transport vositalariga yo'l berishi kerak.
+d0399	G.I.Penejko "Bezopasnost dvijeniya" str.73 Tezlik oshishi bilan haydovchining harakat traektoriyasida, shinalarning yon tomonga qarab egiluvchanligi, rul boshkarmasidagi lyufti, yo'lning notekisligi va shamol ta'siri oqibatida yon tomonga og'ishlar ortadi. Shuning uchun, tezlikni oshirganda, xaydovchilar yon tomon masofani oshirishlari kerak.
+d0400	YHQ 4 bobi 19 band: Piyodalar to'xtab turgan avtobus va trolleybusning orqa tomonidan, tramvayning esa oldi tomonidan yo'lni kesib o'tishlari shart.
+d0401	YHQ 24 bobi 145 bandi: Shatakka olish quyidagi holatlarda taqiqlanadi: tormoz tizimi ishlamayotgan transport vositasining haqiqiy vazni shatakka olgan transport vositasining haqiqiy vaznining yarmidan ortiq bo'lsa (haqiqiy vazni kam bo'lgan bunday transport vositasini faqat qattiq ulagich yordamida yoki qisman ortish usuli bilan shatakka olishga yo'l qo'yiladi).
+d0402	E.V.Bocharov str.95 Yomg'ir tomchilab boshlanganda tezlikni kamaytirishi va extiyotkorlik choralarini kurishi shart, chunki yo'ldagi chang va moy va rezina qoldiqlari va boshqalar yo'lda sirpanchiq qatlam xosil qilib, ishqalanish koefitsentini kamaytirib yuboradi
+d0403	YHQ 1 ilova: 4.1.1.belgisi "Harakatlanish to'g'riga". 7.4.1 belgi bilan o'rnatilgan yo'l belgisining ta'siri yuk tashuvchi, shu jumladan, tirkamali, to'la vazni 3,5 tonnadan ortiq bo'lgan transport vositalariga tatbiq etiladi.
+d0404	YHQ 1 ilova: 3.28. belgisi "To'xtab turish taqiqlangan". Transport vositalarining to'xtab turishi taqiqlanishini bildiradi. To'xtab turish - transport vositasiga yo'lovchilarni chiqarish yoki tushirish, yuk ortish yoki tushirish bilan bog'liq bo'lmagan hollarda harakatini 10 daqiqadan ko'proq vaqtga atayin to'xtatish.
+d0405	YHQ 1 ilovasibo'yicha rasmda keltirilgan yo'l belgilarining barchasi qayrilib olishga ruxsat beradi: 5.7.1 va 5.7.2. belgilari "Bir tomonlama harakatli yo'lga chiqish". Harakatlanish bir tomonlama bo'lgan yo'lga yoki qatnov qismiga chiqishni bildiradi, 5.10.2,5.10.3. "Yo'nalishli transport vositalari uchun bo'lagi bor yo'lga chiqish".
+d0406	YHQ 1 ilova: 5.22. belgisi "Aholi punktining boshlanishi". Ushbu Qoidalarning aholi punktlarida harakatlanish tartibini belgilovchi talablariga amal qilinadigan joylarning nomi hamda uning boshlanishini bildiradi.
+d0407	YHQ, 1-ilova 1.32. belgisi "Tirbandlik" belgisi.
+d0408	YHQ, 2-ilova 1.29 yotiq chiziq "Sun'iy yo'l notekisligi"
+d0409	Avtotest 2.0 o'quv qo'llanmasi. Avtomobilning tezligini ravon orttirish va uni ohista ravon tormozlashyoqilg'i sarfini tejaydi. 300 bet.
+d0410	YHQ 28 bobi 166-band.Velosipedlar, mopedlar, aravalar, miniladigan yoki yuk ortiladigan hayvonlarning yo'lning chetki o'ng bo'lagida imkoni boricha o'ng tomonidan bir qator bo'lib harakatlanishiga yo'l qo'yiladi. Agar piyodalarga xalaqit bermasa, yo'l yoqasidan harakatlanishga ham ruxsat etiladi.
+d0411	YHQ, 1-ilova 1.30 belgisi. "Boshqa xavf-xatarlar".
+d0412	YHQ,1-bobi 6 band: Yo'l-transport hodisasi - transport vositasining yo'lda harakatlanishi jarayonida ro'y bergan, fuqarolarning halok bo'lishiga yoki sog'lig'iga zarar etishiga, transport vositalari, inshootlar, yuklarning shikastlanishi yoxud boshqa moddiy zarar etishiga sabab bo'lgan hodisa.
+d0413	YHQ 1-ilova: 3.31. belgisi "Barcha cheklovlarning oxiri". 3.16, 3.20, 3.22, 3.24, 3.26 - 3.30 belgilaridan bir nechtasiga bir vaqtda amal qiladigan oraliqlarning oxirini bildiradi.
+d0414	"Avtotest 2.0" o'quv qo'llanmasi. Yo'lning qiyalik qismlarida to'xtaganda mexanik uzatmali avtomobillarda to'xtab turish tormozi bilan ushlab turish maqsadga muvofiq. 214 bet.
+d0415	YHQ,1-ilova2.6.belgisi "Ro'para harakatlanishning ustunligi".
+d0416	E.V.Bocharov 95 va 55 bet. Suvda sirpanish kuchli yomg'ir, sel yoki suv toshgan yo'l qismlarida sodir bo'ladi bu holda harakat xavfsizligini ta'minlash maqsadida avtomobilni dvigatel bilan tormozlash yaxshi samara beradi. Bahorgi, kuzgi yomg'irlar vasuv toshgan yo'lning pastqam qismlarida harakatlanishda yuqoridagi usulda tomozlash tavsiyaetiladi."Texnika upravleniya avtomobilem" str.20
+d0417	"Avtotest 2.0" o'quv qo'llanmasi. 355 bet.
+d0418	YHQ 1 ilova: 1.20.belgisi "Piyodalar o'tish joyi"
+d0419	YHQ,1-bobi 6 band: Chorraha - yo'llarning o'zaro bir sathda kesishadigan, tutashadigan va ayriladigan joyi.
+d0420	YHQ 42-band.
+d0421	YHQ, 1-Ilova: 3.17.1. belgisi "Bojxona". Bojxona (tekshiruv maskani) oldida to'xtamasdan o'tish taqiqlanishini bildiradi.
+d0422	YHQ, 1-Ilova: 3.20. belgisi "Quvib o'tish taqiqlangan". 3.22. "Yuk avtomobillarida quvib o'tish taqiqlangan".
+d0423	"Avtotest 2.0" o'quv qo'llanmasi. 346 bet.
+d0424	YHQ,1- bobi 6-band.Yo'l harakati xavfsizligini ta'minlash - yo'l-transport hodisalarining kelib chiqish sabablarini oldini olishga, ularning og'ir oqibatlarini kamaytirishga qaratilgan faoliyat.
+d0425	YHQ 1-ilova2.5.belgisi "To'xtamasdan harakatlanish taqiqlangan" belgisi.
+d0426	YHQ 171-band.
+d0427	YHQ, 28-bobi 169-band. Chorrahadan tashqaridagi tartibga solinmagan velosiped yo'lkasi bilan yo'l kesishmasida velosiped va moped haydovchilari yo'lda harakatlanayotgan transport vositalariga yo'l berishlari kerak.
+d0428	YHQ 54-band.
+d0429	YHQ, 24 -bobi 143-band.Qattiq yoki egiluvchan ulagich yordamida shatakka olingan avtobusda, trolleybusda va yuk avtomobili yukxonasida odam tashish, qisman ortish yo'li bilan shatakka olishda esa shatakka olingan transport vositasining kabinasida va yukxonasida, shuningdek shatakka olgan transport vositasining yukxonasida odamlar bo'lishi taqiqlanadi.
+d0430	YHQ, 1-ilova 5.40."Falokatli holatlar uchun kirish yo'li" belgisi.
+d0431	YHQ 1-ilova 5-bo'lim 5.33 yo'l belgisi.
+d0432	YHQ 45-band.
+d0433	YHQ, 1-ilova 1.15. belgisi "Sirpanchiq yo'l". Yo'lning o'ta sirpanchiq bo'lgan qismini bildiradi.
+d0434	"Avtotest"o'quv qo'llanmasi. 4.5-mavzu. 352 bet.
+d0435	YHQ,10 bobi 75-band.Agar biror-bir to'siq sababli qarama-qarshi yo'nalishlarda harakatlanish qiyin bo'lsa, to'siq o'z tomonida bo'lgan haydovchi yo'l berishi kerak.
+d0436	YHQ 1-ilova 5-bo'lim 5.35 yo'l belgisi.
+d0437	YHQ 126-band.
+d0438	"Avtotest 2.0" o'quv qo'llanmasi 352 bet
+d0439	YHQ 107-band.
+d0440	YHQ, 1.31. "Sun'iy yo'l notekisligi" belgisi.
+d0441	YHQ11 bobi 79-band. Aholi punktlaridan tashqarida tirkamali yuk avtomobillariga tezlikni soatiga 70 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi.
+d0442	V.I.Konoplyanko 13 bet. To'xtash yo'li deb haydovchining biror bir xatarni sezib, to transport vositasini to'liq to'xtatgunga qadar bosib o'tilgan masofaga aytiladi.Tormoz yo'li- haydovchi tormoz tepkisinibosgandan to avtomobil to'liq to'xtagunchabosib o'tilgan masofa.
+d0443	YHQ, 1-bobi6-band. Mexanik transport vositasi - dvigatel bilan harakatga keltiriladigan transport vositasi (mopeddan tashqari). Bu atama barcha traktor va o'ziyurar moslamalarga ham taalluqlidir.
+d0444	V.I.Konoplyanko 30 bet. Tezlikni oshirganda haydovchining ko'rish maydoni torayadi sabab shiddat bilan o'tayotgan masofani haydovchi barchasini qabul qila olmaydi, qamray olmaydi chunki u vaziyatni baxolashi kerak.
+d0445	"Avtotest 2.0" o'quv qo'llanmasi. 367 bet.
+d0446	YHQ 2-ilova: 2.5 chizig'i - yo'lning kichik radiusli burilish, tik nishablik va boshqa xavfli joylarda yo'l to'siqlarining yon yuzalarini bildiradi.
+d0447	YHQ, 9- bobi63 band. Orqaga harakatlanish chorrahalarda taqiqlanadi.
+d0448	Yu.V.Bashuev str.25 Yo'lning xavfli burilishlarida oldingi uzatmali avtomobilning orqa o'qi yon tomonga sirpanganda gaz pedalini ohista bosib avtomobilni rul chambaragini to'g'rilab avtomobilni sirpanishdan olib chiqib ketasiz.
+d0449	YHQ 21-bobi 128 bandi: Yo'lning 1.13 va 1.14 yo'l belgilari bilan belgilangan qiyaliklarida, qarama-qarshi yo'nalishlarda harakatlanishni qiyinlashtiradigan biron-bir to'siq bo'lsa, nishablikka harakatlanayotgan transport vositasining haydovchisi yo'l berishi kerak.1 ilova: 2.7. "Ro'paradagi harakatlanishga nisbatan imtiyoz". Yo'lning tor qismida harakatlanishda haydovchi ro'paradan kelayotgan transport vositasiga nisbatan imtiyozga egaligini bildiradi.
+d0450	"Avtotest 2.0" o'quv qo'llanmasi. 298 bet. Kunning qorong'i vaqtida harakatlanishda tezlikni to'g'ri tanlash asosiy masala hisoblanadi. Yo'lning ko'rinish masofasito'xtash yo'lidan oshmasligi kerak.
+d0451	"Avtotest 2.0" o'quv qo'llanmasi. Bunday holatda avtomobilni moment kuchlar burib yuborishga moyil bo'ladi, shuning uchun uchinchi javobdagi usulni qo'llang.
+d0452	YHQ 14 bobi96 band: Chapga yoki o'ngga burilayotgan haydovchi kesishayotgan yo'lning qatnov qismidan o'tayotgan piyoda(lar)ga, shuningdek velosiped yo'lkasidan yo'lni kesib o'tayotgan velosipedchi(lar)ga yo'l berishi kerak.
+d0453	YHQ, 1 ilova: 7.6.1.belgisi " Transport vositasini to'xtab turish joyiga qo'yish usuli". Barcha turdagi transport vositalarining to'xtab turish uchun yo'lning qatnov qismida, trotuar yoniga qo'yish usulini ko'rsatadi.
+d0454	YHQ14-bobi 98 bandi:Aylanma harakatlanish chorrahasida harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka (imtiyozga) ega.
+d0455	"Avtotest 2.0" o'quv qo'llanmasi. 355 bet. Muskul va paylarning ezilishi hamda cho'zilishi alomatlari quydagicha - jarohatlangan joyda shish , og'riq seziladi, ba'zan shu joyda mayda kapillyar qon tomirlari yorilib, qon quyilishi natijasida ko'karish paydo bo'ladi.
+d0456	YHQ 1-bobi6-band. Aholi punkti - kirish va chiqish yo'llari 5.22 - 5.25 yo'l belgilari bilan belgilangan hudud.
+d0457	V.I.Konoplyanko 62 bet. Bunday samarali tormozlash usulini mexanik uzatmali avtomobillarda haydovchi tik nishabliklarda qo'llashi mumkin, yoki avtomatlashtirilgan uzatmada qo'l bilan boshqarish tizimiga o'tish maqsadga muvofiqdir.
+d0458	"Avtotest 2.0" o'quv qo'llanmasi. 347 bet.
+d0459	YHQ 78-band.
+d0460	YHQ 1-ilova 1.31. "Sun'iy yo'l notekisligi" belgisi.
+d0461	YHQ 1-ilova 4-bo'lim 4.2.3 yo'l belgisi.
+d0462	YHQ 1 ilova: 3.24.belgisi "Yuqori tezlik cheklangan". Belgida ko'rsatilganidan ortiq tezlikda (km/s) harakatlanish taqiqlanishini bildiradi. 7.16. "Nam qoplama". Belgi qatnov qismining qoplamasi nam bo'lgan vaqtda ta'sir etishini ko'rsatadi
+d0463	YHQ 1 ilova: 3.28.belgisi "To'xtab turish taqiqlangan". Transport vositalarining to'xtab turishi taqiqlanishini bildiradi.
+d0464	YHQ 1 ilova: 3.32. belgisi "Xavfli yuk tashiyotgan transport vositasining harakati taqiqlangan".
+d0465	YHQ 13-bobi 91 band. Quyidagi joy va holatlarda to'xtash taqiqlanadi: transport vositasi svetofor ishoralari, yo'l belgilarini boshqa haydovchilardan to'sib qo'yadigan, boshqa transport vositalarining harakatlanishiga (kirish va chiqishiga) imkon qoldirmaydigan yoki piyodalarning harakatiga xalaqit beradigan joylarda;
+d0466	YHQ 1 ilova: 2.3.1.belgisi "Ikkinchi darajali yo'l bilan kesishuv".
+d0467	YHQ 1 ilova: 3.4.belgisi "Yuk avtomobillarining harakatlanishi taqiqlangan". To'la vazni 3,5 tonnadan (agar vazni belgida ko'rsatilmagan bo'lsa) yoki to'la vazni belgida ko'rsatilgandan ortiq bo'lgan yuk avtomobillari va transport vositalari tarkiblarining, shuningdek traktorlar, o'ziyurar moslamalarning harakatlanishi taqiqlanishini bildiradi.
+d0468	YHQ 1 ilova: 5.42.belgisi"Qizil chiroqda o'ngga harakatlanish". Transport svetofori qizil chirog'ining o'ng yoniga 5.42 yo'l belgisi o'rnatilgan bo'lsa, transport vositalarining haydovchilari svetoforning taqiqlovchi ishorasi yonib turganda, barcha xavfsizlik choralarini ko'rgan holda o'ngga burilishlari mumkin. Bunda ular harakat yo'nalishi bo'yicha va burilayotgan ko'chani kesib o'tayotgan piyodalarga hamda boshqa transport vositalariga yo'l berishlari shart.
+d0469	YHQ 7-bobi38 bandi.Tartibga soluvchining ishoralari quyidagi ma'noni bildiradi:qo'llari yon tomonga uzatilganda yoki tushirilganda:chap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat beriladi;old va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi;o'ng qo'li oldinga uzatilganda:chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo'nalishlarda;oldi tomonidan barcha transport vositalariga faqat o'ngga harakatlanishga ruxsat beriladi;orqa tomonidan va o'ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;piyodalarga tartibga soluvchining orqa tomonidan qatnov qismini kesib o'tishga ruxsat etiladi;
+d0470	YHQ 1 ilova: 7.1.3, 7.1.4.belgilari"Ob'ektgacha bo'lgan masofa". Yo'ldan chetda joylashgan manzilgacha bo'lgan masofani bildiradi..
+d0471	YHQ 1 ilova:2.3.2, 2.3.3.belgilari "Ikkinchi darajali yo'l bilan tutashuv". 2.3.2 - tutashuv o'ngdan, 2.3.3 - tutashuv chapdan. 2.3.1 - 2.3.3 yo'l belgilari aholi punktlarida kesishmagacha 50 - 100 metr masofada, aholi punktlaridan tashqarida esa 150 - 300 metr masofada o'rnatiladi
+d0472	YHQ 14-bobi98 bandi:Harakatlanish navbati svetofor yoki tartibga soluvchining ishoralari orqali aniqlanib boshqarilayotgan chorraha - tartibgasolingan chorrahahisoblanadi. Miltillovchi sariq ishora yonib-o'chayotgan, svetoforlar ishlamayotgan yoki tartibga soluvchi bo'lmagan chorraha - tartibga solinmagan chorraha hisoblanadi. Haydovchilar tartibga solinmagan chorrahalardan o'tish qoidalariga hamda chorrahada o'rnatilgan imtiyoz belgilariga amal qilishlari shart.
+d0473	YHQ 1 ilova, 5.15 va 5.41 belgilari
+d0474	YHQ 2 ilova: 2.5 chizig'i - yo'lning kichik radiusli burilish, tik nishablik va boshqa xavfli joylarda yo'l to'siqlarining yon yuzalarini bildiradi.
+d0475	YHQ 8-bobi 45 bandi: Haydovchi harakatlanishni boshlashdan, qayta tizilishdan, burilish (qayrilib olish)dan va to'xtashdan oldin tegishli yo'nalishni ko'rsatuvchi yorug'lik ishoralarini yoqishi, ular bo'lmaganda yoki ishlamaganda qo'l bilan ishoralar berishi shart. To'xtash ishorasi chap yoki o'ng qo'lni yuqoriga ko'tarib beriladi.
+d0476	YHQ 1 ilova:1.11.1, 1.11.2.belgilari "Xavfli burilish". 1.11.1 - o'ngga, 1.11.2 - chapga yo'l belgilari yo'lning kichik radiusli yoki ko'rinishi cheklangan burilish joyini bildiradi.
+d0477	YHQ 16-bobi 105 bandi: Teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ngdan kelayotgan transport vositalariga yo'l berishi shart. Bu qoidaga tramvay haydovchilari ham o'zaro amal qilishlari kerak. Bunday chorrahalarda, keyingi harakat yo'nalishidan qat'iy nazar, tramvay relssiz transport vositalariga nisbatan oldin o'tish huquqiga ega bo'ladi.
+d0478	YHQ 10-bobi 73 band-Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi keskin tormoz berganida to'qnashib ketmaslik kafolatini beradigan darajadagi oraliq masofani, shuningdek yo'l harakati xavfsizligini ta'minlaydigan yonlama oraliq masofani saqlashi kerak.
+d0479	YHQ 1-ilova 1-bo'lim 1.34 yo'l belgisi.
+d0480	YHQ 7-bobi 38 bandi.Tartibga soluvchining ishoralari quyidagi ma'noni bildiradi:qo'llari yon tomonga uzatilganda yoki tushirilganda:chap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat beriladi;old va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi;o'ng qo'li oldinga uzatilganda:chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo'nalishlarda;oldi tomonidan barcha transport vositalariga faqat o'ngga harakatlanishga ruxsat beriladi;orqa tomonidan va o'ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;piyodalarga tartibga soluvchining orqa tomonidan qatnov qismini kesib o'tishga ruxsat etiladi;
+d0481	V.I.Konolplyanko 17 bet. Avtomobil og'irlik markazi qancha pastda bo'lsa va undagi yuklar to'g'ri (simmetrik) joylashsa u shuncha turg'unroq bo'ladi. Yuksizyo'lovchisiz avtomobil yo'lovchisi bor va yuki bor avtomobilga nisbatan turg'unroqdir
+d0482	YHQ 16-bobi104, 107 bandlari: Teng ahamiyatga ega bo'lmagan yo'llar kesishgan chorrahada, ikkinchi darajali yo'lda harakatlanayotgan transport vositasining haydovchisi asosiy yo'ldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo'nalishidan qat'iy nazar, yo'l berishi kerak.Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yo'ldan qarama-qarshi yo'nalishdan to'g'riga yoki o'ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib o'tayotgan transport vositalariga yo'l berishi shart.
+d0483	YHQ 9-bobi59 band2 xat boshi: Chorrahadan tashqaridagi qatnov qismining kengligi chetki chap holatdan qayrilib olish uchun etarli bo'lmasa, ushbu manyovrni qatnov qismining o'ng chetidan (yo'lning o'ng yoqasidan) amalga oshirish mumkin. Bu holda haydovchi bir yo'nalishdagi va qarama-qarshi yo'nalishdagi transport vositalariga yo'l berishi shart.Eng maqbul va xavfsiz qayrilib olish o'ng tomondagi suratda ko'rsatilgan.Bunday vaziyatda ko'rish maydoni keng va kam harakat talabetiladi
+d0484	YHQ 24-bobi 143 band: Qattiq yoki egiluvchan ulagich yordamida shatakka olingan avtobusda, trolleybusda va yuk avtomobili yukxonasida odam tashish, qisman ortish yo'li bilan shatakka olishda esa shatakka olingan transport vositasining kabinasida va yukxonasida, shuningdek shatakka olgan transport vositasining yukxonasida odamlar bo'lishi taqiqlanadi.
+d0485	YHQ9-bobi 63 band-Transport vositasini orqaga harakatlantirishda haydovchi yo'l harakati xavfsizligini ta'minlashi va boshqa yo'l harakati qatnashchilariga xalaqit bermasligi shart. Zarurat tug'ilganda haydovchi boshqa shaxslarning yordamidan foydalanishi kerak. Orqaga harakatlanish chorrahalarda va ushbu Qoidalarning 62-bandiga muvofiq qayrilib olish mumkin bo'lmagan joylarda taqiqlanadi.
+d0486	YHQ 1-bobi6 band -Umumiy qoidalar: Qatnov qismi - yo'lning relssiz transport vositalari harakati uchun mo'ljallangan qismi .
+d0487	YHQ 1-ilova 1-bo'lim 1.4.1 - 1.4.6 yo'l belgilari.
+d0488	YHQ 57-band.
+d0489	V.I.Konoplyanko 63 bet. Qiyalikda avtomobilni nazarda tutilmagan g'ildirab ketishini oldini olish uchun avtomobil g'ildiraklarini nishablik tomon yo'l cheti tosh bordyurga burib tirab qo'yish (A) va aksincha orqaga g'ildirab ketishni oldini olish uchun oldingi g'ildiraklarni orqa tomoni tosh bordyurga taqab qo'yish (V) avtomobilni joyidan qo'zg'almaslikni qo'shimcha choralari bo'lib xizmat qiladi
+d0490	YHQ 16-bobi 105 va 107-bandlar: Teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ngdan kelayotgan transport vositalariga yo'l berishi shart. Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yo'ldan qarama-qarshi yo'nalishdan to'g'riga yoki o'ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib o'tayotgan transport vositalariga yo'l berishi shart.
+d0491	YHQ 9-bobi 59 va 53, 54-bandlar: Chap tarafdagi suratda Siz yondosh xududdan chiqishda vaziyatni to'liq nazorat qila olasiz. O'ngtomondagi suratda yo'lgaorqa tomon bilanchiqish siz uchun nisbatan xavfli, chunki yo'lniharakat qismida orqa bilanharakatlanayapsiz, shu bilan bir qatorda ko'rish maydoni cheklangan.
+d0492	YHQ 162-band.
+d0493	YHQ 3 ilova 7.22 band: M toifasi - kamida to'rt g'ildirakka ega bo'lgan va yo'lovchilarni tashish uchun foydalaniladigan mexanik transport vositalari, shu jumladan:M1 toifasi - yo'lovchilarni tashish uchun foydalaniladigan va haydovchining o'rindig'idan tashqari o'rindiqlar soni 8 tadan oshmaydigan avtotransport vositalari.
+d0494	YHQ 16-band.
+d0495	YHQ 1 ilova: 7.12. belgisi "Xavfli yo'l yoqasi". Yo'l ishlari bajarilayotgani sababli yo'l yoqasiga chiqish xavfli ekanligi haqida ogohlantiradi. 1.23 belgisi bilan qo'llaniladi.
+d0496	YHQ 17-bobi 112 band: Piyodalar o'tish joylaridan keyin paydo bo'lgan tirbandlik tufayli haydovchi piyodalar o'tish joyida to'xtashga majbur bo'ladigan bo'lsa, piyodalar o'tish joyiga kirish taqiqlanadi.
+d0497	"Avtotest 2.0" o'quv qo'llanmasi. 351 bet. Yurak-o'pka reanimatsiyasi faqat jabrlanuvchida hayot alomatlari yo'q bo'lganda amalga oshiriladi: hushidan ketish, uyqu arteriyasida puls yo'qligi, nafas olish to'xtashi.
+d0498	YHQ 3 ilova: 7.10 - band
+d0499	YHQ 6-bobi24 band: Yo'lovchilarga quyidagilar taqiqlanadi:transport vositasi harakatlanayotgan vaqtda haydovchini boshqarishdan chalg'itish va unga xalaqit berish;harakatlanayotgan bortli yuk avtomobillarida tik turish, bortlarda yoki undan yuqoridagi yuk ustida o'tirish;transport vositasi harakatlanayotgan vaqtda uning eshiklarini ochish;transport vositasi harakatlanayotgan vaqtda salondan tana qismlarini (qo'ldan tashqari) chiqarish.
+d0500	YHQ 7-bobi 43 band: Svetofor ishoralari imtiyoz belgilari talablariga zid kelgan hollarda haydovchilar svetofor ishoralariga amal qilishlari kerak.
+d0501	YHQ 20-bobi 126-band. Turar joy dahalaridan chiqishda haydovchilar boshqa harakat qatnashchilariga yo'l berishlari kerak.
+d0502	YHQ 16-bobi 104, 106 bandlari: Teng ahamiyatga ega bo'lmagan yo'llar kesishgan chorrahada, ikkinchi darajali yo'lda harakatlanayotgan transport vositasining haydovchisi asosiy yo'ldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo'nalishidan qat'iy nazar, yo'l berishi kerak. Asosiy yo'lning yo'nalishi chorrahada o'zgarganda asosiy yo'lda harakatlanayotgan haydovchilar o'zaro teng ahamiyatli yo'llar chorrahasidan o'tish qoidasiga amal qilishlari kerak.
+d0503	YHQ 29-bobi 177 band: Mexanik transport vositalarini shatakka olishda egiluvchan ulagichni ko'rsatadigan ogohlantiruvchi, o'lchami 200 x 200 millimetr bo'lgan, diagonali bo'yicha ketma-ket joylashgan 50 millimetr qalinlikdagi qizil va oq rangli chiziqlar tushirilgan, yorug'lik qaytaradigan yuzali bayroqchalar yoki taxtachalar shaklidagi ogohlantiruvchi qurilmalar o'rnatilishi kerak.Egiluvchan ulagichga kamida ikkita ogohlantiruvchi qurilma o'rnatiladi.
+d0504	V.I.Konoplyanko 60 bet. Ushbu holatda Siz yo'lning sirpanchiq qismidan harakatlanish yo'nalishi va tezligini o'zgartirmasdan ehtiyotkorlik bilan o'tib ketishingiz lozim bo'ladi
+d0505	YHQ 2-ilova 1-bo'lim 1.20 yotiq chizig'i.
+d0506	YHQ 20-bobi 123-band-Turar joy dahalari (kirish va chiqish 5.38 va 5.39 yo'l belgilari bilan belgilangan hududlar)da piyodalarga trotuarlar hamda qatnov qismida harakatlanishga ruxsat etiladi. Bunda piyodalar imtiyozga ega bo'ladilar, biroq ular transport vositalarining harakatlanishiga asossiz xalaqit bermasliklari kerak.
+d0507	YHQ 19-bobi121-band. Avtomagistrallarda piyodalar, uy hayvonlari, ot-aravalar, velosipedlar, mopedlar, traktorlar va o'zi yurar avtomobillar, texnik tavsifnomasiga yoki holatiga ko'ra tezligi soatiga 40 kilometrdan kam bo'lgan transport vositalarining harakatlanishi taqiqlanadi.
+d0508	YHQ 2-ilova 1-bo'lim 1.28 yotiq chizig'i.
+d0509	YHQ 8-bobi 48 band: Tovushli ishoralar faqat quyidagi hollarda qo'llanilishi mumkin:aholi punktlaridan tashqarida boshqa haydovchilarni quvib o'tish haqida ogohlantirish uchun;zarur bo'lgan hollarda yo'l-transport hodisasining oldini olish uchun
+d0510	"Avtotest 2.0" o'quv qo'llanmasi. 363 bet.Qo'l oyoq uchlari( tirsakdan past qismi, boldir) sinishida transport shinalari yoki ularni qo'lda yasash uchun vositalar bo'lmasa qo'llarni tirsakdan bukib, ro'molga osgan holda tanaga bog'lash, oyoqlarni orasiga albatta yumshoq mato qo'yib bir-biriga bog'lash kerak
+d0511	YHQ 1-bobi 6 band Umumiy qoidalar: Yo'nalishli transport vositasi - belgilangan yo'nalishi va bekatlari bo'lgan, yo'lovchi tashish uchun mo'ljallangan umum foydalanishdagi transport vositalari (trolleybus, tramvay, avtobus, yo'nalishli taksi).
+d0512	YHQ 1 ilova: 2.5.belgisi "To'xtamasdan harakatlanish taqiqlangan" belgisi. To'xtash chizig'i oldida, agar u bo'lmasa, kesib o'tiladigan qatnov qismining chetida to'xtamasdan harakatlanish taqiqlanadi. Haydovchi kesib o'tilayotgan yo'ldan, 7.13 qo'shimcha-axborot belgisi bo'lganda esa asosiy yo'ldan harakatlanayotgan transport vositalariga yo'l berishi kerak.
+d0513	YHQ 1 ilova: 3.24 yo'l belgisi belgi o'rnatilgan joydan keyingi eng yaqin chorrahagacha, chorrahasi bo'lmagan aholi punktlarida aholi yashaydigan hududning oxirigacha ta'sir qiladi ("B").Belgining ta'sir doirasi 7.2.1 qo'shimcha axborot belgisi bilan aniqlashtirilishi mumkin ("A"). Bunda belgining tasir doirasi belgi o'rnatilgan joydan 100 m gacha davom etadi. ("V") belgi ostidagi 7.1.1 "Ob'ektgacha bo'lgan masofa" qo'shimcha axborot belgisi belgi o'rnatilgan joydan tasir doirasi kuchga kiradigan joygacha bo'lgan masofani bildiradi.
+d0514	YHQ 16-bobi 105 -band: Teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ngdan kelayotgan transport vositalariga yo'l berishi shart.
+d0515	YHQ 153-band.
+d0516	YHQ 2-ilova 1-bo'lim 1.14.4 yotiq chizig'i.
+d0517	YHQ 91-band
+d0518	YHQ 1-ilova 7-bo'lim.
+d0519	YHQ 1-ilova 5-bo'lim 5.3 yo'l belgisi.
+d0520	YHQ 7-bobi36 bandi: Tramvaylarning hamda maxsus ajratilgan bo'lak bo'ylab harakatlanayotgan yo'nalishli transport vositalarining harakatlanishini tartibga solish uchun "T" - harfi ko'rinishida joylashgan to'rtta doirasimon oq rang ishorali svetoforlar qo'llanilishi mumkin.Yuqoridagi bir yoki bir nechta va pastki ishora bir vaqtning o'zida yonganda, harakatlanishga ruxsat etiladi. Ulardan chapdagisi chapga, o'ngdagisi o'ng tomonga burilishga, o'rtadagisi to'g'riga yurishga ruxsat beradi. Agar yuqoridagi uchta ishora bir vaqtda yonsa, harakatlanish taqiqlanadi.
+d0521	YHQ 1-ilovasining 1-bo'limi izohining 1-xatboshiga asosan, 1.1, 1.2, 1.5-1.30 ogohlantiruvchi belgilar aholi punktlarida xavfli joydan 50-100 metr, aholi punktlaridan tashqarida esa 150-300 metr oldin o'rnatiladi. Zarurat bo'lganda bu belgilar 7.1.1 qo'shimcha axborot belgida ko'rsatilgan boshqa masofada ham o'rnatilishi mumkin.
+d0522	YHQ 2-ilova 1-bo'lim 1.27 yotiq chizig'i.
+d0523	YHQ 1-ilova 5-bo'lim 5.8.1 yo'l belgisi
+d0524	YHQ 1-ilova 3-bo'lim 3.18.2 yo'l belgisi.
+d0525	YHQ 119-band.
+d0526	YHQ 1-ilovasining 5-bo'limidagi 5.11.1 belgi "Qayrilish joyi" belgisi bo'lib, chapga burilishni taqiqlaydi.
+d0527	YHQ 1-ilova 5-bo'lim 5.46 yo'l belgisi.
+d0528	YHQ 28-band.
+d0529	V.I.Konoplyanko 13 bet. Haydovchini tormoz pedalini bosgandan boshlab avtomobilni to'xtaguncha bosib o'tgan yo'li "tormoz yo'li" deb ataladi.
+d0530	YHQ 160-band.

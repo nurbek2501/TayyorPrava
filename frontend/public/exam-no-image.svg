@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" role="img" aria-label="Rasm mavjud emas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E5EAF1"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCE3EC"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="320" rx="20" fill="url(#bg)"/>
+  <ellipse cx="280" cy="252" rx="206" ry="24" fill="#0F172A" opacity="0.10"/>
+  <!-- car body -->
+  <path d="M64 228 Q64 204 92 195 L154 174 Q180 138 234 128 Q314 118 384 150 L462 174 Q500 187 500 216 L500 224 Q500 238 486 238 L82 238 Q64 238 64 228 Z"
+        fill="url(#body)" stroke="#C3CCD8" stroke-width="2"/>
+  <!-- cabin -->
+  <path d="M214 132 Q258 120 330 132 Q358 138 380 164 L196 164 Q200 150 214 132 Z" fill="#6B86AD" opacity="0.55"/>
+  <path d="M224 160 L242 136 Q262 127 286 130 L290 160 Z" fill="#1E293B" opacity="0.16"/>
+  <!-- headlight -->
+  <path d="M468 176 L498 190 Q502 192 499 200 L470 198 Z" fill="#FBBF24"/>
+  <!-- wheels -->
+  <circle cx="172" cy="240" r="40" fill="#0F172A"/>
+  <circle cx="172" cy="240" r="19" fill="#CBD5E1"/>
+  <circle cx="172" cy="240" r="6" fill="#64748B"/>
+  <circle cx="404" cy="240" r="40" fill="#0F172A"/>
+  <circle cx="404" cy="240" r="19" fill="#CBD5E1"/>
+  <circle cx="404" cy="240" r="6" fill="#64748B"/>
+  <!-- learner "У" sign -->
+  <g transform="translate(288 146)">
+    <path d="M0 46 L27 -2 L54 46 Z" fill="#FFFFFF" stroke="#EF4444" stroke-width="5" stroke-linejoin="round"/>
+    <text x="27" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="30" fill="#EF4444">У</text>
+  </g>
+</svg>

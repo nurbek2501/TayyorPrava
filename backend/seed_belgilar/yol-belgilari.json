@@ -1,0 +1,1390 @@
+{
+ "source": "https://avto-test-yangi.uz/belgilar",
+ "title": "O'zbekiston yo'l harakati qoidalari - barcha yo'l belgilari",
+ "totalSigns": 268,
+ "imagesFolder": "rasmlar/",
+ "categories": [
+  {
+   "category": "1. Ogohlantiruvchi belgilar",
+   "count": 46,
+   "signs": [
+    {
+     "code": "1.1",
+     "name": "Shlagbaumli temir yo'l kesishmasi",
+     "imagePath": "rasmlar/1.1.gif"
+    },
+    {
+     "code": "1.2",
+     "name": "Shlagbaumsiz temir yo’l kesishmasi",
+     "imagePath": "rasmlar/1.2.gif"
+    },
+    {
+     "code": "1.3",
+     "name": "Diqqat \"UZP\"",
+     "imagePath": "rasmlar/1.3.png"
+    },
+    {
+     "code": "1.3.1",
+     "name": "Bir izli temir yo’l",
+     "imagePath": "rasmlar/1.3.1.gif"
+    },
+    {
+     "code": "1.3.2",
+     "name": "Ko’p izli temir yo’l",
+     "imagePath": "rasmlar/1.3.2.gif"
+    },
+    {
+     "code": "1.4.1",
+     "name": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+     "imagePath": "rasmlar/1.4.1.gif"
+    },
+    {
+     "code": "1.4.2",
+     "name": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+     "imagePath": "rasmlar/1.4.2.gif"
+    },
+    {
+     "code": "1.4.3",
+     "name": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+     "imagePath": "rasmlar/1.4.3.gif"
+    },
+    {
+     "code": "1.4.4",
+     "name": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+     "imagePath": "rasmlar/1.4.4.gif"
+    },
+    {
+     "code": "1.4.5",
+     "name": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+     "imagePath": "rasmlar/1.4.5.gif"
+    },
+    {
+     "code": "1.4.6",
+     "name": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+     "imagePath": "rasmlar/1.4.6.gif"
+    },
+    {
+     "code": "1.5",
+     "name": "Tramvay yo’li bilan kesishuv",
+     "imagePath": "rasmlar/1.5.gif"
+    },
+    {
+     "code": "1.6",
+     "name": "Teng ahamiyatli yo’llar kesishuvi",
+     "imagePath": "rasmlar/1.6.gif"
+    },
+    {
+     "code": "1.7",
+     "name": "Aylanma harakatlanish bilan kesishuv",
+     "imagePath": "rasmlar/1.7.gif"
+    },
+    {
+     "code": "1.8",
+     "name": "Svetofor tartibga soladi",
+     "imagePath": "rasmlar/1.8.gif"
+    },
+    {
+     "code": "1.9",
+     "name": "Ko’tarma ko’prik",
+     "imagePath": "rasmlar/1.9.gif"
+    },
+    {
+     "code": "1.10",
+     "name": "Sohilga chiqish",
+     "imagePath": "rasmlar/1.10.gif"
+    },
+    {
+     "code": "1.11.1",
+     "name": "Xavfli burilish",
+     "imagePath": "rasmlar/1.11.1.png"
+    },
+    {
+     "code": "1.11.2",
+     "name": "Xavfli burilish",
+     "imagePath": "rasmlar/1.11.2.png"
+    },
+    {
+     "code": "1.12.1",
+     "name": "Xavfli burilishlar",
+     "imagePath": "rasmlar/1.12.1.png"
+    },
+    {
+     "code": "1.12.2",
+     "name": "Xavfli burilishlar",
+     "imagePath": "rasmlar/1.12.2.png"
+    },
+    {
+     "code": "1.13",
+     "name": "Tik nishablik",
+     "imagePath": "rasmlar/1.13.jpg"
+    },
+    {
+     "code": "1.14",
+     "name": "Tik balandlik",
+     "imagePath": "rasmlar/1.14.jpg"
+    },
+    {
+     "code": "1.15",
+     "name": "Sirpanchiq yo’l",
+     "imagePath": "rasmlar/1.15.gif"
+    },
+    {
+     "code": "1.16",
+     "name": "Notekis yo’l",
+     "imagePath": "rasmlar/1.16.gif"
+    },
+    {
+     "code": "1.17",
+     "name": "Tosh otilish xavfi",
+     "imagePath": "rasmlar/1.17.gif"
+    },
+    {
+     "code": "1.18.1",
+     "name": "Yo’lning torayishi",
+     "imagePath": "rasmlar/1.18.1.gif"
+    },
+    {
+     "code": "1.18.2",
+     "name": "Yo’lning torayishi",
+     "imagePath": "rasmlar/1.18.2.gif"
+    },
+    {
+     "code": "1.18.3Yo’lning",
+     "name": "torayishi",
+     "imagePath": "rasmlar/1.18.3Yo_lning.gif"
+    },
+    {
+     "code": "1.19",
+     "name": "Ikki tomonlama harakatlanish",
+     "imagePath": "rasmlar/1.19.gif"
+    },
+    {
+     "code": "1.20",
+     "name": "Piyodalar o’tish joyi",
+     "imagePath": "rasmlar/1.20.gif"
+    },
+    {
+     "code": "1.21",
+     "name": "Bolalar",
+     "imagePath": "rasmlar/1.21.gif"
+    },
+    {
+     "code": "1.22",
+     "name": "Velosiped yo’lkasi bilan kesishuv",
+     "imagePath": "rasmlar/1.22.gif"
+    },
+    {
+     "code": "1.23",
+     "name": "Ta’mirlash ishlari",
+     "imagePath": "rasmlar/1.23.gif"
+    },
+    {
+     "code": "1.24",
+     "name": "Mol haydab o’tish",
+     "imagePath": "rasmlar/1.24.gif"
+    },
+    {
+     "code": "1.25",
+     "name": "Yovvoyi hayvonlar",
+     "imagePath": "rasmlar/1.25.gif"
+    },
+    {
+     "code": "1.26",
+     "name": "Toshlar tushishi",
+     "imagePath": "rasmlar/1.26.gif"
+    },
+    {
+     "code": "1.27",
+     "name": "Yonlama shamol",
+     "imagePath": "rasmlar/1.27.gif"
+    },
+    {
+     "code": "1.28",
+     "name": "Pastlab uchuvchi samolyotlar",
+     "imagePath": "rasmlar/1.28.gif"
+    },
+    {
+     "code": "1.29",
+     "name": "Tonnel",
+     "imagePath": "rasmlar/1.29.gif"
+    },
+    {
+     "code": "1.30",
+     "name": "Boshqa xavf-xatar",
+     "imagePath": "rasmlar/1.30.gif"
+    },
+    {
+     "code": "1.31",
+     "name": "Sun'iy yo'l notekisliklari",
+     "imagePath": "rasmlar/1.31.png"
+    },
+    {
+     "code": "1.31.1",
+     "name": "Burilishning yo’nalishi",
+     "imagePath": "rasmlar/1.31.1.gif"
+    },
+    {
+     "code": "1.31.2",
+     "name": "Burilishning yo’nalishi",
+     "imagePath": "rasmlar/1.31.2.gif"
+    },
+    {
+     "code": "1.31.3",
+     "name": "Burilishning yo’nalishi",
+     "imagePath": "rasmlar/1.31.3.gif"
+    },
+    {
+     "code": "1.32",
+     "name": "Tirbandlik",
+     "imagePath": "rasmlar/1.32.gif"
+    }
+   ]
+  },
+  {
+   "category": "2. Imtiyozli belgilar",
+   "count": 9,
+   "signs": [
+    {
+     "code": "2.1",
+     "name": "Asosiy yo’l",
+     "imagePath": "rasmlar/2.1.gif"
+    },
+    {
+     "code": "2.2",
+     "name": "Asosiy yo’lning oxiri",
+     "imagePath": "rasmlar/2.2.gif"
+    },
+    {
+     "code": "2.3.1",
+     "name": "Ikkinchi darajali yo’l bilan kesishuv",
+     "imagePath": "rasmlar/2.3.1.png"
+    },
+    {
+     "code": "2.3.2",
+     "name": "– tutashuv o’ngdan",
+     "imagePath": "rasmlar/2.3.2.png"
+    },
+    {
+     "code": "2.3.3",
+     "name": "– tutashuv chapdan",
+     "imagePath": "rasmlar/2.3.3.png"
+    },
+    {
+     "code": "2.4",
+     "name": "Yo’l bering",
+     "imagePath": "rasmlar/2.4.gif"
+    },
+    {
+     "code": "2.5",
+     "name": "To’xtamasdan harakatlanish taqiqlangan",
+     "imagePath": "rasmlar/2.5.gif"
+    },
+    {
+     "code": "2.6",
+     "name": "Ro’para harakatlanishning ustunligi",
+     "imagePath": "rasmlar/2.6.gif"
+    },
+    {
+     "code": "2.7",
+     "name": "Ro’paradagi harakatlanishga nisbatan imtiyoz",
+     "imagePath": "rasmlar/2.7.gif"
+    }
+   ]
+  },
+  {
+   "category": "3. Ta'qiqlovchi belgilar",
+   "count": 35,
+   "signs": [
+    {
+     "code": "3.1",
+     "name": "Kirish ta'qiqlangan",
+     "imagePath": "rasmlar/3.1.gif"
+    },
+    {
+     "code": "3.2",
+     "name": "Harakatlanish ta'qiqlangan",
+     "imagePath": "rasmlar/3.2.gif"
+    },
+    {
+     "code": "3.3",
+     "name": "Mexanik transport vositalarining harakatlanishi taqiqlangan",
+     "imagePath": "rasmlar/3.3.gif"
+    },
+    {
+     "code": "3.4",
+     "name": "Yuk avtomobillarining harakatlanishi taqiqlangan",
+     "imagePath": "rasmlar/3.4.png"
+    },
+    {
+     "code": "3.5",
+     "name": "Mototsikllar harakatlanishi taqiqlangan",
+     "imagePath": "rasmlar/3.5.gif"
+    },
+    {
+     "code": "3.6",
+     "name": "Traktorlar harakatlanishi taqiqlangan",
+     "imagePath": "rasmlar/3.6.gif"
+    },
+    {
+     "code": "3.7",
+     "name": "Tirkama bilan harakatlanish taqiqlangan",
+     "imagePath": "rasmlar/3.7.gif"
+    },
+    {
+     "code": "3.8",
+     "name": "Ot-arava harakatlanishi taqiqlangan",
+     "imagePath": "rasmlar/3.8.gif"
+    },
+    {
+     "code": "3.9",
+     "name": "Velosipedda harakatlanish ta'qiqlangan",
+     "imagePath": "rasmlar/3.9.gif"
+    },
+    {
+     "code": "3.10",
+     "name": "Piyodalarning harakatlanishi ta'qiqlangan",
+     "imagePath": "rasmlar/3.10.png"
+    },
+    {
+     "code": "3.11",
+     "name": "Vazn cheklangan",
+     "imagePath": "rasmlar/3.11.gif"
+    },
+    {
+     "code": "3.12",
+     "name": "O‘qqa tushadigan og‘irlik cheklangan",
+     "imagePath": "rasmlar/3.12.gif"
+    },
+    {
+     "code": "3.13",
+     "name": "Cheklangan balandlik",
+     "imagePath": "rasmlar/3.13.gif"
+    },
+    {
+     "code": "3.14",
+     "name": "Cheklangan kenglik",
+     "imagePath": "rasmlar/3.14.gif"
+    },
+    {
+     "code": "3.15",
+     "name": "Cheklangan uzunlik",
+     "imagePath": "rasmlar/3.15.gif"
+    },
+    {
+     "code": "3.16",
+     "name": "Eng kam oraliq",
+     "imagePath": "rasmlar/3.16.gif"
+    },
+    {
+     "code": "3.17.1",
+     "name": "Bojxona",
+     "imagePath": "rasmlar/3.17.1.png"
+    },
+    {
+     "code": "3.17.2",
+     "name": "Xavf-xatar",
+     "imagePath": "rasmlar/3.17.2.png"
+    },
+    {
+     "code": "3.18.1",
+     "name": "O’ngga burilish ta'qiqlanadi",
+     "imagePath": "rasmlar/3.18.1.gif"
+    },
+    {
+     "code": "3.18.2",
+     "name": "Chapga burilish taqiqlanadi",
+     "imagePath": "rasmlar/3.18.2.gif"
+    },
+    {
+     "code": "3.19",
+     "name": "Qayrilish ta'qiqlanadi",
+     "imagePath": "rasmlar/3.19.gif"
+    },
+    {
+     "code": "3.20",
+     "name": "Quvib o’tish taqiqlanadi",
+     "imagePath": "rasmlar/3.20.gif"
+    },
+    {
+     "code": "3.21",
+     "name": "Quvib o’tish ta'qiqlangan hududning oxiri",
+     "imagePath": "rasmlar/3.21.gif"
+    },
+    {
+     "code": "3.22",
+     "name": "Yuk avtomobillarida quvib o’tish taqiqlangan",
+     "imagePath": "rasmlar/3.22.gif"
+    },
+    {
+     "code": "3.23",
+     "name": "Yuk avtommobillarida quvib o’tish taqiqlangan hududning oxiri",
+     "imagePath": "rasmlar/3.23.gif"
+    },
+    {
+     "code": "3.24",
+     "name": "Yuqori tezlik cheklangan",
+     "imagePath": "rasmlar/3.24.gif"
+    },
+    {
+     "code": "3.25",
+     "name": "Yuqori tezlik cheklangan hududning oxiri",
+     "imagePath": "rasmlar/3.25.gif"
+    },
+    {
+     "code": "3.26",
+     "name": "Tovuch moslamalaridan foydalanish ta'qiqlangan",
+     "imagePath": "rasmlar/3.26.gif"
+    },
+    {
+     "code": "3.27",
+     "name": "To’xtash taqiqlangan",
+     "imagePath": "rasmlar/3.27.gif"
+    },
+    {
+     "code": "3.28",
+     "name": "To’xtab turish ta'qiqlangan",
+     "imagePath": "rasmlar/3.28.gif"
+    },
+    {
+     "code": "3.29",
+     "name": "Oyning toq kunlarida to’xtab turish taqiqlanadi",
+     "imagePath": "rasmlar/3.29.gif"
+    },
+    {
+     "code": "3.30",
+     "name": "Oyning juft kunlarida to’xtab turish taqiqlanadi",
+     "imagePath": "rasmlar/3.30.gif"
+    },
+    {
+     "code": "3.31",
+     "name": "Barcha cheklovlarning oxiri",
+     "imagePath": "rasmlar/3.31.gif"
+    },
+    {
+     "code": "3.32",
+     "name": "Xavfli yuklarga ega transport vositalarining harakati ta'qiqlanadi",
+     "imagePath": "rasmlar/3.32.gif"
+    },
+    {
+     "code": "3.33",
+     "name": "Portlovchi va yonuvchan yuklarga ega transport vositalarining harakatlanishi ta'qiqlanadi",
+     "imagePath": "rasmlar/3.33.gif"
+    }
+   ]
+  },
+  {
+   "category": "4. Buyuruvchi belgilar",
+   "count": 25,
+   "signs": [
+    {
+     "code": "4.1.1",
+     "name": "Harakatlanish to’g’riga",
+     "imagePath": "rasmlar/4.1.1.gif"
+    },
+    {
+     "code": "4.1.2",
+     "name": "Harakatlanish o’ngga",
+     "imagePath": "rasmlar/4.1.2.gif"
+    },
+    {
+     "code": "4.1.3",
+     "name": "Harakatlanish chapga",
+     "imagePath": "rasmlar/4.1.3.gif"
+    },
+    {
+     "code": "4.1.4",
+     "name": "Harakatlanish to’g’riga yoki o’ngga",
+     "imagePath": "rasmlar/4.1.4.gif"
+    },
+    {
+     "code": "4.1.5",
+     "name": "Harakatlanish to’g’riga yoki chapga",
+     "imagePath": "rasmlar/4.1.5.gif"
+    },
+    {
+     "code": "4.1.6",
+     "name": "Harakatlanish o’ngga yoki chapga",
+     "imagePath": "rasmlar/4.1.6.gif"
+    },
+    {
+     "code": "4.2.1",
+     "name": "To’siqni o’ngdan chetlab o’tish",
+     "imagePath": "rasmlar/4.2.1.gif"
+    },
+    {
+     "code": "4.2.2",
+     "name": "To’siqni chapdan chetlab o’tish",
+     "imagePath": "rasmlar/4.2.2.gif"
+    },
+    {
+     "code": "4.2.3",
+     "name": "To’siqni o’ngdan yoki chapdan chetlab o’tish",
+     "imagePath": "rasmlar/4.2.3.gif"
+    },
+    {
+     "code": "4.3",
+     "name": "Aylanma harakatlanish",
+     "imagePath": "rasmlar/4.3.gif"
+    },
+    {
+     "code": "4.4",
+     "name": "Yengil avtomobillar harakatlanadi",
+     "imagePath": "rasmlar/4.4.gif"
+    },
+    {
+     "code": "4.5",
+     "name": "Velosiped yo’lkasi",
+     "imagePath": "rasmlar/4.5.gif"
+    },
+    {
+     "code": "4.6",
+     "name": "Piyodalar yo’lkasi",
+     "imagePath": "rasmlar/4.6.gif"
+    },
+    {
+     "code": "4.6.1",
+     "name": "Piyoda va velosipedlar birgalikda harakatlanish yo'li",
+     "imagePath": "rasmlar/4.6.1.jpg"
+    },
+    {
+     "code": "4.6.2",
+     "name": "Piyoda va velosipedlar birgalikda harakatlanish yo'li oxiri",
+     "imagePath": "rasmlar/4.6.2.jpg"
+    },
+    {
+     "code": "4.6.3",
+     "name": "Ajratilgan piyoda va velosiped harakatlanish yo'li",
+     "imagePath": "rasmlar/4.6.3.jpg"
+    },
+    {
+     "code": "4.6.4",
+     "name": "Ajratilgan piyoda va velosiped harakatlanish yo'li oxiri",
+     "imagePath": "rasmlar/4.6.4.jpg"
+    },
+    {
+     "code": "4.6.5",
+     "name": "Ajratilgan piyoda va velosiped harakatlanish yo'li",
+     "imagePath": "rasmlar/4.6.5.jpg"
+    },
+    {
+     "code": "4.6.6",
+     "name": "Ajratilgan piyoda va velosiped harakatlanish yo'li oxiri",
+     "imagePath": "rasmlar/4.6.6.jpg"
+    },
+    {
+     "code": "4.7",
+     "name": "Eng kam tezlik",
+     "imagePath": "rasmlar/4.7.gif"
+    },
+    {
+     "code": "4.8",
+     "name": "Eng kam tezlik belgilangan yo’lning oxiri",
+     "imagePath": "rasmlar/4.8.gif"
+    },
+    {
+     "code": "4.9.1",
+     "name": "Transport vositalarining xavfli yuklar bilan harakatlanish yo'nalishi",
+     "imagePath": "rasmlar/4.9.1.gif"
+    },
+    {
+     "code": "4.9.2",
+     "name": "Transport vositalarining xavfli yuklar bilan harakatlanish yo'nalishi",
+     "imagePath": "rasmlar/4.9.2.gif"
+    },
+    {
+     "code": "4.9.3",
+     "name": "Transport vositalarining xavfli yuklar bilan harakatlanish yo'nalishi",
+     "imagePath": "rasmlar/4.9.3.gif"
+    },
+    {
+     "code": "4.10",
+     "name": "Otda yurish yo'li",
+     "imagePath": "rasmlar/4.10.gif"
+    }
+   ]
+  },
+  {
+   "category": "5. Axborot-ishora belgilari",
+   "count": 82,
+   "signs": [
+    {
+     "code": "5.1",
+     "name": "Avtomagistral",
+     "imagePath": "rasmlar/5.1.gif"
+    },
+    {
+     "code": "5.2",
+     "name": "Avtomagistralning oxiri",
+     "imagePath": "rasmlar/5.2.gif"
+    },
+    {
+     "code": "5.3",
+     "name": "Avtomobillar uchun mo’ljallangan yo’l",
+     "imagePath": "rasmlar/5.3.gif"
+    },
+    {
+     "code": "5.4",
+     "name": "Avtomobillar uchun mo’ljallangan yo’lning oxiri",
+     "imagePath": "rasmlar/5.4.gif"
+    },
+    {
+     "code": "5.5",
+     "name": "Bir tomonlama harakatlanish yo’li",
+     "imagePath": "rasmlar/5.5.gif"
+    },
+    {
+     "code": "5.6",
+     "name": "Bir tomonlama harakatlanish yo’lining oxiri",
+     "imagePath": "rasmlar/5.6.gif"
+    },
+    {
+     "code": "5.7.1",
+     "name": "Bir tomonlama harakatlanish yo’liga chiqish",
+     "imagePath": "rasmlar/5.7.1.gif"
+    },
+    {
+     "code": "5.7.2",
+     "name": "Bir tomonlama harakatlanish yo’liga chiqish",
+     "imagePath": "rasmlar/5.7.2.gif"
+    },
+    {
+     "code": "5.8.1",
+     "name": "Bo’laklar bo’yicha harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.8.1.gif"
+    },
+    {
+     "code": "5.8.2",
+     "name": "Bo’lak bo’yicha harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.8.2.png"
+    },
+    {
+     "code": "5.8.2",
+     "name": "Bo’lak bo’yicha harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.8.2_1.png"
+    },
+    {
+     "code": "5.8.2",
+     "name": "Bo’lak bo’yicha harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.8.2_2.png"
+    },
+    {
+     "code": "5.8.2",
+     "name": "Bo’lak bo’yicha harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.8.2_3.png"
+    },
+    {
+     "code": "5.8.3",
+     "name": "Bo’lakning boshlanishi",
+     "imagePath": "rasmlar/5.8.3.gif"
+    },
+    {
+     "code": "5.8.3",
+     "name": "Bo’lakning boshlanishi",
+     "imagePath": "rasmlar/5.8.3_1.gif"
+    },
+    {
+     "code": "5.8.4",
+     "name": "Bo’lakning boshlanishi",
+     "imagePath": "rasmlar/5.8.4.gif"
+    },
+    {
+     "code": "5.8.5",
+     "name": "Bo’lak oxiri",
+     "imagePath": "rasmlar/5.8.5.gif"
+    },
+    {
+     "code": "5.8.5",
+     "name": "Bo’lak oxiri",
+     "imagePath": "rasmlar/5.8.5_1.gif"
+    },
+    {
+     "code": "5.8.7",
+     "name": "Bo’laklar bo’yicha harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.8.7.gif"
+    },
+    {
+     "code": "5.8.7",
+     "name": "Bo’laklar bo’yicha harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.8.7_1.gif"
+    },
+    {
+     "code": "5.8.8",
+     "name": "Bo’laklar bo’yicha harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.8.8.gif"
+    },
+    {
+     "code": "5.8.9",
+     "name": "Bo’laklar soni",
+     "imagePath": "rasmlar/5.8.9.png"
+    },
+    {
+     "code": "5.9",
+     "name": "Belgilangan yo’nalishli transport vositalari uchun mo’ljallangan bo’lak",
+     "imagePath": "rasmlar/5.9.gif"
+    },
+    {
+     "code": "5.10.1",
+     "name": "Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’l",
+     "imagePath": "rasmlar/5.10.1.gif"
+    },
+    {
+     "code": "5.10.2",
+     "name": "Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’l",
+     "imagePath": "rasmlar/5.10.2.gif"
+    },
+    {
+     "code": "5.10.3",
+     "name": "Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’l",
+     "imagePath": "rasmlar/5.10.3.gif"
+    },
+    {
+     "code": "5.10.4",
+     "name": "Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’lning oxiri",
+     "imagePath": "rasmlar/5.10.4.gif"
+    },
+    {
+     "code": "5.11.1",
+     "name": "Qayirilish joyi",
+     "imagePath": "rasmlar/5.11.1.gif"
+    },
+    {
+     "code": "5.11.2",
+     "name": "Qayirilish oralig’i",
+     "imagePath": "rasmlar/5.11.2.gif"
+    },
+    {
+     "code": "5.12",
+     "name": "Avtobus va trolleybus to’xtash joyi",
+     "imagePath": "rasmlar/5.12.gif"
+    },
+    {
+     "code": "5.13",
+     "name": "Tramvay to’xtash joyi",
+     "imagePath": "rasmlar/5.13.gif"
+    },
+    {
+     "code": "5.14",
+     "name": "Taksi to’xtab turish joyi",
+     "imagePath": "rasmlar/5.14.gif"
+    },
+    {
+     "code": "5.15",
+     "name": "To’xtab turish joyi",
+     "imagePath": "rasmlar/5.15.gif"
+    },
+    {
+     "code": "5.16.1",
+     "name": "Piyodalar o’tish joyi",
+     "imagePath": "rasmlar/5.16.1.gif"
+    },
+    {
+     "code": "5.16.2",
+     "name": "Piyodalar o’tish joyi",
+     "imagePath": "rasmlar/5.16.2.gif"
+    },
+    {
+     "code": "5.17.1",
+     "name": "Piyodalarning yer ostidan o’tish joyi",
+     "imagePath": "rasmlar/5.17.1.gif"
+    },
+    {
+     "code": "5.17.2",
+     "name": "Piyodalarning yer ostidan o’tish joyi",
+     "imagePath": "rasmlar/5.17.2.gif"
+    },
+    {
+     "code": "5.17.3",
+     "name": "Piyodalarning yer ustidan o’tish joyi",
+     "imagePath": "rasmlar/5.17.3.gif"
+    },
+    {
+     "code": "5.17.4",
+     "name": "Piyodalarning yer ustidan o’tish joyi",
+     "imagePath": "rasmlar/5.17.4.gif"
+    },
+    {
+     "code": "5.18",
+     "name": "Tavsiya etilgan tezlik",
+     "imagePath": "rasmlar/5.18.gif"
+    },
+    {
+     "code": "5.19.1",
+     "name": "Oxiri berk yo’l, ko’cha",
+     "imagePath": "rasmlar/5.19.1.gif"
+    },
+    {
+     "code": "5.19.2",
+     "name": "Oxiri berk yo’l, ko’cha",
+     "imagePath": "rasmlar/5.19.2.gif"
+    },
+    {
+     "code": "5.19.3",
+     "name": "Oxiri berk yo’l, ko’cha",
+     "imagePath": "rasmlar/5.19.3.gif"
+    },
+    {
+     "code": "5.20.1",
+     "name": "Yo’nalishlarning dastlabki ko’rsatkichi",
+     "imagePath": "rasmlar/5.20.1.jpg"
+    },
+    {
+     "code": "5.20.1",
+     "name": "Yo’nalishlarning dastlabki ko’rsatkichi",
+     "imagePath": "rasmlar/5.20.1_1.jpg"
+    },
+    {
+     "code": "5.20.1",
+     "name": "Yo’nalishlarning dastlabki ko’rsatkichi",
+     "imagePath": "rasmlar/5.20.1_2.jpg"
+    },
+    {
+     "code": "5.20.2",
+     "name": "Yo’nalishlarning dastlabki ko’rsatkichi",
+     "imagePath": "rasmlar/5.20.2.jpg"
+    },
+    {
+     "code": "5.20.3",
+     "name": "Harakatlanish tasviri",
+     "imagePath": "rasmlar/5.20.3.gif"
+    },
+    {
+     "code": "5.21.1",
+     "name": "Yo’nalish ko’rsatkichi",
+     "imagePath": "rasmlar/5.21.1.jpg"
+    },
+    {
+     "code": "5.21.2",
+     "name": "Yo’nalishlar ko’rsatkichi",
+     "imagePath": "rasmlar/5.21.2.jpg"
+    },
+    {
+     "code": "5.22",
+     "name": "Aholi yashaydigan joyning boshlanishi",
+     "imagePath": "rasmlar/5.22.jpg"
+    },
+    {
+     "code": "5.23",
+     "name": "Aholi yashaydigan joyning oxiri",
+     "imagePath": "rasmlar/5.23.jpg"
+    },
+    {
+     "code": "5.24",
+     "name": "Aholi yashaydigan joyning boshlanishi",
+     "imagePath": "rasmlar/5.24.jpg"
+    },
+    {
+     "code": "5.25",
+     "name": "Aholi yashaydigan joyning oxiri",
+     "imagePath": "rasmlar/5.25.jpg"
+    },
+    {
+     "code": "5.26",
+     "name": "Manzil nomi",
+     "imagePath": "rasmlar/5.26.jpg"
+    },
+    {
+     "code": "5.27",
+     "name": "Masofalar ko’rsatkichi",
+     "imagePath": "rasmlar/5.27.jpg"
+    },
+    {
+     "code": "5.28",
+     "name": "Kilometr belgisi",
+     "imagePath": "rasmlar/5.28.png"
+    },
+    {
+     "code": "5.29.1",
+     "name": "Yo’l raqami",
+     "imagePath": "rasmlar/5.29.1.jpg"
+    },
+    {
+     "code": "5.29.2",
+     "name": "Yo’l raqami",
+     "imagePath": "rasmlar/5.29.2.png"
+    },
+    {
+     "code": "5.29.2",
+     "name": "Yo’l raqami",
+     "imagePath": "rasmlar/5.29.2_1.png"
+    },
+    {
+     "code": "5.29.2",
+     "name": "Yo’l raqami",
+     "imagePath": "rasmlar/5.29.2_2.png"
+    },
+    {
+     "code": "5.30.1",
+     "name": "Yuk avtomobillari uchun harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.30.1.gif"
+    },
+    {
+     "code": "5.30.2",
+     "name": "Yuk avtomobillari uchun harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.30.2.gif"
+    },
+    {
+     "code": "5.30.3",
+     "name": "Yuk avtomobillari uchun harakatlanish yo’nalishi",
+     "imagePath": "rasmlar/5.30.3.gif"
+    },
+    {
+     "code": "5.31",
+     "name": "Aylanib o’tish tasviri",
+     "imagePath": "rasmlar/5.31.jpg"
+    },
+    {
+     "code": "5.32.1",
+     "name": "Chetlab o’tish yo’nalishi",
+     "imagePath": "rasmlar/5.32.1.jpg"
+    },
+    {
+     "code": "5.32.2",
+     "name": "Chetlab o’tish yo’nalishi",
+     "imagePath": "rasmlar/5.32.2.jpg"
+    },
+    {
+     "code": "5.32.3",
+     "name": "Chetlab o’tish yo’nalishi",
+     "imagePath": "rasmlar/5.32.3.jpg"
+    },
+    {
+     "code": "5.33",
+     "name": "To’xtash",
+     "imagePath": "rasmlar/5.33.png"
+    },
+    {
+     "code": "5.34.1",
+     "name": "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
+     "imagePath": "rasmlar/5.34.1.gif"
+    },
+    {
+     "code": "5.34.2",
+     "name": "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
+     "imagePath": "rasmlar/5.34.2.gif"
+    },
+    {
+     "code": "5.35",
+     "name": "Reversiv harakatlanish",
+     "imagePath": "rasmlar/5.35.gif"
+    },
+    {
+     "code": "5.36",
+     "name": "Reversiv harakatlanish oxiri",
+     "imagePath": "rasmlar/5.36.gif"
+    },
+    {
+     "code": "5.37",
+     "name": "Reversiv harakatlanish yo’liga chiqish",
+     "imagePath": "rasmlar/5.37.gif"
+    },
+    {
+     "code": "5.38",
+     "name": "Turar-joy dahasi",
+     "imagePath": "rasmlar/5.38.gif"
+    },
+    {
+     "code": "5.39",
+     "name": "Turar-joy dahasining oxiri",
+     "imagePath": "rasmlar/5.39.gif"
+    },
+    {
+     "code": "5.40",
+     "name": "Falokatli holatlar uchun kirish yo’li",
+     "imagePath": "rasmlar/5.40.gif"
+    },
+    {
+     "code": "5.41",
+     "name": "Surat va video",
+     "imagePath": "rasmlar/5.41.png"
+    },
+    {
+     "code": "5.43",
+     "name": "Radar",
+     "imagePath": "rasmlar/5.43.jpg"
+    },
+    {
+     "code": "5.42",
+     "name": "Qizil rangda o'ng tomonga burilish",
+     "imagePath": "rasmlar/5.42.png"
+    },
+    {
+     "code": "5.44",
+     "name": "Velosipedlar uchun harakatlanish bo'lagi",
+     "imagePath": "rasmlar/5.44.jpg"
+    },
+    {
+     "code": "5.45",
+     "name": "Velosipedlar uchun harakatlanish bo'lagining oxiri",
+     "imagePath": "rasmlar/5.45.jpg"
+    }
+   ]
+  },
+  {
+   "category": "6. Servis belgilari",
+   "count": 17,
+   "signs": [
+    {
+     "code": "6.1",
+     "name": "Tibbiy yordam ko’rsatish joyi",
+     "imagePath": "rasmlar/6.1.gif"
+    },
+    {
+     "code": "6.2",
+     "name": "Shifoxona",
+     "imagePath": "rasmlar/6.2.gif"
+    },
+    {
+     "code": "6.3",
+     "name": "Yonilg’i shaxobchasi",
+     "imagePath": "rasmlar/6.3.gif"
+    },
+    {
+     "code": "6.4",
+     "name": "Texnik xizmat ko’rsatish joyi",
+     "imagePath": "rasmlar/6.4.gif"
+    },
+    {
+     "code": "6.5",
+     "name": "Transport vositalarini yuvish joyi",
+     "imagePath": "rasmlar/6.5.gif"
+    },
+    {
+     "code": "6.6",
+     "name": "Telefon",
+     "imagePath": "rasmlar/6.6.gif"
+    },
+    {
+     "code": "6.7",
+     "name": "Oshxona",
+     "imagePath": "rasmlar/6.7.gif"
+    },
+    {
+     "code": "6.8",
+     "name": "Ichimlik suvi",
+     "imagePath": "rasmlar/6.8.gif"
+    },
+    {
+     "code": "6.9",
+     "name": "Mehmonxona",
+     "imagePath": "rasmlar/6.9.gif"
+    },
+    {
+     "code": "6.10",
+     "name": "Kemping",
+     "imagePath": "rasmlar/6.10.gif"
+    },
+    {
+     "code": "6.11",
+     "name": "Dam olish joyi",
+     "imagePath": "rasmlar/6.11.gif"
+    },
+    {
+     "code": "6.12",
+     "name": "Yo’l patrul xizmati maskani",
+     "imagePath": "rasmlar/6.12.jpg"
+    },
+    {
+     "code": "6.13",
+     "name": "Xalqaro avtomobillarni tashish nazorat punkti",
+     "imagePath": "rasmlar/6.13.jpg"
+    },
+    {
+     "code": "6.14",
+     "name": "Xojatxona",
+     "imagePath": "rasmlar/6.14.gif"
+    },
+    {
+     "code": "6.15",
+     "name": "Axlat quti",
+     "imagePath": "rasmlar/6.15.jpg"
+    },
+    {
+     "code": "6.16",
+     "name": "Basseyn yoki sohil bo'yi",
+     "imagePath": "rasmlar/6.16.gif"
+    },
+    {
+     "code": "6.17",
+     "name": "Polisiya",
+     "imagePath": "rasmlar/6.17.png"
+    }
+   ]
+  },
+  {
+   "category": "7. Qo'shimcha axborot belgilari",
+   "count": 54,
+   "signs": [
+    {
+     "code": "7.1.1",
+     "name": "Manzilgacha bo’lgan masofa",
+     "imagePath": "rasmlar/7.1.1.gif"
+    },
+    {
+     "code": "7.1.2",
+     "name": "Manzilgacha bo’lgan masofa",
+     "imagePath": "rasmlar/7.1.2.gif"
+    },
+    {
+     "code": "7.1.3",
+     "name": "Manzilgacha bo’lgan masofa",
+     "imagePath": "rasmlar/7.1.3.gif"
+    },
+    {
+     "code": "7.1.4",
+     "name": "Manzilgacha bo’lgan masofa",
+     "imagePath": "rasmlar/7.1.4.gif"
+    },
+    {
+     "code": "7.2.1",
+     "name": "Ta’sir oralig’i",
+     "imagePath": "rasmlar/7.2.1.gif"
+    },
+    {
+     "code": "7.2.2",
+     "name": "Ta’sir oralig’i",
+     "imagePath": "rasmlar/7.2.2.gif"
+    },
+    {
+     "code": "7.2.3",
+     "name": "Ta’sir oralig’i",
+     "imagePath": "rasmlar/7.2.3.gif"
+    },
+    {
+     "code": "7.2.4",
+     "name": "Ta’sir oralig’i",
+     "imagePath": "rasmlar/7.2.4.gif"
+    },
+    {
+     "code": "7.2.5",
+     "name": "Ta’sir oralig’i",
+     "imagePath": "rasmlar/7.2.5.gif"
+    },
+    {
+     "code": "7.2.6",
+     "name": "Ta’sir oralig’i",
+     "imagePath": "rasmlar/7.2.6.gif"
+    },
+    {
+     "code": "7.3.1",
+     "name": "Ta’sir yo’nalishlari",
+     "imagePath": "rasmlar/7.3.1.gif"
+    },
+    {
+     "code": "7.3.2",
+     "name": "Ta’sir yo’nalishlari",
+     "imagePath": "rasmlar/7.3.2.gif"
+    },
+    {
+     "code": "7.3.3",
+     "name": "Ta’sir yo’nalishlari",
+     "imagePath": "rasmlar/7.3.3.gif"
+    },
+    {
+     "code": "7.4.1",
+     "name": "Transport vositasining turi",
+     "imagePath": "rasmlar/7.4.1.gif"
+    },
+    {
+     "code": "7.4.2",
+     "name": "Transport vositasining turi",
+     "imagePath": "rasmlar/7.4.2.gif"
+    },
+    {
+     "code": "7.4.3",
+     "name": "Transport vositasining turi",
+     "imagePath": "rasmlar/7.4.3.gif"
+    },
+    {
+     "code": "7.4.4",
+     "name": "Transport vositasining turi",
+     "imagePath": "rasmlar/7.4.4.gif"
+    },
+    {
+     "code": "7.4.5",
+     "name": "Transport vositasining turi",
+     "imagePath": "rasmlar/7.4.5.gif"
+    },
+    {
+     "code": "7.4.6",
+     "name": "Transport vositasining turi",
+     "imagePath": "rasmlar/7.4.6.gif"
+    },
+    {
+     "code": "7.4.7",
+     "name": "Transport vositasining turi",
+     "imagePath": "rasmlar/7.4.7.gif"
+    },
+    {
+     "code": "7.4.8",
+     "name": "Transport vositasining turi",
+     "imagePath": "rasmlar/7.4.8.png"
+    },
+    {
+     "code": "7.5.1",
+     "name": "Shanba, yakshanba va bayram kunlari",
+     "imagePath": "rasmlar/7.5.1.gif"
+    },
+    {
+     "code": "7.5.2",
+     "name": "Ish kunlari",
+     "imagePath": "rasmlar/7.5.2.gif"
+    },
+    {
+     "code": "7.5.3",
+     "name": "Hafta kunlari",
+     "imagePath": "rasmlar/7.5.3.png"
+    },
+    {
+     "code": "7.5.4",
+     "name": "Amal qilish vaqti",
+     "imagePath": "rasmlar/7.5.4.gif"
+    },
+    {
+     "code": "7.5.5",
+     "name": "Amal qilish vaqti",
+     "imagePath": "rasmlar/7.5.5.gif"
+    },
+    {
+     "code": "7.5.6",
+     "name": "Amal qilish vaqti",
+     "imagePath": "rasmlar/7.5.6.gif"
+    },
+    {
+     "code": "7.5.7",
+     "name": "Amal qilish vaqti",
+     "imagePath": "rasmlar/7.5.7.png"
+    },
+    {
+     "code": "7.6.1",
+     "name": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+     "imagePath": "rasmlar/7.6.1.gif"
+    },
+    {
+     "code": "7.6.2",
+     "name": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+     "imagePath": "rasmlar/7.6.2.gif"
+    },
+    {
+     "code": "7.6.3",
+     "name": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+     "imagePath": "rasmlar/7.6.3.gif"
+    },
+    {
+     "code": "7.6.4",
+     "name": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+     "imagePath": "rasmlar/7.6.4.png"
+    },
+    {
+     "code": "7.6.5",
+     "name": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+     "imagePath": "rasmlar/7.6.5.gif"
+    },
+    {
+     "code": "7.6.6",
+     "name": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+     "imagePath": "rasmlar/7.6.6.png"
+    },
+    {
+     "code": "7.6.7",
+     "name": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+     "imagePath": "rasmlar/7.6.7.png"
+    },
+    {
+     "code": "7.6.8",
+     "name": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+     "imagePath": "rasmlar/7.6.8.png"
+    },
+    {
+     "code": "7.7",
+     "name": "Yurgizgichni ishlatmasdan to’xtab turish joyi",
+     "imagePath": "rasmlar/7.7.gif"
+    },
+    {
+     "code": "7.8",
+     "name": "Pullik xizmat ko’rsatish joyi",
+     "imagePath": "rasmlar/7.8.gif"
+    },
+    {
+     "code": "7.9",
+     "name": "To’xtab turish muddati cheklangan",
+     "imagePath": "rasmlar/7.9.png"
+    },
+    {
+     "code": "7.10",
+     "name": "Avtomobillarni ko’rikdan o’tkazish joyi",
+     "imagePath": "rasmlar/7.10.gif"
+    },
+    {
+     "code": "7.11",
+     "name": "To’la vazni cheklangan",
+     "imagePath": "rasmlar/7.11.png"
+    },
+    {
+     "code": "7.12",
+     "name": "Xavfli yo’l yoqasi",
+     "imagePath": "rasmlar/7.12.png"
+    },
+    {
+     "code": "7.13",
+     "name": "Asosiy yo’lning yo’nalishi",
+     "imagePath": "rasmlar/7.13.gif"
+    },
+    {
+     "code": "7.14",
+     "name": "Harakatlanish bo’lagi",
+     "imagePath": "rasmlar/7.14.gif"
+    },
+    {
+     "code": "7.15",
+     "name": "Ko’zi ojiz piyodalar",
+     "imagePath": "rasmlar/7.15.gif"
+    },
+    {
+     "code": "7.16",
+     "name": "Nam qoplama",
+     "imagePath": "rasmlar/7.16.gif"
+    },
+    {
+     "code": "7.17",
+     "name": "Nogironlar",
+     "imagePath": "rasmlar/7.17.gif"
+    },
+    {
+     "code": "7.18",
+     "name": "Nogironlar mustasno",
+     "imagePath": "rasmlar/7.18.gif"
+    },
+    {
+     "code": "7.19",
+     "name": "Chorrahadagi kamera",
+     "imagePath": "rasmlar/7.19.png"
+    },
+    {
+     "code": "7.20",
+     "name": "Xavfli yuk",
+     "imagePath": "rasmlar/7.20.png"
+    },
+    {
+     "code": "7.21",
+     "name": "Evakuator ishlamoqda",
+     "imagePath": "rasmlar/7.21.png"
+    },
+    {
+     "code": "7.21.1",
+     "name": "Marshrutli transport vositasi turi",
+     "imagePath": "rasmlar/7.21.1.png"
+    },
+    {
+     "code": "7.21.2",
+     "name": "Marshrutli transport vositasi turi",
+     "imagePath": "rasmlar/7.21.2.png"
+    },
+    {
+     "code": "7.21.3",
+     "name": "Marshrutli transport vositasi turi",
+     "imagePath": "rasmlar/7.21.3.png"
+    }
+   ]
+  }
+ ]
+}

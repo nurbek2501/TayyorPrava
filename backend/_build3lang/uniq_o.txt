@@ -1,0 +1,2628 @@
+o0001	Qizilga
+o0002	Ikkala avtomobilga
+o0003	Hech qaysi biriga
+o0004	Sariq avtomobilga
+o0005	Faqat "А" yo'nalish bo'ylab
+o0006	Faqat "B" yo'nalish bo'ylab
+o0007	Faqat "C" yo'nalish bo'ylab
+o0008	Faqat "А" va "G" yo'nalishlari bo'ylab
+o0009	Faqat "G" yo'nalish bo'ylab
+o0010	Faqat "M1" toifali transport vositasi
+o0011	Faqat "M2; M3; N1" toifali transport vositasi
+o0012	Faqat "N2; N3" toifali transport vositasi
+o0013	Hamma sanab o'tilgan transport vositalaridan
+o0014	Qizil avtomobil
+o0015	Ko'k avtomobil
+o0016	Sariq avtomobil
+o0017	Yashil avtomobil
+o0018	Qizil va oq avtomobillarga
+o0019	Ko'k, yashil va oq avtomobillarga
+o0020	Oq, ko'k va sariq avtomobillarga
+o0021	Avtomobil va avtobus haydovchisi
+o0022	Tramvay haydovchisi
+o0023	Ruxsat etiladi
+o0024	Taqiqlanadi
+o0025	Transport vositasining sozligini va to'la jihozlanganligini tekshirishi
+o0026	Harakatlanish boshlanishi xavfsiz bo'lishiga va harakatning boshqa ishtirokchilariga xalaqit bermasligiga ishonch hosil qilishi kerak
+o0027	Tegishli yo'nalishdagi burilishning yorug'lik ko'rsatkichi bilan ishora berishi
+o0028	Sanab o'tilgan hamma harakatlarni bajarishi
+o0029	Qattiq taxtada orqasi bilan yotgan holda
+o0030	Yumshoq to'shamada orqasi bilan yotgan holda
+o0031	Qattiq taxtada yoni bilan yotgan holda
+o0032	Og'ir vaznli va yirik o'lchamli yuklarni tashuvchi
+o0033	Uzunligi yuk bilan yoki yuksiz 20 metrdan ortiq bo'lgan transport vositasi
+o0034	Furgon yukxonasida odamlarni tashuvchi
+o0035	Ha
+o0036	Yo'q
+o0037	Faqat chapga
+o0038	Faqat to'g'riga
+o0039	Faqat o'ngga
+o0040	To'g'riga, o'ngga va qayrilishga
+o0041	Transport vositalarining majburiy to'xtash joyiga yaqinlashayotgani
+o0042	"To'xtamasdan harakatlanish taqiqlangan" belgisi bilan birga qo'llanilganda haydovchini "To'xtash" chizig'iga yaqinlashayotganligini
+o0043	Transport vositasi piyodalarga yo'l berishi kerak bo'lgan joyni ko'rsatadi
+o0044	Ajratuvchi tasmaning texnologik uzilish joylariga kirish va qayrilib olish
+o0045	Orqaga harakatlanish
+o0046	"To'xtab turish joyi" yoki "Dam olish yoki" belgilari bo'lgan maxsus maydonchalardan tashqari joyda to'xtash
+o0047	Yuqoridagi barcha holatlar
+o0048	Avtobus va motosikl haydovchilari
+o0049	Yengil va yuk avtomobillari haydovchilari
+o0050	Yengil avtomobil haydovchisi
+o0051	Avtomobil haydovchisi
+o0052	Harakatning boshqa ishtirokchilariga xalaqit bermaslik. Harakat xavfsizligini ta'minlash uchun zarur bo'lsa, boshqa shaxslar yordamidan foydalanish
+o0053	Boshqa shaxslar yordamidan foydalanish
+o0054	Transport vositasida tumanga qarshi chiroqlar bo'lsa, ularni yoqish
+o0055	Gabarit chiroqlarini yoqish
+o0056	Ikki tomonlama harakatli, 4ta yoki undan ko'p tasmali yo'llarda
+o0057	Ikki tomonlama harakatli, qarama-qarshi yo'nalishdagi transport vositalari oqimlari ikkita uzluksiz chiziqlar bilan ajratilgan, 4ta tasmali yo'llarda
+o0058	Yuqoridagi barcha hollarda
+o0059	Uzatma ulangan holatda
+o0060	Uzatma ajratilgan holatda
+o0061	Tezlik oshirilganda
+o0062	Gidravlik tormoz tizimidan suyuqlik oqayotgan bo'lsa
+o0063	Ishchi tormoz tizimi samaradorligi talabga javob bermaydi
+o0064	Kompressor pnevmatik tormoz tizimida o'rnatilgan bosimni ta'minlay olmagan holatda
+o0065	Ko'rsatilgan barcha holatlarda
+o0066	Yo'l xizmati xodimlariga
+o0067	Tibbiyot xodimlariga zudlik bilan tibbiy yordamga muhtoj bo'lgan fuqarolarni davolash-profilaktika muassasasiga olib borish uchun
+o0068	Faqat "Б"
+o0069	Faqat "А"
+o0070	"А" va "Б"
+o0071	"А", "Б", "В" va "Г"
+o0072	"А", "Б" va "В"
+o0073	1
+o0074	2
+o0075	3
+o0076	4
+o0077	5
+o0078	Agar tasma qolgan harakat qismidan yotiq uzluksiz chiziq bilan ajratilmagan bo'lsa, ruxsat etiladi
+o0079	Tramvay va avtobus, yengil avtomobil
+o0080	Tramvay, yengil avtomobil, avtobus
+o0081	Yengil avtomobil, tramvay va avtobus
+o0082	Orqa g'ildiraklar
+o0083	Oldingi g'ildiraklar
+o0084	Kajavasiz motosikllar, mopedlar va velosipedlar
+o0085	Kajavali motosikllar
+o0086	"Nogiron" taniqli belgisi bo'lgan yengil avtomobillar
+o0087	Ruxsat etilgan to'la vazni 3,5 t. dan kam bo'lgan, bevosita trotuarlar bo'ylab joylashgan savdo va boshqa korxonalarga xizmat qiluvchi yuk avtomobillari
+o0088	Kiyim avval jarohatlangan qo'lga, so'ngra sog'iga kiydiriladi
+o0089	Kiyim ikkala qo'lga baravar kiydiriladi
+o0090	Kiyim avval sog' qo'lga, so'ngra jarohatlangan qo'lga kiydiriladi
+o0091	Yukxona devorlaridan baland chiqmasligi kerak
+o0092	Shovqin hosil qilmasligi, chang ko'tarmasligi va atrof-muhitni iflos qilmasligi kerak
+o0093	Transport vositasining orqa o'lchamidan 0,8 m. dan ortiq chiqib turmasligi kerak
+o0094	Yo'lning trotuar yoki piyodalar yo'lkasi bo'lgan qismini
+o0095	Yo'lning piyodalar o'tish joyi bo'lgan qismini
+o0096	Faqat motosiklga
+o0097	Faqat yuk avtomobiliga
+o0098	Faqat yengil avtomobilga
+o0099	Yengil avtomobil va motosiklga
+o0100	Barcha transport vositalariga
+o0101	Bir izli temir yo'l kesishmasiga yaqinlashayotganligi haqida
+o0102	Shlagbaum bilan jihozlanmagan bir izli temir yo'l kesishmasi borligidan
+o0103	Shlagbaum bilan jihozlanmagan ikki izli temir yo'l kesishmasi borligidan
+o0104	Ikkinchi
+o0105	Birinchi
+o0106	Motosiklga
+o0107	Yuk avtomobiliga
+o0108	Avtobusga
+o0109	Yengil avtomobilga
+o0110	Yengil va yuk avtomobillariga
+o0111	Motosikl haydovchisi
+o0112	O'ng tasmadan
+o0113	O'rta tasmadan
+o0114	O'ng yoki o'rta tasmadan
+o0115	O'rta tasmadan, lekin faqat o'ng tasma band bo'lganda
+o0116	Har bir yo'nalishda ikkitadan tasmasi bo'lgan yo'llarda
+o0117	Har bir yo'nalishda uchta va undan ko'p tasmasi bo'lgan yo'llarda
+o0118	Faqat bir tomonlama harakatli yo'llarda
+o0119	Yo'lning qatnov qismi kengaygan joylarda boshqa yo'l harakati qatnashchilariga xalaqit bermaslik sharti bilan
+o0120	Bint
+o0121	Gazmol
+o0122	Taxta bo'lagi
+o0123	Alohida ehtiyotkorlik bilan borishga ruxsat beriladi
+o0124	Barcha holatlarda
+o0125	Kechiktirib bo'lmaydigan xizmat vazifalarini bajarish uchun
+o0126	Ish joyiga borish uchun
+o0127	Yuk avtomobili haydovchisi
+o0128	Avtobus haydovchisi
+o0129	Agar avtobus belgilangan yo'nalish bo'yicha harakatlanayotgan bo'lsa ruxsat etiladi
+o0130	Faqat ikkinchi tasmadan
+o0131	Faqat "А" chizig'i bilan belgilangan o'ng chekkadagi tasmadan
+o0132	Ko'k, yashil avtomobillarga harakatlanishga ruxsat etiladi. Qizil, sariq, oq avtomobillarga taqiqlanadi
+o0133	Ko'k, qizil, yashil avtomobillarga harakatlanishga ruxsat etiladi. Sariq, oq avtomobillarga taqiqlanadi
+o0134	110 km/s
+o0135	100 km/s
+o0136	90 km/s
+o0137	80 km/s
+o0138	70 km/s
+o0139	O'ng tasmani
+o0140	Chap tasmani
+o0141	O'ng yoki chap tasmani
+o0142	To'xtab turish tormozi bilan
+o0143	Birinchi uzatma ulangan holda ulovchini joydan jilmay aylantirish hisobiga
+o0144	Yurgizgich o'chirilib, past uzatma ulangan holda
+o0145	Ishchi tormoz bilan
+o0146	Yuk ortib ketayotganda
+o0147	Ruxsat etilgan hollarda chapga burilish yoki orqaga qaytish uchun
+o0148	Ikkala sanab o'tilgan hollarda
+o0149	Ruxsat etiladi.
+o0150	Yo'lning qatnov qismi chetiga to'g'ri burchak ostida, uning ikkala tomoni yaxshi ko'rinib turadigan, ko'rinish masofasida o'tish joyi yoki chorraha bo'lmasa, ajratuvchi mintaqasiz va to'siqsiz yo'llarda kesib o'tish ruxsat etiladi.
+o0151	Taqiqlanadi.
+o0152	15-25 m
+o0153	25-50 m
+o0154	50-100 m
+o0155	100-150 m
+o0156	150-300 m
+o0157	50 km/s tezlik bilan ruxsat etilgan.
+o0158	Faqat qisman ortish usuli bilan yoki qattiq tirkagich bilan ruxsat beriladi.
+o0159	Egiluvchan tirkagich bilan ruxsat beriladi.
+o0160	Istalgan usulda ruxsat etilgan
+o0161	Kerak.
+o0162	Kerak emas.
+o0163	Kerak emas, chunki u to'g'riga ketayapti
+o0164	Faqat qizil avtomobilga.
+o0165	Barcha transport vositalariga.
+o0166	Qizil, ko'k va yashil avtomobillarga.
+o0167	60 km/s
+o0168	Qatnov qismining chekkasida to'xtash oldidan
+o0169	"Xavfli burilish" belgisi bilan belgilangan yo'lning egri burilish joyi oldidan.
+o0170	Qo'shni harakat tasmasiga o'tish oldidan.
+o0171	Belgida ko'rsatilgandan ortiq yuk ko'taruvchi yuk avtomobillari va transport vositalari tarkibi (tirkamali yuk avtomobillari)ning harakat qilishi taqiqlanadi.
+o0172	Umumiy haqiqiy vazni (yo'lovchilar va yuk vaznini qo'shgan holda) belgida ko'rsatilgandan ortiq bo'lgan transport vositalari, shu jumladan-tirkamali transport vositalarining harakat qilishi taqiqlanadi.
+o0173	0,8 mm.
+o0174	1,2 mm.
+o0175	1,6 mm
+o0176	2 mm.
+o0177	2,5 mm.
+o0178	Qatnov qismi yoki trotuar tomonidan
+o0179	Trotuar tomonidan
+o0180	Yo'l yoqasida yoki qatnov qismi tomonidan
+o0181	Trotuarda yoki yo'l yoqasi tomonidan
+o0182	"А"
+o0183	"Б"
+o0184	"В"
+o0185	"А" va "В"
+o0186	Ruxsat etilgan to'la vazni 3,5 t dan ortiq transport vositalarining to'xtab turish joyi ko'rsatkich qatnov qismining chetida baland to'siq, toshi borligini bildiradi
+o0187	Transport vositalarining to'xtab turish joyiga avtomobilni ko'rsatilgan usulda qo'yish taqiqlanadi
+o0188	Yengil avtomobillar va motosikllarni to'xtab turishga qo'yish joyi va usuli
+o0189	Barcha hollarda o'tkazib yuborishlari kerak
+o0190	O'tkazib yuborishlari kerak emas
+o0191	Motosikl, tramvay va avtomobil
+o0192	Tramvay, motosikl, avtomobil
+o0193	Tramvay va avtomobil, motosikl
+o0194	Avtomobil va motosiklga
+o0195	To'g'riga va o'ngga
+o0196	Yo'l qo'yilmaydi
+o0197	Yo'l qo'yiladi, agar bu boshqa transport vositalariga xalaqit bermasa, harakat xavfsizligini ta'minlab, talablardan chetga chiqishi mumkin
+o0198	Aholi punktidan tashqaridagi yo'llarda yo'l qo'yiladi
+o0199	Yo'l qo'yiladi, lekin faqat chorrahada emas
+o0200	2 m
+o0201	3 m
+o0202	4 m
+o0203	5 m
+o0204	6 m
+o0205	Piyodalar bo'lmaganda ruxsat etiladi
+o0206	Avtobusda ruxsat etiladi
+o0207	Yengil avtomobilda ruxsat etiladi
+o0208	Qattiq ulagichda shatakka olingan yuk avtomobili yukxonasida ruxsat etiladi
+o0209	Agar quvib o'tilayotgan transportning tezligi 40 km/s dan kam bo'lsa ruxsat etiladi
+o0210	Piyodalar o'tish joyidan o'tish
+o0211	Piyodalar o'tish joyidan to'xtamasdan o'tish, lekin alohida ehtiyotkorlik bilan
+o0212	Harakatni davom ettirish, lekin to'xtab turgan transport vositasi oldida piyodalar yo'qligiga ishonch hosil qilgan holda
+o0213	Albatta to'xtash, piyodalar paydo bo'lsa, ularni o'tkazib yuborish
+o0214	Yashil, ko'k va qora avtomobillarga
+o0215	Qizil, sariq va yashil avtomobillarga
+o0216	Yashil, ko'k va qizil
+o0217	Tramvay, avtobus, yengil avtomobil
+o0218	Avtobus, yengil avtomobil, tramvay
+o0219	Yengil avtomobil, tramvay, avtobus
+o0220	Tartibga solingan chorrahalarda
+o0221	Tartibga solinmagan chorrahalardagi asosiy bo'lib hisoblanmaydigan yo'llarda
+o0222	Teng ahamiyatga ega bo'lgan chorrahalarda
+o0223	Hamma sanab o'tilgan hollarda
+o0224	Bo'ladi
+o0225	Bo'lmaydi
+o0226	Yurgizgich o'chib qoladi
+o0227	Ulagich detallarining yemirilishi ortadi
+o0228	Yetakchi g'ildiraklar o'rnidan jilmay aylanadi
+o0229	Qo'shaloq shinalar orasiga xavf-xatar tug'diruvchi begona qismlar qisilib, tiqilib qolganda
+o0230	Shina o'lchamlari yoki cheklangan og'irlik transport vositasining to'g'riga mos kelmaydi
+o0231	M1, M2, M3 toifali 1 klass avtotransport vositalarining oldingi o'qiga 1 klassda ta'mirlangan shinalar qo'yilgan
+o0232	Barcha sanab o'tilganlarda hollarda ruxsat etiladi
+o0233	Avtomobil haydovchisiga
+o0234	Avtomobil va motosikl haydovchisiga
+o0235	Tramvay va avtomobil haydovchisiga
+o0236	Qizil avtomobilga - to'g'riga, ko'k avtomobilga - to'g'riga va chapga
+o0237	Qizil va ko'k avtomobilga - to'g'riga
+o0238	Qizil avtomobilga - to'g'riga, ko'kka - chapga va qayrilib olishga
+o0239	Agar quvib o'tilayotgan transport vositasi 40 km/s dan kam tezlik bilan harakatlanayotgan bo'lsa, ruxsat beriladi
+o0240	Qatnov qismining butun kengligi bo'yicha
+o0241	Qatnov qismidagi harakatlanish yo'nalishi qarama-qarshi tomonga o'zgaradigan tasmalar bo'yicha
+o0242	Faqat belgilangan yo'nalishdagi transport vositalar uchun mo'ljallangan tasma bo'yicha
+o0243	Qizil avtomobil, tramvay, yashil, ko'k avtomobil
+o0244	Tramvay, qizil, ko'k, yashil avtomobil
+o0245	Tramvay, qizil, yashil, ko'k avtomobil
+o0246	Suyuqlik bilan 75% gacha to'ldirilgani
+o0247	Suyuqlik bilan to'liq to'ldirilgani
+o0248	5,5 m
+o0249	3,5 m
+o0250	2,5 m
+o0251	Tormoz yo'li harakat tezligiga bog'liq emas
+o0252	Uch marta
+o0253	To'rt marta
+o0254	Ikki marta
+o0255	16 m
+o0256	18 m
+o0257	20 m
+o0258	22 m
+o0259	24 m
+o0260	Harakat tasmasini o'zgartirmasdan to'xtashi va majburiy to'xtash chiroqlarini yoqishi
+o0261	Tezlikni pasaytirish va boshqa qatorga o'tish bilan bog'liq keskin manyovrlarga yo'l qo'ymasdan harakatni davom ettirish
+o0262	Yo'l berishi
+o0263	Harakat tezligini 5km/s oshmasligi kerakligini bildiradi
+o0264	Transport vositalarini boshqarishni o'rgatish
+o0265	Kirib, chiqib ketish harakati taqiqlanadi
+o0266	Yengil avtomobillarning tunda to'xtab turishini taqiqlaydi
+o0267	Yaqinlashib kelayotgan poezd yo'qligiga shaxsan ishonch hosil qilishi va kesishmadan o'tishi kerak
+o0268	Shlagbaumning holatiga asoslangan holda kesishmadan o'tishi kerak
+o0269	Shlagbaumgacha 10 metrdan yaqin bo'lmagan masofada to'xtash
+o0270	To'xtash chizig'i oldida, "To'xtamasdan harakatlanish taqiqlangan" belgisi oldida, agar ular yo'q bo'lsa shlagbaumgacha 5 metrdan yaqin bo'lmagan masofada to'xtash
+o0271	Tramvay
+o0272	Barcha hollarda
+o0273	Egiluvchan yoki qattiq ulagichda shatakka olishda
+o0274	Qattiq ulagichning tuzilishi shatakka olingan transport vositalarini shatakka olgan transport vositalarining izidan harakatlanishini ta'minlaganda
+o0275	Qattiq ulagichda shatakka olishda
+o0276	Ruxsat beriladi
+o0277	Burilishni ko'rsatadigan miltillovchi chiroq yoki qo'l bilan beriladigan ishoralar
+o0278	Tovushli ishoralar
+o0279	Fara chiroqlarini o'chib-yoqilishi va kunduzgi vaqtda yaqinni yorituvchi fara chirog'ining yoqilishi
+o0280	Sanab o'tilgan barcha ishoralar
+o0281	Qoidalarning talablariga asosan taniqli belgilari bilan
+o0282	Ilashma va ishchi tormozning qo'shimcha tepkilari bilan
+o0283	O'rgatuvchi uchun orqani ko'rsatuvchi ko'zgu bilan
+o0284	Sanab o'tilgan barcha jihozlar va belgilar bilan
+o0285	Pnevmatik tormoz yuritmasining manometri ishlamaydi
+o0286	Motosiklning boshqaruv dempferi nosoz
+o0287	M1 toifasidagi transport vositasining rul boshqarmasi lyuft yig'indisi 10 gradusdan ortiq
+o0288	Barcha sanab o'tilgan hollarda
+o0289	To'xtash va svetoforning yashil chirog'ini kutish
+o0290	Barcha yo'nalishlar bo'yicha
+o0291	Ro'paradan kelayotgan transport vositalariga nisbatan birinchi o'tish huquqini beradi
+o0292	Haydovchi ro'paradan harakatlanayotgan transport vositasiga yo'l berishi kerak
+o0293	Bir tomonlama harakatli yo'l qismining tamom bo'lganini bildiradi
+o0294	"А" bo'yicha ruxsat etilgan
+o0295	"Б" bo'yicha ruxsat etilgan
+o0296	Ikkovi bo'yicha ham ruxsat etilgan
+o0297	To'g'riga va chapga
+o0298	Ko'k avtomobilga nisbatan ustunlikka ega, chunki asosiy yo'ldan ketyapti
+o0299	Ko'k avtomobilga nisbatan ustunlikka ega, chunki aylanma harakatli yo'ldan ketayapti
+o0300	Chorrahaga o'ng tomondan yaqinlashib kelgan ko'k avtomobilga yo'l berishi kerak
+o0301	Tumanga qarshi faralarni yoki yaqinni yoritish faralarini yoqishi
+o0302	Faralarning uzoqni yoritish chiroqlarini yoqishi
+o0303	Gabarit chiroqlarini yoqishi
+o0304	Og'ir vaznli va yirik o'lchamli yuklarni tashishda
+o0305	Agar haydovchi o'zini betob his qilsa
+o0306	Agar harakatlanish vaqtida mahkamlangan yuk bo'shashib ketsa
+o0307	Transport vositasi texnik sabablarga ko'ra 40 km/s dan ortiq tezlikda yura olmasa
+o0308	Bermaydi
+o0309	Manyovrni tugatish vaqtida beradi
+o0310	Manyovrni boshlash vaqtida beradi
+o0311	Hamma hollarda beradi
+o0312	21 m
+o0313	23 m
+o0314	14 yoshdan
+o0315	16 yoshdan
+o0316	18 yoshdan
+o0317	Ko'priklarda, estakadalarda va osma yo'llarda
+o0318	Ko'priklar, estakadalar va osma yo'llar ostida
+o0319	Boshlangan tormozlashni tugatish
+o0320	Ulagichni ajratishi
+o0321	Tormoz tepkisini oxirigacha bosishi
+o0322	Ulagichni ajratishi va to'xtab turish tormozi bilan tormozlashi
+o0323	To'xtash uchun ruxsat etiladi
+o0324	Kirish va chiqish uchun ruxsat etiladi
+o0325	Hamma hollarda ruxsat etiladi, agar to'xtab turish joyida boshqa transport vositalari yo'q bo'lsa
+o0326	Ruxsat etiladi, agar ro'paradan kelayotgan transport vositalari yo'q bo'lsa
+o0327	Faqat yon kajavasiz motosikllarga ruxsat beriladi
+o0328	Agar aylanib o'tayotgan transport vositasining tezligi 8 km/s dan kam bo'lsa, taqiqlanadi
+o0329	Hovlidan yo'lga chiqishda
+o0330	Yo'ldan hovliga kirishda
+o0331	Yonilg'i shoxobchasidan yo'lga chiqishda
+o0332	To'xtab turish joyidan yo'lga chiqishda
+o0333	Yuk enining chekka nuqtasi oldingi yoki orqa gabarit chirog'ining tashqi chekkasidan 0,4 metrdan ortiq chiqib tursa
+o0334	Yuk transport vositasining gabaritlaridan 1 metrdan ortiq chiqib tursa
+o0335	Tashilayotgan yuk vazni shu transport vositasi uchun ishlab chiqargan korxona belgilagan kattalikdan ortiq bo'lsa
+o0336	Barcha aytilgan hollarda
+o0337	Faqat birdaniga keskin burilish sababli
+o0338	Faqat birdaniga keskin tormozlash sababli
+o0339	Birdaniga keskin tezlik olish va keskin tormozlash sababli
+o0340	16°
+o0341	20°
+o0342	25°
+o0343	26°
+o0344	30°
+o0345	Faqat "В"
+o0346	"Б" va "В"
+o0347	Ikkita uzun va ikkita qisqa tovushli ishoralari
+o0348	Bitta uzun va uchta qisqa tovushli ishoralari
+o0349	Uchta uzun va uchta qisqa tovushli ishoralari
+o0350	Uchta uzun va bitta qisqa tovushli ishoralari
+o0351	Avtobus, avtomobil, velosiped
+o0352	Avtomobil, avtobus, velosiped
+o0353	Velosiped, avtobus, avtomobil
+o0354	Boshqaruv rulini sirpanishga qarama-qarshi tomonga burish
+o0355	Boshqaruv rulini sirpanish boshlanayotgan tomonga burish
+o0356	Tormoz tepkisini bosish
+o0357	Noto'g'ri
+o0358	To'g'ri
+o0359	Singan joyga sovuq kompress qo'yish, bint bilan tarangroq bog'lash
+o0360	Qo'ltiq sohasiga taxtakach qo'yish va to'g'rilab qo'yilgan qo'lini gavdasiga qo'shib bint bilan bog'lash
+o0361	Paxta yoki bint o'ramasini qo'ltiq sohasiga qo'yib tirsagidan bukilgan qo'lini gavdasiga qo'shib bint bilan bog'lash
+o0362	Ikkita
+o0363	To'rtta
+o0364	Haydovchining xohishiga ko'ra
+o0365	Lat yegan joyni qattiq bog'lash, 15-20 daqiqaga muz solingan xalta qo'yish. Oyoqni yuqori ko'tarish, tinch qo'yish
+o0366	Lat yegan oyoqni tarang qilib (pastdan yuqoriga) bog'lash, singandagi kabi shina qo'yish. Bir stakanga yarim choy qoshig'ida ichimlik soda solib ichirish, kasalxonaga jo'natish
+o0367	Oyoqni yumshoq predmetga qo'yish
+o0368	Chapga burilish uchun mumkin
+o0369	Quvib o'tish uchun mumkin agar ro'paradan harakatlanish bo'lmasa va tasma qatnov qismining qolgan tasmasidan uzuq-uzuq chizig'i bilan ajratilgan bo'lsa
+o0370	Motosiklga, yengil va yuk avtomobillariga
+o0371	Yengil avtomobilga va motosiklga
+o0372	Ko'k, yashil, qizil
+o0373	Ko'k, yashil bilan bir vaqtda, qizil
+o0374	Yashil, qizil bilan ko'k bir vaqtda
+o0375	Ulagichni uzmasdan tormoz tepkisini keskin bosish
+o0376	Ulagichni uzmasdan tormoz tepkisini ko'plab marta uzuq-uzuq bosish va qo'yib yuborish
+o0377	Ulagichni uzgan holda tormozlash
+o0378	Faqat oldingi o'qiga ruxsat etiladi
+o0379	Oldingi yetakchi ko'prikli avtomobilning faqat orqa o'qiga ruxsat etiladi
+o0380	Hamma holda mumkin
+o0381	Mumkin, agar bu boshqa haydovchilarning ko'zini qamashtirmasa, shu jumladan, orqani ko'rish ko'zgusi orqali ham
+o0382	Mumkin emas
+o0383	Aholi punktlaridan tashqaridagi yo'llarda mumkin
+o0384	Yaxmalakda, qattiq ulagich bilan
+o0385	Yon kajavasi yo'q motosikllarni
+o0386	Yon kajavasi bor motosikllarni
+o0387	Ulagich bilan birga transport vositalarining umumiy uzunligi 20 metr bo'lganda
+o0388	Ikkinchidan boshqa barchasi
+o0389	Uchinchidan boshqa barchasi
+o0390	Hammasi
+o0391	Agar o'zib o'tilayotgan transport vositasining tezligi 40 km/s dan kam bo'lsa, ruxsat beriladi
+o0392	Ikkita yoki uchta
+o0393	Uchta
+o0394	To'rtta va undan ko'p tasmaga
+o0395	Kesishadigan yo'lda transport vositalari bo'lmasa chorrahadan to'xtamay o'tishi
+o0396	Chorrahadan o'tishda ayniqsa hushyor bo'lishi
+o0397	Kesishadigan yo'l bo'ylab harakatlanayotgan transport vositalariga yo'l berish uchun, to'xtash chizig'ida to'xtab, u yo'q bo'lsa kesib o'tiladigan qatnov qismining chetida to'xtashi
+o0398	O'ngga birinchi yo'lga
+o0399	O'ngga ikkinchi yo'lga
+o0400	O'ngga birinchi va ikkinchi yo'llarga
+o0401	Transport vositalarining to'xtashi taqiqlangan joyni
+o0402	Belgilangan yo'nalishli transport vositalari uchun va taksi to'xtashiga ruxsat berilgan joyni
+o0403	Transport vositalarining to'xtab turishi taqiqlangan joyni
+o0404	To'g'riga
+o0405	Qizil; ko'k sariq bilan bir vaqtda; yashil
+o0406	Sariq yashil bilan bir vaqtda; qizil; ko'k
+o0407	Qizil; yashil; ko'k sariq bilan bir vaqtda
+o0408	Har doim berishi kerak
+o0409	Kerak emas, agar harakatlanishning boshqa qatnashchilarini chalg'itishi mumkin bo'lsa
+o0410	Kerak, zaruriy ehtiyot choralarini ko'rgan holda
+o0411	U yurgizgichni o'chirgan va avtomobilning to'xtab turish tormoz tizimini ulagan bo'lsa
+o0412	U yurgizgichni o'chirgan va orqaga siljib ketishga qarshi xavfsizlik buferini o'rnatgan bo'lsa
+o0413	U transport vositasining o'z-o'zidan harakatlanishi yoki undan haydovchi yo'q vaqtda foydalanishga yo'l qo'ymaydigan zaruriy choralarni ko'rgan bo'lsa
+o0414	Taxtakachni sonning butun uzunligicha tos-sondan tizza bo'g'inigacha qo'yib, singan joy bint bilan qattiq bog'lab qo'yiladi
+o0415	Ikkita taxtakach oyoqning ichki va tashqi tomonidan qo'yiladi. Bittasini oyoq to'pig'idan qo'ltiqosti chuqurigacha, ikkinchisini to'piqdan chovgacha
+o0416	Ikkita taxtakach oyoqning ikki tomonidan to'piqdan sonning yuqorigi uchdan bir qismigacha (singan joydan 15-20 sm yuqorigacha) qo'yiladi
+o0417	18 %
+o0418	20 %
+o0419	24 %
+o0420	25 %
+o0421	Har ikki avtomobilning kabinasida
+o0422	Shatakka oluvchi avtomobilning kabinasida
+o0423	Shatakka olingan avtomobilning kabinasida
+o0424	Shatakka oluvchi avtomobilning kuzovida
+o0425	Faqat orqaga burilish
+o0426	To'g'riga va orqaga burilish
+o0427	Belgilangan yo'nalishdagi transport vositalari yo'q bo'lganda ruxsat beriladi
+o0428	Belgilangan yo'nalishdagi transport vositalariga ruxsat beriladi
+o0429	Ko'rinish ikkala yo'nalishda 1000 metrdan kam bo'lmagan joylarda
+o0430	Haydovchining nuqtai nazaricha eng qulay joylarda
+o0431	Kesib o'tish uchun belgilab qo'yilgan joylarda
+o0432	Temir yo'l bekatiga 1000 metrdan kam bo'lmagan masofada
+o0433	Yashil avtomobil sariq bilan bir vaqtda
+o0434	Ko'k avtomobil sariq bilan bir vaqtda
+o0435	Og'irlik markazi o'ngga siljiganda
+o0436	Og'irlik markazi balandda joylashganda
+o0437	Og'irlik markazi pastda joylashganda
+o0438	Istalgan paytda ruxsat beriladi
+o0439	Faqat harakatlanish uchun tasmalari uchtadan kam bo'lmagan yo'llarda ruxsat beriladi
+o0440	Faqat chorrahalarda ruxsat beriladi
+o0441	Ushbu manyovr xavfsiz bo'lishiga va harakatlanishning boshqa qatnashchilariga xalaqit bermasligiga ishonch hosil qilishi
+o0442	Chapga burilish haqida ogohlantirish ishorasi berishi va hech kimga xalaqit bermasligi haqida ishonch hosil qilishi
+o0443	Aholi punktlaridan tashqarida tovush ishora berishi
+o0444	Ko'rsatilgan barcha harakatlarni bajarishi
+o0445	Zararlangan joyni qattiq bog'lash, shikastlanganni yarim o'tirgan holatga keltirish
+o0446	Shikastlanganni qattiq yuzaga orqasi bilan yotqizish, zararlangan joylarga qaynoq isitgich qo'yish
+o0447	Shikastlanganni qattiq tekis yuzaga yotqizish, bukilgan va ikki tomonga kerilgan tizzalarining bo'g'inlari ostiga g'o'la shaklida o'ram qo'yish
+o0448	Oyna tozalagichlar belgilangan tartibda ishlamaydi
+o0449	Ishlatib bo'lingan gazlarni chiqarib yuborish tizimi nosoz
+o0450	Ishlab chiqargan korxona tomondan ko'zda tutilgan orqa himoya vositasi loyto'sgich va sachratmagichlar bo'lmasa
+o0451	Sanab o'tilgan hamma sharoitlarda
+o0452	Chapga va o'ngga
+o0453	To'g'riga va orqa burilish yo'nalishida
+o0454	Hamma yo'nalishlarda
+o0455	Bekatda (yo'l o'rtasida) turgan bir xil yo'nalishdagi tramvayga borayotgan yoki undan kelayotgan piyodalarga yo'l berish
+o0456	To'xtash va tramvay eshiklari yopilgandan keyin harakatlanishni boshlash
+o0457	Tezlikni zarur bo'lganda darhol to'xtash imkonini beradigan darajagacha pasaytirib harakatni davom ettirish
+o0458	Oq avtomobil sariq bilan bir vaqtda
+o0459	Faralarning yaqinni yorituvchi chiroqlari
+o0460	Faralarning uzoqni yorituvchi chiroqlari yoki gabarit chiroqlar
+o0461	Faralarning yaqinni yorituvchi chiroqlari (tumanga qarshi faralar) yoki gabarit chiroqlar
+o0462	Kunning qorong'i vaqtida yoki tuman bo'lgan sharoitda faralarning yaqinni yoritish chiroqlari
+o0463	Avariya yorug'lik ishoralari, u nosoz bo'lganda yoki bo'lmagan hollarda uning orqa tomoniga avariya sababli to'xtash belgisi o'rnatilishi kerak
+o0464	Aholi punktlarida gabarit chiroqlari
+o0465	Aholi punktlaridan tashqaridagi yo'llarda istalgan yoritish chiroqlarini
+o0466	Birinchi chorrahada
+o0467	Aholi yashaydigan joyning oxirida
+o0468	Yo'lning yotiq sariq chizig'i oxirida
+o0469	0,8 mm
+o0470	1,0 mm
+o0471	2,0 mm
+o0472	2,5 mm
+o0473	To'xtashi kerak va tramvay eshiklarini yopganidan so'ng qo'zg'alish kerak
+o0474	To'xtab turgan tramvayga ketayotgan yoki undan tushayotgan yo'lovchilarga yo'l berishi kerak
+o0475	Yaqinni yoki uzoqni yorituvchi chiroqlar
+o0476	Faqat yaqinni yorituvchi chiroqlar
+o0477	Faqat uzoqni yorituvchi chiroqlar
+o0478	Piyodalar o'tish joylarida
+o0479	Tunnellarda
+o0480	Ko'priklarda, osma yo'llarda, estakadalarda va ularning ostida
+o0481	Temir yo'l kesishmalarida
+o0482	Bir xil yo'nalishda to'g'riga harakatlanayotgan ko'k avtomobilga yo'l berishi kerak
+o0483	Ko'k avtomobilga nisbatan ustunlikka ega, chunki quvib o'tish uchun mo'ljallangan tasmadan ketyapti
+o0484	Ustunlikka ega, chunki burilish ishorasini yoqdi
+o0485	Shatakka olgan va shatakka olingan avtomobillarning yukxonasida ruxsat beriladi
+o0486	Faqat shatakka olingan avtomobil yukxonasida ruxsat beriladi
+o0487	Faqat shatakka olgan avtomobil yukxonasida ruxsat beriladi
+o0488	Shinalarning ayrim joylarida kord ko'rinib qoladigan nuqsonlari bor
+o0489	M1 toifadagi avtotransport vositalarining oldingi o'qiga ikkinchi klassdagi ta'mirlangan shinalar o'rnatilgan
+o0490	N2; N3 toifadagi transport vositalari shinalari protektori naqshining qoldiq balandligi 1,6 mm ni tashkil qiladi
+o0491	Hodisa sodir bo'lgan joyda to'xtash, guvohlarning ismi-sharifini va manzilgohini yozib olish, hodisa haqida IIO xodimlariga xabar berish, shikastlanganlarga shifokor kelguncha tibbiy yordam berish uchun choralar ko'rish
+o0492	Darhol to'xtash va hodisa sodir bo'lgan joyda qolish, majburiy to'xtash yoritgichini yoqish va falokat sababi to'xtash belgisini o'rnatish
+o0493	To'xtash va hodisaga tegishli izlarni saqlash, ularning atrofini to'sib, hodisa sodir bo'lgan joyni aylanib o'tishni tashkil etish uchun hamma mumkin bo'lgan choralarni ko'rish, IIOga xabar berish, tibbiy yordam berish
+o0494	Belgidan birinchi burilishning boshlanishigacha bo'lgan masofani
+o0495	Birinchi burilishdan ikkinchi burilishning boshlanishigacha bo'lgan masofani
+o0496	Yo'lning xavfli burilishlari bo'lgan qatnov qismi uzunligini
+o0497	Velosiped haydovchisi
+o0498	Eng past uzatmaga o'tish, to'xtab turish tormozi bilan tormozlash. Zarur bo'lganda biron-bir to'siqdan foydalanish
+o0499	Ulagichni ajratish va to'xtab turish tormozi bilan keskin tormozlash
+o0500	Chorrahaga 15 metrdan yaqinroqda
+o0501	Tartibga solinmaydigan chorrahalarda, agar kesib o'tilayotgan yo'lda bir tomonlama harakatlanish tashkil etilgan bo'lsa
+o0502	Kunning qorong'i vaqtida, gabarit chiroqlari
+o0503	Yaqinni yorituvchi fara chiroqlari
+o0504	Falokat yorug'lik ishoralari
+o0505	Yaradan 10 -15 sm pastga
+o0506	Yaradan 10 -15 sm yuqoriga
+o0507	Bevosita yaraning o'ziga
+o0508	0,5 mm
+o0509	Yo'l xizmati mashinasining haydovchisi
+o0510	Birinchi va beshinchi
+o0511	Uchinchi va beshinchi
+o0512	Ikkinchi va to'rtinchi
+o0513	"А" yo'nalishida
+o0514	"Б" yo'nalishida
+o0515	"В" yo'nalishida
+o0516	"А", "Б" va "В" yo'nalishlarida
+o0517	"Б" va "В" yo'nalishlarida
+o0518	Svetoforning taqiqlovchi ishorasida shlagbaum ochiq turgan holatda
+o0519	Qishloq xo'jaligi mashinasini mexanik transport vositasiga yuklab olib o'tish holatida
+o0520	Tezligi 8 km/s dan ko'p bo'lgan transport vositalari
+o0521	Qizil, yashil, ko'k
+o0522	Ko'k, qizil, yashil
+o0523	Uchchalasi bir vaqtda
+o0524	Faqat tezlikni keskin oshirish
+o0525	Faqat keskin tormozlash
+o0526	Tezlikni keskin oshirish va keskin tormozlash
+o0527	"Katta o'lchamli yuk" diagonali bo'yicha qizil va oq chiziqlari bo'lgan taxtacha yoki bayroqchalar bilan
+o0528	Qizil bayroqchalar bilan
+o0529	Oq bayroqchalar bilan
+o0530	Maxsus piyodalar yo'lkasini bildiradi
+o0531	Velosiped yo'lkasini bildiradi, chiziq yo'naltirgichlari tasmalar bo'yicha harakat yo'nalishini ko'rsatadi
+o0532	Piyodalar o'tish joyini bildiradi,chiziq yo'naltirgichlari piyodalar harakatlanish yo'nalishini ko'rsatadi
+o0533	Karbyurator qismlari ishdan chiqishiga
+o0534	Yurgizgich ishlashdan to'xtab qolishiga
+o0535	Avtomobilning yonga sirpanib ketishiga
+o0536	20 kishidan ortiq emas
+o0537	Tashilayotgan odamlar soni o'tirish uchun jihozlangan o'rinlar miqdoridan ortiq bo'lmasligi kerak
+o0538	Ma'muriyatning ko'rsatmasiga ko'ra
+o0539	Yo'l yoqasida yoki qatnov qismining chetida to'xtash
+o0540	Mayoqcha ishorasi yoqilgan transport vositasiga xalaqit bermasdan yo'l chetidan harakatlanish
+o0541	Belgining amal qilish hududida foto va video moslamalaridan foydalanish taqiqlanadi
+o0542	DYHXX tomonidan harakat jarayoni foto va video kuzatuvi olingan yo'l qismini bildiradi
+o0543	Chapga va orqaga
+o0544	To'g'riga, chapga va orqaga
+o0545	Motosikl, avtomobil, tramvay
+o0546	Tramvay, avtomobil, motosikl
+o0547	Yaqinni yorituvchi faralarni yoqish
+o0548	O'ngroqqa olish va yaqinni yorituvchi farani yoqish zarur
+o0549	Transport vositasini yo'ldan tashqariga chiqarish, agar buning iloji bo'lmasa mazkur qoidalar talablariga binoan uni belgilash lozim
+o0550	Mumkin
+o0551	Taqiqlangan
+o0552	Chapdagi rasmda
+o0553	Pastdagi rasmda
+o0554	O'ngdagi rasmda
+o0555	O'rtadagi va o'ngdagi rasmda
+o0556	Kunning qorong'i vaqtida safda harakatlanishda
+o0557	Tunellarda harakatlanishda
+o0558	Faqat yetarli ko'rinmaydigan sharoitlarda
+o0559	Kunning qorong'i vaqtida yuk tushirishda
+o0560	Mazkur yo'nalishda ikki va undan ortiq tasma bo'lganda yo'lning faqat o'ng tarafdagi tasmasi bo'ylab harakatlanishga ruxsat etiladi
+o0561	Ko'pi bilan 40 km/soat tezlikda harakat qilishga ruxsat etiladi
+o0562	Agar avtobus belgilangan yo'nalish bo'yicha yursa ruxsat etiladi
+o0563	"А va "Б"
+o0564	"Б va "В"
+o0565	Faqat belgida ko'rsatilgan yoki yuqori tezlikda harakatlanishga ruxsat beradi
+o0566	Belgida ko'rsatilgandan ortiq tezlikdagi harakatni taqiqlaydi
+o0567	Yo'lning shu qismida tavsiya etilgan harakatlanish tezligini ko'rsatadi
+o0568	Qatnov qismining iloji boricha o'ng tomoniga o'tib to'xtashi
+o0569	Falokat yorug'lik ishoralarini yoqishi va harakat tasmasini o'zgartirmagan holda tezlikni kamaytirishi va to'xtashi
+o0570	Agar oldinda transport vositalari paydo bo'lsa tasmani o'zgartirmay tezlikni kamaytirishi yoki to'xtashi
+o0571	Uzoqni yorituvchi chiroqni yoqishi va to'xtashi
+o0572	Xavfning haydovchiga ma'lum bo'lgan paytidan tormozlash boshlanguncha avtomobilda o'tilgan masofa
+o0573	Avtomobilda xavfning haydovchiga ma'lum bo'lgan paytidan boshlab to'la to'xtagunga qadar bosib o'tilgan masofan
+o0574	Uzoqni yorituvchi chiroqlar
+o0575	Majburiy to'xtash yoritgichi
+o0576	Yoritish asboblari yoqilmaydi
+o0577	Yengil avtomobilning yukxonasida
+o0578	Tayyorlovchi korxona tomonidan belgilangan joylarda berk holatda
+o0579	Avtomobilning kuzovida ko'rinadigan joyda
+o0580	Faqat yukni kuzatib boruvchi shaxsga ruxsat etiladi
+o0581	Yo'l harakati jarayonida transport vositasining haydovchisi, yo'lovchisi yoki piyoda tariqasida bevosita ishtirok etayotgan shaxs
+o0582	Yo'lda bo'lgan va unda ish bajarmayotgan har qanday shaxs
+o0583	Biror bir transport vositasini boshqarayotgan shaxs
+o0584	Barcha yo'nalishlarga
+o0585	Har ikki haydovchi
+o0586	Ichida tik turgan yo'lovchilar bo'lgan avtobus
+o0587	Avtokran
+o0588	Bo'sh yuk avtomobili
+o0589	Yuk avtomobil haydovchisi
+o0590	Qisman ortish usuli bilan
+o0591	Qattiq ulagich bilan
+o0592	Uni qisman ortish yoki qattiq ulagichda ulash usuli bilan
+o0593	Agar shatakka oluvchining haqiqiy vazni shatakka olinayotganning haqiqiy vaznidan ikki marta ko'p bo'lsa qattiq ulagichda
+o0594	Bolalarni ushlab turuvchi maxsus qurilma o'rnatilgan bo'lsa ruxsat etiladi
+o0595	Faqat katta yoshdagi yo'lovchi hamroh bo'lganida ruxsat etiladi
+o0596	Ikkala rasmda
+o0597	To'siqlarni aylanib o'tishning dastlabki ko'rsatkichi
+o0598	Boshqa qatnov qismiga qayta tizilishning dastlabki ko'rsatkichi
+o0599	Qarama-qarshi yo'nalish tasmasiga chiqishning boshlang'ich ko'rsatkichi
+o0600	Haydovchini yo'lning xavfli qismiga yaqinlashayotganligi haqida ogohlantiradi
+o0601	Qatnov qismining torayishiga yaqinlashayotganligi haqida ogohlantiradi
+o0602	Yo'lning xavfli burilish yo'nalishini ko'rsatadi
+o0603	Qo'lni (kunduzi-bir parcha yorqin mato yoki aniq ko'rinadigan bir narsa bilan, tunda- mash'ala yoki chiroq bilan) gir aylantirish
+o0604	Qo'ldagi tayoqchani yoki qizil bayroqni boshidan yuqori ko'tarib turish
+o0605	Qo'llarini oldinga uzatib turish
+o0606	Oldinga uzatilgan qo'llarni yuqoriga va pastga tebratish
+o0607	Ko'k, yashil, qizil avtomobillar
+o0608	Ko'k, qizil avtomobilni o'tkazib yuboradi, so'ng esa burilishni tugallaydi; yashil avtomobil
+o0609	Qizil, ko'k, yashil avtomobillar
+o0610	Yashil, qizil, ko'k avtomobillar
+o0611	Ko'k avtomobil, chunki qizil harakatlanish tasmasini chapga o'zgartiradi
+o0612	Qizil avtomobil, chunki o'zaro qayta tizilishda u o'ng tomonda tasmasini uchun
+o0613	Ko'k avtomobil, chunki o'zaro qayta tizilishda u chap tomonda bo'ladi
+o0614	10 m
+o0615	15 m
+o0616	25 m
+o0617	Haydovchining diqqatiga va e'tiboriga ta'sir qilmaydi
+o0618	Haydovchining diqqati va e'tibori pasayadi
+o0619	Haydovchining diqqati va e'tibori oshadi
+o0620	Chorrahadan tashqarida tartibga solinmagan kesishmada barcha hollarda
+o0621	Transport vositasi o'ngdan yaqinlashib kelganda
+o0622	Ko'rsatilgan joyda velosiped va moped haydovchilari imtiyozga egadirlar
+o0623	Tramvay yaqinlashib kelganda
+o0624	Tramvay to'la to'xtagandan so'ng
+o0625	Har qanday holda
+o0626	Agar qatnov qismida transport vositalari yo'q bo'lsa tramvay yaqinlashib kelganda
+o0627	Yetarli ko'rinmaydigan sharoitlarda
+o0628	Mexanik transport vositasini shatakka olganda
+o0629	Sanab o'tilgan barcha hollarda
+o0630	Ruxsat etilgan
+o0631	Ruxsat etilgan, agar motosiklchining tezligi 40 km/soatdan kam bo'lsa
+o0632	Tormoz yo'li qisqaradi
+o0633	Tormoz yo'li o'zgarmaydi
+o0634	Tormoz yo'li ortadi
+o0635	Bundan keyingi harakatni to'xtatish
+o0636	Nosozlikni bartaraf etish tadbirlarini ko'rishi, agar buning imkoni bo'lmasa, zarur ehtiyot choralariga rioya qilgan holda to'xtab turish yoki ta'mirlash joyiga olib borish
+o0637	Belgilangan safarni davom ettirish
+o0638	Sirpanishga qarshi vositalarni qo'llab egiluvchan ulagichda faqat bitta transportga ruxsat etiladi
+o0639	Faqat qattiq ulagichda ruxsat etiladi
+o0640	Quvib o'tish qoidalariga rioya qilib barcha hollarda mumkin
+o0641	Agar quvib o'tilayotgan transport vositalari soatiga 40 km.dan kam tezlikda harakat qilayotgan bo'lsagina mumkin
+o0642	1-chiziq
+o0643	2-chiziq
+o0644	3-chiziq
+o0645	2- va 3-chiziq
+o0646	3- va 4-chiziq
+o0647	Agar yaqinlashib kelayotgan poezd yo'q bo'lsa, haydovchining ixtiyoriga qarab ruxsat etiladi
+o0648	Temir yo'l kesishmasi navbatchisi bo'lmagan holdagina ruxsat etiladi
+o0649	"А" masofa
+o0650	"Б" masofa
+o0651	"А" va "Б" masofa
+o0652	Shu tasmada orqada harakatlanayotgan transport vositasi quvib o'tishni boshlamaganligiga
+o0653	Oldinda harakatlanayotgan transport vositasi quvib o'tish, chapga burilish (qayta tizilish) ishora bermayotganligiga
+o0654	Quvib o'tishni tugatilyotganda, quvib o'tilayotgan transport vositasiga xalaqit bermasdan ilgari egallagan qatorga qaytib o'ta olishiga ishonch hosil qilishi shart
+o0655	Barcha ko'rsatilgan harakatlarni bajara olishida
+o0656	Yaqinni yorituvchi faralar yoki tumanga qarshi faralarni yoqishi kerak
+o0657	Yurgizgich kapotini ko'tarib qo'yishi kerak
+o0658	Falokat yorug'lik ishoralari yoqishi,agar u yo'q yoki nosoz bo'lsa, falokat sababli to'xtash belgisi aholi punktlarida transport vositasidan 15 metrdan, ulardan tashqarida esa 30 metrdan kam bo'lmasligi masofasida o'rnatishi kerak
+o0659	Yorituvchi chiroq nurining yo'nalishi buzilganda
+o0660	Ishlab chiqarilishi to'xtatilgan yengil avtomobillarga boshqa turdagi va rusumdagi transport vositalarining tashqi yoritgichlari o'rnatilgan
+o0661	Tashqi yoritgichlar va nur qaytargichlar belgilangan tartibda ishlamaydi yoki ifloslangan
+o0662	Bu shaxsda mazkur toifali transport vositasini boshqarishga haydovchilik guvohnomasi bo'lgan taqdirda transport vositalari egalarining fuqarolik javobgarligini majburiy sug'urta qilish bo'yicha sug'urta polisida ism-sharifi ko'rsatilgan bo'lsa yoki majburiy sug'urta qilish bo'yicha shartnoma ushbu transport vositasidan cheklanmagan shaxslarning foydalanishini hisobga olgan holda tuzilgan bo'lsa
+o0663	Faqat yengil avtomobillarga ruxsat etiladi
+o0664	Qattiq ulagichda ruxsat etiladi
+o0665	Har qanday ulagichda ruxsat etiladi
+o0666	"Yo'l bering" belgisi bilan
+o0667	"To'xtamasdan harakatlanish taqiqlangan" belgisi bilan
+o0668	"Yo'l bering" belgisi bilan va "To'xtamasdan harakatlanish taqiqlangan" belgisi bilan
+o0669	Motosiklni o'tkazib yubordi va chorrahada qayrilib oldi
+o0670	Tramvayni o'tkazib yubordi va chorrahada qayrilib oldi
+o0671	Tramvayni, motosiklni o'tkazib yubordi va chorrahada qayrilib oldi
+o0672	Sariq avtomobil chorrahaga kirib keladi va ko'kni o'tkazib yuborish uchun to'xtaydi; yashil; ko'k, qizil bilan bir vaqtda; sariq
+o0673	Ko'k ayni vaqtda qizil bilan; yashil; sariq
+o0674	Yashil; ko'k ayni vaqtda qizil bilan; sariq
+o0675	Ro'paradagi transport vositasiga 100 m qolganda
+o0676	Ro'paradagi transport vositasiga 150 m qolganda, shuningdek ko'proq masofada ham, agar ro'paradagi transport vositasining haydovchisi faralar chirog'ini o'chirib yoqib shuni zarur deb ko'rsatsa
+o0677	Ro'paradagi transport vositasiga 250 m qolganda
+o0678	Ro'paradagi transport vositasiga 300 m qolganda
+o0679	50 km/s
+o0680	Yara atrofidagi terini ishlash uchun
+o0681	Yara o'ta ifloslanganda yaraning butun yuzasiga surtish uchun
+o0682	Kuchli ishqor keltirib chiqaruvchi birinchi darajali kimyoviy kuyishda teriga surtish uchun
+o0683	Bolalar guruhini tashkiliy tashishda transport vositasida katta yoshli kuzatib boruvchi bo'lishi shart
+o0684	Bolalar guruhini tashkiliy tashish uchun mo'ljallangan transport vositasining old va orqa tomoniga "Bolalar guruhini tashish" taniqli belgisi o'rnatilishi kerak
+o0685	Belgilangan yo'nalishdagi transport vositalariga daxli bo'lmagan avtobuslarda sakkiz va undan ortiq bolalarning tashkiliy tashilishi
+o0686	Barcha sanab o'tilgan talablar
+o0687	Birinchi bo'lib
+o0688	Ikkinchi bo'lib
+o0689	Uchinchi bo'lib
+o0690	Oxirgi bo'lib
+o0691	Ogohlantiruvchi "Teng ahamiyatli yo'llar kesishuvi" belgisi bilan
+o0692	Barcha sanab o'tilgan belgilar bilan
+o0693	Sariq
+o0694	Ko'k
+o0695	Yashil
+o0696	Sariq chorrahaga kiradi va yashilni o'tkazib yuborish uchun to'xtaydi; ko'k qizil bilan bir vaqtda
+o0697	1,5 m
+o0698	Bevosita "To'xtash" yotiq chizig'i yoki belgi oldida
+o0699	Faqat yo'lda tezlik cheklangan belgilar o'rnatilgan bo'lsa
+o0700	Faqat harakatlanayotgan tirkamali yengil avtomobillarga
+o0701	Agar u boshqa transport vositasini shatakka olgan bo'lsa
+o0702	Avtobus va trolleybusda ruxsat etiladi
+o0703	Yuk va yengil avtomobillarda ruxsat etiladi
+o0704	Yuk avtomobili kabinasida va yengil avtomobilda ruxsat etiladi
+o0705	Agar orqa oyna pardalar bilan berkitilmagan bo'lsa ruxsat etiladi
+o0706	Loaqal bitta ko'zgu bo'lsa ruxsat etiladi
+o0707	Chorrahalarda trotuarlar yoki yo'l yoqasi chiziqlari bo'ylab
+o0708	Qatnov qismining chekkasidan to'g'ri burchak bo'ylab, ajratuvchi mintaqasiz, har ikki tomon yaxshi ko'rinadigan joylardan
+o0709	Barcha sanab o'tilgan joylardan
+o0710	Harakatlanish qismida
+o0711	Harakatlanish qismining chetida
+o0712	Harakatlanish qismining chetida yoki bordyur ustidan chiziladi
+o0713	Faqat to'siq (bordyur) ustida
+o0714	Avtomagistral yaxshi ko'rinadigan joylarda ruxsat etiladi
+o0715	Agar bir yo'nalishda harakatlanish uchun uchta tasma bo'lsa, ruxsat etiladi
+o0716	To'xtab turish "To'xtab turish joyi" yoki "Dam olish joyi" belgisi qo'yilgan maxsus maydonchalarda ruxsat etiladi
+o0717	2-tramvay ayni vaqtda 1-tramvay bilan; ko'k avtomobil ayni vaqtda qizil bilan
+o0718	2-tramvay; ko'k avtomobil; 1-tramvay; qizil avtomobil
+o0719	Faqat aholi yashaydigan joylardan tashqarida ro'paradan kelayotgan transport vositalari bo'lmaganda
+o0720	Faqat yetarli ko'rinmaydigan sharoitda
+o0721	Agar bunga zaruriyat tug'ilsa, barcha joylarda
+o0722	Kunning qorong'i vaqtida yo'lning barcha qismlarida
+o0723	Quvib o'tish qorong'i vaqtda bajarilganda
+o0724	Quvib o'tilayotgan avtomobil haydovchisi tormoz berishni boshlaganda
+o0725	Quvib o'tilayotgan avtomobil haydovchisi chapga burilish ko'rsatkichini yoqqanda
+o0726	Quvib o'tilayotgan avtomobil haydovchisi o'ngga burilish ko'rsatkichini yoqqanda
+o0727	Avtomagistrallarga tegishli bo'lmagan yo'llarda ruxsat etiladi
+o0728	Faqat yukni kuzatib boruvchi shaxslarga shu shart bilanki, ular bortlaridan pastda joylashgan o'tiradigan joy bilan ta'minlangan bo'lsalar ruxsat etiladi
+o0729	Tez yordam avtomobilining haydovchisi
+o0730	Yengil avtomobilining haydovchisi
+o0731	Hammasini, 40 km/s dan kam tezlikda yakka harakat qilayotganlardan tashqari
+o0732	Yengil avtomobillar, motosikllar va to'la vazni 3,5 t dan kam bo'lgan yuk avtomobillari. To'la vazni 3,5 t dan ko'p bo'lgan yuk avtomobillari
+o0733	To'la vazni 3,5 t dan ko'p bo'lgan yuk avtomobillari
+o0734	Yakka 40 km/s dan kam tezlik bilan harakat qiluvchi ikki g'ildirakli motosikllar, velosipedchilardan tashqari barcha transport vositalarini quvib o'tishni taqiqlovchi hududga
+o0735	Qatnov qismining torayishiga yoki qarama-qarshi yo'nalishdan kelayotgan transport oqimini ajratuvchi 1,1 yoki 1,11 chizig'iga yaqinlashayotganini
+o0736	Faqat belgilangan yo'nalishdagi transport vositalari harakati uchun mo'ljallangan qatnov qismi tasmasiga
+o0737	Boshqaruv rulini burilish tomonga keskin burganda
+o0738	Harakat tezligi pasayganda
+o0739	Burilish radiusi kamayganda
+o0740	Berilgan
+o0741	Burilish markazidan boshqa tomonga siljiydi
+o0742	Siljimaydi
+o0743	Burilish markaziga siljiydi
+o0744	Belgidan uning amal qilish hududigacha bo'lgan oraliqni aniqlash uchun
+o0745	Taqiqlovchi belgi amal qilish hududini aniqlash uchun
+o0746	"B"
+o0747	"А" va "B"
+o0748	70 km/s. dan ortmagan tezlik bilan ruxsat berilgan
+o0749	Boshqarishni o'rgatuvchi yo'riqchi bilan bo'lgan o'rganuvchida yetarli boshqarish malakasi bo'lganda 60 km/soatdan ortiq bo'lmagan tezlikka ruxsat etilgan
+o0750	Agar o'rganilayotgan mexanik transport vositasida taniqli belgilari qayd etilgan bo'lsa, ruxsat etilgan
+o0751	Yashil; ko'k; qizil
+o0752	Ko'k; qizil; yashil
+o0753	Ko'k bilan yashil bir vaqtda, qizil
+o0754	30 km/s
+o0755	Qatnov qismining chetida
+o0756	Yo'l chekkasida, yo'l yoqasidan 0,5 m masofada
+o0757	Yo'l yoqasi ustida
+o0758	Faqat to'xtash qoidalarini
+o0759	To'xtash va to'xtab turish qoidalarini
+o0760	1 mm
+o0761	2 mm
+o0762	3 mm
+o0763	2 kun
+o0764	10 kun
+o0765	5 kun
+o0766	15 kun
+o0767	30 kun
+o0768	Ulagichni ajratish, shundan keyin darhol tormoz pedalini bosish
+o0769	Uzatmani almashtirish va tormoz pedalini keskin bosish
+o0770	Tormoz pedalini ulagichni ajratmasdan bosish
+o0771	To'la vazni 3,5 t dan ortiq bo'lgan yuk avtomobilining majburiy harakat yo'nalishini
+o0772	Faqat yuk avtomobillari uchun harakat yo'nalishini
+o0773	Yuk avtomobillari, traktorlar, o'ziyurar mashinalar uchun, agar chorrahada ularning harakati yo'nalishlardan biriga taqiqlangan bo'lsa, tavsiya etiladigan harakat yo'nalishini
+o0774	Shaharlararo yuk tashuvchi yuk avtomobillarining harakat yo'nalishini
+o0775	Ko'prik yoki solda kechimi bo'lmagan suv to'siqli yo'l qismi borligidan
+o0776	Suv to'siqli yo'l qismida ochib qo'yiladigan ko'prik borligidan
+o0777	Yo'l anhor yoqasiga yoki biror-bir suv havzasining qirg'og'iga chiqiladigan joyi borligidan
+o0778	Qizil chorrahaga kiradi va ko'k avtomobilni o'tkazib yuborish uchun to'xtaydi va ayni vaqtda yashil avtomobil chorrahani kesib o'tadi; ko'k; qizil burilishni tugallaydi
+o0779	Qizil, ko'k, yashil
+o0780	Faqat "Б" avtomobil haydovchisi
+o0781	Ikkalasi ham buzmoqda
+o0782	Ikkalasi ham buzmayapti
+o0783	Harakatning serqatnovligini, transport vositasi va yukning hususiyati va holatini
+o0784	Yo'l va ob-havo sharoitini
+o0785	Barcha sanab o'tilgan omillarni
+o0786	Faqat kengligi bo'yicha avtopoezdning o'lchamlarini
+o0787	Kengligi bo'yicha transport vositasining o'lchamlarini, shuningdek tirkamaning chayqalishini hamda uning burilish markaziga siljishini
+o0788	7 yoshdan kichik bo'lmagan bolalarni tashishga ruxsat etiladi
+o0789	12 yosh va undan katta bo'lgan bolalarni tashishga ruxsat etiladi
+o0790	Katta yoshli yo'lovchi bo'lganda yoshidan qat'iy nazar ruxsat etiladi
+o0791	Belgilangan yo'nalishdagi transport vositalarida faqat bir martalik chiptalar sotib olish uchun ruxsat etiladi
+o0792	1. Yo'nalishli taksilarga
+o0793	2. Taksometri ishlab turgan taksilarga
+o0794	3. "Nogiron" taniqli belgisi o'rnatilgan nogiron boshqarayotgan avtomobilga
+o0795	4. Belgilangan yo'nalishdagi transport vositalariga
+o0796	Ikkinchi va uchunchi javoblarda ko'rsatilgan transport vositalariga
+o0797	Ko'k va qizil avtomobillarning haydovchilari
+o0798	Mototsikl va ko'k avtomobil haydovchilari
+o0799	Faqat ko'k avtomobil haydovchilari
+o0800	Barcha haydovchilar
+o0801	Qatnov qismi bilan yo'l yoqasi o'rtasidagi chegarani
+o0802	Tezlanish yoki sekinlanish tasmasi bilan qatnov qismi asosiy tasmasi o'rtasidagi chegarani bildiradi
+o0803	Transport vositalarining to'xtashi va to'xtab turishi uchun belgilangan maydonchalarni
+o0804	Faqat ro'paradan kelayotgan transport vositalari yo'qligida ruxsat etilgan
+o0805	Aholi punktlarida istalgan tasma bo'ylab harakatlanishga ruxsat etiladi
+o0806	Chetki o'ng tasma bo'ylab. Faqat reversiv svetofor yoki boshqa tasmalar bo'yicha ham harakatlanishga ruxsat etadigan "tasmalar bo'yicha harakatlanish yo'nalishi" belgisidan o'tgandan so'ng qayta tizilishga ruxsat etiladi
+o0807	Aholi punktlaridan tashqarida qatnov qismining iloji boricha o'ng chetiga yaqinroqda
+o0808	Qatnov qismi kesishmasining chekkasidan 30 metrdan ko'p qolganda
+o0809	Piyodalarning o'tish joyi oldidan 10 metrdan ko'p qolganda
+o0810	Piyodalar o'tish joyidan keyin 1 metr masofa uzoqlikda
+o0811	Transport vositalarining harakatlanishiga imkon qoldirmaydigan kirishga yoki chiqishga va piyodalarning harakatiga xalaqit beradigan joylarda
+o0812	Tormoz tepkisini keskin kuchli bosish - ulagichni ajratgan holda
+o0813	Oldindan tezlikni kamaytirish, ulagichni ajratmay, bir tekis tormozlash
+o0814	12 yoshga to'lgan va undan katta bolalarga ruxsat etiladi
+o0815	Katta yoshdagi yo'lovchi bo'lganda ruxsat etiladi
+o0816	Transport vositalari oqimi qo'shiladigan joylardagi yo'naltiruvchi orolchani
+o0817	Qatnov qismidagi xavfli joylarda piyodalar uchun orolchani
+o0818	Transport vositalari to'xtab turish qismining chegarasini
+o0819	Transport vositalari oqimi ajraladigan joydagi yo'naltiruvchi orolchani
+o0820	Faqat "Г" va "Е"
+o0821	"А", "Б", "Г", "Д"
+o0822	"Б", "В", "Г", "Д"
+o0823	Barcha mexanik transport vositalariga
+o0824	Belgilangan yo'nalishdagi transport vositalariga va taksilarga
+o0825	Faqat velosipedlarga
+o0826	Faqat belgilangan yo'nalishdagi transport vositalariga
+o0827	Tramvay, sariq, yashil avtomobillar
+o0828	Tramvay va yashil avtomobil, sariq avtomobil
+o0829	Yashil, sariq avtomobillar, tramvay
+o0830	Har ikki haydovchiga
+o0831	Faqat mikroavtobus haydovchisiga
+o0832	Har ikkisiga taqiqlangan
+o0833	Hamma tomonga
+o0834	O'ngga, chapga va qayrilish
+o0835	Agar tramvayga to'sqinlik qilmasa ruxsat etiladi
+o0836	Yo'l-yo'lakay yo'nalishdagi tramvay yo'llari bo'ylab ruxsat etiladi
+o0837	Boshqa tasmalardan harakat serqatnov bo'lganda, aylanib o'tishda, yo'l-yo'lakay yo'nalishdagi tramvay yo'llari bo'ylab quvib o'tishga ruxsat etiladi.(agar chorrahadan oldin 5.8.1 yoki 5.8.2 yo'l belgilari o'rnatilmagan bo'lsa) Bunda tramvayga xalal bermaslik kerak
+o0838	Ruxsat etiladi, ruxsat etilgan to'la vazni 3,5 t dan oshib ketmasa
+o0839	Ruxsat etiladi, ruxsat etilgan to'la vazni 3,5 t dan ortiq bo'lsa
+o0840	Ko'z sanchib og'riydi, yuz terisi oqaradi, uyqu bosadi
+o0841	Yuz rangi to'q qizil tusga kiradi, qo'l-oyoqlar soviydi, ongi xiralashadi
+o0842	Mushaklarda horg'inlik seziladi, quloqlarda shovqin g'uvillaydi, bosh aylanadi, muzdek yopishqoq ter chiqadi
+o0843	1,0 m
+o0844	2,0 m
+o0845	4,0 m
+o0846	Belgilangan muddatda tibbiyot ko'rigidan o'tmagan shaxslarning transport vositalarini boshqarishiga yo'l qo'ymaslikka
+o0847	Texnik holati va jihozlari qoidalarning talablariga mos kelmaydigan transport vositalarini yo'lga chiqarmaslikka
+o0848	Belgilangan tartibda ro'yxatdan o'tkazilmagan transport vositalarini yo'lga chiqarmaslikka
+o0849	Barcha sanab o'tilganlarni bajarishga
+o0850	Olib borilayotgan ishlar munosabati bilan yo'l chetida to'xtash taqiqlanadi
+o0851	Yo'l yoqasida ta'mirlash ishlari olib borilayotganligi munosabati bilan unga chiqish xavfli
+o0852	Yo'lda ta'mirlash ishlari olib borilayotganligida yo'l chetida to'xtab turish taqiqlanadi
+o0853	Tezlanish yoki tormozlash tasmasi bilan qatnov qismidagi asosiy tasma o'rtasidagi chegarani
+o0854	Avtomagistrallarda qatnov qismining chetlarini
+o0855	Ro'paradan kelayotgan yoki shu yo'nalishda harakatlanayotgan transport oqimini ajratib turgan sidirg'a chiziqqa yaqinlashganlikni
+o0856	To'xtashi, so'ng tramvay harakatlanganidan keyin harakatni davom ettirishi
+o0857	Yo'l o'rtasidagi to'xtash joyida turgan shu yo'nalishdagi tramvayga kelayotgan yoki undan uzoqlashayotgan piyodalarga yo'l berishi
+o0858	Tramvay to'xtash joyidan nihoyatda ehtiyotkorlik bilan o'tishi
+o0859	To'xtashi, tramvay eshiklari yopilgandan keyin harakatni davom ettirishi
+o0860	Tezlikni kamaytirishi, tovush ishorasini berishi va eng kam tezlik bilan piyodalarning o'tish joyidan o'tishi
+o0861	Tovush ishorasini berishi va tezlikni kamaytirmay piyodalarning o'tish joyidan o'tishi
+o0862	Mazkur yo'nalishning qatnov qismidan piyodalarning o'tib olishiga imkon berishi
+o0863	Ehtiyotkorlik choralariga rioya etgan holda piyodalarning o'tish joyidan o'tishi
+o0864	Iloji boricha qatnov qismining o'ng chetiga yaqin tasmadan
+o0865	Boshqa tasmalarda qatnov ko'p bo'lganda istalgan tasmadan
+o0866	Istalgan tasmadan, biroq agar relssiz transport vositalarining harakati uchun bir yo'nalishda uchta va undan ortiq tasma bo'lsa, u holda chetki chap tasmaga faqat chapga burilish, orqaga qayrilish uchun o'tishga
+o0867	Motosikl va yuk avtomobilining haydovchilari
+o0868	Motosikl va yengil avtomobilning haydovchilari
+o0869	Hamma haydovchilar
+o0870	Hech kim buzmaydi
+o0871	Haydovchiga xavf ma'lum bo'lgan vaqtdan boshlab avtomobilning to'liq to'xtagunicha bosib o'tgan masofasi
+o0872	Tormoz tepkisini bosilgan vaqtidan boshlab avtomobilning to'liq to'xtagunicha bosib o'tgan yo'li
+o0873	5,0 m
+o0874	4,5 m
+o0875	3,8 m
+o0876	Mumkin qadar tezroq qatnov qismidan o'tib olishi
+o0877	Qatnov qismidan o'tmasligi
+o0878	Agar piyodalar o'tish joyida bo'lsa, qatnov qismidan o'tishi
+o0879	Trotuar yaqinidagi to'xtab turish joyida mexanik transport vositalarining qo'yish usullari ko'rsatilgan to'xtab turish joyini bildiradi
+o0880	Mexanik transport vositalarining to'xtashi taqiqlangan joylarni bildiradi
+o0881	Belgilangan yo'nalishdagi transport vositalarining to'xtash va taksining to'xtab turish joyini bildiradi
+o0882	Harakatni taqiqlaydi
+o0883	Boshqa haydovchilarga qatnov qismiga maxsus transport vositalarining o'tganini xabar qiladi
+o0884	Alohida ehtiyotkorlik bilan harakatlanishga ruxsat etadi
+o0885	Ruxsat beriladi, faqat svetofor o'chgan bo'lsa
+o0886	Faqat quvib o'tish uchun
+o0887	Faqat aylanib o'tish uchun
+o0888	Faqat chapga burilish yoki orqaga qayrilish uchun
+o0889	Yo'lovchi yengil avtomobilida
+o0890	Yo'lovchi yuk avtomobilida
+o0891	Faqat tez tibbiy yordami mashinasida
+o0892	Transport vositalarining harakatlanishiga qarama-qarshi faqat aholi yashaydigan joylardan tashqarida yurishga ruxsat etiladi
+o0893	Transport vositalarining harakatlanishi bo'ylab faqat aholi yashaydigan joylardan tashqarida yurishga ruxsat etiladi
+o0894	Tirkamasi bittadan ortiq bo'lmagan motosiklga ruxsat etiladi
+o0895	Faqat qattiq tirkagichda ruxsat etiladi
+o0896	Sirpanchiqda taqiqlanadi
+o0897	Mazkur yo'nalishda harakatlanish tasmasi soni kamaya borib, qatnov qismining torayishini
+o0898	Kesib o'tiladigan yo'l bo'ylab harakatlanayotgan transport vositasiga yo'l berar ekan, haydovchi zarur holda qayerda to'xtashi kerak bo'lgan joyni
+o0899	To'xtash taqiqlangan joyga yaqinlashilganini
+o0900	Chorrahalarda, piyodalar o'tish joylarida
+o0901	Avtomagistrallarda
+o0902	Sanab o'tilgan barcha joylarda
+o0903	Kerak
+o0904	Kerak emas
+o0905	Agar to'xtab turishni taqiqlovchi belgi bo'lmasa, ruxsat etiladi
+o0906	Faqat shu hududdagi korxonaga xizmat qiladigan yoki yaqin o'rtadagi uylarda yashaydigan fuqarolarga qarashli avtomobillarga ruxsat etiladi
+o0907	Yuk avtomobilining haydovchisi
+o0908	Har ikki avtomobilning haydovchisi
+o0909	Orqadan kelayotganlarning urib ketishini keltirib chiqarishi mumkin
+o0910	Avtomobilning faqat texnik holatida ko'rinadi
+o0911	Serqatnov harakatda boshqarishning odatdagi usuli hisoblanadi
+o0912	Yuk transport vositasining o'lchamidan oldinda yoki orqada 1 m dan ko'p chiqib qolganda
+o0913	Yuk transport vositasining o'lchamidan orqada 0,8 m chiqib qolganda
+o0914	Transport vositasi majburiy to'xtaganda
+o0915	Haydovchining xohishiga ko'ra shu shart bilanki, bu xavf-xatardan holi bo'lsa va boshqa harakat qatnashchilariga xalaqit bermasa
+o0916	Trotuar tomondan yoki yo'l yoqasidan iloji bo'lmasa shu shart bilanki bu hol xavf-xatarsiz bo'lsa va boshqa harakat qatnashchilariga xalaqit bermasa
+o0917	O'ngga, chapga va qayrilib olishga
+o0918	Ko'rsatilgan yo'nalishlarda harakatlanishni taqiqlaydi
+o0919	Chorrahada tasmalar bo'ylab ruxsat etilgan harakat yo'nalishlarini ko'rsatadi
+o0920	Harakat barcha yo'nalishlarda ruxsat etilgan yo'llarning kesishmasiga yaqinlashganini
+o0921	Yengil avtomobil, avtobus, velosiped
+o0922	Avtobus, velosiped, yengil avtomobil
+o0923	Avtobus, yengil avtomobil, velosiped
+o0924	Velosiped, avtobus, yengil avtomobil
+o0925	Svetoforning ruxsat ishorasini kutishi va to'g'riga o'tishi
+o0926	O'ngga burilish ishorasini yoqishi va o'ngga burilishi
+o0927	Chapga burilish ishorasini yoqishi va o'ng qatorni bo'shatishi
+o0928	Harakat xavfsizligini ta'minlovchi tezlik bilan kesishma orqali harakatni boshlashi kerak
+o0929	Birinchi uzatmada kesishmadan o'tishi kerak
+o0930	Yaqinlashib kelayotgan poezdning yo'qligiga ishonch hosil qilishi kerak
+o0931	Yonilg'i sarfi ancha ortadi
+o0932	Avtomobilning yonga sirpanishi vujudga kelishi mumkin
+o0933	Yurgizgich tirsakli val aylanishining yuqori chastotasini oshiradi
+o0934	Xavfli yuklar tashiyotgan
+o0935	Nogironlar boshqarayotgan
+o0936	Kar-soqov yoki kar haydovchilar boshqarayotganda
+o0937	Ikki yilgacha haydovchilik ish davriga ega bo'lgan haydovchilar boshqarayotgan
+o0938	Yo'lning har ikki tomoni ko'rinadigan joylarda ruxsat etiladi
+o0939	Faqat aholi punktlaridan tashqarida ruxsat etiladi
+o0940	Faqat aholi punktlarida ruxsat etiladi
+o0941	Yuk ko'tarish 3,5 t dan ortiq bo'lgan avtomobillarga
+o0942	Ruxsat etilgan to'la vazni 3,5 t dan ortiq bo'lgan avtomobillarga
+o0943	Xavfli yuk tashiyotgan avtomobillarga
+o0944	Yukxonasiga qiya oq chiziq tortilgan yuk avtomobillariga
+o0945	Agar u haydovchining chap tomonida bo'lsa ruxsat etiladi
+o0946	Agar u haydovchining o'ng tomonida bo'lsa ruxsat etiladi
+o0947	Istalgan tomondan ruxsat etiladi
+o0948	Tramvay, sariq va qizil avtomobilga
+o0949	Sariq va qizil avtomobillarga
+o0950	Uni aylanib o'tayotgan transport vositasiga yo'l berishi kerak
+o0951	Imtiyozidan foydalanib, belgilangan yo'nalishda harakatni boshlashi kerak
+o0952	Unga yo'l berilganligiga ishonch hosil qilgach harakatni boshlashi kerak
+o0953	Ko'k avtomobilning haydovchisi
+o0954	Qizil avtomobilning haydovchisi
+o0955	Har ikki haydovchi buzdi
+o0956	Har ikki haydovchi ham buzmadi
+o0957	Transport vositalariga to'sqinlik qilmasligi uchun burilishni tezroq tugallashi
+o0958	Hovlidan chiqishda piyodani va transport vositalarini o'tkazib yuborishi
+o0959	Transport vositalariga yo'l berish, qatnov qismi chetida to'xtashi
+o0960	Ulagichni ajratmay turib sekin tormoz berishi va boshqaruv rulining keskin burilishiga yo'l qo'ymasligi
+o0961	Ulagichni ajratish va sekin tormoz berishi
+o0962	Tormoz tepkisini uzuq-uzuq bosish bilan keskin tormoz berishi
+o0963	Kar yoki kar-soqov haydovchilar boshqarayotgan
+o0964	Nogiron boshqarayotgan
+o0965	Faqat shunday holda ruxsat etiladiki, agar chiziq yo'l qatnov qismining chetlarini bildirsa
+o0966	Chiziq bir yo'nalishdagi harakat tasmalarining chegarasini bildirganda faqat manyovr qilishda ruxsat etiladi
+o0967	Piyodalarga mazkur yo'nalishning qatnov qismidan butunlay o'tib olishlariga imkon berishi
+o0968	Yo'l-transport falokati oldini olish uchun tovush ishora berishi va asosiy yo'lda bo'lgani sababli piyodalarga yo'l bermay o'tish joyidan o'tishi
+o0969	To'xtashga va piyodalar o'tish joyiga o'tmaslikka, chunki bu piyodalarning harakati uchun to'sqinlik qiladi
+o0970	Piyodalar o'tish joyi oldidan 15 m. berida to'xtashga
+o0971	Oldinda turgan transport vositasidan zarur masofa saqlangan holda piyodalar o'tish joyida to'xtashga
+o0972	Piyodalar o'tish joyi oldidan 5 m. berida to'xtashga
+o0973	Aholi punktlaridan tashqaridagi yo'llarda ruxsat etiladi
+o0974	Faqat aholi punktlaridan tashqaridagi yo'llarda taqiqlanadi
+o0975	Haydovchiga chap yoki o'ng elkasini o'girib, tayoqchani (qizil bayroqni) boshidan yuqori ko'tarib turish
+o0976	Oldi yoki orqasi bilan turib jezlni (qizil bayroqni) boshidan yuqori ko'tarib turishi yoki qo'llarini yoniga uzatib turishi
+o0977	Istalgan elkasi yoki ko'kragini o'girib, tayoqchani (qizil bayroqni) boshidan yuqori ko'tarib turishi
+o0978	Tezlanish bilan yuqoriroq uzatmalarda harakatlanishga
+o0979	Qisqa masofa oralig'ida tormoz tepkisini bir necha bor bosib tormoz mexanizmi friksion ustqoplamalarini quritishi
+o0980	Og'ir vaznli va yirik o'lchamli
+o0981	Kar-soqov yoki kar haydovchilar boshqarayotgan
+o0982	Har ikkisi buzdi
+o0983	Har ikkisi ham buzmadi
+o0984	Tramvay, avtomobil va avtobus bir vaqtda
+o0985	Tramvay, avtobus, avtomobil
+o0986	Avtobus, tramvay, avtomobil
+o0987	Agar avtobus belgilangan yo'nalish bo'yicha harakatlansa, ruxsat etiladi
+o0988	Yaralangan yoni bilan yotgan yoki yarim o'tirgan holda
+o0989	Sog' yoni bilan yotgan yoki o'tirgan holda
+o0990	Orqasi bilan yoki qorni bilan yotgan holda
+o0991	Yo'l yotiq chizig'i bilan
+o0992	Tasmalar bo'yicha harakatlanish yo'nalishi yoki "Tasma bo'yicha harakatlanish yo'nalishi" yo'l belgilari bilan
+o0993	Haydovchining o'zi tomonidan qatnov qismining kengligini, transport vositalarining o'lchamlarini va ular o'rtasidagi zarur yonlama oraliq masofani hisobga olib
+o0994	Barcha sanab o'tilgan usullar bilan
+o0995	O'rta tasmadan, lekin faqat o'ng tasma band bo'lgan vaqtda
+o0996	Uncha katta bo'lmagan tezliqda chiqish, birinchi galda boshqaruv chambaragini chiqish tomonning ro'parasiga, keyin esa chiqish tomoniga shiddat bilan burish kerak
+o0997	Izdan chiqishni iloji boricha tezroq boshlash, dastlab boshqaruv chambaragini chiqish tomoniga, keyin esa ro'parasiga burish kerak
+o0998	Tegishli yo'l belgilari bilan
+o0999	Yo'naltiruvchi va tevaragini o'rovchi moslamalar bilan
+o1000	Qizil yoki sariq yoritkich chiroqlari bilan
+o1001	Barcha sanab o'tilgan hollar bajarilishi kerak
+o1002	Kesishadigan yo'l bo'ylab harakat qilayotgan mexanik transport vositalariga yo'l beradi
+o1003	Kesishadigan yo'l bo'ylab harakat qilayotgan transport vositalariga yo'l beradi
+o1004	Faqat to'xtash uchun ruxsat etiladi
+o1005	Orqa bilan harakat qilganda ruxsat etiladi
+o1006	Yuk avtomobili va motosiklga
+o1007	Tramvayga va yengil avtomobilga
+o1008	Yengil va yuk avtomobiliga, motosiklga
+o1009	Harakat tasmasini o'zgartirmay, o'ng burilish ishorasini berishi
+o1010	Harakat tezligini oshirish yoki boshqa xatti-harakatlar bilan quvib o'tishga to'sqinlik qilmasligi
+o1011	Harakat tezligini kamaytirishi, tovush ishora berishi
+o1012	Manyovrni bevosita bajarishdan oldin
+o1013	Manyovr tugagandan so'ng zudlik bilan
+o1014	Manyovr bajarayotgan vaqtda
+o1015	Kiyim-boshni echish yoki bo'shatish, toza havo kelishini ta'minlash. Nashatir spirti hidlatish. Yuzga sovuq suv sepish. Peshonaga va gardanga iliq malhamlar qo'yish
+o1016	Mutloq tinch qo'yish. Boshni tushirish, oyoqlarni ko'tarish, badanni isitish. Qaynoq ichimlik (choy va shu kabilar) berish. Bog'langan jgutni shifokorsiz yechmaslik va bo'shatmaslik
+o1017	Chap belgi
+o1018	O'ng belgi
+o1019	Har ikki belgi
+o1020	Quvib o'tilayotgan transport vositasi 40 km/s dan kam tezlik bilan harakatlanganda ruxsat etiladi
+o1021	Agar quvib o'tish temir yo'l kesishmasigacha tugasa, ruxsat etiladi
+o1022	"to'xtash chizig'i"da to'xtashi, so'ng esa harakatni qayta tiklashi
+o1023	To'xtamasdan chorraha orqali harakatni davom ettirishi
+o1024	Oldindan yaqin fara chiroqlarini yoqib va uzluksiz tovush ishorasini berib, eng kam tezlik bilan turgan transport vositasini aylanib o'tishi
+o1025	Qatnov qismidan o'tayotgan bolalarga yo'l berishi
+o1026	Bu yo'l qismidan o'tishi kerak, chunki bolalar qatnov qismini piyodalar o'tish joyidan kesib o'tmayaptilar
+o1027	Ikki haydovchi
+o1028	Faqat avtobusning haydovchisi
+o1029	Faqat yengil avtomobilning haydovchisi
+o1030	Tovush xabarini berib va faralarni yoqib quvib o'tishni uni tugallaguncha davom ettirishingiz kerak
+o1031	Tezlikni asta ko'paytirishingiz va quvib o'tishni tezroq tugallashingiz kerak
+o1032	Tezlikni kamaytirishingiz va avval egallagan tasmangizga qaytishingiz kerak
+o1033	Faqat agar uning orqasida boshqa transport vositasi harakatlanayotgan holda
+o1034	Faqat agar uning transport vositasi burilishini ko'rsatuvchi chiroqlar bilan jihozlangan holda
+o1035	Faqat serqatnov harakatli yo'lda
+o1036	Faqat u harakatning boshqa ishtirokchilarini chalg'itmagan hollarda
+o1037	Qattiq ulagichda shatakka olinganda ruxsat etiladi
+o1038	Harakat xavfsizligini ta'minlovchi tezlikda ruxsat etiladi
+o1039	40 km/s
+o1040	8 tonnagacha yuk ortgan avtomobil
+o1041	8 tonna yuk ko'tarish quvvatiga ega bo'lgan bo'sh avtomobil
+o1042	Ruxsat etilgan to'la vazni 8 tonnadan ortiq bo'lmagan avtomobil
+o1043	Piyodalar o'tish joyini
+o1044	Velosiped yo'lkasi qatnov qismini kesib o'tadigan joyni
+o1045	Mol haydaladigan joyni
+o1046	Uch tasmali yo'lning ikkinchi tasmasida harakatlanish
+o1047	Orqa bilan harakatlanish
+o1048	Mexanik transport vositalarini shatakka olish
+o1049	Barcha sanab o'tilgan harakatlar
+o1050	Agar tasma qatnov qismining o'ng chetida joylashgan va u yotiq uzluksiz chizig'i bilan qatnov qismidan ajratilmagan bo'lsa ruxsat etiladi
+o1051	Avtobusning haydovchisi
+o1052	Yuk tashuvchi avtomobilning haydovchisi
+o1053	Ko'k, qizil, ayni vaqtda yashil bilan
+o1054	Qizil ayni vaqtda yashil bilan, ko'k
+o1055	Kerak, agar transport vositasi qo'shni tasma bo'yicha yo'lakay harakat qilsa
+o1056	O'zaro qayta tizilishda barcha hollarda kerak
+o1057	Xavfli burilishdan 100 metr o'tib turib to'xtash va orqasida to'plangan transport vositalarini o'tkazib yuborishi
+o1058	O'sha tezlik bilan harakatni davom ettirishi
+o1059	Qo'li bilan o'zini ro'para tasmadan quvib o'tishlari haqida ishora qilishi kerak
+o1060	Oldinda qatnov qismi notekis bo'lgan yo'l qismini
+o1061	Oldinda shu yo'nalishda harakatlanish uchun uch tasmali yo'l qismini
+o1062	Mexanik transport vositasida tishli turumlangan (shiplar) shinalar o'rnatilganini
+o1063	Yo'l yoqasida to'xtashi
+o1064	Yalt-yalt etuvchi chiroq mayoqchasi yoqilgan avtomobiliga xalaqit bermasdan harakatni davom ettirishi
+o1065	Yo'l (marshrut) raqamini ko'rsatadi
+o1066	Eng yaqin aholi yashaydigan joygacha bo'lgan masofani ko'rsatadi
+o1067	DANning eng yaqin mahkamasigacha bo'lgan masofani ko'rsatadi
+o1068	"Kilometr belgisi" vazifasini bajaradi
+o1069	Faqat orqa burilish uchun ruxsat etiladi, to'la vazni 3,5 t dan ortiq bo'lgan yuk avtomobillarning haydovchilari bundan mustasno
+o1070	Belgilangan yo'nalishdagi transport vositalariga ruxsat etiladi
+o1071	Qizil avtomobil, tramvay ayni vaqtda yashil avtomobil bilan
+o1072	Tramvay, qizil, yashil avtomobillar
+o1073	Tramvay, ayni vaqtda yashil avtomobil, qizil avtomobil
+o1074	Har ikki haydovchi to'g'ri chiqadi
+o1075	Yashil avtomobilning haydovchisi
+o1076	Quvib o'tish uchun ruxsat etiladi
+o1077	Barcha hollarda ruxsat etiladi
+o1078	Faqat shu holdaki, agar uning orqasidan boshqa transport vositasi harakat qilsa
+o1079	Faqat aholi punktlarida
+o1080	Qizil avtomobil va motosiklning haydovchilari
+o1081	Ko'k avtomobil haydovchisi
+o1082	Motosiklning haydovchisi
+o1083	Barcha transport vositalarining haydovchilari
+o1084	Belgilangan safarni davom ettirishga, bunda kunning yorug' vaqtida yaqinni yorituvchi fara chirog'ini yoqishga
+o1085	Bundan keyingi harakatni to'xtatishga
+o1086	Nosozlikni o'sha joyda bartaraf etishga, agar buning iloji bo'lmasa zarur ehtiyot choralariga rioya qilgan holda to'xtab turish yoki ta'mirlashga olib borishga
+o1087	Faqat shu holdaki, agar shatakka olish yo'l-yo'lakay yo'nalishda amalga oshirilsa
+o1088	Har qanday holda, fuqarolarga tegishli transport vositalaridan tashqari
+o1089	Haydovchining istagi bo'yicha
+o1090	Faqat avtobusning harakatlanishi uchun mo'ljallangan tasmani bildiradi
+o1091	Faqat belgilangan yo'nalishdagi transport vositalarining harakatlanishi uchun mo'ljallangan tasmani bildiradi
+o1092	Avtobuslar va trolleybuslarning harakatlanishi uchun mo'ljallangan tasmani bildiradi
+o1093	Avtobuslar va marshrutli taksi (alohida kichik avtobuslar)ning harakatlanishi uchun mo'ljallangan tasmani bildiradi
+o1094	Chorrahaga chiqdi, yuk avtomobilini o'tkazib yubordi, burilishni tugalladi
+o1095	Chorrahaga chiqdi va tartibga soluvchining ruxsat etuvchi ishorasini kutib, burilishni tugalladi
+o1096	To'xtadi va tartibga soluvchining ruxsat etuvchi ishorasida to'xtamay chapga burildi
+o1097	Faqat orqa yo'nalishda
+o1098	To'g'riga, chap va orqa yo'nalishda
+o1099	Chap va orqa yo'nalishda
+o1100	Barcha yo'nalishlarda
+o1101	Bevosita manyovrni bajarishni boshlash oldidan
+o1102	Manyovrni bajarishni boshlagandan so'ng zudlik bilan
+o1103	Manyovrni bajarishni boshlamasidan oldinroq
+o1104	Chap tasmada, agar o'ng tasma bo'sh bo'lsa
+o1105	Qarama-qarshi harakat tomonida
+o1106	Agar bir yo'nalishda harakatlanish uchun uchtadan kam bo'lmagan tasma bo'lganda, chap tasmada
+o1107	Ruxsat etilgan to'la vazni 3,5 t. dan ortiq bo'lgan faqat yuk avtomobillariga bir yo'nalishdan harakatlanishi uchun ikkita tasma bo'lsa, chap tasmada
+o1108	Tezlikni o'zgartirmay va yo'l qatnov qismining chap yoqasidan harakatni davom ettirishingiz kerak
+o1109	Harakat tezligini kamaytirishingiz kerak
+o1110	Burilishdan tezroq o'tish uchun tezlikni oshirishingiz kerak
+o1111	Agar ularning tuzilishi odamlarni tashishga moslashtirilgan bo'lsa, ruxsat etiladi
+o1112	Yo'lovchilarga halokat bo'lganda chiqish joylaridan foydalanish haqida tushuntirish
+o1113	Yo'lovchilarga chiqish, undan tushish va unga joylashish tartibi haqida tushuntirish
+o1114	Yo'lovchilarga harakatlanish vaqtida salon ichida yurish mumkin emasligi haqida tushuntirish
+o1115	Yo'llar ostin-ustun o'tadigan chorrahalarni
+o1116	Harakatlanish tezligi 40 km/s gacha cheklangan qismini
+o1117	Yo'l inshootlarining harakatdagi transport vositalariga xavf tug'diradigan tik tasmalarini
+o1118	Agar u harakatni to'xtash joyidan boshlasa
+o1119	Agar u "tig'iz" soatda marshrut bo'yicha harakat qilsa
+o1120	Aholi punktlarida, agar u belgilangan to'xtash joyidan (bekatlardan) harakatni boshlasa
+o1121	Avtomobillar va motosikl
+o1122	Barcha transport vositalari
+o1123	Avtomobillar va tramvay
+o1124	Ruxsat etiladi, agar qizil avtomobil 40 km/soatdan kam tezlik bilan harakatlanayotgan bo'lsa
+o1125	Faqat chapdagi
+o1126	Chap va o'rtadagi
+o1127	Barchasida
+o1128	Avtomobilning turg'unligini oshiradi
+o1129	Avtomobilning turg'unligini kamaytiradi
+o1130	Avtomobilning turg'unligiga hech qanday ta'sir ko'rsatmaydi
+o1131	2,55 m
+o1132	Birinchi bo'lib ayni bir vaqtda qizil bilan
+o1133	Ikkinchi bo'lib ayni vaqtda qizil bilan
+o1134	Uchinchi bo'lib ayni vaqtda qizil bilan
+o1135	Yo'lning xavfli joylaridagi harakatlanish tasmasi chegarasini bildiradi
+o1136	Yo'lning boshqa qismlarida yo'l chetidagi to'siqlarning yon chegarasini belgilaydi
+o1137	Xavfli yo'l qismlarida bordyurlarni belgilaydi
+o1138	Yo'naltiruvchi ustunchalar, beton yoki temir-beton ustunchalar, to'siq ustunchalari va shunga o'xshashlarni belgilaydi
+o1139	Barcha hollarda o'tkazib yuborishi kerak, shu jumladan piyodalar o'tish joylardan tashqarida ham
+o1140	Tartibga solinadigan piyodalar o'tish joyida o'tkazib yuborishi kerak
+o1141	Tartibga solinmagan piyodalar o'tish joyida o'tkazib yuborishi kerak
+o1142	Har qanday piyodalar o'tish joyida o'tkazib yuborish kerak
+o1143	Yengil avtomobil
+o1144	Har ikkisi noto'g'ri qo'yilgan
+o1145	Har ikkisi to'g'ri qo'yilgan
+o1146	Yuk avtomobil
+o1147	Qatnov qismining faqat o'ng chekkasidan yo'l qo'yadi. Yo'lning o'ng yoqasidan yo'l qo'yilmaydi
+o1148	Yo'l qo'yiladi. Bunda qayrilayotgan haydovchi yo'lakay va qarama-qarshi kelayotgan transport vositalarini o'tkazib yuborishi kerak
+o1149	Har qanday tasma bo'yicha
+o1150	Iloji boricha qatnov qismining o'ng chekkasiga yaqin tasma bo'yicha
+o1151	Chapki chekkadan tashqari har qanday tasma bo'yicha. Unga faqat boshqa tasmalarda harakat serqatnov bo'lganda, shuningdek, chapga burilish, orqaga qayrilish va bir tomonlama harakat tashkil qilingan yo'lda to'xtash uchun o'tishga ruxsat etiladi
+o1152	Harakatni boshlash mumkin
+o1153	Harakatni taqiqlaydi va tezda yashil ishora yoqilishi haqida ogohlantiradi
+o1154	Chorrahaga maxsus ovoz yoki miltillovchi chiroq bilan ishora berayotgan transport vositasi yaqinlashib kelayotganini
+o1155	Avtomobil shifokor haydovchiga tegishli ekanini
+o1156	Avtomobil haydovchi nogironga tegishli ekanini
+o1157	Avtomobil uyda tibbiy yordami ko'rsatish uchun mo'ljallanganini
+o1158	Taqiqlangan, chunki uzuq-uzuq yotiq chizig'i bilan to'xtab turgan va avtomobil orasidagi masofa 3 metrdan kam
+o1159	Oyning juft kunlarida taqiqlangan
+o1160	Ruxsat berilgan
+o1161	Traktorlar va o'ziyurar avtomobillarga
+o1162	Avtobuslar va mikro avtobuslarga
+o1163	Belgi ta'sirida joylashgan korxonalarga xizmat ko'rsatayotgan transport vositasiga
+o1164	Motosikl
+o1165	Har ikki avtomobil
+o1166	Hamma transport vositalari
+o1167	Shlagbaum bilan jihozlanmagan bir izli temir yo'l kesishmasini
+o1168	Shlagbaum bilan jihozlangan bir izli temir yo'l kesishmasini
+o1169	Shlagbaum bilan jihozlanmagan ikki va undan ko'p izli temir yo'l kesishmasini
+o1170	Ko'k-sariq avtomobilga chapga
+o1171	Ko'k-sariq avtomobilga to'g'riga, qizil avtomobilga to'g'riga va o'ngga
+o1172	Qizil avtomobilga - to'g'riga va o'ngga
+o1173	Har ikki transport vositasi
+o1174	Har ikki transport vositasi to'g'ri burilyapti
+o1175	Xavfsizlik choralariga rioya qilgan holda tezlikni kamaytirishi va xavfli yo'l qismidan o'tishi
+o1176	Tezlikni transport vositasi to'xtagunicha kamaytirishi yoki to'siqni aylanib o'tishning boshqa harakat qatnashchilari uchun xavfsiz choralarni ko'rishi
+o1177	Sodir bo'lgan hodisa haqida ichki ishlar organlariga xabar berishi
+o1178	DYHX xizmatining eng yaqin mahkamasiga yoki IIO idorasiga kelishi va paydo bo'lgan to'sqinliklar yoki xavf-xatar to'g'risida xabar berishi
+o1179	Yurakni massaj qilish, nafas yo'llarini bo'shatish, sun'iy nafas oldirish
+o1180	Sun'iy nafas oldirish, yurakni ustidan massaj qilish, nafas yo'llarini bo'shatish
+o1181	Nafas yo'llarini bo'shatish, sun'iy nafas oldirish va yurakning ustidan massaj qilish
+o1182	Gidravlik tormoz tizimining zichligi buzilganda
+o1183	Tormoz tizimining samaradorligi qoida talablariga javob beradi
+o1184	To'xtab turish tormoz tizimi harakatsiz holatda to'la vazndagi transport vositalarini 16% dan kam bo'lgan qiyalikda ushlab tura olganda
+o1185	To'xtash joyida tramvay bo'lmaganda ruxsat etiladi
+o1186	Hamma bir vaqtda
+o1187	Ko'k ayni vaqtda yashil bilan, qizil
+o1188	Qizil, yashil bilan ko'k
+o1189	Qizil avtomobilga
+o1190	Tramvayga va qizil avtomobilga
+o1191	Tramvayga
+o1192	Ko'k avtomobilga
+o1193	Quvib o'tilayotgan transport vositasing tezligi 40 km/s dan kam bo'lganda ruxsat etiladi
+o1194	300 m
+o1195	150 m
+o1196	100 m
+o1197	50 m
+o1198	Bir marta ko'krak qafasi bosiladi, bir marta havo puflanadi va hokazo
+o1199	Ikki marta havo puflanadi, so'ng yurak sohasi 30 marta bosiladi va hokazo
+o1200	2-3 marta havo puflangandan so'ng 15 marta ko'krak qafasi bosiladi
+o1201	Davlat YHXX
+o1202	Avtoxo'jalik ma'muriyati
+o1203	Mazkur transport vositasini tayyorlovchi-korxona
+o1204	Avtobuslar va yo'nalishli taksilar
+o1205	Tramvaylar va trolleybuslar
+o1206	Belgilangan yo'nalishlar bo'yicha harakatlanadigan avtobuslar, trolleybuslar, tramvaylar va yo'nalishli taksilar
+o1207	Faqat ruxsat etilgan to'la vazni 3,5 t dan ortiq bo'lmagan avtomobillarga ruxsat etiladi
+o1208	Sariq va qizil avtomobilga
+o1209	Yashil, qizil va oq avtomobilgatosiklga
+o1210	Oq va yashil avtomobilga
+o1211	Avtobus
+o1212	Sariq avtomobilga u orqadan kelayotgani uchun yo'l bermay, mo'ljallangan yo'nalishda chorrahani kesib o'tishi
+o1213	Qarama-qarshi harakat tasmasiga darhol qayta tizilishi
+o1214	Tezlikni kamaytirishi, sariq avtomobilga quvib o'tishni tugallashiga imkon berishi, so'ng esa chapga burilishni ko'rsatadigan chiroqni yoqib, chapga burilishi lozim
+o1215	Ruxsat berilmaydi
+o1216	Ruxsat beriladi, faqat yo'nalishlarda osma ko'priklar, osma yo'l (estakada) bo'lmasa
+o1217	0,025
+o1218	0,035
+o1219	0,05
+o1220	0,055
+o1221	0,06
+o1222	Ishchi tormoz bilan to'la to'xtaguncha keskin tormozlash
+o1223	Avtomobilni to'xtab turish tormozi yordamida to'xtatish
+o1224	Rul chambaragini ushlab turish, to'g'ri chiziqda harakatni saqlash, tezlikni kamaytirish va to'xtatish
+o1225	1- va 2-tramvaylar ayni vaqtda yashil avtomobil bilan, qizil, ko'k avtomobillar
+o1226	1-tramvay ayni vaqtda yashil avtomobil bilan, qizil avtomobil; 2-tramvay va ko'k avtomobil bir vaqtda
+o1227	Tramvayga chapga yoki to'g'riga
+o1228	Faqat avtomobilga chapga
+o1229	Tramvay va avtomobilga chapga
+o1230	Tramvayga chapga yoki to'g'riga, avtomobilga tramvaydan so'ng
+o1231	Tramvayga chapga, avtomobilga chapga va teskari yo'nalishga
+o1232	Yengil avtomobilning haydovchisiga
+o1233	Yuk avtomobilining haydovchisiga
+o1234	Chorrahalarda va ularga 15 metrdan yaqinroqda
+o1235	Chorrahalar oldiga 15 metrdan yaqinroqda
+o1236	Yo'lning bir yo'nalishida 100 metrdan kamroq qismi ko'rinadigan aholi punktlaridan tashqarida
+o1237	Yo'lning ko'rinishi biror-bir yo'nalishda 100 metrdan kam bo'lgan joylarda
+o1238	1. Burilish yoki qayrilish oldidan qayta tizilishda
+o1239	2. Quvib o'tishda, o'zib ketishda yoki aylanib o'tishda
+o1240	Birinchi va ikkinchi javoblar to'g'ri
+o1241	Sanab o'tilgan barcha hollarda, shuningdek, agar bir yo'nalishda harakatlanish uchun uchta va undan ortiq tasma bo'lganda
+o1242	Haydashni o'rgatish huquqini beruvchi hujjatlari bo'lgan haydashni o'rgatuvchi yo'riqchi
+o1243	Tajribali haydovchi
+o1244	3 yillik ishlagan davri bo'lgan haydovchi
+o1245	5 yil haydovchilik ishlagan davriga ega bo'lgan 1 - va 2 - toifa haydovchilar
+o1246	Ishora taxtachalari yoki bayroqchalar (diagonal bo'yicha navbatma-navbat tortilgan qizil va oq yo'lli) bilan
+o1247	"Katta o'lchamli yuk" taniqli belgisi bilan belgilanishi, qo'shimcha ravishda oldiga oq, orqasiga esa qizil chiroqlar yoki yorug'lik qaytargich bilan
+o1248	Orqasiga qizil, oldiga oq bayroqchalar bilan
+o1249	Transport vositasining yuk ko'tarishi
+o1250	Transport vositasining haqiqiy vazni
+o1251	Aslahalangan transport vositasining ishlab chiqaruvchi korxona tomonidan belgilangan, yuk, haydovchi va yo'lovchilari bilan birgalikdagi eng yuqori vazni (o'lchovi). Bir tarkibda harakatlanayotgan (tirkama va h.k.) transport vositalarining ruxsat etilgan to'la vazniga shu tarkibga kiruvchi transport vositalarining ruxsat etilgan to'la vaznlari yig'indisi kiradi
+o1252	Transport vositasida tashiladigan yukning ishlab chiqargan korxona yo'l qo'ygan texnik tavsifnomasi sifatida belgilanadigan vazni
+o1253	Faqat avtomobil haydovchisiga
+o1254	Faqat avtomobil va motosikl haydovchilariga
+o1255	Barcha transport vositalarining haydovchilariga
+o1256	Faqat avtomobil va avtobus haydovchilariga
+o1257	Agar avtomagistralda harakatlanish serqatnov bo'lsa, taqiqlanadi
+o1258	Yashil avtomobil ayni vaqtda 2-tramvay bilan; 1-tramvay, ko'k, sariq, qizil avtomobillar
+o1259	1- va 2-tramvaylar ayni vaqtda sariq avtomobil bilan, yashil, ko'k, qizil avtomobillar
+o1260	Tramvay va motosikl
+o1261	Tramvay, yuk avtomobili va motosikl
+o1262	To'xtashi va orqasida to'planib qolgan transport vositalarini o'tkazib yuborishi
+o1263	Harakatni davom ettirishi
+o1264	40 km/soatdan kam tezlik bilan harakatlanayotgan faqat yakka transport vositalariga ruxsat etilgan
+o1265	Hamma hollarda ruxsat etilgan
+o1266	Burilishning chap ko'rsatkichini yoqish va qatnov qismida qulay joylashib olishdan foydalanib, manyovr qilishga kirishish
+o1267	Sizning ortingizdan kelayotgan haydovchi sizni quvib o'tib ketgandan so'nggina burilishning chap ko'rsatkichini yoqish
+o1268	Burilishning chap ko'rsatkichini yoqish, o'zini quvib o'tishga imkon berishi va so'ng manyovr qilishga kirishish
+o1269	Tormoz barabanlarining qizib ketishiga
+o1270	Naqsh izlarining ko'chib ketishiga
+o1271	Avtomobilning ag'darilib ketishi mumkin darajada sirpanib ketishiga
+o1272	Agar bort balandligidan pastda joylashgan qulay o'rindiq bo'lsa ruxsat beriladi
+o1273	Egallagan harakatlanish tasmasidan chiqib oldinda ketayotgan transport vositasidan o'zib ketish
+o1274	Bir yoki bir nechta transport vositalarini qarama-qarshi yo'nalishda harakatlanish uchun mo'ljallangan tasmaga chiqib, so'ngra ilgari egallagan qatoriga qaytib o'tish bilan bog'liq bo'lgan o'zib ketish
+o1275	Kam tezlik bilan qo'shni qatorda harakatlanayotgan bir yoki bir qancha transport vositalaridan o'zib ketish
+o1276	Asosiy tasma bo'yicha, agar unda boshqa transport vositalari yo'q bo'lsa, harakatlanishni davom ettirishi
+o1277	Qo'shimcha tasmaga qayta tizilishi
+o1278	Agar balandlikning davomliligi 30 m dan oshmasa, asosiy tasma bo'yicha harakatlanishni davom ettirishi
+o1279	Sariq chorrahaga chiqadi va yashilni o'tkazib yuborish uchun to'xtaydi; yashil, ko'k ayni vaqtda qizil bilan, sariq
+o1280	Ko'k, ayni vaqtda qizil bilan, yashil, sariq
+o1281	Yashil, ko'k ayni vaqtda qizil, so'ng sariq
+o1282	Faqat motosikl haydovchisi
+o1283	Faqat avtomobil haydovchisi
+o1284	Hech kim buzmadi
+o1285	Qat'iy tasmalar bo'yicha, uzuq-uzuq chiziqni kesib o'tishga faqat qayta tizilishda ruxsat etiladi
+o1286	Agar qatnov qismi transport vositalaridan xoli bo'lsa, tasma bo'yicha qat'iy emas
+o1287	Agar transport vositalarining o'lchamlari eniga katta bo'lmasa, tasma bo'yicha qat'iy emas
+o1288	Agar qatnov qismida tirkamali avtomobillar bo'lmasa va bunda ancha tor harakat oralig'ini saqlash mumkin bo'lsa, tasmalar bo'yicha qat'iy emas
+o1289	Singan joyga qo'yiladigan shina yoki uning o'rnini bosuvchi narsani siqib bog'lash kerak
+o1290	Shinani ikki tomondan butun boldir uzunligida tovondan to tizza bo'g'inigacha qo'yish kerak
+o1291	Tovon tagidan to son o'rtasigacha oyoqning ichki va tashqi tomonidan ikkita shina qo'yish kerak. Singan joyni, tizza va boldir-oyoq kafti bo'g'inlarini qimirlatmaslik lozim
+o1292	Yoritish chiroqlari yo'nalishi buzilgan bo'lsa
+o1293	Tashqi yoritish asboblari va yorug'lik qaytargichlar ifloslanganda
+o1294	Yoritish asboblari o'rnida mazkur yoritish asboblarining to'g'riga mos kelmaydigan lampalardan foydalanilganda
+o1295	Trolleybus yoki avtobus to'xtash joylarini bildiradi
+o1296	Marshrutdan boshqa barcha transport vositalariga yo'lning o'ng qatori bo'yicha harakatlanishni taqiqlaydi
+o1297	Yukxonasida odam tashishga moslashtirilgan maxsus yuk avtomobillarida
+o1298	Furgon-yukxonada mahsulotlar tashiydigan avtomobillarga
+o1299	"Aloqa" yozuvi bo'lgan avtomobillarga
+o1300	Agar temir yo'l boshlig'ining ruxsati bo'lsa, ruxsat etiladi
+o1301	Mexanik transport vositalariga yuklab olib o'tishga ruxsat etiladi
+o1302	To'g'riga va o'ngga birinchi yo'nalishga
+o1303	O'ngga birinchi yo'nalishga
+o1304	O'ngga ikkinchi yo'nalishga
+o1305	O'ngga birinchi va ikkinchi yo'nalishga
+o1306	Ikki g'ildirakli kajavasiz motosikllardan tashqari hamma mexanik transport vositalarining harakatlanishini taqiqlaydi
+o1307	G'ildirakli traktorlardan tashqari hamma transport vositalarining harakatlanishini taqiqlaydi
+o1308	Traktorlar va o'zi yurar mashinalarning harakatlanishi taqiqlanadi
+o1309	Ko'k avtomobil, tramvay, qizil avtomobil
+o1310	Tramvay, qizil, so'ngra ko'k avtomobil
+o1311	Tramvay, ko'k avtomobil chorrahaga chiqadi, qizilga yo'l beradi, so'ngra burilishni tugallaydi
+o1312	1-3 m
+o1313	2-4 m
+o1314	3-6 m
+o1315	4-6 m
+o1316	4-8 m
+o1317	Hisoblanmaydi
+o1318	Hisoblanadi
+o1319	Faqat yengil avtomobillarga
+o1320	Yengil avtomobillarga va motosikllarga
+o1321	Yengil avtomobillarga va yuk avtomobillariga
+o1322	Faqat shu yo'nalishda harakatlanish uchun ikki yoki undan ortiq tasma bo'lgan yo'l bo'yicha harakatlanganda ruxsat etiladi
+o1323	Yo'l chetida
+o1324	To'xtab turish maydonchalarida yoki yo'ldan tashqarida
+o1325	Yo'l qatnov qismining o'ng tomonida, biroq boshqa transport vositalarining harakatlanishiga to'sqinlik qilmasligi kerak
+o1326	Yo'lning chap tomonida, biroq harakat xafvsizligi choralariga rioya qilgan holda
+o1327	Yaxmalakda qattiq ulagichda
+o1328	Yaxmalakda egiluvchan ulagichda
+o1329	Yon kajavali motosikllar bilan
+o1330	"А", "Б", "В"
+o1331	Tuproqli yo'lga nisbatan qoplamali yo'l yoki tegishli belgilar bilan belgilangan yo'l
+o1332	Uch tomonlama chorrahada tutashib kelgan yo'lga nisbatan har ikki tomonga davom etuvchi yo'l
+o1333	Har bir yo'nalishda harakatlanish uchun bir tasmali yo'lga nisbatan ko'p tasmali qatnov qismi bo'lgan yo'l
+o1334	Yo'lovchilarni tushiradigai barcha transport vositalariga
+o1335	Avtobuslarga va trolleybuslarga
+o1336	Faqat belgilangan yo'nalishdagi transport vositalariga va yo'nalishsiz yengil taksilarga
+o1337	3 km/s
+o1338	5 km/s
+o1339	8 km/s
+o1340	10 km/s
+o1341	Yo'l berishi kerak
+o1342	Birinchi galda harakatlanishga ustunlikka ega
+o1343	Faqat to'la vazni 3,5 tonnagacha bo'lgan transport vositalariga ruxsat etiladi
+o1344	Yo'l qo'yiladi, agar bu piyodalarning harakatiga xalal bermasa
+o1345	Yo'l qo'yilmaydi, chunki bu piyodalarning hayotini xavf ostiga qo'yishi mumkin
+o1346	Bevosita shu trotuar yoki yo'lkalarda joylashgan savdo yoki boshqa korxonalarga xizmat ko'rsatishda yo'l qo'yiladi
+o1347	Trotuarda turgan boshqa transport vositasini aylanib o'tish uchun yo'l qo'yiladi
+o1348	Yon kajavali motosikllarga ruxsat etiladi
+o1349	Tekis joylarda ruxsat etiladi
+o1350	Yon kajavasi bo'lmagan motosikllarga ruxsat etiladi
+o1351	Oxiri berk ko'chaga olib boradigan yo'lni
+o1352	Aholi yashaydigan joydagi manzilga tomon harakatlanish yo'nalishini
+o1353	Balandlikda yoki tezlanish tasmasida qo'shimcha tasmaning tugaganini
+o1354	Egiluvchi va qattiq ulagichda ruxsat etiladi
+o1355	To'xtab turish paytida yurgizgichni o'chirish taqiqlanadi
+o1356	Yurgizgichni o'chirish sharti bilan to'xtab turish
+o1357	Belgilangan yo'nalishdagi transport vositalari harakatlanadigan tasmani
+o1358	Maxsus avtomobillar harakatlanadigan tasmani
+o1359	Reversiv harakatlanish tasmasining chegarasini
+o1360	Qizil avtomobil ayni vaqtda ko'k bilan
+o1361	Shlagbaumning holatiga va yorug'lik ishorasiga
+o1362	Yo'l belgilari va chiziqlariga
+o1363	Temir yo'l kesishmasi navbatchisining ko'rsatmalari va ishoralariga
+o1364	Barcha sanab o'tilgan talablarga
+o1365	Quvib o'tayotgan transport vositasidan ancha tezroq harakatlanishiga
+o1366	Shu tasma bo'yicha oldinda harakatlanayotgan transport vositasining haydovchisi chapga burilish (qayta tizilish) haqida ishora bermaganiga
+o1367	U chiqishga mo'ljallangan yo'l qismi 1000 m masofada bo'sh ekanligiga
+o1368	3,0 m
+o1369	6,0 m
+o1370	Ko'z o'ngi qorong'ilashadi, bosh aylanadi, muvozanat yo'qoladi, yiqiladi. Tomir urishi sekinlashadi. Oyoq-qo'l soviydi
+o1371	Mastga o'xshab harakatlanadi, bosh aylanadi, og'riydi, ko'ngil ayniydi, qayt qiladi, mushaklari tortishadi. Nafas olish sekinlashadi
+o1372	"С" toifadagi transport vositasini boshqarish huquqi guvohnomasi bo'lib, shu avtomobilda uch yillik ish davriga ega bo'lgan haydovchilarga
+o1373	"D" va "С" toifadagi transport vositalarini boshqarish huquqiga ega bo'lgan va shu toifadagi transport vositalaridan birini 3 yildan ortiq boshqargan haydovchilarga
+o1374	Oqshomdan tonggacha bo'lgan vaqt
+o1375	Ko'rinish 150 m. dan kam bo'lgan holat
+o1376	Tuman tushganda, yomg'ir, qor yog'ayotganda va hokazo sharoitlarda, shuningdek kunning g'ira-shira vaqtida yo'lning ko'rinishi 300 m. dan kam bo'lishi
+o1377	Yomg'ir, qor yog'ishi, oqshom
+o1378	"To'xtash taqiqlangan"
+o1379	"To'xtab turish taqiqlangan"
+o1380	"Oyning toq sonli kunlarida to'xtab turish taqiqlangan"
+o1381	1 m
+o1382	Tramvayga va motosiklga
+o1383	Motosiklga, yengil avtomobilga va yuk avtomobiliga
+o1384	40 km/soatdan oshirmasdan
+o1385	60 km/soatdan oshirmasdan
+o1386	Tashish shartlari bilan kelishilganda Davlat YHX xizmati ruxsat etganidan oshirmasdan
+o1387	Qizil va oq rangli chiziqlar tushirilgan, yorug'lik qaytaradigan yuzali, bayroqchalar yoki taxtachalar bilan
+o1388	Transport vositasi orqasiga mustahkamlangan falokat to'xtash belgisi bilan belgilanishi kerak
+o1389	Transport vositasi oldi tomoni oq rangli, orqasi qizil rangli fonarlar bilan belgilanishi kerak
+o1390	Transport vositalari va piyodalarning harakati serqatnov joylarda
+o1391	Ko'priklarda, estakadalarda va osma yo'llarda, bir yo'nalishda uchdan kam tasmasi bo'lgan harakatlanish tasmasi bo'lganda
+o1392	Kesishayotgan qatnov qismi chetiga 30 m dan ko'proq masofa qolganda
+o1393	Agar shatakka olgan transport vositasining haqiqiy vazni shatakka olinuvchi transport vaznidan ikki barobar ortiq bo'lsa, qattiq ulagich bilan
+o1394	Faqat qattiq ulagichda
+o1395	Agar shatakka olingan transport vositasida haydovchi bo'lsa har qanday usul bilan
+o1396	Faqat unga qisman ortish usuli bilan
+o1397	Yurgizgich ishida nuqson bo'lganda
+o1398	Uzatish qutisida shovqin bo'lganda
+o1399	Davlat davriy texnik ko'rigidan belgilangan tartibda o'tmaganda
+o1400	Oxirgi
+o1401	To'g'ri va o'ngga
+o1402	To'g'riga, o'ngga va chapga
+o1403	Haqiqiy vazni 12 t bo'lgan ikki o'qli yuk avtomobiliga
+o1404	Haqiqiy vazni 12 t bo'lgan uch o'qli yuk avtomobiliga
+o1405	Svetoforning yashil yoritkichi yoqilganda harakatlanishning ruxsat etilgan yo'nalishlari haqida
+o1406	Svetoforning qizil va sariq yoritkichlarida harakatlanishning ruxsat etilgan yo'nalishlari haqida
+o1407	Ma'muriyatning ko'rsatmasi bilan
+o1408	Tashishning zarurligi bilan
+o1409	Jihozlangan o'rindiqlarning soni bilan
+o1410	Haydovchining qarori bilan
+o1411	Qizil
+o1412	Har ikkisi buzgan
+o1413	Hech qaysisi buzmadi
+o1414	Faqat ko'rinish yetarli bo'lmagan sharoitlarda
+o1415	Faqat harakat serqatnov bo'lganda
+o1416	Tashish amalga oshirilayotgan barcha hollarda
+o1417	2 soatdan ko'p bo'lmagan
+o1418	3 soatdan ko'p bo'lmagan
+o1419	1 soatdan ko'p bo'lmagan
+o1420	Tegishli guvohnoma va taniqli belgisi qo'lbog'i
+o1421	Jezl
+o1422	Qizil chiroq (yorug'lik qaytargich) gardish yoki bayroqcha
+o1423	Barcha sanab o'tilgan belgilar
+o1424	Avtoxo'jalik rahbaridan yurishga ruxsat olishi kerak
+o1425	DYHXXdan yurishga ruxsatnoma olishi kerak
+o1426	Boshqa yo'nalish bo'yicha yo'l qismini aylanib o'tishi kerak
+o1427	Yashil, ko'k, qizil
+o1428	Yashil ayni vaqtda qizil bilan, ko'k
+o1429	Asosiy yo'l bo'yicha chorrahaga chiqayotgan avtobusning haydovchisi
+o1430	Chorrahada qayrilishni tugallayotgan yengil avtomobilning haydovchisi
+o1431	Svetoforning ruxsat etuvchi ishorasida chorrahaga chiqqan avtobus haydovchisi
+o1432	Yo'l chiziqlariga
+o1433	Yo'l belgilariga
+o1434	Yengil avtomobilning haydovchisi
+o1435	Har ikkisi to'g'ri
+o1436	Har ikkisi noto'g'ri
+o1437	Majburiy to'xtash yoritgichini yoqishni
+o1438	40 km/s dan oshmaydigan tezlik bilan harakatlanishni
+o1439	Tovushli xabar berishni
+o1440	Yaqinni yoki uzoqni yorituvchi chiroqlarini yoqish
+o1441	Tormoz pedalini qattiq bosishga
+o1442	Ulagich pedalini bosishga
+o1443	Boshlangan tormoz berishni to'xtatishga
+o1444	Burilish radiusi ko'payishi bilan
+o1445	Harakat tezligi ortishi bilan
+o1446	Harakat tezligi pasayishi bilan
+o1447	Yashil, qizil, ko'k
+o1448	Harakat ishtirokchilarining e'tiborini jalb etish uchun
+o1449	Zarur hollarda "qo'lni yuqoriga ko'tarish" ishorasining o'rnini bosish uchun
+o1450	Piyodalar uchun ruxsat etuvchi ishora bo'lib
+o1451	Ko'priklarda, osma yo'llarda bir yo'nalishdagi harakatlanish uchun uchtadan ko'p tasma bo'lganda
+o1452	Kesishadigan qatnov qismlarining chetiga 30 m qolganda
+o1453	Barcha ko'rsatilgan joylarda
+o1454	40 km/soatdan ortiq tezlik bilan harakat qilish
+o1455	O'z transport vositasining harakat tezligini kamaytirish bilan quvib o'tishga to'sqinlik qilish
+o1456	Harakat tezligini oshirish yoki boshqa hatti-harakatlar yo'li bilan quvib o'tishga to'sqinlik qilish
+o1457	Ko'krak qafasining o'rtasidan
+o1458	Ko'krak qafasining quyi qismidan
+o1459	Qo'ltiq ostidan
+o1460	Shinalar o'lchami va yo'l qo'yiladigan bosimi bo'yicha transport vositasining rusumiga mos emas
+o1461	Transport vositasining bitta o'qiga diagonal shinalar radial shinalar bilan birga o'rnatilgan
+o1462	M1 toifadagi avtotransport vositalarining oldingi o'qiga birinchi toifada ta'mirlangan shinalar o'rnatilgan
+o1463	Agar haydovchining ishlagan davri 2 yildan ortiq bo'lsa, ruxsat etiladi
+o1464	Bu manzil shu aholi punktidan tashqarida joylashganini va u manzilga avtomagistral bo'lmagan, boshqa yo'l orqali borilishni
+o1465	Ko'rsatilgan aholi manziliga harakatlanish avtomagistral bo'ylab amalga oshiriladi
+o1466	Ko'rsatilgan manzil mazkur aholi yashaydigan joyda joylashgan
+o1467	Avtomobillar o'tadigan yo'lni kesib o'tuvchi piyodalarni o'tkazib yuborish uchun to'xtash majburiy bo'lgan joy
+o1468	Velosiped yo'lkasi yo'lni kesib o'tuvchi joyni
+o1469	Boshqarilmaydigan piyodalar o'tish joyni
+o1470	Ko'k va qizil avtomobillar, yashil
+o1471	Yashil, qizil va ayni vaqtda u bilan birga ko'k avtomobil
+o1472	Ustunlik huquqidan foydalanib, tovushli xabar berishi va belgilangan yo'nalishda harakatni davom ettirishi
+o1473	Harakat tezligini pasaytirishi va alohida ehtiyotkorlik bilan yo'lda davom etishi
+o1474	Qatnov qismidan o'tuvchi piyodalarga yo'l berishi
+o1475	Belgida ko'rsatilgan tezlikdan oshirishga faqat tezlik tegishli yo'l belgisi o'rnatilib oshirilgan yo'l qismlarida ruxsat beriladi
+o1476	Belgida ko'rsatilgan tezlikdan oshirish taqiqlanadi
+o1477	30 m
+o1478	40 m
+o1479	Iloji boricha qatnov qismining o'ng chetiga yaqinroq joyda
+o1480	Xohlagan tasma bo'ylab
+o1481	Faqat o'ng tasma bo'ylab. Chap tasma o'tish faqat chapga burish va burilish uchun ruxsat etiladi
+o1482	Temir yo'l kesishmalarida va ulargacha 100 m dan kam masofa qolganda
+o1483	Temir yo'l kesishmalarida va ulargacha 100 m dan ko'p masofa qolganda
+o1484	Temir yo'l kesishmalarida va aholi yashaydigan joylardan tashqarida ulardan 100 m ko'p masofa qolganda
+o1485	Avtomobilning faqat orqa o'qiga oldingi boshqaruvchi ko'prik bilan birga ruxsat etiladi
+o1486	Faqat yuk avtomobiliga ruxsat etiladi
+o1487	Ikkala rasmda noto'g'ri to'xtatdi
+o1488	Birinchida
+o1489	Ikkinchida
+o1490	Ikkalasida
+o1491	Harakat svetofor bilan tartibga solib turiladigan piyodalar o'tish joyini
+o1492	Velosiped yo'lkasining qatnov qismini kesib o'tadigan joyni
+o1493	Piyodalar yo'lkasining qatnov qismini kesib o'tadigan joyni
+o1494	Qizilda
+o1495	Yashilda
+o1496	Istalganda
+o1497	Chorrahalardan tashqarida, agar qatnov qismining kengligi chetki chap holatdan qayrilish uchun yetarli bo'lmasa
+o1498	Tartibga solinmaydigan chorrahalarda, agar qayrilishni amalga oshirayotgan transport vositasi asosiy yo'lda bo'lsa
+o1499	Yo'llardan foydalanish uchun masul bo'lgan idoralar tomonidan oshirilishi mumkin
+o1500	Aholi yashaydigan joylardan tashqaridagi yo'llarda oshirilishi mumkin. Bunday yo'l qismlarida "yuqori tezlik cheklangan" belgisi o'rnatiladi
+o1501	Oshirilishi mumkin emas
+o1502	Yo'lning qatnov qismining chetki o'ng tasmasida
+o1503	Yo'lning 100 m dan ko'proq qismi ko'rinadigan va harakat tasmalari soni to'rttadan ortiq bo'lgan joylarda
+o1504	To'xtab turish uchun "To'xtab turish joyi" yoki "Dam olish joyi" belgilari bilan belgilangan maxsus maydonchalarda
+o1505	Tunda yoki yetarli ko'rinmaydigan sharoitda harakat qilganda
+o1506	Faqat avtopoezd harakat qilganda
+o1507	Avtopoezd harakat qilganda, shuningdek, qorong'i vaqtida to'xtaganda va to'xtab turganida
+o1508	Faqat avtopoezd yuk bilan harakat qilganda
+o1509	Avtomobilning har ikki o'qiga ruxsat etiladi
+o1510	Faqat orqa o'qiga ruxsat etiladi
+o1511	To'rtinchi bo'lib
+o1512	40 km/s dan kam tezlikda ketayotgan yakka, yon kajavasi bo'lmagan ikki g'ildirakli motosikllar va velosipedlardan tashqari barcha mexanik transport vositalarini quvib o'tish taqiqlanadi
+o1513	Ruxsat etilgan to'la vazni 3,5 t dan ziyod bo'lgan yuk avtomobili bilan 40 km/s dan kam tezlikda ketayotgan yakka transport vositalaridan tashqari barcha transport vositalarini quvib o'tish taqiqlanadi
+o1514	Ikkinchi tasmadan nariga o'tmaganda ruxsat etiladi
+o1515	Agar "Eng kam tezlik" belgisi o'rnatilmagan bo'lsa ruxsat etiladi
+o1516	To'xtash taqiqlangan joylarda majburiy to'xtaganda
+o1517	Yo'l-transport hodisasi ro'y berganda
+o1518	Yo'lning yoritilmagan qismlarida to'xtaganda va to'xtab turganda yoki ko'rinish yetarli bo'lmagan sharoitda gabarit yoki to'xtab turish chiroqlari nosoz bo'lganda
+o1519	Haydovchi xavfni ko'rgan paytdan aniq harakatlarni bo'lguncha o'tilgan vaqt
+o1520	Haydovchining tormoz berishni boshlagan paytdan transport vositasining to'la to'xtagunicha vaqtni
+o1521	Transport vositasining tegishliligi haqida taniqlik belgisi
+o1522	Yaxshi ko'rinadigan raqam belgisi
+o1523	Taniqli va raqam belgilari
+o1524	Bora olmaydilar
+o1525	Bora oladilar
+o1526	Hodisa chizmasini taxminiy tuzib va uni imzolab bora oladilar
+o1527	Faqat "Г"
+o1528	"Б" va "Г"
+o1529	"В" va "Г"
+o1530	"Б", "В" va "Г"
+o1531	Mexanik transport vositalariga
+o1532	Avtomobillarga, avtobuslarga va motosikllarga
+o1533	Yuqori tezligi 40 km/s dan kam bo'lmagan transport vositalariga
+o1534	Faqat bir qatorda
+o1535	Qatnov qismining barcha kengligi bo'ylab
+o1536	Quvib o'tish bilan
+o1537	Svetofor qaysi tasma ustiga joylashtirilgan bo'lsa, o'sha tasma bo'yicha
+o1538	Pastlik tomon harakatlanayotgan transport vositasiga
+o1539	Belgilangan yo'nalishdagi transport vositasiga
+o1540	Balandlikka harakatlanayotgan transport vositasiga
+o1541	Ushbu qoidalarga muvofiq ravishda transport vositasiga o'rnatilgan taniqli belgida ko'rsatilgan tezlikdan oshirish
+o1542	Keskin tormoz berish, agar bu harakatlanish xavfsizligini ta'minlash uchun talab qilinmasa
+o1543	Ikkala sanab o'tilgan harakat taqiqlanadi
+o1544	Kiyim-boshni yechishni kasal qo'ldan boshlash, so'ng sog' qo'lni bo'shatish
+o1545	Kiyim-boshni ikkala qo'ldan bir vaqtda echish
+o1546	Kiyim-boshni yechishni sog' qo'ldan boshlash, so'ng kasal qo'lni bo'shatish
+o1547	Qattiq qoplamasiz yo'l bo'ylab faqat kunning yorug' vaqtida ruxsat etiladi
+o1548	Harakat qila oladilar
+o1549	Agar velosipedlarning harakatlanishini qiyinlashtirmasa, harakat qila oladilar
+o1550	Harakat qila olmaydilar
+o1551	Ikkinchi bo'lib, ayni vaqtda ko'k bilan birga
+o1552	Ikkinchi bo'lib, sariqdan keyin
+o1553	Uchinchi bo'lib, yashil, sariqdan keyin
+o1554	Tramvaylarga va avtobuslarga
+o1555	Faqat tramvaylarga
+o1556	Tramvaylarga, shuningdek alohida tasmadan yuradigan belgilangan yo'nalishdagi boshqa transport vositalarini harakatini tartibga soladi
+o1557	Transport vositasi bilan shatakka olganda
+o1558	Saf tarkibida harakatlanganda
+o1559	Kunning qorong'i vaqtida
+o1560	Yetarlicha ko'rinmaydigan sharoitda qo'llash mumkin
+o1561	Qatnov qismidagi o'z tasmasi bo'ylab harakatni davom ettirish
+o1562	Haydovchi maxsus tovushli ishoralarini yoqqan holda yaqinlashib kelayotgan transport vositalariga yo'l berishlari, zarur bo'lgan hollarda ularning to'siqsiz o'tib ketishlari uchun o'zlarini yo'lning o'ng tomoniga olib to'xtashlari shart
+o1563	Faqat yengil avtomobillarga va motosikllarga to'xtab turishga tegishli yo'l belgilari o'rnatilgan joylarda ruxsat etiladi
+o1564	Ruxsat etilgan to'la vazni 3,5 t dan ziyod bo'lgan faqat yuk avtomobillariga taqiqlanadi
+o1565	Barcha transport vositalariga taqiqlanadi
+o1566	Ishqalanish koeffisienti oshadi
+o1567	Ishqalanish koeffisienti o'zgarmaydi
+o1568	Ishqalanish koeffisienti kamayadi
+o1569	Transport vositasining tashqi yuzasiga qonun hujjatlariga mos kelmaydigan va harakat xavfsizligiga salbiy ta'sir ko'rsatadigan turli xil tasvirlar tushirilgan bo'lsa
+o1570	Gaz ta'minlash tizimi bilan jihozlangan avtobus va avtomobil gaz ballonlarining tashqi tomonida ko'rsatilgan texnik ko'rsatkichlar (parametrlar) texnik pasportdagi ma'lumotlarga (ko'rsatkichlarga) mos kelsa, oxirgi va rejalashtirilgan tekshirishlarning sanasi bo'lsa
+o1571	Ishlab chiqaruvchi korxona tomonidan ko'zda tutilmagan hollarda kuzov (kabina) bir necha xil rangga bo'yalgan bo'lsa (maxsus transport vositalari bundan mustasno)
+o1572	Yo'l harakat qismining chetidan harakatlanayotgan transport vositalariga qarshi
+o1573	Yo'l yoqasidan yoki qatnov qismining chetidan transport vositalarining harakati bo'ylab
+o1574	Har qanday yo'nalishda
+o1575	"Nogiron" taniqli belgisi bo'lgan avtomobillar uchun 30 m dan keyin to'xtab turish joyiga kelishini
+o1576	Motokajavalardan tashqari transport vositalari uchun 30 m li hududdagi to'xtab turish joyini
+o1577	"Nogiron" taniqli belgisi bo'lgan motokajava va avtomobillar uchun 30 m li hududdagi to'xtab turish joyini
+o1578	Qizil chorrahaga chiqadi va ko'kni o'tkazib yuborish uchun to'xtaydi; yashil; ko'k va qizil burilishni tugallaydi
+o1579	Motosikl, avtobus, yuk avtomobili
+o1580	Avtobus, motosikl, yuk avtomobili
+o1581	Avtobus, yuk avtomobili, motosikl
+o1582	5 yosh
+o1583	6 yosh
+o1584	8 yosh
+o1585	10 yosh
+o1586	12 yosh
+o1587	Harakatlanish serqatnov bo'lgan yo'llarda turgan transport vositasining eshigini ochish taqiqlanadi
+o1588	Harakatlanish serqatnov bo'lgan yo'llarda haydovchi eshigini ochish taqiqlanadi. O'z joyidan yo'lovchi eshigi orqali chiqadi
+o1589	Turgan transport vositasining eshigini ochish taqiqlanadi; agar bu xavf tug'dirsa va harakatlanishning boshqa ishtirokchilariga xalaqit bersa
+o1590	Darvozadan chiqish joylarida
+o1591	Tramvay yo'llarida
+o1592	Tramvay yo'llaridan bevosita yaqinroqda, agar bu tramvaylarning harakatiga to'sqinlik qilsa
+o1593	Shinalarning shikastlanishi ortadi
+o1594	Ulagich qismlarining shikastlanishi ortadi
+o1595	Tormoz qiziydi va ishdan chiqadi
+o1596	Piyodalarning o'tish joylarida va ularga 10 m dan kam qolganda
+o1597	Transport vositalari piyodalarning harakatiga xalaqit beradigan joylarda
+o1598	Hovlidan chiqadigan joylarda
+o1599	Barcha sanab o'tilgan joylarda
+o1600	Faqat yuk avtomobillariga
+o1601	Barcha avtomobillarga
+o1602	Ko'k avtomobil ayni vaqtda sariq bilan birga
+o1603	Yengil avtomobil, avtobus, tramvay
+o1604	Piyodalar o'tish joylarida va tunnellarda
+o1605	Loaqal bir yo'nalishda yo'l 100 metrdan kamroq ko'ringanda
+o1606	Yonboshi yoki orqasiga yotqizilgan holatda, lat yegan joyga issiq grelka qo'yiladi
+o1607	Yotqizilgan holatda, lat yegan joyiga sovuq narsa (muz, malham) qo'yiladi
+o1608	Yarim o'tkazilgan holatda, tizzalari tanaga yaqinlashtiriladi
+o1609	Faqat xususiy egalariga tegishli avtomobillar, motosikllar va mopedlarga ruxsat etiladi
+o1610	Yashil avtomobil haydovchisi
+o1611	Ikkala haydovchi to'g'ri bajarmoqda
+o1612	Ikkala haydovchilarga quvib o'tish taqiqlangan
+o1613	Traktor haydovchisi
+o1614	Yo'lning tor qismi uzunligini
+o1615	Belgidan yo'lning tor qismigacha bo'lgan masofani
+o1616	Tor qismini aylanib o'tish joyigacha masofani
+o1617	Yo'lnig kichik radiusli burilishlarini yo'l chetiga o'rnatilgan to'siqlarning yon yuzalarini bildiradi
+o1618	Boshqa joylardagi to'siqlarning yon yuzalarini bildiradi
+o1619	Yo'lning xavfli burilishlarida va yo'lning loaqal bir yo'nalishda 100 m dan kamroq qismi ko'rinadigan yo'lning uzunasiga qavarib turgan joylari yaqinida
+o1620	Ko'priklarda, estakadalarda va osma yo'llarda, bir yo'nalishda harakatlanish uchun uchtadan kam tasmasi bo'lganda
+o1621	Yuk avtomobili haydovchisi traktor haydovchisiga
+o1622	Traktor haydovchisi yuk avtomobili haydovchisiga
+o1623	O'ng tomonidan transport vositasi yaqinlashayotgan haydovchi
+o1624	O'ng tomondagi haydovchi
+o1625	Agar avtomobil gidrovakum kuchaytirgichli tormozlar bilan jihozlangan bo'lsa, tavsiya etiladi
+o1626	Agar yo'l yaxshi holatda bo'lsa va uzoq ko'rinib tursa, tavsiya etiladi
+o1627	Kuzov (kabina) qismlari va bo'yog'iga tashqi tomondan anchagina shikast etgan bo'lsa
+o1628	Ulagich moslamasi nosoz bo'lsa (avtopoezd tarkibida)
+o1629	Kuzov (kabina) qismlari va bo'yog'iga tashqi tomondan anchagina shikast etgan bo'lsa hamda ressoralarning o'zak qatlami yoki markaziy bolti shikastlangan hollarda
+o1630	Svetofor nosozligini
+o1631	Harakatga ruxsat beradi va tez orada taqiqlovchi ishora yonishi to'g'risida axborot beradi
+o1632	Harakatni davom ettirishni taqiqlaydi
+o1633	Chorrahaga birinchi kirgan qizil avtomobilga yo'l berish
+o1634	Qizil avtomobil yo'l berayotganiga ishonch hosil qilib chorrahadan birinchi o'tish
+o1635	Faqat avtobusga
+o1636	Faqat qizil avtomobilga
+o1637	Hech kimga
+o1638	Faqat qayta tizilishda
+o1639	Yo'lda boshqa transport vositalari bo'lmasa
+o1640	Faqat tog'li yo'llarda
+o1641	Yo'l yaxmalak, sirpanchiq bo'lgan hollarda
+o1642	Kunning qorong'i vaqtida va yetarli ko'rinmaslik sharoitida
+o1643	"Б" yoki "В"
+o1644	Bitta harakatlanish tasmasiga
+o1645	Ikkita harakatlanish tasmasiga
+o1646	Uchta harakatlanish tasmasiga
+o1647	Tartibga solingan chorrahada to'xtash chizig'iga yaqinlashayotganligi haqida ogohlantiradi
+o1648	To'xtash chizig'i va "To'xtamasdan harakatlanish taqiqlanadi" yo'l belgisi o'rnatilgan yo'l qismiga yaqinlashayotganligini bildiradi
+o1649	"Yo'l bering" yo'l belgisiga yaqinlashayotganligini bildiradi
+o1650	Mototsikl haydovchisi
+o1651	Trotuarda to'xtab turgan avtomobil haydovchisi
+o1652	Faqat o'quv mashg'ulotlarini bajarish
+o1653	Faqat dvigatel ishlab turganda to'xtab turish
+o1654	4 metrdan oshmasligi
+o1655	4 metrdan 6 metrgacha
+o1656	Qoidalarda belgilanmagan
+o1657	Tashqi yoritgich asboblari ifloslangan bo'lsa
+o1658	Yorituvchi chiroq nurining yo'nalishi buzilgan bo'lsa
+o1659	Old qismida - oq yoki sariq rangli tumanga qarshi faralar o'rnatilgan bo'lsa
+o1660	Rul chambaragini zudlik bilan sirpanayotgan tomonga burish va tezda avtomobilni harakat yo'nalishini to'g'irlab olish
+o1661	Ilashmani uzish
+o1662	Faqat "А" va "Б"
+o1663	Barchasi
+o1664	Buzdi
+o1665	Buzmadi, agar uning ruxsat etilgan to'liq vazni 3,5 tonnadan oshmasa
+o1666	Xato qilmadi
+o1667	Quvib o'tishda ogohlantirish uchun
+o1668	Yo'l-transport hodisasining oldini olish uchun
+o1669	Har ikkala sanab o'tilgan hollarda
+o1670	Faqat "А" va "B"
+o1671	Ruxsat etilmaydi
+o1672	Ruxsat etiladi, agarda siz o'ngga buriladigan bo'lsangiz
+o1673	Faqat "А" yo'nalishi bo'yicha
+o1674	Faqat "Б" yo'nalishi bo'yicha
+o1675	Ko'rsatilgan barcha yo'nalish bo'yicha
+o1676	Har qanday hollarda ruxsat beriladi
+o1677	Ruxsat beriladi agarda bunda harakatning boshqa ishtirokchilariga xalaqit berilmasa
+o1678	Cheklangan ko'rinish sharoitida
+o1679	Yetarlicha ko'rinmaslik sharoitida
+o1680	Tormoz tepkisini uzib-uzib bosish yo'li bilan
+o1681	Tormoz tepkisini oxirigacha bosish va avtomobilni to'liq to'xtaguncha tepkini qo'yib yubormaslik
+o1682	To'xtab turish tormozi tizimini qo'llash yo'li bilan
+o1683	Qo'lni ishlatmasdan texnik vositalaridan foydalanish gaplashishga ruxsat etiladi
+o1684	20 km/s tezlikda harakatlanayotganda ruxsat etiladi
+o1685	Birinchi bo'lib o'tish huquqiga egasiz
+o1686	Kesib o'tayotgan yo'ldagi transport vositalariga yo'l berishingiz kerak
+o1687	Faqatgina o'ng tomondan yaqinlashib kelayotgan transport vositalariga yo'l berishingiz kerak
+o1688	Faqat "Б" yo'nalish bo'yicha
+o1689	10°
+o1690	Siz o'ngga yoki chapga burilishingiz kerakligini ko'rsatadi
+o1691	Reversiv harakatlanish yo'liga chiqish haqida
+o1692	Chorrahadan o'ngga va chapga bir tomonlama harakat tashkil qilingan
+o1693	Quvib o'tishni
+o1694	Aylanib o'tishni
+o1695	Qayralib olishni
+o1696	Sanab o'tilgan barcha manevrlarga ruxsat beriladi
+o1697	Imtiyoz belgilari
+o1698	Taqiqlovchi belgilar
+o1699	Buyuruvchi belgilar
+o1700	Barcha sanab o'tilganlari
+o1701	Tovush signalidan foydalanish
+o1702	Faqat yaqinni yorituvchi chiroqni uzoqni yorituvchi chiroqqa qisqa muddat orasida o'tkazish bilan ishora berish
+o1703	Faqat birgalikda yorug'lik ishoralari bilan birga tovush signallarini qo'llash
+o1704	Sanab o'tilganlarning barchasidan foydalanish
+o1705	Yonilg'i darajasini ko'rsatish qurilmasi ishlamaydi
+o1706	O't oldirish tizimi nosoz
+o1707	Dvigatel qiyinchilik bilan ishga tushadi
+o1708	Tovush signallari ishlamaydi
+o1709	Chapga va orqaga qayrilib olishga
+o1710	O'ngga, chapga va orqaga qayrilib olishga
+o1711	Yo'lovchilarni tashiyotgan avtobus va yo'nalishli transport vositalarida
+o1712	Xavfli, katta o'lchamli va og'ir vaznli yuklarni tashishda
+o1713	Mototsikl va mopedlarda
+o1714	Tibbiy quticha
+o1715	O't o'chirgich
+o1716	Falokat to'xtash belgisi
+o1717	G'ildirab ketishga qarshi moslama
+o1718	Uyquchanlik, bo'shashish, diqqatning susayishi
+o1719	Zo'riqish, asabiylashish
+o1720	Bosh aylanishi, ko'zlarga qum kirgan kabi achishish, terlash alomati
+o1721	Majburiy harakatni
+o1722	Chorrahada harakatlanish tasmasini chegarasini
+o1723	Manyovrni tugallagach, darhol
+o1724	Quvib o'tilayotgan transport vositasidan o'zib ketgandan so'ng istalgan vaqtda
+o1725	O'z ixtiyoringizga havola
+o1726	Faqat tratuarda
+o1727	Faqat qatnov qismidan
+o1728	Tratuarda, hamda qatnov qismida
+o1729	Yo'lning harakat qismini bo'shatishlari kerak
+o1730	Transport vositasini darhol to'xtatishi, avariya ishoralarini yoqishi va avariya sababli to'xtash belgisini o'rnatishi
+o1731	Sodir etilgan hodisa haqida YHXXga xabar berishi kerak
+o1732	Faqat "А" va "Г"
+o1733	Istalgan tasmadan
+o1734	Faqat chap tasmadan
+o1735	Faqat yengil avtomobil haydovchisi
+o1736	Faqat mototsikl haydovchisi
+o1737	Ikkisi ham buzmoqda
+o1738	Gabarit chiroqlardan
+o1739	Yaqinni yorituvchi chiroqlardan
+o1740	Yaqinni yoki uzoqni yorituvchi chiroqlardan
+o1741	Yuksiz va yo'lovchilarsiz
+o1742	Yo'lovchilar bilan yuksiz
+o1743	Yo'lovchilarsiz, yuqori yukxonasida yuki bilan
+o1744	Faqat etarlicha ko'rinmaslik sharoitida
+o1745	Kunning qorong'u vaqtida
+o1746	Har ikki sanab o'tilgan holda
+o1747	Piyodalar o'tish joyi oldida piyodalarga yo'l berish uchun to'xtab
+o1748	Texnik nosozlik tufayli yo'lning harakat qismida.
+o1749	Faqat "Б" va "В"
+o1750	Barcha belgilar
+o1751	Yoqilg'i sarfi ortadi
+o1752	Yoqilg'i sarfi kamayadi
+o1753	Yoqilg'i sarfi o'zgarmaydi
+o1754	Faqat tovush ishorasi bilan
+o1755	Faqat yorug'lik faralarini qisqa-qisqa yoqib o'chirish bilan
+o1756	Sanab o'tilgan barcha usul bilan va ularni birga qo'llash bilan
+o1757	Avtomobillarni
+o1758	Avtobuslarni
+o1759	Barcha motosikllarni
+o1760	Faqat yon kajavasiz motosikllarni
+o1761	Ha, yaqinlashib kelayotgan poezd yo'q bo'lsa
+o1762	Motosiklga yo'l berishingiz kerak
+o1763	Har ikkisiga hamyo'l berishingiz kerak
+o1764	Birinchi o'tish huquqiga egasiz
+o1765	Burilishdan oldin tezlikni kamaytirib, avtomobilni erkin harakatlanishi uchun ilashma tepkisini bosishi
+o1766	Burilishdan oldin tezlikni kamaytirish, kerak bo'lsa uzatmalar pag'onasini pasaytirish, burilishdan o'tayotganda tezlikni oshirmaslik va avtomobilni keskin tormozlamaslik
+o1767	Sanab o'tilgan ikkisiga ham ruxsat etiladi
+o1768	Tirkama qo'shimcha qarshilikka ega bo'lgani uchun tormoz yo'li kamayadi
+o1769	Tormoz yo'li uzayadi
+o1770	Aslidagidan kam tezlikda tuyuladi
+o1771	Aslidagidan katta tezlikda tuyuladi
+o1772	Tezlikni qabul qilish o'zgarmaydi
+o1773	Bir va bir necha transport vositalaridan o'zib ketish
+o1774	Egallab turgan tasmadan qarama qarshi harakat tasmasiga chiqib bir yoki bir necha transport vositalaridan o'zib ketish va dastlab egallab turgan tasmasiga qaytish
+o1775	Egallagan harakatlanish tasmasidan chiqib, oldinda harakatlanayotgan transport vositasidan o'zib ketish
+o1776	Yetarli
+o1777	Yetarli emas
+o1778	Faqat keskin tormoz berishda
+o1779	Faqat nam qoplama yoki yaxmalakli yo'llarda tormoz berganda
+o1780	Har qanday tormozlashda
+o1781	Orqa tumanga qarshi chiroqlarini yoqish
+o1782	Shatakka olingan transport vositasi orqa tomoniga falokat sababli to'xtash belgisini o'rnatish
+o1783	Avtomobilni faqat sirpanish ehtimolining oldini oladi
+o1784	Avtomobilni faqat yonga siljish ehtimolining oldini oladi
+o1785	Avtomobilning sirpanish va yonga tomonga sirpanishini oldini olmaydi
+o1786	35 m
+o1787	Harakatni boshlashdan avval
+o1788	Harakatni boshlagandan so'ng
+o1789	Harakatni boshlash bilan bir vaqtda
+o1790	Ruxsat etiladi, agarda Sizning transport vositangiz bilan sidirg'a chiziq orasidagi masofa 3 metrdan ortiq bo'lsa?
+o1791	Ruxsat etiladi, agarda ikki tomonda orqani ko'rsatuvchi ko'zgusi bo'lsa
+o1792	Har ikki transport vositasiga
+o1793	Hech qaysisida
+o1794	Aslidagidan sekin harakatlanayotganga o'xshaydi
+o1795	Aslidagidan tez harakatlanayotganga o'xshaydi
+o1796	Ochiq joyda harakatlanganda
+o1797	Yo'lning yopiq qismida harakatlanganda
+o1798	Yo'lning yopiq qismidan ochiq qismiga chiqishda
+o1799	Faqat tovushli ishoralarni qo'llab
+o1800	Faqat chiroqlarni yoqib-o'chirish bilan
+o1801	Sanab o'tilgan barcha usul bilan va ularni birgalikda qo'llash bilan
+o1802	Belgi oldida to'xtash
+o1803	To'xtash chizig'i oldida to'xtash
+o1804	Boshqa transport vositalari bo'lmasa, chorrahadan to'xtamasdan o'tib ketish
+o1805	Tovushli signal berish
+o1806	Falokat yorug'lik ishoralarini yoqish
+o1807	Yonlama oraliq masofani tanlashni tezlikka aloqasi yo'q
+o1808	Tezlik oshganda yonlama oraliq masofani oshirish kerak
+o1809	Oldi tomonidan
+o1810	Orqa tomonidan
+o1811	Istalgan tomonidan
+o1812	Faqat 30 km. tezlikda ruxsat etiladi
+o1813	Tepkini yanada kuchliroq bosish
+o1814	Tepkiga ta'sir etuvchi kuchni o'zgartirmaslik
+o1815	Tepkiga ta'sir etuvchi kuchni kamaytirish
+o1816	Tezlikni kamaytirish va ehtiyot bo'lishi kerak
+o1817	Tezlikni o'zgartirmasdan harakatlani davom ettirish
+o1818	Yomg'ir tezlashib ketmasdan tezroq harakat qilishi
+o1819	Faqat o'ngga va chapga
+o1820	Istalgan yo'nalishda
+o1821	Faqat "Б" va "Г"
+o1822	Faqat "А" , "Б" va "В"
+o1823	Manevr bajarishdan oldin
+o1824	Manevr bajargandan so'ng darhol
+o1825	Manevr bajarayotganda
+o1826	Aholi punkti nomini ko'rsatuvchi oq rangli 5.22 yo'l belgisidan boshlab
+o1827	Aholi punkti nomini ko'rsatuvchi oq 5.22 yoki 5.24 havorang rangli belgidan boshlab
+o1828	Yo'l yuzidagi qurilma va inshootlardan boshlab
+o1829	Yo'l qatnov qismining piyodalar kesib o'tishi mo'ljallangan, 5.16.1, 5.16.2 yo'l belgilari va 1.14.1-1.14.3 yo'l chiziqlari bilan ajratilgan tasmasi.
+o1830	Yo'lning piyodalar harakatlanishi uchun mo'ljallangan va transport vositalari harakati taqiqlangan qismi.
+o1831	Qatnov qismiga tutashgan yoki undan maysazor ariq maxsus to'siqlar bilan ajratilgan va piyodalarning va piyodalarning harakatlanishi uchun mo'ljallangan yo'l qismi
+o1832	Oldinda harakatlanish serqatnovligi haqida ogohlantiradi
+o1833	Oldinda transport vositalarning tirbandligi haqida ogohlantiradi
+o1834	Oldinda transport vositalari orasida xavfsiz oraliqni ta'minlash lozimligi haqida ogohlantiradi.
+o1835	Velosiped yo'lkasini
+o1836	Sun'iy yo'l notekisligini
+o1837	Yo'nalishli taksilar to'xtaydigan joyni
+o1838	Shiddat bilan tezlanish va ohista sekinlashish bilan
+o1839	Ohista tezlanish va shiddat bilan sekinlashish bilan
+o1840	Ohista tezlanish va ohista sekinlashish bilan
+o1841	Boshqa yo'nalishlarda harakatlanayotgan transport vositalariga
+o1842	O'ngdan kelayotgan transport vositalariga
+o1843	Qarama qarshi yo'nalishda to'g'riga yoki o'ngga harakatlanayotgan transport vositalariga
+o1844	Hech biriga
+o1845	Qizil, ko'k, yashil va sariq avtomobilga
+o1846	Qizil va sariq avtomobilga
+o1847	Qizil, sariq va yashil avtomobilga
+o1848	Faqat yo'lning chetki o'ng tasmasida o'ng tomonidan bir qator bo'lib harakatlanishiga
+o1849	Faqat yo'l yoqasidan harakatlanishiga, agar piyodalarga xalaqit bermasa
+o1850	Barcha sanab o'tilgan holatlarga
+o1851	A
+o1852	Б
+o1853	В
+o1854	Transport vositasining yo'lda harakatlanishi jarayonida ro'y bergan, fuqarolarning halok bo'lishiga yoki sog'ligiga zarar etishiga, transport vositalari, inshootlar, yuklarning shikastlanishi yoxud boshqa moddiy zarar etishiga sabab bo'lgan hodisa
+o1855	Yo'l harakati qatnashchilarining yo'l-transport hodisalari va ularning oqibatlaridan himoyalanganlik darajasini aks ettiruvchi yo'l harakati holati
+o1856	Birinchisida
+o1857	Ikkinchisida
+o1858	A va Б
+o1859	В va Г
+o1860	B
+o1861	C
+o1862	B va C
+o1863	25 % dan kam
+o1864	16 % dan kam
+o1865	31 % dan kam
+o1866	20 % dan kam
+o1867	To'xtab turish tormozidan foydalanish lozim
+o1868	Birinchi uzatmani yoki orqa uzatmani ulash lozim
+o1869	Uzatmalar qutisi richagi ni neytral holatga o'tkazish lozim
+o1870	Б va В
+o1871	A va Г
+o1872	Г
+o1873	Yo'l qatnov qismining piyodalar kesib o'tishi uchun mo'ljallangan, 5.16.1, 5.16.2 yo'l belgilari va 1.14.1-1.14.3 yo'l chiziqlari bilan ajratilgan tasmasi.
+o1874	Yo'lning piyodalar harakatlanishi uchun mo'ljallangan va transport vositalari harakati taqiqlangan qismi
+o1875	Qatnov qismiga tutashgan yoki undan maysazor, ariq maxsus to'siqlar bilan ajratilgan va piyodalarning harakatlanishi uchun mo'ljallangan yo'l qismi
+o1876	Tezlikni oshirish lozim
+o1877	Tormoz tepkisini keskin bosish bilan tezlikni kamaytirish lozim
+o1878	Dvigatel bilan tormozlash orqali tezlikni kamaytirishi lozim
+o1879	Hushdan ketish bir necha soniyadan bir necha soatgacha bo'lishi mumkin
+o1880	Qayt qilish bir-ikki marta, og'ir holatlarda ko'proq bo'lishi mumkin
+o1881	Amneziya - xotiraning yo'qolishi,sodir bo'lgan jarohatlanish bilan bog'liq va hayotdagi ba'zi voqealar xotirasidan o'chadi
+o1882	Barchasi holatlar to'g'ri
+o1883	Faqat A
+o1884	A va B
+o1885	Bevosita yo'lga tutashgan va transport vositalari o'tib ketishi uchun mo'ljallanmagan hudud (hovlilar, turar joy dahalari, avtomobil to'xtab turish joylari, yonilg'i quyish shoxobchalari, korxona va shunga o'xshashlar)
+o1886	Yo'llarning o'zaro bir sathda kesishadigan, tutashadigan va ayriladigan joyi
+o1887	Yo'lning relssiz transport vositalari harakati uchun mo'ljallangan qismi
+o1888	С
+o1889	Yuk avtomobillarini
+o1890	Yengil avtomobillarni
+o1891	Barcha turdagi transport vositalarini
+o1892	A va В
+o1893	A va C
+o1894	Teri va shilliq qavatlarining oqarishi
+o1895	Kuchli ter ajralishi
+o1896	Og'iz qurishi chanqoqlik nafas olishning tezlashuvi
+o1897	Barcha holatlar to'g'ri
+o1898	Yo'l transport hodisalarining kelib chiqish sabablarini oldini olishga, ularning og'ir oqibatlarini kamaytirishga qaratilgan faoliyat
+o1899	Yo'llarda harakatni boshqarish bo'yicha huquqiy, tashkiliy - texnikaviy tadbirlar va boshqaruv harakatlari majmui.
+o1900	А va Г
+o1901	Burchak ostida
+o1902	Parallel ravishda
+o1903	Istalgan usulda
+o1904	Harakatlanishga ruxsat beradi
+o1905	Chorraha tartibga solinmaganligi to'g'risida
+o1906	Barcha javoblar to'g'ri
+o1907	А, Б, В
+o1908	Kunning yorug' vaqtida.
+o1909	Kunning qorong'u vaqtida.
+o1910	Istalgan vaqtda.
+o1911	Transport vositalari haydovchilari
+o1912	Velosiped yo'lkasidan harakatlanayotgan velosiped va moped haydovchilari
+o1913	Amneziya - xotiraning yo'qolishi, sodir bo'lgan jarohatlanish bilan bog'liq va hayotdagi ba'zi voqealar xotirasidan o'chadi
+o1914	Qatnov qismi
+o1915	Harakatlanish tasmasi
+o1916	Yo'l yoqasi
+o1917	Yondosh hudud
+o1918	Motosikl va sariq avtomobil
+o1919	Harakatlanish taqiqlanadi
+o1920	Faqat to'g'riga va o'ngga
+o1921	Barcha yo'nalishda ruxsat etiladi
+o1922	Yo'l transport hodisasi
+o1923	Yo'l harakati xavfsizligini ta'minlash
+o1924	Majburiy to'xtash
+o1925	A va D
+o1926	А
+o1927	Chapga burilishni yoki qayrilib olishni
+o1928	O'ngga burilish yoki qayrilib olishni
+o1929	To'xtashni
+o1930	Ohista (ravon) tezlanish va shiddat bilan sekinlashish bilan
+o1931	Ohista (ravon) tezlanish va ohista sekinlashish bilan
+o1932	Qon tomirlaridan pushti rangli kuchli pulsatsiya bilan otilib chiqadi
+o1933	Qon tomirlaridan to'q qizil rangdagi qon sizib oqib chiqadi
+o1934	Mayda qon tomirlaridan ichki a'zolarga qonning oqib chiqishi kuzatiladi
+o1935	Yo'l harakati qatnashchilariga nisbatan imtiyozi bo'lgan boshqa yo'l harakati qatnashchisining harakat yo'nalishi yoki tezligini o'zgartirishga majbur etishi mumkin bo'lgan hollarda harakatni davom mumkin bo'lgan hollarda harakatni davom ettirmasligini yoki boshlamasligini, biror-bir manyovr bajarishi mumkin emasligini bildiruvchi talab
+o1936	Mo'ljallangan yo'nalishda boshqa yo'l harakati qatnashchilariga nisbatan oldin harakatlanish huquqi
+o1937	To'siq bo'lmagan tomondagi haydovchi
+o1938	To'siq o'z tomonida bo'lgan haydovchi
+o1939	Burilish markaziga nisbatan avtomobil trayektoriyasidan tashqarida
+o1940	Avtomobil burilish trayektoriyasi bo'yicha
+o1941	Burilish markaziga nisbatan avtomobil trayektoriyasidan ichkarida
+o1942	Boshqa harakat qatnashchilariga yo'l berishi kerak
+o1943	Boshqa harakat qatnashchilariga nisbatan imtiyozga ega
+o1944	Tezlikni oshirishi lozim
+o1945	Tormoz tepkisini keskin bosish bilan tezlikni kamaytirishi lozim
+o1946	Qon tomirlaridan pushti rangli qon kuchli pulsatsiya bilan otilib chiqadi
+o1947	Mayda qon tomirlaridan ichki a'zolarga qon sizib oqib chiqadi
+o1948	Sekinlashish tasmasi o'tguncha
+o1949	Sekinlashish tasmasiga o'tgach
+o1950	D
+o1951	6
+o1952	7
+o1953	Oldinda tik balandlik borligini
+o1954	Oldinda ko'tarma ko'prik borligini
+o1955	Haydovchi biron bir xavfni aniqlab, avtomobilni to'liq to'xtaguncha bosib o'tgan masofasi
+o1956	Haydovchi tormoz tepkisini bosgandan to avtomobil to'liq to'xtaguncha bosib o'tilgan masofa
+o1957	Odamlarni, yuklarni tashishga yoki maxsus ishlarni bajarishga mo'ljallangan qurilma
+o1958	Mexanik transport vositasi tarkibida harakatlanishga mo'ljallangan, dvigatel bilan jihozlanmagan transport vositasi. Bu atama yarim tirkama va uzaytirilgan tirkama va uzaytiriladigan tirkamalarga ham taalluqlidir
+o1959	Dvigatel bilan harakatga keltiriladigan transport vositasi. Bu atama barcha traktor va o'ziyurar moslamalarga ham taalluqlidir
+o1960	Kengayadi
+o1961	O'zgarmaydi
+o1962	Torayadi
+o1963	Bevosita yo'lga tutashgan va transport vositalari o'tib ketishi uchun mo'ljallanmagan hudud (hovlilar, turar joy dahalari avtomobil to'xtab turish joylari, yonilg'i quyish shoxobchalari, korxona va shunga o'xshashlar).
+o1964	10 gradus
+o1965	20 gradus
+o1966	25 gradus
+o1967	Majburiy tarzda tezlikni kamaytirish uchun
+o1968	To'xtamasdan o'tishni taqiqlaydi
+o1969	Ehtiyot choralarni ko'rish uchun
+o1970	Temir yo'l kesishmasiga yaqinlashganlik haqida
+o1971	Xavfli chorrahaga yaqinlashganlik haqida
+o1972	Yo'lning kichik radiusli burilish, tik nishablik va boshqa xavfli joylarida yo'l to'siqlarining yon yuzalarini bildiradi
+o1973	Tahminan 0,2 soniya
+o1974	Tahminan 1 soniya
+o1975	Tahminan 5 soniya
+o1976	Xavfli yuk tashiyotgan transport vositalari harakatini taqiqlaydi
+o1977	Og'ir yuk tashiyotgan transport vositalari harakatini taqiqlaydi
+o1978	Portlovchi va tez alangalanadigan yuk tashiyotgan trasport vositalari harakatini taqiqlaydi
+o1979	Gaz berishni kamaytirib rul chambaragi bilan boshqaruvni barqarorlashtirasiz
+o1980	Tormozlab turib rul chambaragini sirpangan tomonga burasiz
+o1981	Gaz pedalini ohista bosib, avtomobilni rul chambaragini to'g'rilab, avtomobilni sirpanishdan olib chiqib ketasiz
+o1982	Gaz pedalini ko'proq bosib rul chambaragini o'zgartirmasdan sirpanishdan olib chiqasiz
+o1983	Jarohatlangan odamni qattiq va tekis zambilga solib, bo'yin qismi tagiga qattiq yostiqcha qo'yib, qo'zg'atmasdan, mahkam bog'lab shifoxonaga yuboriladi
+o1984	Jarohatlangan odamni yonboshlatib yotqizib, bo'yin qismi tagiga qattiq yostiqcha qo'yib, qo'zg'atmasdan, mahkam bog'lab shifoxonaga yuboriladi
+o1985	Jarohatlangan odamni tinchlantirish, jarohatlangan joy sohasiga sovuq suv muz qo'yish yo'llari bilan sovutish og'riqni susaytirish va qon ketishini kamaytirish
+o1986	Faqat Б
+o1987	Faqat Д
+o1988	Faqat C
+o1989	Yo'l harakati qoidalari o'rnatgan tezlik chegaralarini
+o1990	Transport vositasining texnik tavsifnomasida ko'rsatilgan tezlik chegarasini
+o1991	Ko'rish sharoitini
+o1992	Avtomobilni tormozlash va to'liq to'xtatish
+o1993	Avtomobilni tormozlab, yo'lning qatnov qismiga ohista ravon burish.
+o1994	Avtomobilni tormozlamasdan yo'lning qatnov qismiga ohista ravon burish
+o1995	3,25 gradus
+o1996	Ha, barcha hollarda o'tkazilishi kerak
+o1997	Ha, agarda piyodalar o'tish joyi bo'lsa
+o1998	Barcha turdagi transport vositalarining to'xtab turish uchun yo'lning qatnov qismida, trotuar yoniga qo'yish usulini
+o1999	Yengil avtomobillarning to'xtab turish joyini
+o2000	Mexanik transport vositalarining to'xtab turish joyini
+o2001	Harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka (imtiyozga) ega
+o2002	Harakatlanayotgan transport vositalariga nisbatan aylanaga kirib kelayotgan transport vositalari ustunlikka (imtiyozga) ega
+o2003	Jarohatlangan joyda og'riq seziladi
+o2004	Jarohatlangan joyda shishi paydo bo'ladi, og'riq seziladi, bazan shu joyda mayda kapillyar qon tomirlari yorilib, qon quyilishlari natijasida ko'karish paydo bo'ladi
+o2005	Kirish va chiqish yo'llari 5.22-5.25 belgilari bilan belgilangan hududni
+o2006	Aholi yashaydigan hududni
+o2007	Shahar, qishloq joylari hududini
+o2008	Б va Г
+o2009	Nishablik qancha qiyin bo'lsa uzatma pag'onasi shuncha yuqori bo'ladi
+o2010	Nishablik qancha qiyin bo'lsa uzatma pag'onasi shuncha past tanlanadi
+o2011	Pog'onalarni tanlashning nishablikka aloqasi yo'q
+o2012	Yo'llarda harakatni boshqarish bo'yicha huquqiy, tashkiliy-texnikaviy tadbirlar va boshqaruv harakatlari majmui
+o2013	Avtomobilni tormozlab, yo'lning harakat qismiga ohista ravon burilish
+o2014	Avtomobilni tormozlamasdan yo'lning harakat qismiga ohista ravon burish
+o2015	Teri va shilliq qavatlarning oqarishi
+o2016	Og'iz qurishi, chanqoqlik, nafas olishning tezlashuvi
+o2017	Es-hushning noaniqligi, behush holat
+o2018	5km/s
+o2019	20 km/s
+o2020	Avtomobillarning bir qator bo'lib harakatlanishi uchun etarlicha keng bo'lgan, yo'l chiziqlari bilan belgilangan yoki belgilanmagan yo'l qatnov qismining har qanday bo'ylama tasmasi
+o2021	Yo'lning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki to'xtashi uchun mo'ljallanmagan, yo'l sathidan ko'tarilgan yoki maysazor, ariq, maxsus to'siqlar bilan ajratilgan baland qismi
+o2022	A va С
+o2023	Har ikkala rasmda
+o2024	Yo'l harakati qatnashchilariga nisbatan imtiyozi bo'lgan boshqa yo'l harakati qatnashchisining harakat yo'nalishi yoki tezligini o'zgartirishga majbur etishi mumkin bo'lgan hollarda harakatni davom ettirmasligini yoki boshlamasligini, biror-bir manyovr bajarishi mumkin emasligini bildiruvchi talab
+o2025	Faqat qatnov qismi nam bo'lsa
+o2026	Har qanday holatda ham
+o2027	To'xtamasdan harakatni davom ettirishingiz mumkin
+o2028	Belgi oldida to'xtashingiz va svetoforning ruxsat beruvchi ishorasini kutishingiz kerak
+o2029	Faqat sirpanchiqda
+o2030	Kunning qorong'i vaqtida va etarlicha ko'rinmaslik sharoitida
+o2031	Ruxsat etilgan to'la vazni 3.5tonnadan ortiq bo'lgan yuk avtomobillarini
+o2032	Xavfli yuk tashiyotgan transport vositalarining harakatlanishini
+o2033	Har ikkala haydovchi ham
+o2034	Faqat ko'k avtomobil haydovchisi
+o2035	Faqat qizil avtomobil haydovchisi
+o2036	Tartibga solinmagan chorraha yoki piyodalar o'tish joyi borligidan xabardor qiladi
+o2037	Tartibga solingan chorraha borligidan xabardor qiladi
+o2038	Svetofor chirog'i almashuvidan xabardor qiladi
+o2039	O'ngga chapga va orqaga
+o2040	Faqat transport vositalarga yo'l berasiz
+o2041	Barcha qatnov qismidagi piyodalarga yo'l berasiz
+o2042	Harakat yo'nalishi bo'yicha va burilayotgan ko'chani kesib o'tayotgan piyodalarga hamda boshqa transport vositalariga yo'l berasiz
+o2043	"A" rasmda
+o2044	"B" rasmda
+o2045	Hech qaysi rasmda
+o2046	Motosiklga o'ngga va yengil avtomobilga barcha yo'nalishlarga
+o2047	Yengil avtomobilga o'ngga va to'g'riga
+o2048	Motosiklga o'ngga, yengil avtomobilga to'g'riga va o'ngga
+o2049	Faqat Chapga
+o2050	30 gradus
+o2051	O'ngga burilishda
+o2052	Yo'lovchilarni chiqarish va tushirishda
+o2053	Yuqoridagi barcha holatlarda agarda yo'nalishli transport vositalariga xalaqit bermasa
+o2054	Obyektgacha bo'lgan masofani bildiradi
+o2055	Belgining ta'sir oralig'ini bildiradi
+o2056	Avtomobilni tormozlab, yo'lning harakat qismiga ohista ravon burish
+o2057	Avtomobilni tormozlamasdan yo'lning harakat qismiga oxista ravon burish
+o2058	Belgi ta'siri oralig'ida to'xtagan transport vositalari majburiy evakuasiya qilinishini ko'rsatadi
+o2059	Belgi ta'sir oralig'ida to'xtagan transport vositalarini evakuasiya qilish ruxsat etilganligini bildiradi
+o2060	Belgi ta'sir oralig'ida to'xtagan transport vositalarini evakuasiya qilish taqiqlanganligini bildiradi
+o2061	Tartibga solinmagan, teng ahamiyatga ega bo'lmagan yo'llar kesishgan chorraha
+o2062	Tartibga solinmagan, teng ahamiyatga ega bo'lgan yo'llar kesishgan chorraha
+o2063	Tartibga solingan chorraha
+o2064	Keskin tormoz berish uchun
+o2065	Ehtiyot choralarini ko'rish uchun
+o2066	1 va 2
+o2067	3 va 4
+o2068	2 va 3
+o2069	1 va 4
+o2070	Yo'lning kichik radiusli burilish, tik nishablik va boshqa xavfli joylarda yo'l to'siqlarining yon yuzalarini bildiradi
+o2071	Harakatni davom ettirish haqida
+o2072	O'ngga burilmoqchi ekanligi haqida
+o2073	To'xtash haqida
+o2074	Hech qaysida
+o2075	Chorrahadan birinchi bo'lib o'tadi
+o2076	Tramvayga yo'l berib qayrilib oladi
+o2077	Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi keskin tormoz berganida to'qnashib ketmaslik kafolatini beradigan darajadagi oraliq masofani saqlashi kerak
+o2078	Qatnov qismida to'suvchi qurilma borligini bildiradi
+o2079	Oldinda boshqariladigan to'suvchi qurilma borligini bildiradi
+o2080	Chorraha oldida to'suvchi qurilma borligini bildiradi
+o2081	Hech kimga taqiqlanmagan
+o2082	Yo'lovchisiz va yuksiz
+o2083	Yo'lovchisiz, biroq yuqori yukxonasidagi yuki bilan
+o2084	Yo'lovchilari bilan yuksiz
+o2085	Yo'lovchi va yuki bilan
+o2086	Oq avtomobil, sariq bilan bir vaqtda
+o2087	Faqat chap tomondagi rasmda
+o2088	Faqat o'ng tomondagi rasmda
+o2089	Ikkisida ham
+o2090	Faqat o'tirgan holda tashishga ruxsat beriladi
+o2091	Piyodalarning o'tish joylarida
+o2092	Chorrahalarda
+o2093	Qatnov qismining kengligini, transport vositalari orasidagi zarur yonlama oraliq masofani va ularning gabarit o'lchamlarini hisobga olgan holda o'zi aniqlaydi
+o2094	Bunday yo'lni ikki tasmali qarama qarshi harakat tashkil qilingan yo'l deb qabul qilishi kerak.
+o2095	Yo'lning transport vositalari harakati uchun mo'ljallangan qismi
+o2096	Yo'lning avtomobillar harakati uchun mo'ljallangan qismi
+o2097	Xavfli yuk tashayotgan transport vositasining harakatlanishi taqiqlangan
+o2098	Katta o'lchamli yuklarni tashish taqiqlangan
+o2099	Yuk avtomobillari bilan quvib o'tish taqiqlangan
+o2100	O'rta tasmani
+o2101	Istalgan tasmani
+o2102	B va D
+o2103	A va b
+o2104	Kamida to'rt g'ildirakka ega bo'lgan va yo'lovchilarni tashish uchun foydalaniladigan mexanik transport vositalari
+o2105	Yuk tashish uchun mo'ljallangan, eng katta vazni 3,5 t dan oshmaydigan avtotransport vositalari
+o2106	Tirkamalar (yarim tirkamalar ham)
+o2107	Qatnov qismi chetidan katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi
+o2108	Yo'l yoqasidan faqat kunduzi va katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi
+o2109	Faqat B
+o2110	Faqat B,C,D
+o2111	Piyodalar o'tish joyida, agar piyodalar bo'lmasa
+o2112	Piyodalar o'tish joyiga 5 metr yetmasdan
+o2113	Bevosita piyodalar o'tish joyi oldida
+o2114	Velosiped
+o2115	Avtomobil
+o2116	Faqat qatnov qismini chetini bildiruvchi chiziqdan chetda
+o2117	Qatnov qismidan chetda barcha joyda
+o2118	5.15 yoki 6.11 yo'l belgilari bilan belgilangan maxsus to'xtab turish maydonchalarida
+o2119	Xar ikki rasmda
+o2120	Hech kim buzmayapti
+o2121	Yurak sohasida og'riq sezilganda va nafas olish qiyinlashganda
+o2122	Hushidan ketishda, nafas olish faoliyatidan qat'iy nazar
+o2123	Hushidan ketishda, nafas olish olish faoliyati va qon aylanishi to'xtaganda
+o2124	Tibbiyot qutichasi
+o2125	O'zi yurib ketishidan saqlovchi, g'ildirak diametriga muvofiq (kamida ikkita) tirgak
+o2126	Majburiy to'xtaganini bildiruvchi belgi (yoki miltillovchi qizil chiroq)
+o2127	Yo'lning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki to'xtashi uchun mo'ljallanmagan, yo'l sathidan baland va (yoki) 1.1 yotiq chizig'i bilan belgilangan qismi
+o2128	Transport vositasi harakatlanayotgan vaqtda haydovchini boshqarishdan chalg'itish va unga xalaqit berish
+o2129	Harakatlanayotgan bortli yuk avtomobillarida tik turish, bortlarda yoki undan yuqoridagi yuk ustida o'tirish
+o2130	Transport vositasi harakatlanayotgan vaqtda uning eshiklarini ochish
+o2131	Barcha ko'rsatilgan javoblar to'g'ri
+o2132	Haydovchilar svetofor ishoralariga amal qilishlari kerak
+o2133	Haydovchilar imtiyoz belgilari talablariga amal qilishlari kerak
+o2134	O'ng tomondan yaqinlashib kelayotgan transport vositalariga
+o2135	Chap tomondan yaqinlashib kelayotgan transport vositalariga
+o2136	Ko'k rangli yalt-yalt etuvchi chiroqcha-mayoqcha yoqilgan transport vositalariga
+o2137	Temir yo'l kesishmalarida va ularga 100 metrdan kam masofa qolganda quvib o'tish taqiqlanadi
+o2138	Quvib o'tish faqat temir yo'l kesishmalaridan keyin taqiqlanadi
+o2139	Temir yo'l kesishmalarida, ularga 100 metrdan kam masofa qolganda va temir yo'l kesishmalaridan keyin 100 metr davomida quvib o'tish taqiqlanadi
+o2140	Kamida ikkita
+o2141	Kamida uchta
+o2142	Kamida bitta
+o2143	Avtomobilni ohista to'xtatish
+o2144	Rulni burib sirpanchiqdan chiqib ketish
+o2145	Harakat yo'nalishini va tezlikni o'zgartirmasdan ehtiyotkorlik bilan o'tib ketish
+o2146	Yo'lning xavfli qismini bildiradi
+o2147	Yo'l berishingiz kerak bo'lgan joy yaqinlashayotganligi haqida ogohlantiradi
+o2148	To'xtashingiz zarur bo'lgan joyni bildiradi
+o2149	Aslahalangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan, yuk, haydovchi va yo'lovchilari bilan birgalikdagi eng yuqori vazni (o'lchovi)
+o2150	Transport vositasining yuki, haydovchi va yo'lovchilari bilan birgalikdagi vazni
+o2151	Aslahalangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan, yuksiz, haydovchisiz va yo'lovchilarsiz eng yuqori vazni (o'lchovi)
+o2152	Trotuardan yoki qatnov qismidan
+o2153	Faqat trotuar bo'yicha
+o2154	Qatnov qismi chetida bir qator bo'lib
+o2155	Faqat A va C
+o2156	Yo'lning ushbu qismida ruxsat berilgan eng yuqori tezlikni
+o2157	Yo'l yoki marshrut raqamini
+o2158	Yo'lning ushbu qismida tavsiya berilgan tezlikni
+o2159	Faqat zarur bo'lgan hollarda yo'l-transport hodisasining oldini olish uchun
+o2160	Faqat boshqa haydovchilarni quvib o'tish haqida ogohlantirish uchun
+o2161	Barcha javoblarda ko'rsatilgan holatlarda
+o2162	Qo'llarni tirsakdan bukib, ro'molga osgan holda tanaga bog'lash, oyoqlarni orasiga albatta yumshoq mato qo'yib bir-biriga bog'lash
+o2163	Qo'llarni tana bo'ylab cho'zgan holda tanaga bog'lash, oyoqlarni orasiga yumshoq mato qo'yib bir-biriga bog'lash
+o2164	Qo'llarni tirsakdan bukib, ro'molga osgan holda tanaga bog'lash, oyoqlarni bir-biriga yaxshilab jipslab tekkazib bog'lash
+o2165	Belgilangan yo'nalishi va bekatlari bo'lgan, yo'lovchi tashish uchun mo'ljallangan umum foydalanishdagi transport vositalari (trolleybus, tramvay, avtobus, yo'nalishli taksi)
+o2166	Avtobuslar
+o2167	Yo'lovchilarni tashuvchi istalgan transport vositalari
+o2168	Toshli yo'lga nisbatan asfalt qoplamali yo'l
+o2169	Ikki tasmali yo'lga nisbatan uch yoki undan ko'p tasmali yo'l
+o2170	Tuproqli yo'lga nisbatan qattiq qoplamali (asfalt va sement-betonli, tosh va shunga o'xshashlar yotqizilgan) yo'l
+o2171	Yashil avtomobil tramvay bilan bir vaqtda
+o2172	Faqat harakatlanish serqatnov bo'lganda
+o2173	Faqat harakatlanish tasmalari uzluksiz sidirg'a chiziqlar bilan ajratilgan bo'lsa
+o2174	Faqat yetarli ko'rinmaslikda
+o2175	Faqat kunning qorong'i vaqtida
+o2176	Kamayadi, chunki tirkama harakatlanishga qo'shimcha qarshilik ko'rsatadi
+o2177	Ortadi
+o2178	0.5 metr
+o2179	1.0 metr
+o2180	1.2 metr
+o2181	1.5 metr
+o2182	Transport vositasidagi barcha shaxslar
+o2183	Transport vositasidagi(haydovchidan tashqari) shaxs,shuningdek transport vositasiga kirayotgan (unga chiqib o'tirayotgan) yoki transport vositasidan chiqayotgan (undan tushayotgan) shaxs
+o2184	Har ikkala ta'rif to'g'ri
+o2185	Quvib o'tish, chapga burilish va qayrilib olishda
+o2186	Quvib o'tish va aylanib o'tishda
+o2187	Chapga burilish va qayrilib olishda
+o2188	0.3 - 0.5 metr
+o2189	0.6 - 0.7 metr
+o2190	0.8 - 0.9 metr
+o2191	Piyodalar gavjum bo'lgan joylarda
+o2192	Savdo, madaniy-maishiy xizmat ko'rsatish binolari oldida
+o2193	Maktab va maktabgacha ta'lim muassasalari oldida
+o2194	Birinchi o'tish huquqiga egaman
+o2195	Ro'paradan kelayotgan avtomobilga yo'l beraman
+o2196	40 metr
+o2197	45 metr
+o2198	30 metr
+o2199	50 metr
+o2200	0.7 metrdan kam bo'lmasligi kerak
+o2201	1 metrdan kam bo'lmasligi kerak
+o2202	1.3 metrdan kam bo'lmasligi kerak
+o2203	1.5 metrdan kam bo'lmasligi kerak
+o2204	Transport vositasining bir yo'nalishda transport vositasi tezligidan ortiq tezlikda harakatlanishi
+o2205	Qarama - qarshi yo'nalishda harakatlanish uchun mo'ljallangan tasmaga chiqib,so'ngra ilgari egallagan qatoriga qaytib o'tish bilan bog'liq bo'lgan harakat
+o2206	Kam tezlik bilan qo'shni qatorda harakatlanayotgan bir yoki bir nechta transport vositasidan o'zib ketish
+o2207	Yo'lning qatnov qismida harakatsiz holda bo'lgan jism
+o2208	Tirbandlik tufayli qatnov qismida to'xtab turgan transport vositasi
+o2209	Yo'l harakati xavfsizligiga xavf soluvchi har qanday omil
+o2210	Dastlabki harakat yo'nalishini saqlagan holda o'z harakatlanish tasmasidan boshqa harakatlanish qatoriga o'tish
+o2211	Qatnov qismining maxsus ajratilgan,5.35 - 5.37 yo'l belgilari, 1.9 yo'l chizig'i bilan belgilangan va ustida reversiv svetofor o'rnatilgan tasmasida harakatlanish yo'nalishini qarama-qarshi tomonga o'zgartirish
+o2212	Xavf tug'ilganda yo'ldagi boshqa harakat qatnashchilarining harakatlanishiga to'sqinlik qilmaslik uchun haydovchilar tomonidan bajariladigan harakat(manyovr)
+o2213	Yo'l harakati qatnashchilarining yo'nalishini o'zgartirishga majbur qiladigan har qanday to'siq
+o2214	Yo'l harakati jarayonidan o'sha yo'nalishda va o'sha tezlikda harakatlanishni davom ettirish yo'l transport hodisasi sodir bo'lishiga tahdid soladigan omil
+o2215	2 metr
+o2216	1 metr
+o2217	3 metr
+o2218	5 metr
+o2219	10 metr
+o2220	25 metr
+o2221	15 metr
+o2222	20 metr
+o2223	Doimiy belgi hisoblanadi
+o2224	Vaqtinchalik belgi hisoblanadi
+o2225	Mavsumiy belgi hisoblanadi
+o2226	Ko'rsatilgan yo'nalishlarida harakatlanishni taqiqlanadi
+o2227	Chorrahalarda tasmalar bo'yicha ruxsat etilgan harakat yo'nalishlarni ko'rsatadi
+o2228	Harakat barcha yo'nalishlarda ruxsat etilgan yo'llarning kesishmasiga yaqinlashganlikni
+o2229	0,70 metrdan kam bo'lmasligi kerak
+o2230	1,0 metrdan kam bo'lmasligi kerak
+o2231	1,3 metrdan kam bo'lmasligi kerak
+o2232	1,5 metrdan kam bo'lmasligi kerak
+o2233	Bir izli temir yo'l kesishmasi
+o2234	Temir yo'l kesishmasiga yaqinlashuv
+o2235	Shlagbaumli temir yo'l kesishmasi
+o2236	"1"va"4"
+o2237	"2"va"3"
+o2238	"З"va"4"
+o2239	Tepalikning oxirida va yo'lning ko'rinishi cheklangan joylarda
+o2240	Tartibga solinmagan chorrahalarda asosiy xisoblanmaydigan yo'llarda harakatlanishda
+o2241	1. Avtomobilning orqa o'rindiqdagi 12 yoshgacha bo'lgan bolalarga
+o2242	2. Homilador ayollarga
+o2243	3. Orqaga harakatni amalga oshiryotgan haydovchilarga
+o2244	1 va 2 javoblar to'g'ri
+o2245	0.3 m
+o2246	0.4 m
+o2247	0.5 m
+o2248	"A" "B" "C"
+o2249	"A" "B" "D"
+o2250	"D"
+o2251	Chorrahadan birinchi o'tish
+o2252	"Т" simon svetoforning ruxsat beradigan ishorasini kutish va tramvayga yo'l berib chiqish
+o2253	Tramvayga yo'l berish
+o2254	Istagan tomonidan ruxsat beriladi
+o2255	Bozorlar oldidan
+o2256	Maktab va bolalarning dam olish maskanlari oldidan
+o2257	Vokzal oldidan
+o2258	Bunday vaziyatda haydovchilar o'zaro kelishadilar
+o2259	Ruxsat etilgan to'la vazni 3 tonna bo'lgan yuk avtomobili va moped haydovchisi
+o2260	Faqat moped haydovchisi
+o2261	Hech kim qoida buzmayabdi
+o2262	Yo'l berish
+o2263	Birinchi o'tish
+o2264	O'zaro kelishuvga binoan harakatlanish
+o2265	Faqat chapga va qayrilib olishga
+o2266	Faqat qayrilib olishga
+o2267	"A"
+o2268	Ruxsat beriladi agar tirkamaning vazni 750kg dan oshmasa
+o2269	Barcha yo'nalishlarda harakatlanish taqiqlanadi
+o2270	Piyodalarning yo'l yoqasidan yurishi mumkin bo'lgan hudud
+o2271	Piyodalarning qatnov qismidan yurishi mumkin bo'lgan hudud
+o2272	Piyodalarning trotuardan yurishi mumkin bo'lgan hudud
+o2273	2 va 4
+o2274	1 va 3
+o2275	Uchinchi va to'rtinchi rasmlarda
+o2276	Ikkinchi va uchinchi rasmlarda
+o2277	Ikkinchi rasmda
+o2278	Uchinchi rasmda
+o2279	Ikkinchi, uchinchi va to'rtinchi rasmlarda
+o2280	7,2 m
+o2281	12,2 m
+o2282	19,5 m
+o2283	14,5 m
+o2284	Har ikkila rasmda
+o2285	Oldinda tirbandlik haqida borligidan
+o2286	Navbat bilan o'tishni
+o2287	To'xtab turish joyiga borishni
+o2288	O'zini asosiy yo'lda deb hisoblashi kerak
+o2289	O'zini ikkinchi darajali yo'lda deb hisoblashi kerak
+o2290	Barchasi to'g'ri
+o2291	Ikkisi ham buzmadi
+o2292	Ikkisi ham buzdi
+o2293	1,2,4,5
+o2294	4,5
+o2295	Oq avtomobil haydovchisi
+o2296	Qizil avtomobil haydovchisi
+o2297	Mikroavtobus haydovchisi
+o2298	Depodan chiqishda
+o2299	Depoga kirishda
+o2300	Har ikkisida imtiyozga ega
+o2301	Har ikkisida imtiyozga ega emas
+o2302	Vaqtinchalik ta'mirlash ishlari olib borilayotgan yo'l qismlariga
+o2303	Portlovchi va tez alangalanuvchi yukni tashiyotgan transport vositalariga
+o2304	Haydovchilik staji 2 yildan kam bo'lgan haydovchilar boshqarayotgan mexanik transport vositalariga
+o2305	65
+o2306	56
+o2307	77
+o2308	Doimiy yo'l belgisiga
+o2309	Vaqtinchalik yo'l belgisiga
+o2310	16 yoshga to'lgan bo'lishi
+o2311	Motoshlem kiyishlari va uni qadab olishlari
+o2312	Kunduzgi vaqtda ham yaqinni yorituvchi chiroqlarni yoqib yurishi
+o2313	Barcha sanab o'tilgan javoblar
+o2314	Har ikkisida mumkin
+o2315	Ko'k yoki qizil yoxud ko'k va qizil rangli yalt-yalt etuvchi mayoqchalar yoqilgan bo'lishi shart
+o2316	Maxsus tovushli ishora yoqilgan
+o2317	Xar ikkalasi yoqilgan bo'lishi shart
+o2318	Sun'iy notekislik
+o2319	Majburiy sekinlanish
+o2320	Baland piyodalar o'tish joyi
+o2321	To'xtash
+o2322	Yо'l berish
+o2323	Tо'xtab turish
+o2324	Xavfli yo'l qismi oldiga o'rnatiladi
+o2325	Sariq avtomobil haydovchisi
+o2326	Har ikkisi buzmadi
+o2327	"C"
+o2328	Imtiyoz belgilarni
+o2329	Ogohlantiruvchi belgilarni
+o2330	Taqiqlovchi belgilarni
+o2331	Axborot-ko'rsatkich belgilarni
+o2332	Chapga va qayrilib olishga
+o2333	Faqat to'g'riga va qayrilib olishga
+o2334	1,2
+o2335	1,3
+o2336	To'xtab turish joyi
+o2337	Pullik to'xtab turish joyi
+o2338	Yer usti avtomobil qo'yish joyi
+o2339	Yer osti avtomobil qo'yish joyi
+o2340	Faqat birinchi va ikkinchi rasmlarda
+o2341	Faqat birinchi va uchinchi rasmlarda
+o2342	Faqat birinchi, ikkinchi va to'rtinchi rasmlarda
+o2343	Faqat birinchi rasmda
+o2344	Barcha rasmlarda
+o2345	Faqat yuqori chapdagi rasmda
+o2346	Faqat yuqori o'ngdagi rasmda
+o2347	Yuqoridagi ikkala rasmda
+o2348	M1
+o2349	M2
+o2350	N1
+o2351	O1
+o2352	Oksidlovchi moddalar
+o2353	Organik peroksidlar
+o2354	Tez alangalanadigan gazlar va suyukliklar
+o2355	Faqat birinchisi
+o2356	Faqat ikkinchisi
+o2357	Faqat uchinchisi
+o2358	Faqat to'rtinchisi
+o2359	To'xtagan transport vositasi bilan sidirg'a chiziq orasidagi masofa 3 metrdan ko'p bo'lsa ruxsat beriladi
+o2360	50 bob 300 band
+o2361	37 bob 286 band
+o2362	29 bob 186 band
+o2363	1. Biometrik passport
+o2364	2. ID karta
+o2365	3. Egalik huquqi
+o2366	Faqat belgilangan yo'nalishli transport vositasining harakatlanish vaqti tugaganida ruxsat etiladi
+o2367	Tirkama-uychada
+o2368	Yuk tashiladigan tirkamalarda
+o2369	Traktorlarda
+o2370	Bolalarni yuk avtomobilining kuzovida
+o2371	Barcha hollarda tashish taqiqlanadi
+o2372	Faqat chorrahalarda
+o2373	Faqat yo'lning tor qismiarida
+o2374	Har ikkala javob ham to'g'ri
+o2375	Faqat o'ng tomondan aylanib o'tishlari kerak
+o2376	Faqat chap tomondan aylanib o'tishlari kerak
+o2377	Har ikkala tomondan aylanib o'tishlari kerak
+o2378	Avtomagistralda
+o2379	Aholi punktlarida
+o2380	Turar joy dahalarida
+o2381	Yopiq maydonchalarda yoki avtodromlarda
+o2382	Birinchi o'taman
+o2383	Avtobusga yo'l beraman
+o2384	Mikroavtobusga
+o2385	Traktorga
+o2386	Ikkala transportga
+o2387	Oldindagi transport vositasi tezligi 40 km/s dan kam bo'lsa
+o2388	1, 3 va 4 yo'nalishlarda
+o2389	1, 2 va 3 yo'nalishlarda
+o2390	1 va 4 yo'nalishlarda
+o2391	Velosipedchilar
+o2392	O'zaro kelishib o'tishadi
+o2393	Piyodalarning harakati taqiqlangan
+o2394	Individual harakatlanish vositalarini boshqarish taqiqlangan
+o2395	Bolalar uchishi taqiqlangan
+o2396	Ko'rsatilgan barcha javoblar to'g'ri
+o2397	Faqat oq avtomobil haydovchisi
+o2398	Faqat sariq avtomobil haydovchisi
+o2399	Hech qaysi buzmad
+o2400	Faqat to'g'riga va chapga
+o2401	Har ikkisiga ruxsat etilgan
+o2402	Oq avtomobil haydovchisiga
+o2403	Qizil avtomobil haydovchisiga
+o2404	Faqat 1 va 2
+o2405	Faqat 2 va 3
+o2406	1 va 2 belgilar
+o2407	2 va 3 belgilar
+o2408	1-rasmda
+o2409	2-rasmda
+o2410	Har ikkisiga
+o2411	Har ikki avtomobilga taqiqlanadi
+o2412	Faqat A va B
+o2413	Velosiped, qizil avtomobil, oq avtomobil
+o2414	Qizil avtomobil, oq avtomobil, velosiped
+o2415	Velosiped, oq avtomobil, qizil avtomobil
+o2416	Har ikkisi ham buzdi
+o2417	Har ikkisi ham buzmagan
+o2418	Har ikkalasi buzmadi
+o2419	Yashil buzdi
+o2420	Har ikkalasi buzdi
+o2421	Oq buzdi
+o2422	Faqat chap tomondan
+o2423	Faqat o'ng tomondan
+o2424	Har ikki tomondan
+o2425	Transport vositasi harakatini 10 daqiqagacha bo'lgan muddatga to'xtatish (harakatsiz holatga keltirish)
+o2426	Transport vositasiga yo'lovchilarni chiqarish yoki tushirish, yuk ortish yoki tushirish bilan bog'liq bo'lmagan hollarda harakatini 10 daqiqadan ko'proq vaqtga atayin to'xtatish
+o2427	17 yoshga
+o2428	16 yoshga
+o2429	14 yoshga
+o2430	18 yoshga
+o2431	15 yoshga
+o2432	Bitta tasma
+o2433	Ikkita tasma
+o2434	Uchta tasma
+o2435	Hamma yo'nalishlarga
+o2436	O'ngga va chapga
+o2437	A yo'nalishga
+o2438	B yo'nalishda
+o2439	Har ikki yo'nalishda
+o2440	Hamma rasmda
+o2441	Yaqin orada yashil ishorasi yonishi haqida axborot beradi
+o2442	Svetoforning qo'shimcha tarmog'i borligi haqida axborot beradi
+o2443	Svetofor ishlamayotganligi to'g'risida axborot beradi
+o2444	Yuk mashinasiga
+o2445	Har ikki yo'nalish bo'yicha qoidani buzmoqda
+o2446	Har ikki yo'nalish bo'yicha qoidani buzmayapti
+o2447	Faqat A trayektoriya bo'yicha
+o2448	Ko'rsatilgan trayektoriyalardan istalgan biri bo'yicha
+o2449	Faqat B trayektoriya bo'yicha
+o2450	Qizil va yashil avtomobil
+o2451	Barcha avtomobillar to'xtab turish qoidasini buzdi
+o2452	Agar avtobus belgilangan yo'nalishli bo'lsa ruxsat etiladi
+o2453	Barcha yo'nalishlarda harakatlanishga ruxsat etiladi
+o2454	Chapga va orqaga qaytish (qayrilib olish)
+o2455	Chapga
+o2456	Faqat 7 yoshgacha bo'lgan bolalarni maxsus o'rindiqda tashish mumkin
+o2457	Faqat kattalar uchun ruxsat etiladi
+o2458	Har qanday yo'lovchini tashish mumkin
+o2459	Hech qachon ruxsat etilmaydi
+o2460	Ikkala yo'nalishga ham harakatlanish taqiqlanadi
+o2461	Ikkala yo'nalishga ham harakatlanishga ruxsat etiladi
+o2462	Birinchi rasmda
+o2463	Qizilga chapga, ko'kka taqiqlaydi
+o2464	Ko'kka to'g'riga, qizilga chapga
+o2465	Har ikkisiga ham ko'rsatilgan yo'nalishlarda ruxsat beriladi
+o2466	Qizilga ruxsat beriladi, ko'kka o'nga taqiqlangan
+o2467	1-yo'nalishda
+o2468	2-yo'nalishda
+o2469	Har ikkisiga ham ruxsat beriladi
+o2470	Birinchi, ikkinchi va uchinchi yo'nalishlarda
+o2471	Birinchi, uchinchi va to'rtinchi yo'nalishlarda
+o2472	Faqat birinchi
+o2473	12
+o2474	14
+o2475	16
+o2476	Aylanib o'tishda
+o2477	Chapga burilish yoki qayrib olish uchun qayta tizilishda
+o2478	Yo'l-transport hodisalarining kelib chiqish sabablarining oldini olishga, ularning og'ir oqibatlarini kamaytirishga qaratilgan faoliyat
+o2479	Yo'l harakatining boshqa qatnashchilarini harakat yo'nalishi yoki tezligini keskin o'zgartirishga, shuningdek, o'z xavfsizligini yoxud boshqa fuqarolar xavfsizligini ta'minlash uchun o'zga choralarni ko'rishga majbur qilish
+o2480	Birinchi yo'nalishda
+o2481	Ikkinchi yo'nalishda
+o2482	Ikkala yo'nalishlarda ham qayrilib olish taqiqlangan
+o2483	Keskin tormoz bermasdan to'xtashga ulgura olmaydigan haydovchilarga harakatlanishni davom ettirishga ruxsat etiladi
+o2484	Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi keskin tormoz berganda, to'qnashib ketmaslik kafolatini beradigan darajadagi oraliq masofani
+o2485	Ularni quvib o'tayotgan transport vositalari oldin egallagan qatoriga bemalol qayta tizilishi uchun imkon beradigan masofani saqlashlari kerak
+o2486	184
+o2487	186
+o2488	216
+o2489	220
+o2490	2 ta
+o2491	3 ta
+o2492	4 ta
+o2493	14 yosh
+o2494	16 yosh
+o2495	18 yosh
+o2496	Ikkala avtomobil haydovchilari
+o2497	Har ikkala avtomobil haydovchilari qoidani buzmoqda
+o2498	Yo'qoladi
+o2499	Yo'qolmaydi
+o2500	To'g'ri to'xtadi
+o2501	Noto'g'ri to'xtadi
+o2502	Faqat 1-yo'nalish
+o2503	Faqat 2-yo'nalish
+o2504	Har ikki yo'nalishlarga taqiqlanadi
+o2505	Otda yurish yo'li
+o2506	Otda harakatlanish
+o2507	Otda yurish taqiqlanadi
+o2508	"Bolalar uyi" yoki oromgohlari oldidan o'tgan yo'l qismlarida o'rnatiladi
+o2509	Maktab yoki maktabgacha ta'lim muassasalari oldida
+o2510	Ko'zi ojiz piyodalar harakatlanish ehtimoli ko'p bo'lgan yo'l qismlarida o'rnatiladi
+o2511	Tik balandlik
+o2512	Tik nishablik
+o2513	Boshqa harakat qatnashchilariga xalaqit bermasa ruxsat etiladi
+o2514	A, B, C
+o2515	Oq va sariq avtomobil
+o2516	Qizil va oq avtomobil
+o2517	Sariq va yashil avtomobil
+o2518	Oq avtomobil
+o2519	Barcha avtomobillar
+o2520	Mototsikl
+o2521	Barchasi to'g'ri burilmoqda
+o2522	Faqat o'ngga ruxsat etiladi
+o2523	Faqat chapga ruxsat etiladi
+o2524	Har ikkisiga ruxsat etiladi
+o2525	Faralarning uzoqni yorituvchi chiroqlaridan
+o2526	Tovushli ishoralardan
+o2527	Toksik moddalar
+o2528	Puflangan havoning bir litrida 0,105 milligramm va undan yuqori bo'lgan hollarda
+o2529	Puflangan havoning bir litrida 0,135 milligramm va undan yuqori bo'lgan hollarda
+o2530	Puflangan havoning bir litrida 0,255 milligramm va undan yuqori bo'lgan hollarda
+o2531	Har ikkala yo'nalish bo'yicha
+o2532	Birinchi yo'nalish bo'yicha
+o2533	Ikkinchi yo'nalish bo'yicha
+o2534	Har ikkala yo'nalish bo'yicha noto'g'ri
+o2535	Chapdagi belgida
+o2536	O'ngdagi belgida
+o2537	Har ikkisida
+o2538	Taqiqlovchi, Imtiyoz, Buyuruvchi, Axborot-ko'rsatkich, Ogohlantiruvchi, Servis, Qo'shimcha axborot
+o2539	Ogohlantiruvchi, Imtiyoz, Taqiqlovchi, Buyuruvchi, Axborot-ko'rsatkich, Servis, Qo'shimcha axborot
+o2540	Ogohlantiruvchi, Imtiyoz, Buyuruvchi, Taqiqlovchi, Axborot-ko'rsatkich, Servis, Qo'shimcha axborot
+o2541	Yuqoridagi barcha javoblar to'g'ri
+o2542	1-tramvay sariq avtomobil bilan bir vaqtda, 2-tramvay qora avtomobil bilan bir vaqtda
+o2543	1-tramvay sariq avtomobil bilan bir vaqtda, qora avtomobil, 2-tramvay
+o2544	1-tramvay, 2-tramvay, sariq avtomobil, qora avtomobil
+o2545	To'g'riga va qayrilishga
+o2546	Qizil ishora
+o2547	Sariq ishora
+o2548	Yashil ishora
+o2549	Ko'rsatilgan barchasi
+o2550	Manyovr qilish
+o2551	Tasmani o'zgartirish
+o2552	Xavfli harakatlanish
+o2553	Avariya holatini yuzaga keltirish
+o2554	Faqat pastdagi rasmda
+o2555	Faqat o'ngdagi rasmda
+o2556	Faqat chapdagi va o'ngdagi rasmlarda
+o2557	Faqat chapdagi rasmda
+o2558	Orqa o'rta o'rindiq
+o2559	Oldi o'rindiq
+o2560	Haydovchi orqasidagi o'rindiq
+o2561	O'zaro kelishib o'tadilar
+o2562	1 ta
+o2563	Faqat "A"
+o2564	Faqat "B"
+o2565	Har ikki yo'nalishda mumkin
+o2566	Har ikki yo'nalishda taqiqlanadi
+o2567	Shanba, yakshanba va bayram kunlari
+o2568	Hafta kunlari
+o2569	Ish kunlari
+o2570	Yo'l transport hodisasining oldini olish va harakat xavfsizligini ta'minlash
+o2571	Maxsus tadbirlar o'tkazish
+o2572	Ta'qib qilish
+o2573	Kuzatish
+o2574	Ko'rsatilgan barcha javoblar
+o2575	Faqat 1
+o2576	Faqat 2
+o2577	Faqat 1, 3, 4 yo'nalishlarda
+o2578	Barcha holatda ruxsat etiladi
+o2579	Birinchi va ikkinchi
+o2580	Ikkinchi va uchinchi
+o2581	12 yoshgacha
+o2582	10 yoshgacha
+o2583	7 yoshgacha
+o2584	14 yoshgacha
+o2585	Kelishib o'tish lozim
+o2586	Yashil va oq avtomobillarga
+o2587	Qizil avtomobil va YPX avtomobiliga
+o2588	Faqat YPX avtomobiliga
+o2589	Hech biriga ruxsat etilmaydi
+o2590	Ovozli ishora berib, tezlikni oshiring
+o2591	Zarur bo'lganda darhol to'xtash imkoniyatini beradigan darajada tezlikni kamaytiring
+o2592	Chapga burilib, to'siqni aylanib o'ting
+o2593	To'xtovsiz harakatni davom ettiring
+o2594	Toza
+o2595	O'rta
+o2596	Zararli
+o2597	O'ng va chap tomonidan
+o2598	O'ng tomonidan
+o2599	Chap tomonidan
+o2600	Yuk avtomobillari
+o2601	Mototransport vositalari
+o2602	Yo'lovchi tashuvchi transport vositalari
+o2603	Yo'l transport hodisasini oldini olish va harakat hafsizligini taminlash
+o2604	Maxsuz tadbirlar o'tqazish
+o2605	Taqib qilish
+o2606	Bitta
+o2607	Sakkizta
+o2608	Tovushli ishora
+o2609	Tashqi yoritish ishoralari
+o2610	Svetaforning ruhsat etuvchi ishorasini kutish kerak
+o2611	Ikkinchi belgi
+o2612	Har ikkala belgi
+o2613	Birinchi belgi
+o2614	Beradi
+o2615	20km/soat
+o2616	30km/soat
+o2617	50km/soat
+o2618	60km/soat
+o2619	Haydovchiga xavf ma'lum bo'lgan vaqtdan boshlab avtomobilning to'liq to'xtagungacha bosib o'tgan masofasi
+o2620	Tormoz tepkisi bosilgan vaqtdan boshlab avtomobilning to'liq to'xtagungacha bosib o'tgan masofa
+o2621	Taqiqlangan, chunki uzuq-uzuq yotiq chiziq bilan to'xtab turgan va avtomobil orasidagi masofa 3 metrdan kam
+o2622	Davlat YHXX tomonidan
+o2623	Avtoxo'jalik ma'muriyati tomonidan
+o2624	Mazkur transport vositasini ishlab chiqargan korxona tomonidan
+o2625	0,2 metr
+o2626	0,3 metr
+o2627	0,4 metr
+o2628	0,5 metr

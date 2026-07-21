@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test savollari bazasi</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">📝</span>
+      <h1>Test savollari bazasi</h1>
+    </div>
+    <div class="topbar-right">
+      <div class="stats" id="stats">Jami savollar: 0</div>
+      <button class="btn topbar-btn" id="downloadBtn" type="button"
+              title="Faqat savollarni JSON fayl qilib yuklab olish">⬇️ JSON</button>
+      <button class="btn topbar-btn" id="backupBtn" type="button"
+              title="Savollar va barcha rasmlarni bitta ZIP faylga (zaxira / ko'chirish uchun)">📦 Zaxira (ZIP)</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- ============ Chap: savol formasi ============ -->
+    <section class="panel form-panel">
+      <div class="panel-head">
+        <h2 id="formTitle">Yangi savol qo'shish</h2>
+        <button class="btn ghost" id="newBtn" type="button" hidden>+ Yangi savol</button>
+      </div>
+
+      <label class="field-label" for="qtextLat">Savol matni — lotin <span class="req">*</span></label>
+      <textarea id="qtextLat" class="textarea" rows="2"
+                placeholder="Savol matnini lotinda yozing..."></textarea>
+      <div class="dup-status" id="dupStatus"></div>
+
+      <label class="field-label" for="qtextCyr">Savol matni — kirill
+        <span class="auto-note">(avtomatik — tahrirlasa bo'ladi)</span></label>
+      <textarea id="qtextCyr" class="textarea cyr" rows="2"
+                placeholder="Kirillchasi lotindan avtomatik chiqadi..."></textarea>
+
+      <label class="field-label" for="qtextRus">Savol matni — rus
+        <span class="auto-note">(«🌐 Rus tarjima» tugmasi bilan — tahrirlasa bo'ladi)</span></label>
+      <textarea id="qtextRus" class="textarea rus" rows="2"
+                placeholder="Rus tilidagi tarjima shu yerda chiqadi..."></textarea>
+
+      <!-- Variant va rasm joylari: savol matni tekshirilgach ochiladi -->
+      <fieldset class="details" id="details" disabled>
+        <div class="lock-overlay" id="lockOverlay">
+          <span>🔒 Avval savol matnini kiriting. Bazada yo'qligi tekshirilgach, bu yer ochiladi.</span>
+        </div>
+
+        <!-- Savol rasmi -->
+        <label class="field-label">Savol rasmi <span class="opt-note">(ixtiyoriy)</span></label>
+        <div class="image-slot">
+          <button class="btn outline" type="button" id="qImageBtn">🖼️ Rasm tanlash</button>
+          <input type="file" accept="image/*" id="qImageInput" hidden>
+          <div class="image-preview" id="qImagePreview"></div>
+        </div>
+
+        <!-- Variantlar -->
+        <div class="field-label row-between">
+          <span>Variantlar <span class="req">*</span></span>
+          <button class="btn small" type="button" id="addOptBtn">+ Variant qo'shish</button>
+        </div>
+        <div id="options"></div>
+        <p class="hint">
+          Har bir variantni lotinda yozing — kirillchasi avtomatik chiqadi. ✔️ orqali to'g'ri
+          javob(lar)ni belgilang, xohlasangiz rasm qo'shing. Kamida 2 ta variant va 1 ta to'g'ri javob shart.
+        </p>
+
+        <div class="form-actions">
+          <button class="btn primary" type="button" id="saveBtn">💾 Saqlash</button>
+          <button class="btn outline" type="button" id="regenBtn"
+                  title="Barcha kirill maydonlarini lotindan qayta yasash">↻ Kirillni yangilash</button>
+          <button class="btn outline" type="button" id="translateBtn"
+                  title="Savol va variantlarni rus tiliga tarjima qilish (internet kerak)">🌐 Rus tarjima</button>
+          <button class="btn ghost" type="button" id="cancelBtn" hidden>Bekor qilish</button>
+        </div>
+      </fieldset>
+    </section>
+
+    <!-- ============ O'ng: savollar ro'yxati ============ -->
+    <section class="panel list-panel">
+      <div class="panel-head">
+        <h2>Savollar bazasi</h2>
+      </div>
+      <input type="search" id="search" class="search" placeholder="🔍 Savollardan qidirish...">
+      <div id="list" class="list"></div>
+    </section>
+  </main>
+
+  <div id="toasts" class="toasts"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

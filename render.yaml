@@ -1,0 +1,55 @@
+# Prava Pro (TayyorPrava) — Render Blueprint
+# Render dashboard'da: New + -> Blueprint -> shu reponi tanlang.
+# Backend (FastAPI, Docker) + Frontend (Vite static) bir blueprint'da.
+#
+# ⚠️ DIQQAT (SQLite + Render):
+#   backend/app.db git'ga qo'shilgan va Docker image ichida keladi.
+#   Render'ning fayl tizimi EFEMER — har redeploy/restart'da image qayta quriladi,
+#   ya'ni ish paytida yozilgan yangi ma'lumot (yangi ro'yxatlar, to'lovlar) YO'QOLADI.
+#   Doimiy saqlash uchun PostgreSQL'ga o'ting: Render'da Postgres yarating va
+#   DATABASE_URL ni `postgresql+asyncpg://...` qilib qo'ying (asyncpg allaqachon requirements'da).
+
+services:
+  # ---- Backend API (FastAPI, Docker) ----
+  - type: web
+    name: tayyorprava-api
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    # Render $PORT beradi — Dockerfile'dagi qat'iy 8000 o'rniga shuni ishlatamiz.
+    dockerCommand: sh -c "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEBUG
+        value: "False"
+      # Kuchli tasodifiy SECRET_KEY — Render generatsiya qiladi (JWT imzosi uchun).
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite+aiosqlite:///./app.db
+      # Frontend static site URL'i (pastdagi xizmat nomiga mos).
+      - key: CORS_ORIGINS
+        value: https://tayyorprava-web.onrender.com
+      - key: RATE_LIMIT_ENABLED
+        value: "True"
+      # Telegram bot bilan umumiy maxfiy kalit (bot .env'ida AYNAN shu qiymat bo'lsin).
+      - key: BOT_SHARED_SECRET
+        generateValue: true
+
+  # ---- Frontend (Vite static site) ----
+  - type: web
+    name: tayyorprava-web
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://tayyorprava-api.onrender.com/api
+    routes:
+      # SPA — barcha yo'llar index.html'ga (React Router uchun).
+      - type: rewrite
+        source: /*
+        destination: /index.html

@@ -1,0 +1,2505 @@
+{
+ "title": {
+  "uz": "O'zbekiston yo'l harakati qoidalari — barcha yo'l belgilari",
+  "kaa": "Ўзбекистон йўл ҳаракати қоидалари — барча йўл белгилари",
+  "ru": "Правила дорожного движения Узбекистана — все дорожные знаки"
+ },
+ "languages": [
+  "uz",
+  "kaa",
+  "ru"
+ ],
+ "totalSigns": 268,
+ "imagesBase": "/static/belgilar/",
+ "categories": [
+  {
+   "code": "1",
+   "category": {
+    "uz": "Ogohlantiruvchi belgilar",
+    "kaa": "Огоҳлантирувчи белгилар",
+    "ru": "Предупреждающие знаки"
+   },
+   "count": 46,
+   "signs": [
+    {
+     "code": "1.1",
+     "name": {
+      "uz": "Shlagbaumli temir yo'l kesishmasi",
+      "kaa": "Шлагбаумли темир йўл кесишмаси",
+      "ru": "Железнодорожный переезд со шлагбаумом"
+     },
+     "imageUrl": "/static/belgilar/1.1.gif"
+    },
+    {
+     "code": "1.2",
+     "name": {
+      "uz": "Shlagbaumsiz temir yo’l kesishmasi",
+      "kaa": "Шлагбаумсиз темир йўл кесишмаси",
+      "ru": "Железнодорожный переезд без шлагбаума"
+     },
+     "imageUrl": "/static/belgilar/1.2.gif"
+    },
+    {
+     "code": "1.3",
+     "name": {
+      "uz": "Diqqat \"UZP\"",
+      "kaa": "Диққат \"УЗП\"",
+      "ru": "Внимание «УЗП»"
+     },
+     "imageUrl": "/static/belgilar/1.3.png"
+    },
+    {
+     "code": "1.3.1",
+     "name": {
+      "uz": "Bir izli temir yo’l",
+      "kaa": "Бир изли темир йўл",
+      "ru": "Однопутная железная дорога"
+     },
+     "imageUrl": "/static/belgilar/1.3.1.gif"
+    },
+    {
+     "code": "1.3.2",
+     "name": {
+      "uz": "Ko’p izli temir yo’l",
+      "kaa": "Кўп изли темир йўл",
+      "ru": "Многопутная железная дорога"
+     },
+     "imageUrl": "/static/belgilar/1.3.2.gif"
+    },
+    {
+     "code": "1.4.1",
+     "name": {
+      "uz": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+      "kaa": "Темир йўл кесишмасининг яқинлиги ҳақида огоҳлантириш",
+      "ru": "Приближение к железнодорожному переезду"
+     },
+     "imageUrl": "/static/belgilar/1.4.1.gif"
+    },
+    {
+     "code": "1.4.2",
+     "name": {
+      "uz": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+      "kaa": "Темир йўл кесишмасининг яқинлиги ҳақида огоҳлантириш",
+      "ru": "Приближение к железнодорожному переезду"
+     },
+     "imageUrl": "/static/belgilar/1.4.2.gif"
+    },
+    {
+     "code": "1.4.3",
+     "name": {
+      "uz": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+      "kaa": "Темир йўл кесишмасининг яқинлиги ҳақида огоҳлантириш",
+      "ru": "Приближение к железнодорожному переезду"
+     },
+     "imageUrl": "/static/belgilar/1.4.3.gif"
+    },
+    {
+     "code": "1.4.4",
+     "name": {
+      "uz": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+      "kaa": "Темир йўл кесишмасининг яқинлиги ҳақида огоҳлантириш",
+      "ru": "Приближение к железнодорожному переезду"
+     },
+     "imageUrl": "/static/belgilar/1.4.4.gif"
+    },
+    {
+     "code": "1.4.5",
+     "name": {
+      "uz": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+      "kaa": "Темир йўл кесишмасининг яқинлиги ҳақида огоҳлантириш",
+      "ru": "Приближение к железнодорожному переезду"
+     },
+     "imageUrl": "/static/belgilar/1.4.5.gif"
+    },
+    {
+     "code": "1.4.6",
+     "name": {
+      "uz": "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
+      "kaa": "Темир йўл кесишмасининг яқинлиги ҳақида огоҳлантириш",
+      "ru": "Приближение к железнодорожному переезду"
+     },
+     "imageUrl": "/static/belgilar/1.4.6.gif"
+    },
+    {
+     "code": "1.5",
+     "name": {
+      "uz": "Tramvay yo’li bilan kesishuv",
+      "kaa": "Трамвай йўли билан кесишув",
+      "ru": "Пересечение с трамвайной линией"
+     },
+     "imageUrl": "/static/belgilar/1.5.gif"
+    },
+    {
+     "code": "1.6",
+     "name": {
+      "uz": "Teng ahamiyatli yo’llar kesishuvi",
+      "kaa": "Тенг аҳамиятли йўллар кесишуви",
+      "ru": "Пересечение равнозначных дорог"
+     },
+     "imageUrl": "/static/belgilar/1.6.gif"
+    },
+    {
+     "code": "1.7",
+     "name": {
+      "uz": "Aylanma harakatlanish bilan kesishuv",
+      "kaa": "Айланма ҳаракатланиш билан кесишув",
+      "ru": "Пересечение с круговым движением"
+     },
+     "imageUrl": "/static/belgilar/1.7.gif"
+    },
+    {
+     "code": "1.8",
+     "name": {
+      "uz": "Svetofor tartibga soladi",
+      "kaa": "Светофор тартибга солади",
+      "ru": "Светофорное регулирование"
+     },
+     "imageUrl": "/static/belgilar/1.8.gif"
+    },
+    {
+     "code": "1.9",
+     "name": {
+      "uz": "Ko’tarma ko’prik",
+      "kaa": "Кўтарма кўприк",
+      "ru": "Разводной мост"
+     },
+     "imageUrl": "/static/belgilar/1.9.gif"
+    },
+    {
+     "code": "1.10",
+     "name": {
+      "uz": "Sohilga chiqish",
+      "kaa": "Соҳилга чиқиш",
+      "ru": "Выезд на набережную"
+     },
+     "imageUrl": "/static/belgilar/1.10.gif"
+    },
+    {
+     "code": "1.11.1",
+     "name": {
+      "uz": "Xavfli burilish",
+      "kaa": "Хавфли бурилиш",
+      "ru": "Опасный поворот"
+     },
+     "imageUrl": "/static/belgilar/1.11.1.png"
+    },
+    {
+     "code": "1.11.2",
+     "name": {
+      "uz": "Xavfli burilish",
+      "kaa": "Хавфли бурилиш",
+      "ru": "Опасный поворот"
+     },
+     "imageUrl": "/static/belgilar/1.11.2.png"
+    },
+    {
+     "code": "1.12.1",
+     "name": {
+      "uz": "Xavfli burilishlar",
+      "kaa": "Хавфли бурилишлар",
+      "ru": "Опасные повороты"
+     },
+     "imageUrl": "/static/belgilar/1.12.1.png"
+    },
+    {
+     "code": "1.12.2",
+     "name": {
+      "uz": "Xavfli burilishlar",
+      "kaa": "Хавфли бурилишлар",
+      "ru": "Опасные повороты"
+     },
+     "imageUrl": "/static/belgilar/1.12.2.png"
+    },
+    {
+     "code": "1.13",
+     "name": {
+      "uz": "Tik nishablik",
+      "kaa": "Тик нишаблик",
+      "ru": "Крутой спуск"
+     },
+     "imageUrl": "/static/belgilar/1.13.jpg"
+    },
+    {
+     "code": "1.14",
+     "name": {
+      "uz": "Tik balandlik",
+      "kaa": "Тик баландлик",
+      "ru": "Крутой подъём"
+     },
+     "imageUrl": "/static/belgilar/1.14.jpg"
+    },
+    {
+     "code": "1.15",
+     "name": {
+      "uz": "Sirpanchiq yo’l",
+      "kaa": "Сирпанчиқ йўл",
+      "ru": "Скользкая дорога"
+     },
+     "imageUrl": "/static/belgilar/1.15.gif"
+    },
+    {
+     "code": "1.16",
+     "name": {
+      "uz": "Notekis yo’l",
+      "kaa": "Нотекис йўл",
+      "ru": "Неровная дорога"
+     },
+     "imageUrl": "/static/belgilar/1.16.gif"
+    },
+    {
+     "code": "1.17",
+     "name": {
+      "uz": "Tosh otilish xavfi",
+      "kaa": "Тош отилиш хавфи",
+      "ru": "Выброс гравия"
+     },
+     "imageUrl": "/static/belgilar/1.17.gif"
+    },
+    {
+     "code": "1.18.1",
+     "name": {
+      "uz": "Yo’lning torayishi",
+      "kaa": "Йўлнинг торайиши",
+      "ru": "Сужение дороги"
+     },
+     "imageUrl": "/static/belgilar/1.18.1.gif"
+    },
+    {
+     "code": "1.18.2",
+     "name": {
+      "uz": "Yo’lning torayishi",
+      "kaa": "Йўлнинг торайиши",
+      "ru": "Сужение дороги"
+     },
+     "imageUrl": "/static/belgilar/1.18.2.gif"
+    },
+    {
+     "code": "1.18.3",
+     "name": {
+      "uz": "Yo'lning torayishi",
+      "kaa": "Йўлнинг торайиши",
+      "ru": "Сужение дороги"
+     },
+     "imageUrl": "/static/belgilar/1.18.3Yo_lning.gif"
+    },
+    {
+     "code": "1.19",
+     "name": {
+      "uz": "Ikki tomonlama harakatlanish",
+      "kaa": "Икки томонлама ҳаракатланиш",
+      "ru": "Двустороннее движение"
+     },
+     "imageUrl": "/static/belgilar/1.19.gif"
+    },
+    {
+     "code": "1.20",
+     "name": {
+      "uz": "Piyodalar o’tish joyi",
+      "kaa": "Пиёдалар ўтиш жойи",
+      "ru": "Пешеходный переход"
+     },
+     "imageUrl": "/static/belgilar/1.20.gif"
+    },
+    {
+     "code": "1.21",
+     "name": {
+      "uz": "Bolalar",
+      "kaa": "Болалар",
+      "ru": "Дети"
+     },
+     "imageUrl": "/static/belgilar/1.21.gif"
+    },
+    {
+     "code": "1.22",
+     "name": {
+      "uz": "Velosiped yo’lkasi bilan kesishuv",
+      "kaa": "Велосипед йўлкаси билан кесишув",
+      "ru": "Пересечение с велосипедной дорожкой"
+     },
+     "imageUrl": "/static/belgilar/1.22.gif"
+    },
+    {
+     "code": "1.23",
+     "name": {
+      "uz": "Ta’mirlash ishlari",
+      "kaa": "Таъмирлаш ишлари",
+      "ru": "Дорожные работы"
+     },
+     "imageUrl": "/static/belgilar/1.23.gif"
+    },
+    {
+     "code": "1.24",
+     "name": {
+      "uz": "Mol haydab o’tish",
+      "kaa": "Мол ҳайдаб ўтиш",
+      "ru": "Перегон скота"
+     },
+     "imageUrl": "/static/belgilar/1.24.gif"
+    },
+    {
+     "code": "1.25",
+     "name": {
+      "uz": "Yovvoyi hayvonlar",
+      "kaa": "Ёввойи ҳайвонлар",
+      "ru": "Дикие животные"
+     },
+     "imageUrl": "/static/belgilar/1.25.gif"
+    },
+    {
+     "code": "1.26",
+     "name": {
+      "uz": "Toshlar tushishi",
+      "kaa": "Тошлар тушиши",
+      "ru": "Падение камней"
+     },
+     "imageUrl": "/static/belgilar/1.26.gif"
+    },
+    {
+     "code": "1.27",
+     "name": {
+      "uz": "Yonlama shamol",
+      "kaa": "Ёнлама шамол",
+      "ru": "Боковой ветер"
+     },
+     "imageUrl": "/static/belgilar/1.27.gif"
+    },
+    {
+     "code": "1.28",
+     "name": {
+      "uz": "Pastlab uchuvchi samolyotlar",
+      "kaa": "Пастлаб учувчи самолётлар",
+      "ru": "Низко летящие самолёты"
+     },
+     "imageUrl": "/static/belgilar/1.28.gif"
+    },
+    {
+     "code": "1.29",
+     "name": {
+      "uz": "Tonnel",
+      "kaa": "Тоннел",
+      "ru": "Тоннель"
+     },
+     "imageUrl": "/static/belgilar/1.29.gif"
+    },
+    {
+     "code": "1.30",
+     "name": {
+      "uz": "Boshqa xavf-xatar",
+      "kaa": "Бошқа хавф-хатар",
+      "ru": "Прочие опасности"
+     },
+     "imageUrl": "/static/belgilar/1.30.gif"
+    },
+    {
+     "code": "1.31",
+     "name": {
+      "uz": "Sun'iy yo'l notekisliklari",
+      "kaa": "Сунъий йўл нотекисликлари",
+      "ru": "Искусственная неровность"
+     },
+     "imageUrl": "/static/belgilar/1.31.png"
+    },
+    {
+     "code": "1.31.1",
+     "name": {
+      "uz": "Burilishning yo’nalishi",
+      "kaa": "Бурилишнинг йўналиши",
+      "ru": "Направление поворота"
+     },
+     "imageUrl": "/static/belgilar/1.31.1.gif"
+    },
+    {
+     "code": "1.31.2",
+     "name": {
+      "uz": "Burilishning yo’nalishi",
+      "kaa": "Бурилишнинг йўналиши",
+      "ru": "Направление поворота"
+     },
+     "imageUrl": "/static/belgilar/1.31.2.gif"
+    },
+    {
+     "code": "1.31.3",
+     "name": {
+      "uz": "Burilishning yo’nalishi",
+      "kaa": "Бурилишнинг йўналиши",
+      "ru": "Направление поворота"
+     },
+     "imageUrl": "/static/belgilar/1.31.3.gif"
+    },
+    {
+     "code": "1.32",
+     "name": {
+      "uz": "Tirbandlik",
+      "kaa": "Тирбандлик",
+      "ru": "Затор"
+     },
+     "imageUrl": "/static/belgilar/1.32.gif"
+    }
+   ]
+  },
+  {
+   "code": "2",
+   "category": {
+    "uz": "Imtiyozli belgilar",
+    "kaa": "Имтиёзли белгилар",
+    "ru": "Знаки приоритета"
+   },
+   "count": 9,
+   "signs": [
+    {
+     "code": "2.1",
+     "name": {
+      "uz": "Asosiy yo’l",
+      "kaa": "Асосий йўл",
+      "ru": "Главная дорога"
+     },
+     "imageUrl": "/static/belgilar/2.1.gif"
+    },
+    {
+     "code": "2.2",
+     "name": {
+      "uz": "Asosiy yo’lning oxiri",
+      "kaa": "Асосий йўлнинг охири",
+      "ru": "Конец главной дороги"
+     },
+     "imageUrl": "/static/belgilar/2.2.gif"
+    },
+    {
+     "code": "2.3.1",
+     "name": {
+      "uz": "Ikkinchi darajali yo’l bilan kesishuv",
+      "kaa": "Иккинчи даражали йўл билан кесишув",
+      "ru": "Пересечение со второстепенной дорогой"
+     },
+     "imageUrl": "/static/belgilar/2.3.1.png"
+    },
+    {
+     "code": "2.3.2",
+     "name": {
+      "uz": "– tutashuv o’ngdan",
+      "kaa": "– туташув ўнгдан",
+      "ru": "Примыкание второстепенной дороги справа"
+     },
+     "imageUrl": "/static/belgilar/2.3.2.png"
+    },
+    {
+     "code": "2.3.3",
+     "name": {
+      "uz": "– tutashuv chapdan",
+      "kaa": "– туташув чапдан",
+      "ru": "Примыкание второстепенной дороги слева"
+     },
+     "imageUrl": "/static/belgilar/2.3.3.png"
+    },
+    {
+     "code": "2.4",
+     "name": {
+      "uz": "Yo’l bering",
+      "kaa": "Йўл беринг",
+      "ru": "Уступите дорогу"
+     },
+     "imageUrl": "/static/belgilar/2.4.gif"
+    },
+    {
+     "code": "2.5",
+     "name": {
+      "uz": "To’xtamasdan harakatlanish taqiqlangan",
+      "kaa": "Тўхтамасдан ҳаракатланиш тақиқланган",
+      "ru": "Движение без остановки запрещено"
+     },
+     "imageUrl": "/static/belgilar/2.5.gif"
+    },
+    {
+     "code": "2.6",
+     "name": {
+      "uz": "Ro’para harakatlanishning ustunligi",
+      "kaa": "Рўпара ҳаракатланишнинг устунлиги",
+      "ru": "Преимущество встречного движения"
+     },
+     "imageUrl": "/static/belgilar/2.6.gif"
+    },
+    {
+     "code": "2.7",
+     "name": {
+      "uz": "Ro’paradagi harakatlanishga nisbatan imtiyoz",
+      "kaa": "Рўпарадаги ҳаракатланишга нисбатан имтиёз",
+      "ru": "Преимущество перед встречным движением"
+     },
+     "imageUrl": "/static/belgilar/2.7.gif"
+    }
+   ]
+  },
+  {
+   "code": "3",
+   "category": {
+    "uz": "Ta'qiqlovchi belgilar",
+    "kaa": "Таъқиқловчи белгилар",
+    "ru": "Запрещающие знаки"
+   },
+   "count": 35,
+   "signs": [
+    {
+     "code": "3.1",
+     "name": {
+      "uz": "Kirish ta'qiqlangan",
+      "kaa": "Кириш таъқиқланган",
+      "ru": "Въезд запрещён"
+     },
+     "imageUrl": "/static/belgilar/3.1.gif"
+    },
+    {
+     "code": "3.2",
+     "name": {
+      "uz": "Harakatlanish ta'qiqlangan",
+      "kaa": "Ҳаракатланиш таъқиқланган",
+      "ru": "Движение запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.2.gif"
+    },
+    {
+     "code": "3.3",
+     "name": {
+      "uz": "Mexanik transport vositalarining harakatlanishi taqiqlangan",
+      "kaa": "Механик транспорт воситаларининг ҳаракатланиши тақиқланган",
+      "ru": "Движение механических транспортных средств запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.3.gif"
+    },
+    {
+     "code": "3.4",
+     "name": {
+      "uz": "Yuk avtomobillarining harakatlanishi taqiqlangan",
+      "kaa": "Юк автомобилларининг ҳаракатланиши тақиқланган",
+      "ru": "Движение грузовых автомобилей запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.4.png"
+    },
+    {
+     "code": "3.5",
+     "name": {
+      "uz": "Mototsikllar harakatlanishi taqiqlangan",
+      "kaa": "Мотоцикллар ҳаракатланиши тақиқланган",
+      "ru": "Движение мотоциклов запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.5.gif"
+    },
+    {
+     "code": "3.6",
+     "name": {
+      "uz": "Traktorlar harakatlanishi taqiqlangan",
+      "kaa": "Тракторлар ҳаракатланиши тақиқланган",
+      "ru": "Движение тракторов запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.6.gif"
+    },
+    {
+     "code": "3.7",
+     "name": {
+      "uz": "Tirkama bilan harakatlanish taqiqlangan",
+      "kaa": "Тиркама билан ҳаракатланиш тақиқланган",
+      "ru": "Движение с прицепом запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.7.gif"
+    },
+    {
+     "code": "3.8",
+     "name": {
+      "uz": "Ot-arava harakatlanishi taqiqlangan",
+      "kaa": "От-арава ҳаракатланиши тақиқланган",
+      "ru": "Движение гужевых повозок запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.8.gif"
+    },
+    {
+     "code": "3.9",
+     "name": {
+      "uz": "Velosipedda harakatlanish ta'qiqlangan",
+      "kaa": "Велосипедда ҳаракатланиш таъқиқланган",
+      "ru": "Движение на велосипедах запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.9.gif"
+    },
+    {
+     "code": "3.10",
+     "name": {
+      "uz": "Piyodalarning harakatlanishi ta'qiqlangan",
+      "kaa": "Пиёдаларнинг ҳаракатланиши таъқиқланган",
+      "ru": "Движение пешеходов запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.10.png"
+    },
+    {
+     "code": "3.11",
+     "name": {
+      "uz": "Vazn cheklangan",
+      "kaa": "Вазн чекланган",
+      "ru": "Ограничение массы"
+     },
+     "imageUrl": "/static/belgilar/3.11.gif"
+    },
+    {
+     "code": "3.12",
+     "name": {
+      "uz": "O‘qqa tushadigan og‘irlik cheklangan",
+      "kaa": "Ўққа тушадиган оғирлик чекланган",
+      "ru": "Ограничение нагрузки на ось"
+     },
+     "imageUrl": "/static/belgilar/3.12.gif"
+    },
+    {
+     "code": "3.13",
+     "name": {
+      "uz": "Cheklangan balandlik",
+      "kaa": "Чекланган баландлик",
+      "ru": "Ограничение высоты"
+     },
+     "imageUrl": "/static/belgilar/3.13.gif"
+    },
+    {
+     "code": "3.14",
+     "name": {
+      "uz": "Cheklangan kenglik",
+      "kaa": "Чекланган кенглик",
+      "ru": "Ограничение ширины"
+     },
+     "imageUrl": "/static/belgilar/3.14.gif"
+    },
+    {
+     "code": "3.15",
+     "name": {
+      "uz": "Cheklangan uzunlik",
+      "kaa": "Чекланган узунлик",
+      "ru": "Ограничение длины"
+     },
+     "imageUrl": "/static/belgilar/3.15.gif"
+    },
+    {
+     "code": "3.16",
+     "name": {
+      "uz": "Eng kam oraliq",
+      "kaa": "Энг кам оралиқ",
+      "ru": "Ограничение минимальной дистанции"
+     },
+     "imageUrl": "/static/belgilar/3.16.gif"
+    },
+    {
+     "code": "3.17.1",
+     "name": {
+      "uz": "Bojxona",
+      "kaa": "Божхона",
+      "ru": "Таможня"
+     },
+     "imageUrl": "/static/belgilar/3.17.1.png"
+    },
+    {
+     "code": "3.17.2",
+     "name": {
+      "uz": "Xavf-xatar",
+      "kaa": "Хавф-хатар",
+      "ru": "Опасность"
+     },
+     "imageUrl": "/static/belgilar/3.17.2.png"
+    },
+    {
+     "code": "3.18.1",
+     "name": {
+      "uz": "O’ngga burilish ta'qiqlanadi",
+      "kaa": "Ўнгга бурилиш таъқиқланади",
+      "ru": "Поворот направо запрещён"
+     },
+     "imageUrl": "/static/belgilar/3.18.1.gif"
+    },
+    {
+     "code": "3.18.2",
+     "name": {
+      "uz": "Chapga burilish taqiqlanadi",
+      "kaa": "Чапга бурилиш тақиқланади",
+      "ru": "Поворот налево запрещён"
+     },
+     "imageUrl": "/static/belgilar/3.18.2.gif"
+    },
+    {
+     "code": "3.19",
+     "name": {
+      "uz": "Qayrilish ta'qiqlanadi",
+      "kaa": "Қайрилиш таъқиқланади",
+      "ru": "Разворот запрещён"
+     },
+     "imageUrl": "/static/belgilar/3.19.gif"
+    },
+    {
+     "code": "3.20",
+     "name": {
+      "uz": "Quvib o’tish taqiqlanadi",
+      "kaa": "Қувиб ўтиш тақиқланади",
+      "ru": "Обгон запрещён"
+     },
+     "imageUrl": "/static/belgilar/3.20.gif"
+    },
+    {
+     "code": "3.21",
+     "name": {
+      "uz": "Quvib o’tish ta'qiqlangan hududning oxiri",
+      "kaa": "Қувиб ўтиш таъқиқланган ҳудуднинг охири",
+      "ru": "Конец зоны запрещения обгона"
+     },
+     "imageUrl": "/static/belgilar/3.21.gif"
+    },
+    {
+     "code": "3.22",
+     "name": {
+      "uz": "Yuk avtomobillarida quvib o’tish taqiqlangan",
+      "kaa": "Юк автомобилларида қувиб ўтиш тақиқланган",
+      "ru": "Обгон грузовым автомобилям запрещён"
+     },
+     "imageUrl": "/static/belgilar/3.22.gif"
+    },
+    {
+     "code": "3.23",
+     "name": {
+      "uz": "Yuk avtommobillarida quvib o’tish taqiqlangan hududning oxiri",
+      "kaa": "Юк автоммобилларида қувиб ўтиш тақиқланган ҳудуднинг охири",
+      "ru": "Конец зоны запрещения обгона грузовым автомобилям"
+     },
+     "imageUrl": "/static/belgilar/3.23.gif"
+    },
+    {
+     "code": "3.24",
+     "name": {
+      "uz": "Yuqori tezlik cheklangan",
+      "kaa": "Юқори тезлик чекланган",
+      "ru": "Ограничение максимальной скорости"
+     },
+     "imageUrl": "/static/belgilar/3.24.gif"
+    },
+    {
+     "code": "3.25",
+     "name": {
+      "uz": "Yuqori tezlik cheklangan hududning oxiri",
+      "kaa": "Юқори тезлик чекланган ҳудуднинг охири",
+      "ru": "Конец зоны ограничения максимальной скорости"
+     },
+     "imageUrl": "/static/belgilar/3.25.gif"
+    },
+    {
+     "code": "3.26",
+     "name": {
+      "uz": "Tovuch moslamalaridan foydalanish ta'qiqlangan",
+      "kaa": "Товуч мосламаларидан фойдаланиш таъқиқланган",
+      "ru": "Подача звукового сигнала запрещена"
+     },
+     "imageUrl": "/static/belgilar/3.26.gif"
+    },
+    {
+     "code": "3.27",
+     "name": {
+      "uz": "To’xtash taqiqlangan",
+      "kaa": "Тўхташ тақиқланган",
+      "ru": "Остановка запрещена"
+     },
+     "imageUrl": "/static/belgilar/3.27.gif"
+    },
+    {
+     "code": "3.28",
+     "name": {
+      "uz": "To’xtab turish ta'qiqlangan",
+      "kaa": "Тўхтаб туриш таъқиқланган",
+      "ru": "Стоянка запрещена"
+     },
+     "imageUrl": "/static/belgilar/3.28.gif"
+    },
+    {
+     "code": "3.29",
+     "name": {
+      "uz": "Oyning toq kunlarida to’xtab turish taqiqlanadi",
+      "kaa": "Ойнинг тоқ кунларида тўхтаб туриш тақиқланади",
+      "ru": "Стоянка запрещена по нечётным числам месяца"
+     },
+     "imageUrl": "/static/belgilar/3.29.gif"
+    },
+    {
+     "code": "3.30",
+     "name": {
+      "uz": "Oyning juft kunlarida to’xtab turish taqiqlanadi",
+      "kaa": "Ойнинг жуфт кунларида тўхтаб туриш тақиқланади",
+      "ru": "Стоянка запрещена по чётным числам месяца"
+     },
+     "imageUrl": "/static/belgilar/3.30.gif"
+    },
+    {
+     "code": "3.31",
+     "name": {
+      "uz": "Barcha cheklovlarning oxiri",
+      "kaa": "Барча чекловларнинг охири",
+      "ru": "Конец всех ограничений"
+     },
+     "imageUrl": "/static/belgilar/3.31.gif"
+    },
+    {
+     "code": "3.32",
+     "name": {
+      "uz": "Xavfli yuklarga ega transport vositalarining harakati ta'qiqlanadi",
+      "kaa": "Хавфли юкларга эга транспорт воситаларининг ҳаракати таъқиқланади",
+      "ru": "Движение транспортных средств с опасными грузами запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.32.gif"
+    },
+    {
+     "code": "3.33",
+     "name": {
+      "uz": "Portlovchi va yonuvchan yuklarga ega transport vositalarining harakatlanishi ta'qiqlanadi",
+      "kaa": "Портловчи ва ёнувчан юкларга эга транспорт воситаларининг ҳаракатланиши таъқиқланади",
+      "ru": "Движение транспортных средств с взрывчатыми и легковоспламеняющимися грузами запрещено"
+     },
+     "imageUrl": "/static/belgilar/3.33.gif"
+    }
+   ]
+  },
+  {
+   "code": "4",
+   "category": {
+    "uz": "Buyuruvchi belgilar",
+    "kaa": "Буюрувчи белгилар",
+    "ru": "Предписывающие знаки"
+   },
+   "count": 25,
+   "signs": [
+    {
+     "code": "4.1.1",
+     "name": {
+      "uz": "Harakatlanish to’g’riga",
+      "kaa": "Ҳаракатланиш тўғрига",
+      "ru": "Движение прямо"
+     },
+     "imageUrl": "/static/belgilar/4.1.1.gif"
+    },
+    {
+     "code": "4.1.2",
+     "name": {
+      "uz": "Harakatlanish o’ngga",
+      "kaa": "Ҳаракатланиш ўнгга",
+      "ru": "Движение направо"
+     },
+     "imageUrl": "/static/belgilar/4.1.2.gif"
+    },
+    {
+     "code": "4.1.3",
+     "name": {
+      "uz": "Harakatlanish chapga",
+      "kaa": "Ҳаракатланиш чапга",
+      "ru": "Движение налево"
+     },
+     "imageUrl": "/static/belgilar/4.1.3.gif"
+    },
+    {
+     "code": "4.1.4",
+     "name": {
+      "uz": "Harakatlanish to’g’riga yoki o’ngga",
+      "kaa": "Ҳаракатланиш тўғрига ёки ўнгга",
+      "ru": "Движение прямо или направо"
+     },
+     "imageUrl": "/static/belgilar/4.1.4.gif"
+    },
+    {
+     "code": "4.1.5",
+     "name": {
+      "uz": "Harakatlanish to’g’riga yoki chapga",
+      "kaa": "Ҳаракатланиш тўғрига ёки чапга",
+      "ru": "Движение прямо или налево"
+     },
+     "imageUrl": "/static/belgilar/4.1.5.gif"
+    },
+    {
+     "code": "4.1.6",
+     "name": {
+      "uz": "Harakatlanish o’ngga yoki chapga",
+      "kaa": "Ҳаракатланиш ўнгга ёки чапга",
+      "ru": "Движение направо или налево"
+     },
+     "imageUrl": "/static/belgilar/4.1.6.gif"
+    },
+    {
+     "code": "4.2.1",
+     "name": {
+      "uz": "To’siqni o’ngdan chetlab o’tish",
+      "kaa": "Тўсиқни ўнгдан четлаб ўтиш",
+      "ru": "Объезд препятствия справа"
+     },
+     "imageUrl": "/static/belgilar/4.2.1.gif"
+    },
+    {
+     "code": "4.2.2",
+     "name": {
+      "uz": "To’siqni chapdan chetlab o’tish",
+      "kaa": "Тўсиқни чапдан четлаб ўтиш",
+      "ru": "Объезд препятствия слева"
+     },
+     "imageUrl": "/static/belgilar/4.2.2.gif"
+    },
+    {
+     "code": "4.2.3",
+     "name": {
+      "uz": "To’siqni o’ngdan yoki chapdan chetlab o’tish",
+      "kaa": "Тўсиқни ўнгдан ёки чапдан четлаб ўтиш",
+      "ru": "Объезд препятствия справа или слева"
+     },
+     "imageUrl": "/static/belgilar/4.2.3.gif"
+    },
+    {
+     "code": "4.3",
+     "name": {
+      "uz": "Aylanma harakatlanish",
+      "kaa": "Айланма ҳаракатланиш",
+      "ru": "Круговое движение"
+     },
+     "imageUrl": "/static/belgilar/4.3.gif"
+    },
+    {
+     "code": "4.4",
+     "name": {
+      "uz": "Yengil avtomobillar harakatlanadi",
+      "kaa": "Енгил автомобиллар ҳаракатланади",
+      "ru": "Движение легковых автомобилей"
+     },
+     "imageUrl": "/static/belgilar/4.4.gif"
+    },
+    {
+     "code": "4.5",
+     "name": {
+      "uz": "Velosiped yo’lkasi",
+      "kaa": "Велосипед йўлкаси",
+      "ru": "Велосипедная дорожка"
+     },
+     "imageUrl": "/static/belgilar/4.5.gif"
+    },
+    {
+     "code": "4.6",
+     "name": {
+      "uz": "Piyodalar yo’lkasi",
+      "kaa": "Пиёдалар йўлкаси",
+      "ru": "Пешеходная дорожка"
+     },
+     "imageUrl": "/static/belgilar/4.6.gif"
+    },
+    {
+     "code": "4.6.1",
+     "name": {
+      "uz": "Piyoda va velosipedlar birgalikda harakatlanish yo'li",
+      "kaa": "Пиёда ва велосипедлар биргаликда ҳаракатланиш йўли",
+      "ru": "Пешеходная и велосипедная дорожка с совмещённым движением"
+     },
+     "imageUrl": "/static/belgilar/4.6.1.jpg"
+    },
+    {
+     "code": "4.6.2",
+     "name": {
+      "uz": "Piyoda va velosipedlar birgalikda harakatlanish yo'li oxiri",
+      "kaa": "Пиёда ва велосипедлар биргаликда ҳаракатланиш йўли охири",
+      "ru": "Конец пешеходной и велосипедной дорожки с совмещённым движением"
+     },
+     "imageUrl": "/static/belgilar/4.6.2.jpg"
+    },
+    {
+     "code": "4.6.3",
+     "name": {
+      "uz": "Ajratilgan piyoda va velosiped harakatlanish yo'li",
+      "kaa": "Ажратилган пиёда ва велосипед ҳаракатланиш йўли",
+      "ru": "Пешеходная и велосипедная дорожка с разделённым движением"
+     },
+     "imageUrl": "/static/belgilar/4.6.3.jpg"
+    },
+    {
+     "code": "4.6.4",
+     "name": {
+      "uz": "Ajratilgan piyoda va velosiped harakatlanish yo'li oxiri",
+      "kaa": "Ажратилган пиёда ва велосипед ҳаракатланиш йўли охири",
+      "ru": "Конец пешеходной и велосипедной дорожки с разделённым движением"
+     },
+     "imageUrl": "/static/belgilar/4.6.4.jpg"
+    },
+    {
+     "code": "4.6.5",
+     "name": {
+      "uz": "Ajratilgan piyoda va velosiped harakatlanish yo'li",
+      "kaa": "Ажратилган пиёда ва велосипед ҳаракатланиш йўли",
+      "ru": "Пешеходная и велосипедная дорожка с разделённым движением"
+     },
+     "imageUrl": "/static/belgilar/4.6.5.jpg"
+    },
+    {
+     "code": "4.6.6",
+     "name": {
+      "uz": "Ajratilgan piyoda va velosiped harakatlanish yo'li oxiri",
+      "kaa": "Ажратилган пиёда ва велосипед ҳаракатланиш йўли охири",
+      "ru": "Конец пешеходной и велосипедной дорожки с разделённым движением"
+     },
+     "imageUrl": "/static/belgilar/4.6.6.jpg"
+    },
+    {
+     "code": "4.7",
+     "name": {
+      "uz": "Eng kam tezlik",
+      "kaa": "Энг кам тезлик",
+      "ru": "Ограничение минимальной скорости"
+     },
+     "imageUrl": "/static/belgilar/4.7.gif"
+    },
+    {
+     "code": "4.8",
+     "name": {
+      "uz": "Eng kam tezlik belgilangan yo’lning oxiri",
+      "kaa": "Энг кам тезлик белгиланган йўлнинг охири",
+      "ru": "Конец зоны ограничения минимальной скорости"
+     },
+     "imageUrl": "/static/belgilar/4.8.gif"
+    },
+    {
+     "code": "4.9.1",
+     "name": {
+      "uz": "Transport vositalarining xavfli yuklar bilan harakatlanish yo'nalishi",
+      "kaa": "Транспорт воситаларининг хавфли юклар билан ҳаракатланиш йўналиши",
+      "ru": "Направление движения транспортных средств с опасными грузами"
+     },
+     "imageUrl": "/static/belgilar/4.9.1.gif"
+    },
+    {
+     "code": "4.9.2",
+     "name": {
+      "uz": "Transport vositalarining xavfli yuklar bilan harakatlanish yo'nalishi",
+      "kaa": "Транспорт воситаларининг хавфли юклар билан ҳаракатланиш йўналиши",
+      "ru": "Направление движения транспортных средств с опасными грузами"
+     },
+     "imageUrl": "/static/belgilar/4.9.2.gif"
+    },
+    {
+     "code": "4.9.3",
+     "name": {
+      "uz": "Transport vositalarining xavfli yuklar bilan harakatlanish yo'nalishi",
+      "kaa": "Транспорт воситаларининг хавфли юклар билан ҳаракатланиш йўналиши",
+      "ru": "Направление движения транспортных средств с опасными грузами"
+     },
+     "imageUrl": "/static/belgilar/4.9.3.gif"
+    },
+    {
+     "code": "4.10",
+     "name": {
+      "uz": "Otda yurish yo'li",
+      "kaa": "Отда юриш йўли",
+      "ru": "Дорога для верховой езды"
+     },
+     "imageUrl": "/static/belgilar/4.10.gif"
+    }
+   ]
+  },
+  {
+   "code": "5",
+   "category": {
+    "uz": "Axborot-ishora belgilari",
+    "kaa": "Ахборот-ишора белгилари",
+    "ru": "Информационно-указательные знаки"
+   },
+   "count": 82,
+   "signs": [
+    {
+     "code": "5.1",
+     "name": {
+      "uz": "Avtomagistral",
+      "kaa": "Автомагистрал",
+      "ru": "Автомагистраль"
+     },
+     "imageUrl": "/static/belgilar/5.1.gif"
+    },
+    {
+     "code": "5.2",
+     "name": {
+      "uz": "Avtomagistralning oxiri",
+      "kaa": "Автомагистралнинг охири",
+      "ru": "Конец автомагистрали"
+     },
+     "imageUrl": "/static/belgilar/5.2.gif"
+    },
+    {
+     "code": "5.3",
+     "name": {
+      "uz": "Avtomobillar uchun mo’ljallangan yo’l",
+      "kaa": "Автомобиллар учун мўлжалланган йўл",
+      "ru": "Дорога для автомобилей"
+     },
+     "imageUrl": "/static/belgilar/5.3.gif"
+    },
+    {
+     "code": "5.4",
+     "name": {
+      "uz": "Avtomobillar uchun mo’ljallangan yo’lning oxiri",
+      "kaa": "Автомобиллар учун мўлжалланган йўлнинг охири",
+      "ru": "Конец дороги для автомобилей"
+     },
+     "imageUrl": "/static/belgilar/5.4.gif"
+    },
+    {
+     "code": "5.5",
+     "name": {
+      "uz": "Bir tomonlama harakatlanish yo’li",
+      "kaa": "Бир томонлама ҳаракатланиш йўли",
+      "ru": "Дорога с односторонним движением"
+     },
+     "imageUrl": "/static/belgilar/5.5.gif"
+    },
+    {
+     "code": "5.6",
+     "name": {
+      "uz": "Bir tomonlama harakatlanish yo’lining oxiri",
+      "kaa": "Бир томонлама ҳаракатланиш йўлининг охири",
+      "ru": "Конец дороги с односторонним движением"
+     },
+     "imageUrl": "/static/belgilar/5.6.gif"
+    },
+    {
+     "code": "5.7.1",
+     "name": {
+      "uz": "Bir tomonlama harakatlanish yo’liga chiqish",
+      "kaa": "Бир томонлама ҳаракатланиш йўлига чиқиш",
+      "ru": "Выезд на дорогу с односторонним движением"
+     },
+     "imageUrl": "/static/belgilar/5.7.1.gif"
+    },
+    {
+     "code": "5.7.2",
+     "name": {
+      "uz": "Bir tomonlama harakatlanish yo’liga chiqish",
+      "kaa": "Бир томонлама ҳаракатланиш йўлига чиқиш",
+      "ru": "Выезд на дорогу с односторонним движением"
+     },
+     "imageUrl": "/static/belgilar/5.7.2.gif"
+    },
+    {
+     "code": "5.8.1",
+     "name": {
+      "uz": "Bo’laklar bo’yicha harakatlanish yo’nalishi",
+      "kaa": "Бўлаклар бўйича ҳаракатланиш йўналиши",
+      "ru": "Направление движения по полосам"
+     },
+     "imageUrl": "/static/belgilar/5.8.1.gif"
+    },
+    {
+     "code": "5.8.2",
+     "name": {
+      "uz": "Bo’lak bo’yicha harakatlanish yo’nalishi",
+      "kaa": "Бўлак бўйича ҳаракатланиш йўналиши",
+      "ru": "Направление движения по полосе"
+     },
+     "imageUrl": "/static/belgilar/5.8.2.png"
+    },
+    {
+     "code": "5.8.2",
+     "name": {
+      "uz": "Bo’lak bo’yicha harakatlanish yo’nalishi",
+      "kaa": "Бўлак бўйича ҳаракатланиш йўналиши",
+      "ru": "Направление движения по полосе"
+     },
+     "imageUrl": "/static/belgilar/5.8.2_1.png"
+    },
+    {
+     "code": "5.8.2",
+     "name": {
+      "uz": "Bo’lak bo’yicha harakatlanish yo’nalishi",
+      "kaa": "Бўлак бўйича ҳаракатланиш йўналиши",
+      "ru": "Направление движения по полосе"
+     },
+     "imageUrl": "/static/belgilar/5.8.2_2.png"
+    },
+    {
+     "code": "5.8.2",
+     "name": {
+      "uz": "Bo’lak bo’yicha harakatlanish yo’nalishi",
+      "kaa": "Бўлак бўйича ҳаракатланиш йўналиши",
+      "ru": "Направление движения по полосе"
+     },
+     "imageUrl": "/static/belgilar/5.8.2_3.png"
+    },
+    {
+     "code": "5.8.3",
+     "name": {
+      "uz": "Bo’lakning boshlanishi",
+      "kaa": "Бўлакнинг бошланиши",
+      "ru": "Начало полосы"
+     },
+     "imageUrl": "/static/belgilar/5.8.3.gif"
+    },
+    {
+     "code": "5.8.3",
+     "name": {
+      "uz": "Bo’lakning boshlanishi",
+      "kaa": "Бўлакнинг бошланиши",
+      "ru": "Начало полосы"
+     },
+     "imageUrl": "/static/belgilar/5.8.3_1.gif"
+    },
+    {
+     "code": "5.8.4",
+     "name": {
+      "uz": "Bo’lakning boshlanishi",
+      "kaa": "Бўлакнинг бошланиши",
+      "ru": "Начало полосы"
+     },
+     "imageUrl": "/static/belgilar/5.8.4.gif"
+    },
+    {
+     "code": "5.8.5",
+     "name": {
+      "uz": "Bo’lak oxiri",
+      "kaa": "Бўлак охири",
+      "ru": "Конец полосы"
+     },
+     "imageUrl": "/static/belgilar/5.8.5.gif"
+    },
+    {
+     "code": "5.8.5",
+     "name": {
+      "uz": "Bo’lak oxiri",
+      "kaa": "Бўлак охири",
+      "ru": "Конец полосы"
+     },
+     "imageUrl": "/static/belgilar/5.8.5_1.gif"
+    },
+    {
+     "code": "5.8.7",
+     "name": {
+      "uz": "Bo’laklar bo’yicha harakatlanish yo’nalishi",
+      "kaa": "Бўлаклар бўйича ҳаракатланиш йўналиши",
+      "ru": "Направление движения по полосам"
+     },
+     "imageUrl": "/static/belgilar/5.8.7.gif"
+    },
+    {
+     "code": "5.8.7",
+     "name": {
+      "uz": "Bo’laklar bo’yicha harakatlanish yo’nalishi",
+      "kaa": "Бўлаклар бўйича ҳаракатланиш йўналиши",
+      "ru": "Направление движения по полосам"
+     },
+     "imageUrl": "/static/belgilar/5.8.7_1.gif"
+    },
+    {
+     "code": "5.8.8",
+     "name": {
+      "uz": "Bo’laklar bo’yicha harakatlanish yo’nalishi",
+      "kaa": "Бўлаклар бўйича ҳаракатланиш йўналиши",
+      "ru": "Направление движения по полосам"
+     },
+     "imageUrl": "/static/belgilar/5.8.8.gif"
+    },
+    {
+     "code": "5.8.9",
+     "name": {
+      "uz": "Bo’laklar soni",
+      "kaa": "Бўлаклар сони",
+      "ru": "Число полос"
+     },
+     "imageUrl": "/static/belgilar/5.8.9.png"
+    },
+    {
+     "code": "5.9",
+     "name": {
+      "uz": "Belgilangan yo’nalishli transport vositalari uchun mo’ljallangan bo’lak",
+      "kaa": "Белгиланган йўналишли транспорт воситалари учун мўлжалланган бўлак",
+      "ru": "Полоса для маршрутных транспортных средств"
+     },
+     "imageUrl": "/static/belgilar/5.9.gif"
+    },
+    {
+     "code": "5.10.1",
+     "name": {
+      "uz": "Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’l",
+      "kaa": "Белгиланган йўналишли транспорт воситалари учун бўлаги бор йўл",
+      "ru": "Дорога с полосой для маршрутных транспортных средств"
+     },
+     "imageUrl": "/static/belgilar/5.10.1.gif"
+    },
+    {
+     "code": "5.10.2",
+     "name": {
+      "uz": "Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’l",
+      "kaa": "Белгиланган йўналишли транспорт воситалари учун бўлаги бор йўл",
+      "ru": "Дорога с полосой для маршрутных транспортных средств"
+     },
+     "imageUrl": "/static/belgilar/5.10.2.gif"
+    },
+    {
+     "code": "5.10.3",
+     "name": {
+      "uz": "Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’l",
+      "kaa": "Белгиланган йўналишли транспорт воситалари учун бўлаги бор йўл",
+      "ru": "Дорога с полосой для маршрутных транспортных средств"
+     },
+     "imageUrl": "/static/belgilar/5.10.3.gif"
+    },
+    {
+     "code": "5.10.4",
+     "name": {
+      "uz": "Belgilangan yo’nalishli transport vositalari uchun bo’lagi bor yo’lning oxiri",
+      "kaa": "Белгиланган йўналишли транспорт воситалари учун бўлаги бор йўлнинг охири",
+      "ru": "Конец дороги с полосой для маршрутных транспортных средств"
+     },
+     "imageUrl": "/static/belgilar/5.10.4.gif"
+    },
+    {
+     "code": "5.11.1",
+     "name": {
+      "uz": "Qayirilish joyi",
+      "kaa": "Қайирилиш жойи",
+      "ru": "Место для разворота"
+     },
+     "imageUrl": "/static/belgilar/5.11.1.gif"
+    },
+    {
+     "code": "5.11.2",
+     "name": {
+      "uz": "Qayirilish oralig’i",
+      "kaa": "Қайирилиш оралиғи",
+      "ru": "Зона для разворота"
+     },
+     "imageUrl": "/static/belgilar/5.11.2.gif"
+    },
+    {
+     "code": "5.12",
+     "name": {
+      "uz": "Avtobus va trolleybus to’xtash joyi",
+      "kaa": "Автобус ва троллейбус тўхташ жойи",
+      "ru": "Место остановки автобуса и (или) троллейбуса"
+     },
+     "imageUrl": "/static/belgilar/5.12.gif"
+    },
+    {
+     "code": "5.13",
+     "name": {
+      "uz": "Tramvay to’xtash joyi",
+      "kaa": "Трамвай тўхташ жойи",
+      "ru": "Место остановки трамвая"
+     },
+     "imageUrl": "/static/belgilar/5.13.gif"
+    },
+    {
+     "code": "5.14",
+     "name": {
+      "uz": "Taksi to’xtab turish joyi",
+      "kaa": "Такси тўхтаб туриш жойи",
+      "ru": "Место стоянки такси"
+     },
+     "imageUrl": "/static/belgilar/5.14.gif"
+    },
+    {
+     "code": "5.15",
+     "name": {
+      "uz": "To’xtab turish joyi",
+      "kaa": "Тўхтаб туриш жойи",
+      "ru": "Место стоянки"
+     },
+     "imageUrl": "/static/belgilar/5.15.gif"
+    },
+    {
+     "code": "5.16.1",
+     "name": {
+      "uz": "Piyodalar o’tish joyi",
+      "kaa": "Пиёдалар ўтиш жойи",
+      "ru": "Пешеходный переход"
+     },
+     "imageUrl": "/static/belgilar/5.16.1.gif"
+    },
+    {
+     "code": "5.16.2",
+     "name": {
+      "uz": "Piyodalar o’tish joyi",
+      "kaa": "Пиёдалар ўтиш жойи",
+      "ru": "Пешеходный переход"
+     },
+     "imageUrl": "/static/belgilar/5.16.2.gif"
+    },
+    {
+     "code": "5.17.1",
+     "name": {
+      "uz": "Piyodalarning yer ostidan o’tish joyi",
+      "kaa": "Пиёдаларнинг ер остидан ўтиш жойи",
+      "ru": "Подземный пешеходный переход"
+     },
+     "imageUrl": "/static/belgilar/5.17.1.gif"
+    },
+    {
+     "code": "5.17.2",
+     "name": {
+      "uz": "Piyodalarning yer ostidan o’tish joyi",
+      "kaa": "Пиёдаларнинг ер остидан ўтиш жойи",
+      "ru": "Подземный пешеходный переход"
+     },
+     "imageUrl": "/static/belgilar/5.17.2.gif"
+    },
+    {
+     "code": "5.17.3",
+     "name": {
+      "uz": "Piyodalarning yer ustidan o’tish joyi",
+      "kaa": "Пиёдаларнинг ер устидан ўтиш жойи",
+      "ru": "Надземный пешеходный переход"
+     },
+     "imageUrl": "/static/belgilar/5.17.3.gif"
+    },
+    {
+     "code": "5.17.4",
+     "name": {
+      "uz": "Piyodalarning yer ustidan o’tish joyi",
+      "kaa": "Пиёдаларнинг ер устидан ўтиш жойи",
+      "ru": "Надземный пешеходный переход"
+     },
+     "imageUrl": "/static/belgilar/5.17.4.gif"
+    },
+    {
+     "code": "5.18",
+     "name": {
+      "uz": "Tavsiya etilgan tezlik",
+      "kaa": "Тавсия этилган тезлик",
+      "ru": "Рекомендуемая скорость"
+     },
+     "imageUrl": "/static/belgilar/5.18.gif"
+    },
+    {
+     "code": "5.19.1",
+     "name": {
+      "uz": "Oxiri berk yo’l, ko’cha",
+      "kaa": "Охири берк йўл, кўча",
+      "ru": "Тупик"
+     },
+     "imageUrl": "/static/belgilar/5.19.1.gif"
+    },
+    {
+     "code": "5.19.2",
+     "name": {
+      "uz": "Oxiri berk yo’l, ko’cha",
+      "kaa": "Охири берк йўл, кўча",
+      "ru": "Тупик"
+     },
+     "imageUrl": "/static/belgilar/5.19.2.gif"
+    },
+    {
+     "code": "5.19.3",
+     "name": {
+      "uz": "Oxiri berk yo’l, ko’cha",
+      "kaa": "Охири берк йўл, кўча",
+      "ru": "Тупик"
+     },
+     "imageUrl": "/static/belgilar/5.19.3.gif"
+    },
+    {
+     "code": "5.20.1",
+     "name": {
+      "uz": "Yo’nalishlarning dastlabki ko’rsatkichi",
+      "kaa": "Йўналишларнинг дастлабки кўрсаткичи",
+      "ru": "Предварительный указатель направлений"
+     },
+     "imageUrl": "/static/belgilar/5.20.1.jpg"
+    },
+    {
+     "code": "5.20.1",
+     "name": {
+      "uz": "Yo’nalishlarning dastlabki ko’rsatkichi",
+      "kaa": "Йўналишларнинг дастлабки кўрсаткичи",
+      "ru": "Предварительный указатель направлений"
+     },
+     "imageUrl": "/static/belgilar/5.20.1_1.jpg"
+    },
+    {
+     "code": "5.20.1",
+     "name": {
+      "uz": "Yo’nalishlarning dastlabki ko’rsatkichi",
+      "kaa": "Йўналишларнинг дастлабки кўрсаткичи",
+      "ru": "Предварительный указатель направлений"
+     },
+     "imageUrl": "/static/belgilar/5.20.1_2.jpg"
+    },
+    {
+     "code": "5.20.2",
+     "name": {
+      "uz": "Yo’nalishlarning dastlabki ko’rsatkichi",
+      "kaa": "Йўналишларнинг дастлабки кўрсаткичи",
+      "ru": "Предварительный указатель направлений"
+     },
+     "imageUrl": "/static/belgilar/5.20.2.jpg"
+    },
+    {
+     "code": "5.20.3",
+     "name": {
+      "uz": "Harakatlanish tasviri",
+      "kaa": "Ҳаракатланиш тасвири",
+      "ru": "Схема движения"
+     },
+     "imageUrl": "/static/belgilar/5.20.3.gif"
+    },
+    {
+     "code": "5.21.1",
+     "name": {
+      "uz": "Yo’nalish ko’rsatkichi",
+      "kaa": "Йўналиш кўрсаткичи",
+      "ru": "Указатель направления"
+     },
+     "imageUrl": "/static/belgilar/5.21.1.jpg"
+    },
+    {
+     "code": "5.21.2",
+     "name": {
+      "uz": "Yo’nalishlar ko’rsatkichi",
+      "kaa": "Йўналишлар кўрсаткичи",
+      "ru": "Указатель направлений"
+     },
+     "imageUrl": "/static/belgilar/5.21.2.jpg"
+    },
+    {
+     "code": "5.22",
+     "name": {
+      "uz": "Aholi yashaydigan joyning boshlanishi",
+      "kaa": "Аҳоли яшайдиган жойнинг бошланиши",
+      "ru": "Начало населённого пункта"
+     },
+     "imageUrl": "/static/belgilar/5.22.jpg"
+    },
+    {
+     "code": "5.23",
+     "name": {
+      "uz": "Aholi yashaydigan joyning oxiri",
+      "kaa": "Аҳоли яшайдиган жойнинг охири",
+      "ru": "Конец населённого пункта"
+     },
+     "imageUrl": "/static/belgilar/5.23.jpg"
+    },
+    {
+     "code": "5.24",
+     "name": {
+      "uz": "Aholi yashaydigan joyning boshlanishi",
+      "kaa": "Аҳоли яшайдиган жойнинг бошланиши",
+      "ru": "Начало населённого пункта"
+     },
+     "imageUrl": "/static/belgilar/5.24.jpg"
+    },
+    {
+     "code": "5.25",
+     "name": {
+      "uz": "Aholi yashaydigan joyning oxiri",
+      "kaa": "Аҳоли яшайдиган жойнинг охири",
+      "ru": "Конец населённого пункта"
+     },
+     "imageUrl": "/static/belgilar/5.25.jpg"
+    },
+    {
+     "code": "5.26",
+     "name": {
+      "uz": "Manzil nomi",
+      "kaa": "Манзил номи",
+      "ru": "Наименование объекта"
+     },
+     "imageUrl": "/static/belgilar/5.26.jpg"
+    },
+    {
+     "code": "5.27",
+     "name": {
+      "uz": "Masofalar ko’rsatkichi",
+      "kaa": "Масофалар кўрсаткичи",
+      "ru": "Указатель расстояний"
+     },
+     "imageUrl": "/static/belgilar/5.27.jpg"
+    },
+    {
+     "code": "5.28",
+     "name": {
+      "uz": "Kilometr belgisi",
+      "kaa": "Километр белгиси",
+      "ru": "Километровый знак"
+     },
+     "imageUrl": "/static/belgilar/5.28.png"
+    },
+    {
+     "code": "5.29.1",
+     "name": {
+      "uz": "Yo’l raqami",
+      "kaa": "Йўл рақами",
+      "ru": "Номер дороги"
+     },
+     "imageUrl": "/static/belgilar/5.29.1.jpg"
+    },
+    {
+     "code": "5.29.2",
+     "name": {
+      "uz": "Yo’l raqami",
+      "kaa": "Йўл рақами",
+      "ru": "Номер дороги"
+     },
+     "imageUrl": "/static/belgilar/5.29.2.png"
+    },
+    {
+     "code": "5.29.2",
+     "name": {
+      "uz": "Yo’l raqami",
+      "kaa": "Йўл рақами",
+      "ru": "Номер дороги"
+     },
+     "imageUrl": "/static/belgilar/5.29.2_1.png"
+    },
+    {
+     "code": "5.29.2",
+     "name": {
+      "uz": "Yo’l raqami",
+      "kaa": "Йўл рақами",
+      "ru": "Номер дороги"
+     },
+     "imageUrl": "/static/belgilar/5.29.2_2.png"
+    },
+    {
+     "code": "5.30.1",
+     "name": {
+      "uz": "Yuk avtomobillari uchun harakatlanish yo’nalishi",
+      "kaa": "Юк автомобиллари учун ҳаракатланиш йўналиши",
+      "ru": "Направление движения для грузовых автомобилей"
+     },
+     "imageUrl": "/static/belgilar/5.30.1.gif"
+    },
+    {
+     "code": "5.30.2",
+     "name": {
+      "uz": "Yuk avtomobillari uchun harakatlanish yo’nalishi",
+      "kaa": "Юк автомобиллари учун ҳаракатланиш йўналиши",
+      "ru": "Направление движения для грузовых автомобилей"
+     },
+     "imageUrl": "/static/belgilar/5.30.2.gif"
+    },
+    {
+     "code": "5.30.3",
+     "name": {
+      "uz": "Yuk avtomobillari uchun harakatlanish yo’nalishi",
+      "kaa": "Юк автомобиллари учун ҳаракатланиш йўналиши",
+      "ru": "Направление движения для грузовых автомобилей"
+     },
+     "imageUrl": "/static/belgilar/5.30.3.gif"
+    },
+    {
+     "code": "5.31",
+     "name": {
+      "uz": "Aylanib o’tish tasviri",
+      "kaa": "Айланиб ўтиш тасвири",
+      "ru": "Схема объезда"
+     },
+     "imageUrl": "/static/belgilar/5.31.jpg"
+    },
+    {
+     "code": "5.32.1",
+     "name": {
+      "uz": "Chetlab o’tish yo’nalishi",
+      "kaa": "Четлаб ўтиш йўналиши",
+      "ru": "Направление объезда"
+     },
+     "imageUrl": "/static/belgilar/5.32.1.jpg"
+    },
+    {
+     "code": "5.32.2",
+     "name": {
+      "uz": "Chetlab o’tish yo’nalishi",
+      "kaa": "Четлаб ўтиш йўналиши",
+      "ru": "Направление объезда"
+     },
+     "imageUrl": "/static/belgilar/5.32.2.jpg"
+    },
+    {
+     "code": "5.32.3",
+     "name": {
+      "uz": "Chetlab o’tish yo’nalishi",
+      "kaa": "Четлаб ўтиш йўналиши",
+      "ru": "Направление объезда"
+     },
+     "imageUrl": "/static/belgilar/5.32.3.jpg"
+    },
+    {
+     "code": "5.33",
+     "name": {
+      "uz": "To’xtash",
+      "kaa": "Тўхташ",
+      "ru": "Стоп"
+     },
+     "imageUrl": "/static/belgilar/5.33.png"
+    },
+    {
+     "code": "5.34.1",
+     "name": {
+      "uz": "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
+      "kaa": "Бошқа қатнов қисмига қайта тизилишнинг бошланғич кўрсаткичи",
+      "ru": "Начальный указатель перестроения на другую проезжую часть"
+     },
+     "imageUrl": "/static/belgilar/5.34.1.gif"
+    },
+    {
+     "code": "5.34.2",
+     "name": {
+      "uz": "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
+      "kaa": "Бошқа қатнов қисмига қайта тизилишнинг бошланғич кўрсаткичи",
+      "ru": "Начальный указатель перестроения на другую проезжую часть"
+     },
+     "imageUrl": "/static/belgilar/5.34.2.gif"
+    },
+    {
+     "code": "5.35",
+     "name": {
+      "uz": "Reversiv harakatlanish",
+      "kaa": "Реверсив ҳаракатланиш",
+      "ru": "Реверсивное движение"
+     },
+     "imageUrl": "/static/belgilar/5.35.gif"
+    },
+    {
+     "code": "5.36",
+     "name": {
+      "uz": "Reversiv harakatlanish oxiri",
+      "kaa": "Реверсив ҳаракатланиш охири",
+      "ru": "Конец реверсивного движения"
+     },
+     "imageUrl": "/static/belgilar/5.36.gif"
+    },
+    {
+     "code": "5.37",
+     "name": {
+      "uz": "Reversiv harakatlanish yo’liga chiqish",
+      "kaa": "Реверсив ҳаракатланиш йўлига чиқиш",
+      "ru": "Выезд на дорогу с реверсивным движением"
+     },
+     "imageUrl": "/static/belgilar/5.37.gif"
+    },
+    {
+     "code": "5.38",
+     "name": {
+      "uz": "Turar-joy dahasi",
+      "kaa": "Турар-жой даҳаси",
+      "ru": "Жилая зона"
+     },
+     "imageUrl": "/static/belgilar/5.38.gif"
+    },
+    {
+     "code": "5.39",
+     "name": {
+      "uz": "Turar-joy dahasining oxiri",
+      "kaa": "Турар-жой даҳасининг охири",
+      "ru": "Конец жилой зоны"
+     },
+     "imageUrl": "/static/belgilar/5.39.gif"
+    },
+    {
+     "code": "5.40",
+     "name": {
+      "uz": "Falokatli holatlar uchun kirish yo’li",
+      "kaa": "Фалокатли ҳолатлар учун кириш йўли",
+      "ru": "Аварийный выезд"
+     },
+     "imageUrl": "/static/belgilar/5.40.gif"
+    },
+    {
+     "code": "5.41",
+     "name": {
+      "uz": "Surat va video",
+      "kaa": "Сурат ва видео",
+      "ru": "Фото- и видеофиксация"
+     },
+     "imageUrl": "/static/belgilar/5.41.png"
+    },
+    {
+     "code": "5.43",
+     "name": {
+      "uz": "Radar",
+      "kaa": "Радар",
+      "ru": "Радар"
+     },
+     "imageUrl": "/static/belgilar/5.43.jpg"
+    },
+    {
+     "code": "5.42",
+     "name": {
+      "uz": "Qizil rangda o'ng tomonga burilish",
+      "kaa": "Қизил рангда ўнг томонга бурилиш",
+      "ru": "Поворот направо на красный сигнал"
+     },
+     "imageUrl": "/static/belgilar/5.42.png"
+    },
+    {
+     "code": "5.44",
+     "name": {
+      "uz": "Velosipedlar uchun harakatlanish bo'lagi",
+      "kaa": "Велосипедлар учун ҳаракатланиш бўлаги",
+      "ru": "Полоса для велосипедистов"
+     },
+     "imageUrl": "/static/belgilar/5.44.jpg"
+    },
+    {
+     "code": "5.45",
+     "name": {
+      "uz": "Velosipedlar uchun harakatlanish bo'lagining oxiri",
+      "kaa": "Велосипедлар учун ҳаракатланиш бўлагининг охири",
+      "ru": "Конец полосы для велосипедистов"
+     },
+     "imageUrl": "/static/belgilar/5.45.jpg"
+    }
+   ]
+  },
+  {
+   "code": "6",
+   "category": {
+    "uz": "Servis belgilari",
+    "kaa": "Сервис белгилари",
+    "ru": "Знаки сервиса"
+   },
+   "count": 17,
+   "signs": [
+    {
+     "code": "6.1",
+     "name": {
+      "uz": "Tibbiy yordam ko’rsatish joyi",
+      "kaa": "Тиббий ёрдам кўрсатиш жойи",
+      "ru": "Пункт первой медицинской помощи"
+     },
+     "imageUrl": "/static/belgilar/6.1.gif"
+    },
+    {
+     "code": "6.2",
+     "name": {
+      "uz": "Shifoxona",
+      "kaa": "Шифохона",
+      "ru": "Больница"
+     },
+     "imageUrl": "/static/belgilar/6.2.gif"
+    },
+    {
+     "code": "6.3",
+     "name": {
+      "uz": "Yonilg’i shaxobchasi",
+      "kaa": "Ёнилғи шахобчаси",
+      "ru": "Автозаправочная станция"
+     },
+     "imageUrl": "/static/belgilar/6.3.gif"
+    },
+    {
+     "code": "6.4",
+     "name": {
+      "uz": "Texnik xizmat ko’rsatish joyi",
+      "kaa": "Техник хизмат кўрсатиш жойи",
+      "ru": "Техническое обслуживание автомобилей"
+     },
+     "imageUrl": "/static/belgilar/6.4.gif"
+    },
+    {
+     "code": "6.5",
+     "name": {
+      "uz": "Transport vositalarini yuvish joyi",
+      "kaa": "Транспорт воситаларини ювиш жойи",
+      "ru": "Мойка автомобилей"
+     },
+     "imageUrl": "/static/belgilar/6.5.gif"
+    },
+    {
+     "code": "6.6",
+     "name": {
+      "uz": "Telefon",
+      "kaa": "Телефон",
+      "ru": "Телефон"
+     },
+     "imageUrl": "/static/belgilar/6.6.gif"
+    },
+    {
+     "code": "6.7",
+     "name": {
+      "uz": "Oshxona",
+      "kaa": "Ошхона",
+      "ru": "Пункт питания"
+     },
+     "imageUrl": "/static/belgilar/6.7.gif"
+    },
+    {
+     "code": "6.8",
+     "name": {
+      "uz": "Ichimlik suvi",
+      "kaa": "Ичимлик суви",
+      "ru": "Питьевая вода"
+     },
+     "imageUrl": "/static/belgilar/6.8.gif"
+    },
+    {
+     "code": "6.9",
+     "name": {
+      "uz": "Mehmonxona",
+      "kaa": "Меҳмонхона",
+      "ru": "Гостиница"
+     },
+     "imageUrl": "/static/belgilar/6.9.gif"
+    },
+    {
+     "code": "6.10",
+     "name": {
+      "uz": "Kemping",
+      "kaa": "Кемпинг",
+      "ru": "Кемпинг"
+     },
+     "imageUrl": "/static/belgilar/6.10.gif"
+    },
+    {
+     "code": "6.11",
+     "name": {
+      "uz": "Dam olish joyi",
+      "kaa": "Дам олиш жойи",
+      "ru": "Место отдыха"
+     },
+     "imageUrl": "/static/belgilar/6.11.gif"
+    },
+    {
+     "code": "6.12",
+     "name": {
+      "uz": "Yo’l patrul xizmati maskani",
+      "kaa": "Йўл патрул хизмати маскани",
+      "ru": "Пост дорожно-патрульной службы"
+     },
+     "imageUrl": "/static/belgilar/6.12.jpg"
+    },
+    {
+     "code": "6.13",
+     "name": {
+      "uz": "Xalqaro avtomobillarni tashish nazorat punkti",
+      "kaa": "Халқаро автомобилларни ташиш назорат пункти",
+      "ru": "Контрольный пункт международных автомобильных перевозок"
+     },
+     "imageUrl": "/static/belgilar/6.13.jpg"
+    },
+    {
+     "code": "6.14",
+     "name": {
+      "uz": "Xojatxona",
+      "kaa": "Хожатхона",
+      "ru": "Туалет"
+     },
+     "imageUrl": "/static/belgilar/6.14.gif"
+    },
+    {
+     "code": "6.15",
+     "name": {
+      "uz": "Axlat quti",
+      "kaa": "Ахлат қути",
+      "ru": "Мусорный бак"
+     },
+     "imageUrl": "/static/belgilar/6.15.jpg"
+    },
+    {
+     "code": "6.16",
+     "name": {
+      "uz": "Basseyn yoki sohil bo'yi",
+      "kaa": "Бассейн ёки соҳил бўйи",
+      "ru": "Бассейн или пляж"
+     },
+     "imageUrl": "/static/belgilar/6.16.gif"
+    },
+    {
+     "code": "6.17",
+     "name": {
+      "uz": "Polisiya",
+      "kaa": "Полисия",
+      "ru": "Полиция"
+     },
+     "imageUrl": "/static/belgilar/6.17.png"
+    }
+   ]
+  },
+  {
+   "code": "7",
+   "category": {
+    "uz": "Qo'shimcha axborot belgilari",
+    "kaa": "Қўшимча ахборот белгилари",
+    "ru": "Знаки дополнительной информации"
+   },
+   "count": 54,
+   "signs": [
+    {
+     "code": "7.1.1",
+     "name": {
+      "uz": "Manzilgacha bo’lgan masofa",
+      "kaa": "Манзилгача бўлган масофа",
+      "ru": "Расстояние до объекта"
+     },
+     "imageUrl": "/static/belgilar/7.1.1.gif"
+    },
+    {
+     "code": "7.1.2",
+     "name": {
+      "uz": "Manzilgacha bo’lgan masofa",
+      "kaa": "Манзилгача бўлган масофа",
+      "ru": "Расстояние до объекта"
+     },
+     "imageUrl": "/static/belgilar/7.1.2.gif"
+    },
+    {
+     "code": "7.1.3",
+     "name": {
+      "uz": "Manzilgacha bo’lgan masofa",
+      "kaa": "Манзилгача бўлган масофа",
+      "ru": "Расстояние до объекта"
+     },
+     "imageUrl": "/static/belgilar/7.1.3.gif"
+    },
+    {
+     "code": "7.1.4",
+     "name": {
+      "uz": "Manzilgacha bo’lgan masofa",
+      "kaa": "Манзилгача бўлган масофа",
+      "ru": "Расстояние до объекта"
+     },
+     "imageUrl": "/static/belgilar/7.1.4.gif"
+    },
+    {
+     "code": "7.2.1",
+     "name": {
+      "uz": "Ta’sir oralig’i",
+      "kaa": "Таъсир оралиғи",
+      "ru": "Зона действия"
+     },
+     "imageUrl": "/static/belgilar/7.2.1.gif"
+    },
+    {
+     "code": "7.2.2",
+     "name": {
+      "uz": "Ta’sir oralig’i",
+      "kaa": "Таъсир оралиғи",
+      "ru": "Зона действия"
+     },
+     "imageUrl": "/static/belgilar/7.2.2.gif"
+    },
+    {
+     "code": "7.2.3",
+     "name": {
+      "uz": "Ta’sir oralig’i",
+      "kaa": "Таъсир оралиғи",
+      "ru": "Зона действия"
+     },
+     "imageUrl": "/static/belgilar/7.2.3.gif"
+    },
+    {
+     "code": "7.2.4",
+     "name": {
+      "uz": "Ta’sir oralig’i",
+      "kaa": "Таъсир оралиғи",
+      "ru": "Зона действия"
+     },
+     "imageUrl": "/static/belgilar/7.2.4.gif"
+    },
+    {
+     "code": "7.2.5",
+     "name": {
+      "uz": "Ta’sir oralig’i",
+      "kaa": "Таъсир оралиғи",
+      "ru": "Зона действия"
+     },
+     "imageUrl": "/static/belgilar/7.2.5.gif"
+    },
+    {
+     "code": "7.2.6",
+     "name": {
+      "uz": "Ta’sir oralig’i",
+      "kaa": "Таъсир оралиғи",
+      "ru": "Зона действия"
+     },
+     "imageUrl": "/static/belgilar/7.2.6.gif"
+    },
+    {
+     "code": "7.3.1",
+     "name": {
+      "uz": "Ta’sir yo’nalishlari",
+      "kaa": "Таъсир йўналишлари",
+      "ru": "Направления действия"
+     },
+     "imageUrl": "/static/belgilar/7.3.1.gif"
+    },
+    {
+     "code": "7.3.2",
+     "name": {
+      "uz": "Ta’sir yo’nalishlari",
+      "kaa": "Таъсир йўналишлари",
+      "ru": "Направления действия"
+     },
+     "imageUrl": "/static/belgilar/7.3.2.gif"
+    },
+    {
+     "code": "7.3.3",
+     "name": {
+      "uz": "Ta’sir yo’nalishlari",
+      "kaa": "Таъсир йўналишлари",
+      "ru": "Направления действия"
+     },
+     "imageUrl": "/static/belgilar/7.3.3.gif"
+    },
+    {
+     "code": "7.4.1",
+     "name": {
+      "uz": "Transport vositasining turi",
+      "kaa": "Транспорт воситасининг тури",
+      "ru": "Вид транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.4.1.gif"
+    },
+    {
+     "code": "7.4.2",
+     "name": {
+      "uz": "Transport vositasining turi",
+      "kaa": "Транспорт воситасининг тури",
+      "ru": "Вид транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.4.2.gif"
+    },
+    {
+     "code": "7.4.3",
+     "name": {
+      "uz": "Transport vositasining turi",
+      "kaa": "Транспорт воситасининг тури",
+      "ru": "Вид транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.4.3.gif"
+    },
+    {
+     "code": "7.4.4",
+     "name": {
+      "uz": "Transport vositasining turi",
+      "kaa": "Транспорт воситасининг тури",
+      "ru": "Вид транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.4.4.gif"
+    },
+    {
+     "code": "7.4.5",
+     "name": {
+      "uz": "Transport vositasining turi",
+      "kaa": "Транспорт воситасининг тури",
+      "ru": "Вид транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.4.5.gif"
+    },
+    {
+     "code": "7.4.6",
+     "name": {
+      "uz": "Transport vositasining turi",
+      "kaa": "Транспорт воситасининг тури",
+      "ru": "Вид транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.4.6.gif"
+    },
+    {
+     "code": "7.4.7",
+     "name": {
+      "uz": "Transport vositasining turi",
+      "kaa": "Транспорт воситасининг тури",
+      "ru": "Вид транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.4.7.gif"
+    },
+    {
+     "code": "7.4.8",
+     "name": {
+      "uz": "Transport vositasining turi",
+      "kaa": "Транспорт воситасининг тури",
+      "ru": "Вид транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.4.8.png"
+    },
+    {
+     "code": "7.5.1",
+     "name": {
+      "uz": "Shanba, yakshanba va bayram kunlari",
+      "kaa": "Шанба, якшанба ва байрам кунлари",
+      "ru": "Субботние, воскресные и праздничные дни"
+     },
+     "imageUrl": "/static/belgilar/7.5.1.gif"
+    },
+    {
+     "code": "7.5.2",
+     "name": {
+      "uz": "Ish kunlari",
+      "kaa": "Иш кунлари",
+      "ru": "Рабочие дни"
+     },
+     "imageUrl": "/static/belgilar/7.5.2.gif"
+    },
+    {
+     "code": "7.5.3",
+     "name": {
+      "uz": "Hafta kunlari",
+      "kaa": "Ҳафта кунлари",
+      "ru": "Дни недели"
+     },
+     "imageUrl": "/static/belgilar/7.5.3.png"
+    },
+    {
+     "code": "7.5.4",
+     "name": {
+      "uz": "Amal qilish vaqti",
+      "kaa": "Амал қилиш вақти",
+      "ru": "Время действия"
+     },
+     "imageUrl": "/static/belgilar/7.5.4.gif"
+    },
+    {
+     "code": "7.5.5",
+     "name": {
+      "uz": "Amal qilish vaqti",
+      "kaa": "Амал қилиш вақти",
+      "ru": "Время действия"
+     },
+     "imageUrl": "/static/belgilar/7.5.5.gif"
+    },
+    {
+     "code": "7.5.6",
+     "name": {
+      "uz": "Amal qilish vaqti",
+      "kaa": "Амал қилиш вақти",
+      "ru": "Время действия"
+     },
+     "imageUrl": "/static/belgilar/7.5.6.gif"
+    },
+    {
+     "code": "7.5.7",
+     "name": {
+      "uz": "Amal qilish vaqti",
+      "kaa": "Амал қилиш вақти",
+      "ru": "Время действия"
+     },
+     "imageUrl": "/static/belgilar/7.5.7.png"
+    },
+    {
+     "code": "7.6.1",
+     "name": {
+      "uz": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+      "kaa": "Транспорт воситасини тўхтаб туриш жойига қўйиш усули",
+      "ru": "Способ постановки транспортного средства на стоянку"
+     },
+     "imageUrl": "/static/belgilar/7.6.1.gif"
+    },
+    {
+     "code": "7.6.2",
+     "name": {
+      "uz": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+      "kaa": "Транспорт воситасини тўхтаб туриш жойига қўйиш усули",
+      "ru": "Способ постановки транспортного средства на стоянку"
+     },
+     "imageUrl": "/static/belgilar/7.6.2.gif"
+    },
+    {
+     "code": "7.6.3",
+     "name": {
+      "uz": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+      "kaa": "Транспорт воситасини тўхтаб туриш жойига қўйиш усули",
+      "ru": "Способ постановки транспортного средства на стоянку"
+     },
+     "imageUrl": "/static/belgilar/7.6.3.gif"
+    },
+    {
+     "code": "7.6.4",
+     "name": {
+      "uz": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+      "kaa": "Транспорт воситасини тўхтаб туриш жойига қўйиш усули",
+      "ru": "Способ постановки транспортного средства на стоянку"
+     },
+     "imageUrl": "/static/belgilar/7.6.4.png"
+    },
+    {
+     "code": "7.6.5",
+     "name": {
+      "uz": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+      "kaa": "Транспорт воситасини тўхтаб туриш жойига қўйиш усули",
+      "ru": "Способ постановки транспортного средства на стоянку"
+     },
+     "imageUrl": "/static/belgilar/7.6.5.gif"
+    },
+    {
+     "code": "7.6.6",
+     "name": {
+      "uz": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+      "kaa": "Транспорт воситасини тўхтаб туриш жойига қўйиш усули",
+      "ru": "Способ постановки транспортного средства на стоянку"
+     },
+     "imageUrl": "/static/belgilar/7.6.6.png"
+    },
+    {
+     "code": "7.6.7",
+     "name": {
+      "uz": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+      "kaa": "Транспорт воситасини тўхтаб туриш жойига қўйиш усули",
+      "ru": "Способ постановки транспортного средства на стоянку"
+     },
+     "imageUrl": "/static/belgilar/7.6.7.png"
+    },
+    {
+     "code": "7.6.8",
+     "name": {
+      "uz": "Transport vositasini to’xtab turish joyiga qo’yish usuli",
+      "kaa": "Транспорт воситасини тўхтаб туриш жойига қўйиш усули",
+      "ru": "Способ постановки транспортного средства на стоянку"
+     },
+     "imageUrl": "/static/belgilar/7.6.8.png"
+    },
+    {
+     "code": "7.7",
+     "name": {
+      "uz": "Yurgizgichni ishlatmasdan to’xtab turish joyi",
+      "kaa": "Юргизгични ишлатмасдан тўхтаб туриш жойи",
+      "ru": "Стоянка с неработающим двигателем"
+     },
+     "imageUrl": "/static/belgilar/7.7.gif"
+    },
+    {
+     "code": "7.8",
+     "name": {
+      "uz": "Pullik xizmat ko’rsatish joyi",
+      "kaa": "Пуллик хизмат кўрсатиш жойи",
+      "ru": "Платные услуги"
+     },
+     "imageUrl": "/static/belgilar/7.8.gif"
+    },
+    {
+     "code": "7.9",
+     "name": {
+      "uz": "To’xtab turish muddati cheklangan",
+      "kaa": "Тўхтаб туриш муддати чекланган",
+      "ru": "Ограничение продолжительности стоянки"
+     },
+     "imageUrl": "/static/belgilar/7.9.png"
+    },
+    {
+     "code": "7.10",
+     "name": {
+      "uz": "Avtomobillarni ko’rikdan o’tkazish joyi",
+      "kaa": "Автомобилларни кўрикдан ўтказиш жойи",
+      "ru": "Место осмотра автомобилей"
+     },
+     "imageUrl": "/static/belgilar/7.10.gif"
+    },
+    {
+     "code": "7.11",
+     "name": {
+      "uz": "To’la vazni cheklangan",
+      "kaa": "Тўла вазни чекланган",
+      "ru": "Ограничение разрешённой максимальной массы"
+     },
+     "imageUrl": "/static/belgilar/7.11.png"
+    },
+    {
+     "code": "7.12",
+     "name": {
+      "uz": "Xavfli yo’l yoqasi",
+      "kaa": "Хавфли йўл ёқаси",
+      "ru": "Опасная обочина"
+     },
+     "imageUrl": "/static/belgilar/7.12.png"
+    },
+    {
+     "code": "7.13",
+     "name": {
+      "uz": "Asosiy yo’lning yo’nalishi",
+      "kaa": "Асосий йўлнинг йўналиши",
+      "ru": "Направление главной дороги"
+     },
+     "imageUrl": "/static/belgilar/7.13.gif"
+    },
+    {
+     "code": "7.14",
+     "name": {
+      "uz": "Harakatlanish bo’lagi",
+      "kaa": "Ҳаракатланиш бўлаги",
+      "ru": "Полоса движения"
+     },
+     "imageUrl": "/static/belgilar/7.14.gif"
+    },
+    {
+     "code": "7.15",
+     "name": {
+      "uz": "Ko’zi ojiz piyodalar",
+      "kaa": "Кўзи ожиз пиёдалар",
+      "ru": "Слепые пешеходы"
+     },
+     "imageUrl": "/static/belgilar/7.15.gif"
+    },
+    {
+     "code": "7.16",
+     "name": {
+      "uz": "Nam qoplama",
+      "kaa": "Нам қоплама",
+      "ru": "Влажное покрытие"
+     },
+     "imageUrl": "/static/belgilar/7.16.gif"
+    },
+    {
+     "code": "7.17",
+     "name": {
+      "uz": "Nogironlar",
+      "kaa": "Ногиронлар",
+      "ru": "Инвалиды"
+     },
+     "imageUrl": "/static/belgilar/7.17.gif"
+    },
+    {
+     "code": "7.18",
+     "name": {
+      "uz": "Nogironlar mustasno",
+      "kaa": "Ногиронлар мустасно",
+      "ru": "Кроме инвалидов"
+     },
+     "imageUrl": "/static/belgilar/7.18.gif"
+    },
+    {
+     "code": "7.19",
+     "name": {
+      "uz": "Chorrahadagi kamera",
+      "kaa": "Чорраҳадаги камера",
+      "ru": "Камера на перекрёстке"
+     },
+     "imageUrl": "/static/belgilar/7.19.png"
+    },
+    {
+     "code": "7.20",
+     "name": {
+      "uz": "Xavfli yuk",
+      "kaa": "Хавфли юк",
+      "ru": "Опасный груз"
+     },
+     "imageUrl": "/static/belgilar/7.20.png"
+    },
+    {
+     "code": "7.21",
+     "name": {
+      "uz": "Evakuator ishlamoqda",
+      "kaa": "Эвакуатор ишламоқда",
+      "ru": "Работает эвакуатор"
+     },
+     "imageUrl": "/static/belgilar/7.21.png"
+    },
+    {
+     "code": "7.21.1",
+     "name": {
+      "uz": "Marshrutli transport vositasi turi",
+      "kaa": "Маршрутли транспорт воситаси тури",
+      "ru": "Вид маршрутного транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.21.1.png"
+    },
+    {
+     "code": "7.21.2",
+     "name": {
+      "uz": "Marshrutli transport vositasi turi",
+      "kaa": "Маршрутли транспорт воситаси тури",
+      "ru": "Вид маршрутного транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.21.2.png"
+    },
+    {
+     "code": "7.21.3",
+     "name": {
+      "uz": "Marshrutli transport vositasi turi",
+      "kaa": "Маршрутли транспорт воситаси тури",
+      "ru": "Вид маршрутного транспортного средства"
+     },
+     "imageUrl": "/static/belgilar/7.21.3.png"
+    }
+   ]
+  }
+ ]
+}
