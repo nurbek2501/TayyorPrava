@@ -34,9 +34,37 @@ services:
         value: https://tayyorprava-web.onrender.com
       - key: RATE_LIMIT_ENABLED
         value: "True"
-      # Telegram bot bilan umumiy maxfiy kalit (bot .env'ida AYNAN shu qiymat bo'lsin).
+      # Telegram bot bilan umumiy maxfiy kalit — Render generatsiya qiladi.
+      # Bot xizmati buni fromService orqali AVTOMATIK oladi (qo'lda kiritish shart emas).
       - key: BOT_SHARED_SECRET
         generateValue: true
+
+  # ---- Telegram bot (aiogram, Docker worker) ----
+  - type: worker
+    name: tayyorprava-bot
+    runtime: docker
+    rootDir: telegram_bot
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      # ⚠️ MAXFIY — @BotFather'dan olgan tokenni Render dashboard'da qo'lda kiriting.
+      #   (Ochiq ko'rilgan bo'lsa avval /revoke qilib yangisini oling.)
+      - key: BOT_TOKEN
+        sync: false
+      # Backend API manzili (ichki xizmatga so'rov — /bot/issue-code).
+      - key: BACKEND_URL
+        value: https://tayyorprava-api.onrender.com/api
+      # Umumiy maxfiy kalitni backend xizmatidan aynan olib keladi — mos bo'lishi kafolatlanadi.
+      - key: BOT_SHARED_SECRET
+        fromService:
+          type: web
+          name: tayyorprava-api
+          envVarKey: BOT_SHARED_SECRET
+      - key: TELEGRAM_CHANNEL
+        value: "@TayyorPrava"
+      - key: CHANNEL_URL
+        value: https://t.me/TayyorPrava
 
   # ---- Frontend (Vite static site) ----
   - type: web
