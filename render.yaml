@@ -9,9 +9,8 @@
 
 databases:
   - name: tayyorprava-db
-    plan: free
-    # Render'ning free Postgres'i ~90 kundan keyin muddati tugaydi — production uchun
-    # to'lovli plan (starter+) tavsiya etiladi.
+    plan: starter
+    # Starter — to'lovli, doimiy Postgres (free'dagi ~90 kunlik muddat cheklovi yo'q).
     databaseName: tayyorprava
     user: tayyorprava
 
@@ -25,7 +24,7 @@ services:
     dockerContext: .
     # Render $PORT beradi — Dockerfile'dagi qat'iy 8000 o'rniga shuni ishlatamiz.
     dockerCommand: sh -c "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
-    plan: free
+    plan: starter
     healthCheckPath: /api/health
     envVars:
       - key: DEBUG
@@ -56,7 +55,7 @@ services:
     rootDir: telegram_bot
     dockerfilePath: ./Dockerfile
     dockerContext: .
-    plan: free
+    plan: starter
     envVars:
       # ⚠️ MAXFIY — @BotFather'dan olgan tokenni Render dashboard'da qo'lda kiriting.
       #   (Ochiq ko'rilgan bo'lsa avval /revoke qilib yangisini oling.)
