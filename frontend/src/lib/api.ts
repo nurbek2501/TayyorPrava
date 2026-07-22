@@ -33,7 +33,13 @@ export const TOKEN_KEY = "pp_token";
 export const REFRESH_KEY = "pp_refresh";
 export const ADMIN_TOKEN_KEY = "pp_admin_token";
 
-export const api = axios.create({ baseURL: API_URL });
+export const api = axios.create({
+  baseURL: API_URL,
+  // ngrok bepul tunnel API'ni birinchi so'rovda "browser warning" HTML sahifasi bilan
+  // to'sib qo'yadi. Bu header o'sha ogohlantirishni chetlab o'tadi (JSON to'g'ridan keladi).
+  // Oddiy (Render/prod) backend uchun zararsiz — e'tiborsiz qoldiriladi.
+  headers: { "ngrok-skip-browser-warning": "true" },
+});
 
 api.interceptors.request.use((config) => {
   const url = config.url || "";
