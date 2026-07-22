@@ -17,7 +17,7 @@ databases:
 services:
   # ---- Backend API (FastAPI, Docker) ----
   - type: web
-    name: tayyorprava-api
+    name: tayyorprava
     runtime: docker
     rootDir: backend
     dockerfilePath: ./Dockerfile
@@ -50,7 +50,7 @@ services:
 
   # ---- Telegram bot (aiogram, Docker worker) ----
   - type: worker
-    name: tayyorprava-bot
+    name: tayyorprava-bot1
     runtime: docker
     rootDir: telegram_bot
     dockerfilePath: ./Dockerfile
@@ -68,25 +68,13 @@ services:
       - key: BOT_SHARED_SECRET
         fromService:
           type: web
-          name: tayyorprava-api
+          name: tayyorprava
           envVarKey: BOT_SHARED_SECRET
       - key: TELEGRAM_CHANNEL
         value: "@TayyorPrava"
       - key: CHANNEL_URL
         value: https://t.me/TayyorPrava
 
-  # ---- Frontend (Vite static site) ----
-  - type: web
-    name: tayyorprava-web
-    runtime: static
-    rootDir: frontend
-    buildCommand: npm ci && npm run build
-    staticPublishPath: dist
-    envVars:
-      - key: VITE_API_URL
-        value: https://tayyorprava.onrender.com/api
-    routes:
-      # SPA — barcha yo'llar index.html'ga (React Router uchun).
-      - type: rewrite
-        source: /*
-        destination: /index.html
+  # ---- Frontend ----
+  # Frontend endi Netlify'da joylashgan (netlify.toml qarang), Render'da emas.
+  # API manzili: frontend/.env.production -> VITE_API_URL=https://tayyorprava.onrender.com/api
