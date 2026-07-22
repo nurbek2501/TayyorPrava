@@ -84,7 +84,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://tayyorprava-api.onrender.com/api
+        value: https://tayyorprava.onrender.com/api
     routes:
       # SPA — barcha yo'llar index.html'ga (React Router uchun).
       - type: rewrite
