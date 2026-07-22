@@ -40,7 +40,7 @@ services:
           property: connectionString
       # Frontend static site URL'i (pastdagi xizmat nomiga mos).
       - key: CORS_ORIGINS
-        value: https://tayyorprava-web.onrender.com
+        value: https://tayyorprava.netlify.app
       - key: RATE_LIMIT_ENABLED
         value: "True"
       # Telegram bot bilan umumiy maxfiy kalit — Render generatsiya qiladi.

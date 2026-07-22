@@ -1,0 +1,14 @@
+# Netlify — frontend (Vite) deploy sozlamasi.
+# Backend Render'da: https://tayyorprava.onrender.com
+# API manzili frontend/.env.production ichida (VITE_API_URL).
+
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# SPA — barcha yo'llar index.html'ga (React Router uchun).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
