@@ -63,7 +63,7 @@ services:
         sync: false
       # Backend API manzili (ichki xizmatga so'rov — /bot/issue-code).
       - key: BACKEND_URL
-        value: https://tayyorprava-api.onrender.com/api
+        value: https://tayyorprava.onrender.com/api
       # Umumiy maxfiy kalitni backend xizmatidan aynan olib keladi — mos bo'lishi kafolatlanadi.
       - key: BOT_SHARED_SECRET
         fromService:
