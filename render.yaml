@@ -2,15 +2,17 @@
 # Render dashboard'da: New + -> Blueprint -> shu reponi tanlang.
 # Backend (FastAPI, Docker) + Frontend (Vite static) bir blueprint'da.
 #
-# ✅ Ma'lumotlar bazasi: PostgreSQL (doimiy).
+# ✅ Ma'lumotlar bazasi: PostgreSQL.
 #   Birinchi deploy'da backend bo'sh Postgres'ni image ichidagi app.db'dan avtomatik
 #   to'ldiradi (app/db/bootstrap.py) — admin, savollar, mavzular, promokodlar hammasi ko'chadi.
-#   Keyin butun ma'lumot Postgres'da doimiy saqlanadi (restart/redeploy'da yo'qolmaydi).
+#   Restart/redeploy'da saqlanadi. (Free plan muddati haqida pastdagi ⚠️ ga qarang.)
 
 databases:
   - name: tayyorprava-db
-    plan: starter
-    # Starter — to'lovli, doimiy Postgres (free'dagi ~90 kunlik muddat cheklovi yo'q).
+    plan: free
+    # ⚠️ Free Postgres 30 kundan keyin muddati tugaydi (+14 kun ichida upgrade
+    #   qilinmasa MA'LUMOT BILAN O'CHIRILADI). Hozircha tekin, keyin pulliga o'tamiz.
+    #   Bo'sh bazani backend app.db'dan avtomatik to'ldiradi (bootstrap.py).
     databaseName: tayyorprava
     user: tayyorprava
 
@@ -24,7 +26,8 @@ services:
     dockerContext: .
     # Render $PORT beradi — Dockerfile'dagi qat'iy 8000 o'rniga shuni ishlatamiz.
     dockerCommand: sh -c "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
-    plan: starter
+    # Free — 15 daqiqa harakatsizlikdan keyin uxlaydi (birinchi so'rov ~1 daqiqa kutadi).
+    plan: free
     healthCheckPath: /api/health
     envVars:
       - key: DEBUG
@@ -40,7 +43,7 @@ services:
           property: connectionString
       # Frontend static site URL'i (pastdagi xizmat nomiga mos).
       - key: CORS_ORIGINS
-        value: https://tayyorprava.netlify.app
+        value: https://tayyorprava-web.onrender.com
       - key: RATE_LIMIT_ENABLED
         value: "True"
       # Telegram bot bilan umumiy maxfiy kalit — Render generatsiya qiladi.
@@ -55,6 +58,7 @@ services:
     rootDir: telegram_bot
     dockerfilePath: ./Dockerfile
     dockerContext: .
+    # ⚠️ Render'da worker uchun free plan YO'Q — bot majburan pullik (starter) qoladi.
     plan: starter
     envVars:
       # ⚠️ MAXFIY — @BotFather'dan olgan tokenni Render dashboard'da qo'lda kiriting.
@@ -75,6 +79,19 @@ services:
       - key: CHANNEL_URL
         value: https://t.me/TayyorPrava
 
-  # ---- Frontend ----
-  # Frontend endi Netlify'da joylashgan (netlify.toml qarang), Render'da emas.
-  # API manzili: frontend/.env.production -> VITE_API_URL=https://tayyorprava.onrender.com/api
+  # ---- Frontend (Vite static site) ----
+  # Render'da statik sayt bepul (100 GB/oy trafik). API manzili .env.production'da ham bor.
+  - type: web
+    name: tayyorprava-web
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://tayyorprava.onrender.com/api
+    routes:
+      # SPA — barcha yo'llar index.html'ga (React Router uchun).
+      - type: rewrite
+        source: /*
+        destination: /index.html
