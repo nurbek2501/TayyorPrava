@@ -9,6 +9,8 @@
 
 databases:
   - name: tayyorprava-db
+    # Frankfurt — O'zbekistonga eng yaqin Render regioni (baza+backend+bot bir xil bo'lishi shart).
+    region: frankfurt
     plan: free
     # ⚠️ Free Postgres 30 kundan keyin muddati tugaydi (+14 kun ichida upgrade
     #   qilinmasa MA'LUMOT BILAN O'CHIRILADI). Hozircha tekin, keyin pulliga o'tamiz.
@@ -21,6 +23,7 @@ services:
   - type: web
     name: tayyorprava
     runtime: docker
+    region: frankfurt
     rootDir: backend
     dockerfilePath: ./Dockerfile
     dockerContext: .
@@ -55,6 +58,7 @@ services:
   - type: worker
     name: tayyorprava-bot1
     runtime: docker
+    region: frankfurt
     rootDir: telegram_bot
     dockerfilePath: ./Dockerfile
     dockerContext: .
