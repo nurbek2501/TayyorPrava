@@ -20,8 +20,10 @@ databases:
 
 services:
   # ---- Backend API (FastAPI, Docker) ----
+  # Nomi `pravatayyor-api`: eski `tayyorprava.onrender.com` subdomenini eski Render
+  # hisobidagi eski xizmat band qilgan (onrender subdomenlar global unikal).
   - type: web
-    name: tayyorprava
+    name: pravatayyor-api
     runtime: docker
     region: frankfurt
     rootDir: backend
@@ -78,7 +80,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://tayyorprava.onrender.com/api
+        value: https://pravatayyor-api.onrender.com/api
     routes:
       # SPA — barcha yo'llar index.html'ga (React Router uchun).
       - type: rewrite
