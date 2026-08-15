@@ -31,7 +31,11 @@ async def lifespan(_app: FastAPI):
     # (bo'sh bo'lsa; sqlite'da yoki to'la bo'lsa hech narsa qilmaydi).
     from app.db.bootstrap import bootstrap_from_sqlite
     await bootstrap_from_sqlite()
+    # Telegram bot webhook rejimi (BOT_TOKEN berilgan bo'lsa) — bot backend ichida.
+    from app.services import telegram_bot
+    await telegram_bot.setup_webhook()
     yield
+    await telegram_bot.shutdown()
 
 
 app = FastAPI(

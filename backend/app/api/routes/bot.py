@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import secrets
 
-from fastapi import APIRouter, Depends, Header, HTTPException, status
+from fastapi import APIRouter, Depends, Header, HTTPException, Request, status
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import settings
@@ -15,6 +15,7 @@ from app.crud import auth_codes as auth_codes_crud
 from app.crud import users as users_crud
 from app.db.session import get_db
 from app.schemas.auth import BotIssueCodeRequest, BotIssueCodeResponse
+from app.services import telegram_bot
 
 router = APIRouter(prefix="/bot", tags=["bot"])
 
@@ -100,3 +101,25 @@ async def issue_code(payload: BotIssueCodeRequest, db: AsyncSession = Depends(ge
         expires_at=code.expires_at,
         first_name=first_name,
     )
+
+
+@router.post("/webhook", include_in_schema=False)
+async def telegram_webhook(
+    request: Request,
+    x_telegram_bot_api_secret_token: str = Header(default=""),
+):
+    """Telegram webhook (bot backend ichida ishlaydi — services/telegram_bot.py).
+
+    Haqiqiylik setWebhook'da berilgan secret_token orqali tekshiriladi — Telegram
+    uni har so'rovda shu sarlavhada qaytaradi. Doim 200 qaytariladi (xatolar ichkarida
+    yutiladi), aks holda Telegram bir xil update'ni qayta-qayta yuboraveradi.
+    """
+    if not settings.BOT_SHARED_SECRET or not secrets.compare_digest(
+        x_telegram_bot_api_secret_token, telegram_bot.webhook_secret()
+    ):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED, detail="Yaroqsiz webhook so'rovi"
+        )
+    update = await request.json()
+    await telegram_bot.process_update(update)
+    return {"ok": True}

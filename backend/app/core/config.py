@@ -42,9 +42,16 @@ class Settings(BaseSettings):
     # Telegram bot integratsiyasi
     BOT_USERNAME: str = "TayyorPrava_bot"
     TELEGRAM_CHANNEL: str = "@TayyorPrava"
+    CHANNEL_URL: str = "https://t.me/TayyorPrava"
     # Bot bilan backend o'rtasidagi maxfiy kalit (bot bu kalit bilan kod so'raydi).
     # Haqiqiy qiymat faqat .env da; bo'sh bo'lsa bot endpointi butunlay qulflanadi.
     BOT_SHARED_SECRET: str = ""
+    # Webhook rejimi: BOT_TOKEN berilsa bot backend ichida ishlaydi (alohida worker
+    # shart emas — services/telegram_bot.py). Bo'sh bo'lsa webhook o'rnatilmaydi.
+    BOT_TOKEN: str = ""
+    # Webhook bazaviy URL: bo'sh bo'lsa Render'ning RENDER_EXTERNAL_URL'i olinadi
+    # (lokal test uchun masalan ngrok manzilini berish mumkin).
+    WEBHOOK_BASE_URL: str = ""
     # Tasdiq kodi necha daqiqa amal qiladi
     CODE_TTL_MINUTES: int = 5
     # Tasdiq kodini necha marta xato kiritish mumkin — oshsa kod kuydiriladi (brute-force himoyasi).
