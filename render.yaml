@@ -28,7 +28,9 @@ services:
     dockerfilePath: ./Dockerfile
     dockerContext: .
     # Render $PORT beradi — Dockerfile'dagi qat'iy 8000 o'rniga shuni ishlatamiz.
-    dockerCommand: sh -c "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    # Render buyruqni O'ZI `sh -c` bilan ishga tushiradi — qo'shimcha `sh -c "..."`
+    # o'rash mumkin emas (butun matn bitta buyruq nomi bo'lib qoladi -> exit 127).
+    dockerCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     # Free — 15 daqiqa harakatsizlikdan keyin uxlaydi (birinchi so'rov ~1 daqiqa kutadi).
     plan: free
     healthCheckPath: /api/health
