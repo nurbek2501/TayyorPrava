@@ -103,6 +103,31 @@ async def issue_code(payload: BotIssueCodeRequest, db: AsyncSession = Depends(ge
     )
 
 
+@router.get("/diag", include_in_schema=False)
+async def telegram_diag():
+    """Bot holati tashxisi — maxfiy narsa oshkor qilmaydi (token qaytarilmaydi).
+
+    tokenOk: getMe muvaffaqiyatlimi (token yaroqliligi).
+    webhookUrl vs expectedUrl: Telegram'da ro'yxatdagi manzil to'g'rimi.
+    lastErrorMessage: Telegram yetkazishda qanday xatoga uchrayapti.
+    """
+    if not settings.BOT_TOKEN:
+        return {"tokenSet": False}
+    me = await telegram_bot.tg("getMe")
+    info = await telegram_bot.tg("getWebhookInfo") or {}
+    base = telegram_bot._webhook_base()
+    return {
+        "tokenSet": True,
+        "tokenOk": bool(me),
+        "botUsername": (me or {}).get("username"),
+        "webhookUrl": info.get("url", ""),
+        "expectedUrl": f"{base}{settings.API_PREFIX}/bot/webhook" if base else "",
+        "pendingUpdateCount": info.get("pending_update_count", 0),
+        "lastErrorDate": info.get("last_error_date"),
+        "lastErrorMessage": info.get("last_error_message"),
+    }
+
+
 @router.post("/webhook", include_in_schema=False)
 async def telegram_webhook(
     request: Request,
