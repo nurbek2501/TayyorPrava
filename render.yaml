@@ -48,9 +48,9 @@ services:
         fromDatabase:
           name: tayyorprava-db
           property: connectionString
-      # Frontend static site URL'i (pastdagi xizmat nomiga mos).
+      # Sayt manzillari: asosiy domen + www + Render zaxira manzili.
       - key: CORS_ORIGINS
-        value: https://tayyorprava-web.onrender.com
+        value: https://tayyorprava.uz,https://www.tayyorprava.uz,https://tayyorprava-web.onrender.com
       - key: RATE_LIMIT_ENABLED
         value: "True"
       # Kod berish endpointi va webhook uchun maxfiy kalit — Render generatsiya qiladi.
