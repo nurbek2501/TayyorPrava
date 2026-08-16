@@ -32,9 +32,14 @@ async def lifespan(_app: FastAPI):
     from app.db.bootstrap import bootstrap_from_sqlite
     await bootstrap_from_sqlite()
     # Telegram bot webhook rejimi (BOT_TOKEN berilgan bo'lsa) — bot backend ichida.
+    import asyncio
+
     from app.services import telegram_bot
     await telegram_bot.setup_webhook()
+    # Davriy qayta tasdiqlash (o'z-o'zini davolash) — URL o'zgarishi/tarmoq xatosidan tiklanadi.
+    keeper = asyncio.create_task(telegram_bot.webhook_keeper())
     yield
+    keeper.cancel()
     await telegram_bot.shutdown()
 
 

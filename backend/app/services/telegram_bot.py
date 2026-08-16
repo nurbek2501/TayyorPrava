@@ -296,15 +296,35 @@ async def setup_webhook() -> None:
         logger.info("Tashqi URL yo'q (RENDER_EXTERNAL_URL/WEBHOOK_BASE_URL) — webhook o'rnatilmadi")
         return
     url = f"{base}{settings.API_PREFIX}/bot/webhook"
+    # drop_pending_updates=False — uxlab turganda (free plan) kelgan xabarlar yo'qolmasin:
+    # Telegram ularni navbatda saqlab, xizmat uyg'ongach qayta yetkazadi.
     result = await tg(
         "setWebhook",
         url=url,
         secret_token=webhook_secret(),
-        drop_pending_updates=True,
+        drop_pending_updates=False,
         allowed_updates=["message", "callback_query"],
     )
     if result is not None:
         logger.info("Telegram webhook o'rnatildi: %s", url)
+    else:
+        logger.warning("Telegram webhook o'rnatilmadi (setWebhook xato) — 10 daqiqada qayta uriniladi")
+
+
+async def webhook_keeper() -> None:
+    """Webhook'ni davriy qayta tasdiqlab turadi (o'z-o'zini davolash).
+
+    Nega kerak: xizmat qayta nomlansa (URL o'zgaradi), birinchi urinishda tarmoq xatosi
+    bo'lsa, yoki eski polling bot qayerdadir ishga tushib webhook'ni o'chirib yuborsa —
+    keyingi tsiklda o'zi tiklanadi. setWebhook idempotent (bir xil qiymatga qayta
+    chaqirish zararsiz), 10 daqiqalik interval Telegram limitlariga ham yumshoq.
+    """
+    while True:
+        await asyncio.sleep(600)
+        try:
+            await setup_webhook()
+        except Exception:
+            logger.exception("webhook_keeper aylanishida xato")
 
 
 async def shutdown() -> None:
