@@ -6,7 +6,6 @@ import {
   Check,
   ChevronRight,
   Clock,
-  CreditCard,
   Flag,
   Gift,
   GraduationCap,
@@ -23,7 +22,6 @@ import {
   Sparkles,
   Ticket,
   UserPlus,
-  Wallet,
   X,
   Zap,
 } from "lucide-react";
@@ -438,43 +436,37 @@ function StartScreen({
 }) {
   const { t } = useTranslation();
   const [info, setInfo] = useState<{
-    price: number;
     hasAccess: boolean;
-    bonus: number;
     locked: boolean;
   } | null>(null);
   const [payOpen, setPayOpen] = useState(false);
   const [purchasing, setPurchasing] = useState(false);
-  const [method, setMethod] = useState("click");
 
-  // Chegirma promokodi (ixtiyoriy) — admin yaratgan, real imtihon narxini kamaytiradi.
+  // Promokod — real imtihonga kirishning yagona yo'li (to'lov tizimi yo'q).
   const [promoInput, setPromoInput] = useState("");
   const [checkingPromo, setCheckingPromo] = useState(false);
   const [appliedPromo, setAppliedPromo] = useState<{
     code: string;
-    discountPercent: number;
-    discountedPrice: number;
   } | null>(null);
   const [promoError, setPromoError] = useState<{
     message: string;
     alreadyUsed: boolean;
   } | null>(null);
 
-  // Narx + bonus + to'langan (ishlatilmagan) kirish bor-yo'qligini olamiz
+  // Ochilgan (ishlatilmagan) kirish bor-yo'qligini olamiz
   useEffect(() => {
     realExamApi
       .info()
       .then(setInfo)
-      .catch(() => setInfo({ price: 0, hasAccess: true, bonus: 0, locked: false }));
+      .catch(() => setInfo({ hasAccess: true, locked: false }));
   }, []);
 
   const locked = !!info?.locked;
-  const needPay = !!info && !locked && info.price > 0 && !info.hasAccess;
-  const priceStr = (info?.price ?? 0).toLocaleString("ru-RU");
+  const needPromo = !!info && !locked && !info.hasAccess;
 
   const handleStartClick = () => {
     if (locked) return;
-    if (needPay) setPayOpen(true);
+    if (needPromo) setPayOpen(true);
     else onStart();
   };
 
@@ -492,11 +484,7 @@ function StartScreen({
     try {
       const res = await realExamApi.checkPromo(trimmed);
       if (res.valid) {
-        setAppliedPromo({
-          code: trimmed,
-          discountPercent: res.discountPercent,
-          discountedPrice: res.discountedPrice,
-        });
+        setAppliedPromo({ code: trimmed });
       } else {
         setAppliedPromo(null);
         const alreadyUsed = res.reason === "already_used";
@@ -515,26 +503,14 @@ function StartScreen({
     }
   };
 
-  const handlePay = async () => {
+  const handleUnlock = async () => {
+    const code = appliedPromo?.code ?? promoInput.trim();
+    if (!code) return;
     setPurchasing(true);
     try {
-      await realExamApi.purchase(method, appliedPromo?.code);
+      await realExamApi.purchase(code);
       setPayOpen(false);
-      onStart(); // to'lovdan so'ng imtihon darhol boshlanadi
-    } catch (e) {
-      toast.error(getErrorMessage(e));
-    } finally {
-      setPurchasing(false);
-    }
-  };
-
-  // Bonus bilan sotib olish (balansdan yechiladi)
-  const handleBonusPay = async () => {
-    setPurchasing(true);
-    try {
-      await realExamApi.purchase("bonus", appliedPromo?.code);
-      setPayOpen(false);
-      onStart();
+      onStart(); // promokod qabul qilingach imtihon darhol boshlanadi
     } catch (e) {
       toast.error(getErrorMessage(e));
     } finally {
@@ -602,12 +578,11 @@ function StartScreen({
               </span>
             </div>
           ) : (
-            needPay && (
+            needPromo && (
               <div className="mt-5 flex items-center justify-center gap-2 rounded-xl border border-amber-400/30 bg-amber-400/10 p-3">
-                <Wallet className="h-4 w-4 shrink-0 text-amber-400" />
+                <Ticket className="h-4 w-4 shrink-0 text-amber-400" />
                 <span className="text-sm text-ink/90">
-                  Bir martalik kirish:{" "}
-                  <b className="text-ink">{priceStr} so'm</b>
+                  Kirish uchun <b className="text-ink">promokod</b> kerak
                 </span>
               </div>
             )
@@ -628,10 +603,10 @@ function StartScreen({
                 <Lock className="h-5 w-5" />
                 Vaqtincha yopiq
               </>
-            ) : needPay ? (
+            ) : needPromo ? (
               <>
-                <CreditCard className="h-5 w-5" />
-                To'lab boshlash · {priceStr} so'm
+                <Ticket className="h-5 w-5" />
+                Promokod bilan boshlash
               </>
             ) : (
               <>
@@ -646,15 +621,10 @@ function StartScreen({
         </div>
       </div>
 
-      <PaymentModal
+      <PromoModal
         open={payOpen}
-        price={info?.price ?? 0}
-        bonus={info?.bonus ?? 0}
-        method={method}
-        onMethod={setMethod}
         purchasing={purchasing}
-        onPay={handlePay}
-        onBonusPay={handleBonusPay}
+        onUnlock={handleUnlock}
         onClose={() => {
           if (!purchasing) {
             setPayOpen(false);
@@ -674,22 +644,15 @@ function StartScreen({
   );
 }
 
-/** Real imtihon bir martalik to'lov modali — zamonaviy, darhol ochiladi. */
+/** Real imtihonga promokod bilan kirish modali — zamonaviy, darhol ochiladi. */
 interface AppliedPromo {
   code: string;
-  discountPercent: number;
-  discountedPrice: number;
 }
 
-function PaymentModal({
+function PromoModal({
   open,
-  price,
-  bonus,
-  method,
-  onMethod,
   purchasing,
-  onPay,
-  onBonusPay,
+  onUnlock,
   onClose,
   promoInput,
   onPromoInputChange,
@@ -699,13 +662,8 @@ function PaymentModal({
   promoError,
 }: {
   open: boolean;
-  price: number;
-  bonus: number;
-  method: string;
-  onMethod: (m: string) => void;
   purchasing: boolean;
-  onPay: () => void;
-  onBonusPay: () => void;
+  onUnlock: () => void;
   onClose: () => void;
   promoInput: string;
   onPromoInputChange: (v: string) => void;
@@ -715,18 +673,9 @@ function PaymentModal({
   promoError: { message: string; alreadyUsed: boolean } | null;
 }) {
   if (!open) return null;
-  // Chegirma qo'llangan bo'lsa — YAKUNIY (chegirmali) narx to'lov/bonus tugmalarida ishlatiladi.
-  const effectivePrice = appliedPromo ? appliedPromo.discountedPrice : price;
-  const priceStr = effectivePrice.toLocaleString("ru-RU");
-  const originalPriceStr = price.toLocaleString("ru-RU");
-  const methods = [
-    { code: "click", label: "Click" },
-    { code: "payme", label: "Payme" },
-    { code: "card", label: "Bank karta" },
-  ];
   const benefits = [
     { icon: ShieldCheck, text: "Haqiqiy imtihon sharoiti va vaqti" },
-    { icon: Zap, text: "To'lovdan so'ng darhol ochiladi" },
+    { icon: Zap, text: "Promokod qabul qilingach darhol ochiladi" },
     { icon: Sparkles, text: "3 tilda, har safar yangi savollar" },
   ];
   return (
@@ -748,55 +697,18 @@ function PaymentModal({
         </button>
 
         <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-accent to-blue-900 shadow-glow ring-1 ring-white/10">
-          <CreditCard className="h-8 w-8 text-white" />
+          <Ticket className="h-8 w-8 text-white" />
         </div>
-        <h2 className="text-xl font-bold text-ink">Real imtihon to'lovi</h2>
-        <p className="mx-auto mt-1 max-w-xs text-sm text-muted">
-          Haqiqiy DYHHX imtihoni sharoiti. Har bir kirish — bir martalik to'lov.
+        <h2 className="text-xl font-bold text-ink">Promokod bilan kirish</h2>
+        <p className="mx-auto mt-1 mb-5 max-w-xs text-sm text-muted">
+          Haqiqiy DYHHX imtihoni sharoiti. Kirish faqat promokod orqali ochiladi.
         </p>
 
-        <motion.div
-          layout
-          transition={{ type: "spring", stiffness: 300, damping: 26 }}
-          className={cn(
-            "my-5 overflow-hidden rounded-2xl py-4 transition-colors duration-300",
-            appliedPromo ? "bg-success/10" : "bg-accent/10"
-          )}
-        >
-          {appliedPromo && (
-            <motion.div
-              initial={{ opacity: 0, y: -6 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.25 }}
-              className="text-sm font-medium text-muted line-through"
-            >
-              {originalPriceStr} so'm
-            </motion.div>
-          )}
-          <motion.div
-            key={effectivePrice}
-            initial={{ opacity: 0, scale: 0.88 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ type: "spring", stiffness: 420, damping: 22 }}
-            className={cn(
-              "text-3xl font-extrabold",
-              appliedPromo ? "text-success" : "text-ink"
-            )}
-          >
-            {priceStr} <span className="text-lg font-bold text-muted">so'm</span>
-          </motion.div>
-          <div className={cn("text-xs", appliedPromo ? "text-success" : "text-muted")}>
-            {appliedPromo
-              ? `-${appliedPromo.discountPercent}% chegirma qo'llandi`
-              : "bir martalik kirish"}
-          </div>
-        </motion.div>
-
-        {/* Chegirma promokodi (ixtiyoriy) — admin yaratgan */}
+        {/* Kirish promokodi — admin yaratgan */}
         <div className="mb-5 text-left">
           <div className="mb-2 flex items-center gap-1.5 text-xs font-medium text-muted">
             <Ticket className="h-3.5 w-3.5" />
-            Promokod (ixtiyoriy)
+            Promokod
           </div>
           <div className="flex gap-2">
             <div className="relative flex-1">
@@ -806,7 +718,7 @@ function PaymentModal({
                   appliedPromo && "border-success/60 bg-success/5 pr-9",
                   promoError && !appliedPromo && "border-danger/60"
                 )}
-                placeholder="Chegirma kodi"
+                placeholder="Kirish kodi"
                 maxLength={32}
                 value={promoInput}
                 onChange={(e) => onPromoInputChange(e.target.value)}
@@ -849,7 +761,7 @@ function PaymentModal({
             >
               <Gift className="h-4 w-4 shrink-0 text-success" />
               <p className="text-xs font-medium text-success">
-                «{appliedPromo.code}» qo'llandi — {appliedPromo.discountPercent}% chegirma
+                «{appliedPromo.code}» qabul qilindi — kirish ochiladi
               </p>
             </motion.div>
           )}
@@ -894,59 +806,25 @@ function PaymentModal({
           ))}
         </ul>
 
-        <div className="mb-5">
-          <div className="mb-2 text-left text-xs font-medium text-muted">
-            To'lov usuli
-          </div>
-          <div className="grid grid-cols-3 gap-2">
-            {methods.map((m) => (
-              <button
-                key={m.code}
-                onClick={() => onMethod(m.code)}
-                className={cn(
-                  "rounded-xl border-2 py-2.5 text-sm font-semibold transition",
-                  method === m.code
-                    ? "border-accent bg-accent/10 text-accent"
-                    : "border-line/20 text-muted hover:text-ink"
-                )}
-              >
-                {m.label}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Bonus bilan sotib olish — to'lov usullari yonida (balans yetsa, chegirmadan keyin) */}
-        {bonus >= effectivePrice && effectivePrice > 0 && (
-          <button
-            onClick={onBonusPay}
-            disabled={purchasing}
-            className="mb-3 flex w-full items-center justify-center gap-2 rounded-xl border-2 border-amber-400 bg-amber-400/10 py-3 font-bold text-amber-500 transition hover:bg-amber-400/20 disabled:opacity-60"
-          >
-            <Gift className="h-5 w-5" />
-            Bonus bilan sotib olish · {bonus.toLocaleString("ru-RU")} so'm
-          </button>
-        )}
-
         <button
-          onClick={onPay}
-          disabled={purchasing}
-          className="btn-primary w-full py-3 text-base shadow-glow"
+          onClick={onUnlock}
+          disabled={purchasing || !promoInput.trim()}
+          className="btn-primary w-full py-3 text-base shadow-glow disabled:opacity-60"
         >
           {purchasing ? (
             <>
               <Loader2 className="h-5 w-5 animate-spin" />
-              To'lov amalga oshmoqda...
+              Tekshirilmoqda...
             </>
           ) : (
             <>
               <Lock className="h-4 w-4" />
-              {priceStr} so'm to'lash
+              Kirish
             </>
           )}
         </button>
         <p className="mt-3 text-[11px] text-muted">
-          🔒 Xavfsiz to'lov · To'lovdan so'ng imtihon darhol boshlanadi
+          🔒 Promokod qabul qilingach imtihon darhol boshlanadi
         </p>
         <button
           onClick={onClose}

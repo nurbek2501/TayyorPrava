@@ -9,12 +9,11 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.config import settings
 from app.core.ratelimit import limiter, questions_key
 from app.crud import exam_access as exam_access_crud
-from app.crud import payments as payments_crud
 from app.crud import promo as promo_crud
 from app.crud import settings as settings_crud
 from app.db.session import get_db
 from app.deps import get_current_user
-from app.models.enums import ExamStatus, PaymentStatus
+from app.models.enums import ExamStatus
 from app.models.user import User
 from app.schemas.exam import (
     ExamResultResponse,
@@ -132,9 +131,9 @@ async def purchase_real_exam(
     db: AsyncSession = Depends(get_db),
     user: User = Depends(get_current_user),
 ):
-    """Bir martalik real imtihon kirishini sotib olish (darhol ochiladi).
+    """Real imtihonga bir martalik kirishni ochish — FAQAT promokod bilan.
 
-    Haqiqiy to'lov shlyuzi (Click/Payme) keyin shu yerga ulanadi.
+    To'lov tizimi yo'q: yaroqli va ilgari ishlatilmagan promokod = bitta kirish.
     """
     settings_row = await settings_crud.get_settings(db)
     if settings_row.real_exam_locked:
@@ -142,55 +141,35 @@ async def purchase_real_exam(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Real imtihon bo'limi vaqtincha yopiq",
         )
-    price = settings_row.real_exam_price
-    method = (payload.method if payload else None) or "demo"
 
-    # Chegirma promokodi — berilgan bo'lsa va faol bo'lsa narxni kamaytiradi.
-    # Promokodsiz oqim OLDINGIDEK ishlaydi (discount_percent=0 -> price o'zgarmaydi).
-    discount_percent = 0
-    promo = None
+    # Promokod — kirish kaliti (majburiy). Har kod har akkauntdan bir marta.
     promo_code = payload.promo_code if payload else None
-    if promo_code:
-        promo = await promo_crud.get_active_by_code(db, promo_code)
-        if promo is None:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Promokod noto'g'ri yoki faol emas",
-            )
-        if await promo_crud.has_user_redeemed(db, promo.id, user.id):
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Siz bu promokoddan allaqachon foydalangansiz",
-            )
-        discount_percent = promo.discount_percent
-        price = _apply_discount(price, discount_percent)
-
-    if method == "bonus":
-        # Bonus bilan: balansdan yechiladi (daromad emas — to'lov yozuvi yo'q).
-        if int(user.bonus_balance or 0) < price:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Bonus yetarli emas",
-            )
-        user.bonus_balance = int(user.bonus_balance or 0) - price
-    else:
-        # Haqiqiy to'lov yozuvi (admin ko'rishi + daromad statistikasi) — darhol "paid"
-        payment = await payments_crud.create_payment(
-            db, user_id=user.id, tariff_id=None, method=method, phone="",
-            amount=price, category="real_exam",
+    if not promo_code:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Real imtihonga kirish uchun promokod kiriting",
         )
-        await payments_crud.update_payment_status(db, payment, PaymentStatus.paid)
+    promo = await promo_crud.get_active_by_code(db, promo_code)
+    if promo is None:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Promokod noto'g'ri yoki faol emas",
+        )
+    if await promo_crud.has_user_redeemed(db, promo.id, user.id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Siz bu promokoddan allaqachon foydalangansiz",
+        )
 
-    if promo is not None:
-        await promo_crud.increment_usage(db, promo)
-        await promo_crud.record_redemption(db, promo.id, user.id)
+    await promo_crud.increment_usage(db, promo)
+    await promo_crud.record_redemption(db, promo.id, user.id)
 
     # Bitta kirish ticketi (start_real_exam uni ishlatadi)
     await exam_access_crud.create_access(
-        db, user_id=user.id, amount=price, method=method
+        db, user_id=user.id, amount=0, method="promo"
     )
     await db.commit()
-    return RealExamPurchaseResponse(ok=True, price=price, discount_percent=discount_percent)
+    return RealExamPurchaseResponse(ok=True, price=0, discount_percent=0)
 
 
 @router.post("/real-exam/start", response_model=RealExamStartResponse, status_code=201)
@@ -207,12 +186,12 @@ async def start_real_exam(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Real imtihon bo'limi vaqtincha yopiq",
         )
-    # Pulli kirish: to'langan (ishlatilmagan) ticket bo'lishi shart
+    # Promokod bilan ochilgan (ishlatilmagan) ticket bo'lishi shart
     access = await exam_access_crud.get_unused_access(db, user.id)
     if access is None:
         raise HTTPException(
-            status_code=status.HTTP_402_PAYMENT_REQUIRED,
-            detail="Real imtihonga kirish uchun to'lov qiling",
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Real imtihonga kirish uchun promokod kiriting",
         )
     count = payload.count if payload else None
     session, questions = await exam_service.start_real_exam(

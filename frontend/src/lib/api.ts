@@ -400,12 +400,12 @@ export const realExamApi = {
         reason?: string | null;
       }>("/real-exam/check-promo", { code })
       .then((r) => r.data),
-  // Bir martalik kirishni sotib olish (darhol ochiladi). promoCode — ixtiyoriy chegirma.
-  purchase: (method?: string, promoCode?: string) =>
+  // Promokod bilan bir martalik kirishni ochish (to'lov yo'q — kod yagona kalit).
+  purchase: (promoCode: string) =>
     api
       .post<{ ok: boolean; price: number; discountPercent: number }>(
         "/real-exam/purchase",
-        { method, promoCode }
+        { promoCode }
       )
       .then((r) => r.data),
   start: (count?: number) =>
