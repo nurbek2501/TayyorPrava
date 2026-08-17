@@ -48,7 +48,7 @@ async def run(nickname: str, password: str) -> None:
         print("\n──────── KIRISH MA'LUMOTLARI ────────")
         print(f"  Nik   : {nickname}")
         print(f"  Parol : {password}")
-        print("  Sayt  : https://tayyorprava-web.onrender.com/login")
+        print("  Sayt  : https://tayyorprava.uz/login")
         print("─────────────────────────────────────")
 
 
