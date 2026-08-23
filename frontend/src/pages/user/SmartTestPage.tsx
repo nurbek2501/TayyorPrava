@@ -17,8 +17,10 @@ import { useNavigate } from "react-router-dom";
 import { assetUrl, getErrorMessage, smartTestApi } from "@/lib/api";
 import type { SmartAnswer, SmartInfo, SmartQuestion } from "@/lib/api";
 import { pickText } from "@/lib/lang";
+import { useChannelSubscription } from "@/lib/useChannelSubscription";
 import { cn } from "@/lib/utils";
 import { useUiStore } from "@/store/ui";
+import { SubscriptionGateModal } from "@/components/auth/SubscriptionGateModal";
 import { ContentLangSwitcher } from "@/components/shared/ContentLangSwitcher";
 import { ZoomableImage } from "@/components/ui/ZoomableImage";
 import { PageLoader } from "@/components/ui/Spinner";
@@ -185,6 +187,7 @@ function BackButton({ label, onClick }: { label: string; onClick: () => void }) 
 
 export function SmartTestPage() {
   const navigate = useNavigate();
+  const subQuery = useChannelSubscription();
   const uiLang = useUiStore((s) => s.uiLang);
   const uiContentLang = useUiStore((s) => s.contentLang);
   const tt = SMART_T[uiLang] ?? SMART_T.uz;
@@ -419,6 +422,18 @@ export function SmartTestPage() {
   navRef.current = { back: goBack, forward: goForward };
 
   const exit = () => navigate("/exam");
+
+  if (subQuery.data && !subQuery.data.subscribed) {
+    return (
+      <SubscriptionGateModal
+        open
+        channel={subQuery.data.channel}
+        channelUrl={subQuery.data.channelUrl}
+        onRecheck={() => subQuery.refetch()}
+        isChecking={subQuery.isFetching}
+      />
+    );
+  }
 
   // ---------------- ENTRY ----------------
   if (phase === "entry") {

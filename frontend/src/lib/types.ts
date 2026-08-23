@@ -118,6 +118,12 @@ export interface TokenResponse {
   tokenType: string;
 }
 
+export interface TelegramSubscription {
+  subscribed: boolean;
+  channel: string;
+  channelUrl: string;
+}
+
 export interface MeStats {
   favorites: number;
   mistakes: number;

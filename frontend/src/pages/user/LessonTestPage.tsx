@@ -16,8 +16,10 @@ import { useTranslation } from "react-i18next";
 import { useNavigate, useParams } from "react-router-dom";
 import { assetUrl, meApi, questionsApi, ticketsApi, topicsApi } from "@/lib/api";
 import { pickText } from "@/lib/lang";
+import { useChannelSubscription } from "@/lib/useChannelSubscription";
 import { cn, formatClock } from "@/lib/utils";
 import { useUiStore } from "@/store/ui";
+import { SubscriptionGateModal } from "@/components/auth/SubscriptionGateModal";
 import { LangSwitcher } from "@/components/shared/LangSwitcher";
 import { Logo } from "@/components/shared/Logo";
 import { ThemeSwitcher } from "@/components/shared/ThemeSwitcher";
@@ -79,6 +81,7 @@ export function LessonTestPage() {
   const contentLang = useUiStore((s) => s.contentLang);
   const uiLang = useUiStore((s) => s.uiLang);
 
+  const subQuery = useChannelSubscription();
   const topicsQ = useQuery({ queryKey: ["topics"], queryFn: topicsApi.list });
 
   const questionsQ = useQuery({
@@ -149,6 +152,18 @@ export function LessonTestPage() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [total, finishConfirmOpen]);
+
+  if (subQuery.data && !subQuery.data.subscribed) {
+    return (
+      <SubscriptionGateModal
+        open
+        channel={subQuery.data.channel}
+        channelUrl={subQuery.data.channelUrl}
+        onRecheck={() => subQuery.refetch()}
+        isChecking={subQuery.isFetching}
+      />
+    );
+  }
 
   if (questionsQ.isLoading) return <PageLoader />;
 

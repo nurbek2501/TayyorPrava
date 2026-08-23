@@ -30,10 +30,12 @@ import { useNavigate } from "react-router-dom";
 import { assetUrl, getErrorMessage, realExamApi } from "@/lib/api";
 import { pickText } from "@/lib/lang";
 import { isApp } from "@/lib/platform";
+import { useChannelSubscription } from "@/lib/useChannelSubscription";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/store/auth";
 import { useRealExam } from "@/store/realExam";
 import { useUiStore } from "@/store/ui";
+import { SubscriptionGateModal } from "@/components/auth/SubscriptionGateModal";
 import { BackButton } from "@/components/shared/BackButton";
 import { Logo } from "@/components/shared/Logo";
 import { ConfirmModal, Modal } from "@/components/ui/Modal";
@@ -845,6 +847,7 @@ export function RealExamPage() {
   const uiContentLang = useUiStore((s) => s.contentLang);
   const uiLang = useUiStore((s) => s.uiLang);
   const authUser = useAuth((s) => s.user); // faqat ma'lumot satri uchun (ism)
+  const subQuery = useChannelSubscription();
 
   // Selektorlar bilan — timeLeftSec/tick bu yerda yo'q.
   const session = useRealExam((s) => s.session);
@@ -1048,6 +1051,18 @@ export function RealExamPage() {
       setExamHidden(false);
     };
   }, [status]);
+
+  if (subQuery.data && !subQuery.data.subscribed) {
+    return (
+      <SubscriptionGateModal
+        open
+        channel={subQuery.data.channel}
+        channelUrl={subQuery.data.channelUrl}
+        onRecheck={() => subQuery.refetch()}
+        isChecking={subQuery.isFetching}
+      />
+    );
+  }
 
   if (loading) return <PageLoader />;
   if (!session) {

@@ -103,5 +103,7 @@ async def my_referral(
         invited=int(invited),
         paid=int(paid),
         ref_code=code,
-        ref_link=f"https://pravapro.uz/register?ref={code}",
+        # Ro'yxatdan o'tish endi /login sahifasidagi Telegram tugmasi orqali
+        # (alohida /register sahifasi yo'q) — ?ref shu yerda o'qiladi.
+        ref_link=f"https://pravapro.uz/login?ref={code}",
     )

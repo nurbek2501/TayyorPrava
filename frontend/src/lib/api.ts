@@ -18,6 +18,7 @@ import type {
   ReferralStats,
   SiteSettings,
   Tariff,
+  TelegramSubscription,
   Timeseries,
   TokenResponse,
   Topic,
@@ -68,6 +69,9 @@ function isAuthEndpoint(url: string): boolean {
     url.includes("/auth/verify") ||
     url.includes("/auth/reset") ||
     url.includes("/auth/forgot") ||
+    // Aniq moslik — "/auth/telegram-subscription" bunga kirmasin (u himoyalangan
+    // resurs, 401'da odatdagidek refresh-va-qayta-urinish ishlashi kerak).
+    url.endsWith("/auth/telegram") ||
     url.includes("/admin/auth/login")
   );
 }
@@ -246,6 +250,23 @@ export const authApi = {
       .then((r) => r.data),
   login: (data: { nickname: string; password: string }) =>
     api.post<TokenResponse>("/auth/login", data).then((r) => r.data),
+  // Telegram Login Widget — parolsiz kirish/ro'yxatdan o'tish
+  telegramLogin: (data: {
+    id: number;
+    firstName: string;
+    lastName?: string;
+    username?: string;
+    photoUrl?: string;
+    authDate: number;
+    hash: string;
+    ref?: string;
+  }) => api.post<TokenResponse>("/auth/telegram", data).then((r) => r.data),
+  // Joriy foydalanuvchi Telegram kanalimizga obuna ekanini tekshirish
+  // (test yechish sahifalari shu bo'yicha obuna-talab modalini ko'rsatadi)
+  telegramSubscription: () =>
+    api
+      .get<TelegramSubscription>("/auth/telegram-subscription")
+      .then((r) => r.data),
   checkNickname: (nickname: string) =>
     api
       .post<{ available: boolean; error?: string }>("/auth/check-nickname", {

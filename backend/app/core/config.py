@@ -54,6 +54,8 @@ class Settings(BaseSettings):
     WEBHOOK_BASE_URL: str = ""
     # Tasdiq kodi necha daqiqa amal qiladi
     CODE_TTL_MINUTES: int = 5
+    # Telegram Login Widget: auth_date shundan eski bo'lsa rad etiladi (replay himoyasi).
+    TELEGRAM_AUTH_MAX_AGE_SECONDS: int = 86400
     # Tasdiq kodini necha marta xato kiritish mumkin — oshsa kod kuydiriladi (brute-force himoyasi).
     MAX_CODE_ATTEMPTS: int = 5
 

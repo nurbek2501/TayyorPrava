@@ -113,3 +113,27 @@ class TokenResponse(CamelModel):
     access_token: str
     refresh_token: str
     token_type: str = "bearer"
+
+
+class TelegramAuthRequest(CamelModel):
+    """Telegram Login Widget qaytargan foydalanuvchi ma'lumoti + imzo.
+
+    Maydon nomlari Telegram protokoli bilan AYNAN bir xil bo'lishi shart (hash
+    shu nomlar ustida hisoblanadi) — shuning uchun camelCase emas, original ko'rinishda.
+    `ref` — bizning qo'shimcha parametrimiz (referal kodi), Telegram imzosiga kirmaydi.
+    """
+
+    id: int
+    first_name: str
+    last_name: Optional[str] = None
+    username: Optional[str] = None
+    photo_url: Optional[str] = None
+    auth_date: int
+    hash: str
+    ref: Optional[str] = None
+
+
+class TelegramSubscriptionResponse(CamelModel):
+    subscribed: bool
+    channel: str
+    channel_url: str

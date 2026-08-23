@@ -1,7 +1,10 @@
-"""Password hashing (bcrypt) and JWT token helpers."""
+"""Password hashing (bcrypt), JWT token va Telegram Login Widget imzo tekshiruvi."""
 from __future__ import annotations
 
 import asyncio
+import hashlib
+import hmac
+import time
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
@@ -73,3 +76,33 @@ def decode_token(token: str) -> dict[str, Any] | None:
         return jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
     except JWTError:
         return None
+
+
+def verify_telegram_login(
+    data: dict[str, Any], bot_token: str, max_age_seconds: int
+) -> bool:
+    """Telegram Login Widget berdan ma'lumot/hash'ni tekshiradi (rasmiy algoritm).
+
+    https://core.telegram.org/widgets/login#checking-authorization
+    `data` — FAQAT Telegram imzolagan maydonlar (masalan `ref` kabi bizning
+    qo'shimcha parametrlarimiz kirmasligi shart, aks holda hash hech qachon mos kelmaydi).
+    """
+    if not bot_token:
+        return False
+    received_hash = data.get("hash")
+    if not isinstance(received_hash, str) or not received_hash:
+        return False
+    check_string = "\n".join(
+        f"{k}={v}" for k, v in sorted(data.items()) if k != "hash" and v is not None
+    )
+    secret_key = hashlib.sha256(bot_token.encode("utf-8")).digest()
+    computed = hmac.new(
+        secret_key, check_string.encode("utf-8"), hashlib.sha256
+    ).hexdigest()
+    if not hmac.compare_digest(computed, received_hash):
+        return False
+    try:
+        auth_date = int(data.get("auth_date", 0))
+    except (TypeError, ValueError):
+        return False
+    return (time.time() - auth_date) <= max_age_seconds

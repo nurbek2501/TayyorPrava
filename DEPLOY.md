@@ -90,7 +90,9 @@ server {
     add_header Strict-Transport-Security "max-age=63072000; includeSubDomains" always;
     # CSP — XSS himoyasi (localStorage tokenini o'g'irlashni qiyinlashtiradi).
     # connect-src ga API domeningizni qo'shing; build buzilsa moslang.
-    add_header Content-Security-Policy "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; connect-src 'self' https://api.tayyorprava.uz; frame-ancestors 'none'; base-uri 'self'" always;
+    # script-src/frame-src'ga telegram.org qo'shilgan — Telegram Login Widget
+    # (script + oauth.telegram.org iframe) uchun zarur, aks holda tugma ko'rinmaydi.
+    add_header Content-Security-Policy "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' https://telegram.org; frame-src https://oauth.telegram.org; connect-src 'self' https://api.tayyorprava.uz; frame-ancestors 'none'; base-uri 'self'" always;
 
     location / {
         try_files $uri $uri/ /index.html;   # SPA fallback

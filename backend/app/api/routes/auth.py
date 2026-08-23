@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+import secrets
 from datetime import datetime, timezone
 
 from fastapi import APIRouter, Depends, HTTPException, Request, status
@@ -16,6 +17,7 @@ from app.core.security import (
     decode_token,
     hash_password_async,
     verify_password_async,
+    verify_telegram_login,
 )
 from app.core.validators import nickname_error, password_error
 from app.crud import auth_codes as auth_codes_crud
@@ -42,10 +44,13 @@ from app.schemas.auth import (
     RegisterInitResponse,
     RegisterRequest,
     ResetPasswordRequest,
+    TelegramAuthRequest,
+    TelegramSubscriptionResponse,
     TokenResponse,
     VerifyCodeRequest,
 )
 from app.schemas.user import UserRead, UserUpdate
+from app.services import telegram_bot
 from app.services.serializers import serialize_user
 
 router = APIRouter(prefix="/auth", tags=["auth"])
@@ -348,6 +353,101 @@ async def login(
             or "Akkaunt bloklangan. Administrator bilan bog'laning.",
         )
     return _tokens(user)
+
+
+@router.post("/telegram", response_model=TokenResponse)
+@limiter.limit("20/minute")
+async def telegram_login(
+    request: Request, payload: TelegramAuthRequest, db: AsyncSession = Depends(get_db)
+):
+    """Telegram Login Widget orqali kirish/ro'yxatdan o'tish (parolsiz).
+
+    Widget qaytargan `hash`ni BOT_TOKEN bilan HMAC-SHA256 orqali tekshiramiz —
+    faqat Telegram imzolagan ma'lumotga ishonamiz (`ref` hisobga kirmaydi, chunki
+    u bizning qo'shimcha parametrimiz — Telegram uni imzolamagan).
+    """
+    check_fields = payload.model_dump(exclude={"ref"}, exclude_none=True)
+    if not verify_telegram_login(
+        check_fields, settings.BOT_TOKEN, settings.TELEGRAM_AUTH_MAX_AGE_SECONDS
+    ):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Telegram tasdig'i yaroqsiz yoki eskirgan",
+        )
+
+    telegram_id = str(payload.id)
+    user = await users_crud.get_user_by_telegram_id(db, telegram_id)
+    if user is None:
+        referred_by = None
+        if payload.ref:
+            inviter = await users_crud.get_user_by_ref_code(db, payload.ref.strip().upper())
+            if inviter:
+                referred_by = inviter.ref_code
+        user = await users_crud.create_user(
+            db,
+            name=payload.first_name,
+            surname=payload.last_name,
+            nickname=f"TG{telegram_id}",
+            phone=f"tg:{telegram_id}",
+            telegram=f"@{payload.username}" if payload.username else None,
+            password_hash=await hash_password_async(secrets.token_urlsafe(48)),
+            role=Role.user,
+            referred_by=referred_by,
+        )
+        user.telegram_id = telegram_id
+        if payload.photo_url:
+            user.avatar_url = payload.photo_url
+        if referred_by:
+            inviter = await users_crud.get_user_by_ref_code(db, referred_by)
+            if inviter:
+                # Promokod bilan ro'yxatdan o'tishda — egasiga admin belgilagan bonus.
+                settings_row = await settings_crud.get_settings(db)
+                bonus = int(settings_row.referral_bonus or 0)
+                await users_crud.create_referral(
+                    db, referrer_id=inviter.id, referred_user_id=user.id, bonus=bonus
+                )
+                if bonus:
+                    inviter.bonus_balance = int(inviter.bonus_balance or 0) + bonus
+        try:
+            await db.commit()
+        except IntegrityError:
+            # Konkurent so'rov shu telegram akkauntdan allaqachon user yaratgan.
+            await db.rollback()
+            user = await users_crud.get_user_by_telegram_id(db, telegram_id)
+            if user is None:
+                raise HTTPException(
+                    status_code=status.HTTP_409_CONFLICT,
+                    detail="Ro'yxatdan o'tishda ziddiyat yuz berdi, qaytadan urinib ko'ring",
+                )
+
+    if user.is_blocked:
+        await users_crud.auto_unblock_if_expired(db, user)
+    if user.is_blocked:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail=user.block_reason
+            or "Akkaunt bloklangan. Administrator bilan bog'laning.",
+        )
+    return _tokens(user)
+
+
+@router.get("/telegram-subscription", response_model=TelegramSubscriptionResponse)
+async def telegram_subscription(user: User = Depends(get_current_user)):
+    """Joriy foydalanuvchi bizning Telegram kanalimizga obuna ekanini tekshiradi.
+
+    Testlarni yechish sahifalari shu bo'yicha obuna-talab modalini ko'rsatadi.
+    """
+    subscribed = True
+    if user.telegram_id:
+        try:
+            subscribed = await telegram_bot.is_subscribed(int(user.telegram_id))
+        except (TypeError, ValueError):
+            subscribed = True
+    return TelegramSubscriptionResponse(
+        subscribed=subscribed,
+        channel=settings.TELEGRAM_CHANNEL,
+        channel_url=settings.CHANNEL_URL,
+    )
 
 
 @router.post("/refresh", response_model=TokenResponse)
