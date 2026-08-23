@@ -174,6 +174,16 @@ const resources = {
         myMistakes: "Mening xato savollarim",
         allMistakes: "Barcha xato qilingan savollar",
       },
+      installModal: {
+        title: "Ilovani telefoningizga o'rnating",
+        subtitle:
+          "Imtihonga tayyorgarlik doim yoningizda — bir bosishda oching, istalgan vaqtda mashq qiling.",
+        benefitFast: "Brauzerdan tezroq — bir bosishda ochiladi",
+        benefitOffline: "Internetsiz ham savollarni yechavering",
+        benefitHandy: "Telefon ekranida o'z belgisi bilan turadi",
+        cta: "Ilovani o'rnatish",
+        later: "Keyinroq",
+      },
       lesson: {
         title: "Mavzuni tanlang",
         mixed: "Aralash yechish",
@@ -459,6 +469,16 @@ const resources = {
         myMistakes: "Менинг хато саволларим",
         allMistakes: "Барча хато қилинган саволлар",
       },
+      installModal: {
+        title: "Иловани телефонингизга ўрнатинг",
+        subtitle:
+          "Имтиҳонга тайёргарлик доим ёнингизда — бир босишда очинг, исталган вақтда машқ қилинг.",
+        benefitFast: "Браузердан тезроқ — бир босишда очилади",
+        benefitOffline: "Интернетсиз ҳам саволларни ечаверинг",
+        benefitHandy: "Телефон экранида ўз белгиси билан туради",
+        cta: "Иловани ўрнатиш",
+        later: "Кейинроқ",
+      },
       lesson: {
         title: "Мавзуни танланг",
         mixed: "Аралаш ечиш",
@@ -743,6 +763,16 @@ const resources = {
         myFavorites: "Избранные вопросы",
         myMistakes: "Мои ошибки",
         allMistakes: "Все ошибочные вопросы",
+      },
+      installModal: {
+        title: "Установите приложение на телефон",
+        subtitle:
+          "Подготовка к экзамену всегда под рукой — открывайте в одно касание и тренируйтесь когда угодно.",
+        benefitFast: "Быстрее браузера — открывается в одно касание",
+        benefitOffline: "Решайте вопросы даже без интернета",
+        benefitHandy: "Своя иконка прямо на экране телефона",
+        cta: "Установить приложение",
+        later: "Позже",
       },
       lesson: {
         title: "Выберите тему",

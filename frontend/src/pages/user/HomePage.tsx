@@ -15,6 +15,7 @@ import {
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { StatCard } from "@/components/shared/StatCard";
+import { AppInstallModal } from "@/components/shared/AppInstallModal";
 import { InstallApp } from "@/components/shared/InstallApp";
 import { useMeStats } from "@/lib/queries";
 
@@ -59,6 +60,9 @@ export function HomePage() {
 
   return (
     <div className="space-y-8">
+      {/* Ilovani o'rnatish taklifi — kirgandan keyin BIR MARTA chiqadi */}
+      <AppInstallModal />
+
       {/* Quick actions */}
       <div className="flex flex-col gap-3 sm:flex-row">
         <QuickAction
