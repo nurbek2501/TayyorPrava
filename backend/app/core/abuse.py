@@ -4,6 +4,11 @@ Qatlamlar:
   1) Hujum imzolari (URL path+query): path-traversal, SQLi, XSS, skaner.
   2) Xulq hisobi (sliding-window): takroriy 429 (rate-limit) / 403 (taqiq).
 
+AKKAUNTNI BO'LISHISH: `SCRAPE_GUARD_ENABLED=False` (joriy sozlama) bo'lganda
+akkaunt bo'yicha scraping detektorlari (turli mavzu / umumiy hajm / javob-kaliti)
+va rate-limit 429'idan kelib chiqadigan avto-blok ISHLAMAYDI — bitta akkauntni
+xohlagancha odam birga ishlata oladi. Hujum imzolari va IP himoyasi saqlanadi.
+
 IZOLYATSIYA — bir akkaunt suiiste'moli BOSHQALARGA ta'sir qilmaydi:
   * Tizimga kirgan hujum (token bor, masalan brauzer kengaytmasi) -> FAQAT shu akkaunt
     eskalatsiya bilan bloklanadi (5daq->15daq->admin). IP banlanmaydi -> bir xil IP'dagi
@@ -128,7 +133,7 @@ async def guard_serve(user_id: str | None, count: int) -> None:
     Chegaralar mavjud rate-limitlar ustidan yana bir qatlam: ko'p endpoint bo'ylab
     (topic/ticket/random/id/smart) yig'ilgan hajm ham nazoratga tushadi.
     """
-    if not settings.ABUSE_GUARD_ENABLED or not user_id or count <= 0:
+    if not settings.SCRAPE_GUARD_ENABLED or not user_id or count <= 0:
         return
     total = record_served(user_id, count, settings.SERVE_SCRAPE_WINDOW)
     if total >= settings.SERVE_SCRAPE_MAX:
@@ -141,7 +146,7 @@ async def guard_serve(user_id: str | None, count: int) -> None:
 async def guard_answer(user_id: str | None, question_id: str) -> None:
     """Javob (to'g'ri variant) oshkor qilingach chaqiriladi — javob-kaliti bulk
     ekstraksiyasi bo'lsa akkauntni bloklaydi."""
-    if not settings.ABUSE_GUARD_ENABLED or not user_id or not question_id:
+    if not settings.SCRAPE_GUARD_ENABLED or not user_id or not question_id:
         return
     distinct = record_answer_reveal(
         user_id, question_id, settings.ANSWER_REVEAL_WINDOW
@@ -396,7 +401,16 @@ class AbuseGuardMiddleware(BaseHTTPMiddleware):
         # foydalanuvchining o'zi emas. Akkaunt/IP eskalatsiyasiga kiritilmaydi (aks holda
         # halol o'quvchi boshqalarning yuki sabab bloklanardi).
         is_ip_rl = code == 429 and response.headers.get("x-ratelimit-scope") == "ip"
-        if code in (429, 403) and not is_paywall and not is_ip_rl:
+        # Akkauntni bo'lishishga ruxsat berilganda (SCRAPE_GUARD_ENABLED=False) takroriy
+        # 429 — bu shunchaki ko'p odam birga ishlayotgani, suiiste'mol emas. Bunday
+        # holatda akkaunt hisobiga qo'shilmaydi (aks holda birga ishlash bloklab qo'yardi).
+        is_shared_use_429 = code == 429 and not settings.SCRAPE_GUARD_ENABLED
+        if (
+            code in (429, 403)
+            and not is_paywall
+            and not is_ip_rl
+            and not is_shared_use_429
+        ):
             weight = 3 if code == 429 else 2
             if uid:
                 score = _record(f"user:{uid}", weight, settings.ABUSE_WINDOW_SECONDS)
@@ -416,8 +430,10 @@ class AbuseGuardMiddleware(BaseHTTPMiddleware):
                 ban_ip(ip, settings.ABUSE_BAN_SECONDS)
 
         # 5) Scraping anomaliyasi: kirgan foydalanuvchi qisqa vaqtda ko'p TURLI
-        #    mavzu/biletni muvaffaqiyatli (200) so'rasa -> eskalatsion blok (mavjud mexanizm).
-        if uid and code == 200:
+        #    mavzu/biletni muvaffaqiyatli (200) so'rasa -> eskalatsion blok.
+        #    Akkauntni bo'lishishga ruxsat berilganda o'chirilgan: bir necha odam
+        #    turli mavzularni birga ochsa, bu anomaliya emas.
+        if settings.SCRAPE_GUARD_ENABLED and uid and code == 200:
             resource = _question_resource(path)
             if resource:
                 distinct = record_resource_access(

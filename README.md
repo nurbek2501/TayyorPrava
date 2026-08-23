@@ -122,22 +122,30 @@ npm run dev                        # http://localhost:5173
 Tizimga kirgan foydalanuvchi savollar bazasini ketma-ket so'rab ko'chirib olmasligi uchun
 ko'p qatlamli himoya (barchasi `.env` orqali sozlanadi):
 
+> ⚠️ **Diqqat:** akkauntni bo'lishishga ruxsat berilgani uchun (`SCRAPE_GUARD_ENABLED=False`)
+> quyidagi **1 va 2-qatorlar hozir o'chirilgan** — bitta akkauntni xohlagancha odam birga
+> ishlata oladi, lekin savol bazasini ommaviy ko'chirishdan himoya ham yo'q.
+> Himoyani qaytarish uchun `.env` da `SCRAPE_GUARD_ENABLED=True` qiling.
+
 | # | Chora | Tafsilot |
 |---|---|---|
-| 1 | **Rate limit** | Savol endpointlari foydalanuvchi bo'yicha `RATE_LIMIT_QUESTIONS` (20/min). Oshganda **429 + Retry-After**. Stor: `REDIS_URL` bo'lsa Redis, aks holda in-memory sliding-window. |
-| 2 | **Anomaliya** | `SCRAPE_WINDOW_SECONDS` (60s) ichida `SCRAPE_DISTINCT_TOPICS` (10) dan ko'p **turli** topic/ticket so'ralsa → akkaunt eskalatsion bloki (5→15 daq→admin). Bitta mavzuni sahifalash anomaliya emas. |
-| 3 | **Pagination** | `/topics/{id}/questions`, `/tickets/{n}/questions`: `limit` (default 10, **max 20**) + `offset`. To'liq mavzu birdaniga qaytmaydi; frontend partiyalab yuklaydi (UI o'zgarmagan). |
-| 4 | **Tarif qulfi** | Bepul (obunasiz) foydalanuvchi faqat namuna (`DEMO_MAX_TOPIC_ID`/`DEMO_MAX_TICKET` = 1‑2). Tashqarisi → **403** (`X-Content-Gate: tariff`). Admin/aktiv obuna → to'liq. |
-| 5 | **Javob kaliti** | `correctOptionId`/`isCorrect` savol endpointlarida **yo'q** — tekshiruv faqat server `POST /api/check-answer`. |
-| 6 | **API hujjatlari** | Production'da (`DEBUG=False`) `/docs`, `/redoc`, `/openapi.json` **yopiq**. |
-| 7 | **Variant aralashtirish** | Har so'rovda options tartibi tasodifiy (`SHUFFLE_OPTIONS`) — javob pozitsiyasi yodlanmaydi (ID'lar uuid). |
-| 8 | **Ochiq endpoint limiti** | Tokensiz endpointlar (`/landing`, `/tariffs` — mehmon bosh sahifasi) IP bo'yicha `RATE_LIMIT_PUBLIC` (30/min). Qolgan barcha ma'lumot API'lari **token talab qiladi** (tokensiz → 401). |
-| 9 | **So'rov hajmi (DoS)** | `MAX_REQUEST_MB` (8MB) dan katta tana **413** bilan tanani o'qimasdan rad etiladi. Yuklangan fayllar (`/static`) endi abuse guard ostida — hujum imzosi + xavfsizlik sarlavhalari (`nosniff`). |
-| 10 | **Brauzer hujumi → akkaunt bloki** | Kirgan akkaunt orqali brauzerdan hujum (SQLi/XSS/injection) — **URL'da ham, so'rov tanasida ham** (`POST/PUT/PATCH`, JSON/forma) — aniqlansa: akkaunt **darhol eskalatsion bloklanadi** (1‑urinish→5 daq, 2→15 daq, 3→faqat admin ochadi), frontend **sessiyani tugatib, sahifani yangilab** login'ga chiqaradi. Auth (parol/nik), bot, admin yo'llari tanani skanidan ozod (noto'g'ri musbatsiz). |
+| 1 | ~~**Anomaliya (hajm/javob-kaliti)**~~ | *(o'chirilgan)* Oynada berilgan jami savollar (`SERVE_SCRAPE_MAX`) yoki so'ralgan turli javoblar (`ANSWER_REVEAL_MAX`) oshsa → avto-blok. |
+| 2 | ~~**Anomaliya (turli mavzu)**~~ | *(o'chirilgan)* `SCRAPE_WINDOW_SECONDS` (60s) ichida `SCRAPE_DISTINCT_TOPICS` (10) dan ko'p **turli** topic/ticket so'ralsa → akkaunt bloki. |
+| 3 | **Rate limit** | Savol endpointlari foydalanuvchi bo'yicha `RATE_LIMIT_QUESTIONS` (300/min) — birga ishlashga xalaqit bermaydi, faqat serverni ortiqcha yukdan saqlaydi. Oshganda **429 + Retry-After** (akkaunt bloklanmaydi). Stor: `REDIS_URL` bo'lsa Redis, aks holda in-memory sliding-window. |
+| 4 | **Pagination** | `/topics/{id}/questions`, `/tickets/{n}/questions`: `limit` (default 10, **max 20**) + `offset`. To'liq mavzu birdaniga qaytmaydi; frontend partiyalab yuklaydi (UI o'zgarmagan). |
+| 5 | **Tarif qulfi** | Bepul (obunasiz) foydalanuvchi faqat namuna (`DEMO_MAX_TOPIC_ID`/`DEMO_MAX_TICKET` = 1‑2). Tashqarisi → **403** (`X-Content-Gate: tariff`). Admin/aktiv obuna → to'liq. |
+| 6 | **Javob kaliti** | `correctOptionId`/`isCorrect` savol endpointlarida **yo'q** — tekshiruv faqat server `POST /api/check-answer`. |
+| 7 | **API hujjatlari** | Production'da (`DEBUG=False`) `/docs`, `/redoc`, `/openapi.json` **yopiq**. |
+| 8 | **Variant aralashtirish** | Har so'rovda options tartibi tasodifiy (`SHUFFLE_OPTIONS`) — javob pozitsiyasi yodlanmaydi (ID'lar uuid). |
+| 9 | **Ochiq endpoint limiti** | Tokensiz endpointlar (`/landing`, `/tariffs` — mehmon bosh sahifasi) IP bo'yicha `RATE_LIMIT_PUBLIC` (30/min). Qolgan barcha ma'lumot API'lari **token talab qiladi** (tokensiz → 401). |
+| 10 | **So'rov hajmi (DoS)** | `MAX_REQUEST_MB` (8MB) dan katta tana **413** bilan tanani o'qimasdan rad etiladi. Yuklangan fayllar (`/static`) endi abuse guard ostida — hujum imzosi + xavfsizlik sarlavhalari (`nosniff`). |
+| 11 | **Brauzer hujumi → akkaunt bloki** | Kirgan akkaunt orqali brauzerdan hujum (SQLi/XSS/injection) — **URL'da ham, so'rov tanasida ham** (`POST/PUT/PATCH`, JSON/forma) — aniqlansa: akkaunt **darhol eskalatsion bloklanadi** (1‑urinish→5 daq, 2→15 daq, 3→faqat admin ochadi), frontend **sessiyani tugatib, sahifani yangilab** login'ga chiqaradi. Auth (parol/nik), bot, admin yo'llari tanani skanidan ozod (noto'g'ri musbatsiz). |
 
-> **Sabab:** rate-limit + anomaliya + pagination + tarif qulfi birgalikda bazani tez ko'chirishni
-> imkonsiz qiladi (limit/blokdan tashqari, bepul user faqat namunani oladi), javob kaliti esa
-> hech qachon mijozga chiqmaydi. Sozlamalar — `backend/.env.example`.
+> **Hozirgi holat:** akkauntni bo'lishishga ruxsat berilgan — pagination, tarif qulfi va
+> javob kalitini yashirish saqlanib qoldi (javob kaliti hech qachon mijozga chiqmaydi),
+> lekin **hajm bo'yicha avto-blok yo'q**: yetarlicha sabrli skript savollarni ketma-ket
+> yuklab olishi mumkin. Himoyani qaytarish — `SCRAPE_GUARD_ENABLED=True`.
+> Sozlamalar — `backend/.env.example`.
 
 ---
 

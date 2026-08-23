@@ -64,11 +64,12 @@ class Settings(BaseSettings):
     # Rate-limit stor'i: Redis bo'lsa (ko'p worker uchun) "redis://host:6379/0",
     # bo'sh bo'lsa jarayon-ichi (in-memory) sliding-window. `redis` paketi kerak bo'ladi.
     REDIS_URL: str = ""
-    # Savol (mashq) endpointlari uchun limit — bazani ko'chirib olishni (scraping) qiyinlashtiradi.
-    RATE_LIMIT_QUESTIONS: str = "20/minute"
-    # Javob tekshirish / imtihon boshlash uchun saxiyroq limit (bulk "javob kaliti" oracle'iga qarshi,
-    # lekin tez mashqni buzmaydi — hech kim daqiqasiga 60+ savolga halol javob bermaydi).
-    RATE_LIMIT_ANSWERS: str = "60/minute"
+    # Savol (mashq) endpointlari uchun limit. Bitta akkauntni bir necha odam BIRGA
+    # ishlatishi mumkin (SCRAPE_GUARD_ENABLED=False), shuning uchun chegara faqat
+    # serverni haddan tashqari yukdan saqlash uchun — halol foydalanuvchilar yetmaydi.
+    RATE_LIMIT_QUESTIONS: str = "300/minute"
+    # Javob tekshirish / imtihon boshlash limiti (birga ishlatishga xalaqit bermasin).
+    RATE_LIMIT_ANSWERS: str = "300/minute"
     # Savol/javob endpointlariga IP bo'yicha QO'SHIMCHA global limit (user-limit ustiga).
     # Ko'p akkaunt (tekin ro'yxat) bilan bitta IP'dan parallel scrape'ni sekinlashtiradi.
     # Kengroq: bir NAT (maktab/oila) ortidagi bir nechta halol o'quvchi bunga yetmaydi.
@@ -91,7 +92,15 @@ class Settings(BaseSettings):
     SHUFFLE_OPTIONS: bool = True
 
     # Suiiste'mol/hujum aniqlash → avtomatik akkaunt bloki (eskalatsiya bilan).
+    # Bu HUJUM himoyasi (SQLi/XSS/skaner imzolari) — doim yoqilgan qolsin.
     ABUSE_GUARD_ENABLED: bool = True
+    # Scraping (baza ko'chirish) detektorlari AKKAUNT bo'yicha ishlaydi va bitta
+    # akkauntni bir necha odam BIRGA ishlatganini "bot" deb hisoblab bloklab qo'yardi.
+    # Akkauntni bo'lishishga ruxsat berilgani uchun o'chirilgan (False).
+    #   True qilinsa: turli mavzu / umumiy hajm / javob-kaliti anomaliyalari qaytadan
+    #   akkauntni avtomatik bloklaydi va savol bazasi ko'chirilishidan himoyalanadi.
+    # ⚠️ False bo'lganda savol bazasini ommaviy yuklab olishdan himoya yo'q.
+    SCRAPE_GUARD_ENABLED: bool = False
     ABUSE_WINDOW_SECONDS: int = 300   # xulq hisobi oynasi (5 daqiqa)
     ABUSE_USER_THRESHOLD: int = 15    # shu oynada shubhali hodisa → akkaunt bloki
     ABUSE_IP_THRESHOLD: int = 25      # shu oynada → IP vaqtincha ban

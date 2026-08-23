@@ -256,21 +256,39 @@ async def test_free_user_full_access(api):
     reset_state()
 
 
-async def test_scraping_anomaly_blocks_account(api):
-    """60s ichida 10+ turli topic so'rash -> scraping anomaliyasi -> akkaunt bloki."""
+async def test_shared_account_is_not_blocked(api):
+    """Akkauntni BIRGA ishlatish bloklanmasligi kerak (SCRAPE_GUARD_ENABLED=False).
+
+    Bir necha odam bitta akkauntdan turli mavzularni ochsa — bu scraping emas.
+    """
     from app.core.abuse import reset_state
 
     reset_state()
-    headers = await _auth_paid_user(api)  # to'liq kirish (aks holda paywall, scraping emas)
+    headers = await _auth_paid_user(api)
     statuses = []
-    for tid in range(1, 12):  # 11 turli topic
+    for tid in range(1, 12):  # 11 turli topic — eski chegaradan (10) yuqori
         r = await api.get(f"/api/topics/{tid}/questions", headers=headers)
         statuses.append(r.status_code)
-    # 10-turli resursdan keyin akkaunt bloklanadi -> keyingi so'rov(lar) 403
+    assert 403 not in statuses, statuses
+    # Akkaunt ochiq qolgan
+    r = await api.get("/api/auth/me", headers=headers)
+    assert r.status_code == 200
+    reset_state()
+
+
+async def test_scrape_guard_blocks_when_enabled(api, monkeypatch):
+    """SCRAPE_GUARD_ENABLED=True qilinsa — himoya qaytadan ishlaydi (o'chirilib ketmagan)."""
+    from app.core.abuse import reset_state
+    from app.core.config import settings
+
+    reset_state()
+    monkeypatch.setattr(settings, "SCRAPE_GUARD_ENABLED", True)
+    headers = await _auth_paid_user(api)
+    statuses = []
+    for tid in range(1, 12):
+        r = await api.get(f"/api/topics/{tid}/questions", headers=headers)
+        statuses.append(r.status_code)
     assert 403 in statuses, statuses
-    # /me ham endi 403 (akkaunt bloklangan) — toza IP'dan ham
-    r = await api.get("/api/auth/me", headers={**headers, "X-Forwarded-For": "198.51.100.77"})
-    assert r.status_code == 403
     reset_state()
 
 
