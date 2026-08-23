@@ -25,7 +25,8 @@ export function isMobile(): boolean {
   return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent);
 }
 
-function authUrl(botId: string, returnTo: string): string {
+/** Telegram ruxsat sahifasining manzili. */
+export function buildAuthUrl(botId: string, returnTo: string): string {
   return (
     "https://oauth.telegram.org/auth?" +
     new URLSearchParams({
@@ -37,23 +38,17 @@ function authUrl(botId: string, returnTo: string): string {
   );
 }
 
-/** Telegram ruxsat sahifasini ochadi.
+/** Kompyuterda Telegram sahifasini yangi tabda ochadi.
  *
- * Mobilda — shu oynada (yangi tab mobil brauzerlarda bloklanishi/adashtirishi mumkin).
- * Kompyuterda — YANGI TABDA, shunda login sahifasi ochiq qoladi va unda
- * «Telegram'ni ochish» tugmasi ko'rinadi (tasdiqlash so'roviga tez o'tish uchun).
+ * `window.open` qaytargan qiymatga TAYANMAYMIZ — brauzer/bloker unga null
+ * qaytarishi mumkin bo'lsa-da tabni ochib yuboradi. Shuning uchun sahifa har doim
+ * kutish holatiga o'tadi va u yerda zaxira havola ko'rsatiladi (tab ochilmagan bo'lsa
+ * foydalanuvchi uni bosib o'zi ochadi).
  *
- * Qaytaradi: `true` — yangi tab ochildi (sahifa ochiq qoldi), `false` — redirect qilindi.
+ * `noopener` QO'YILMAYDI — yangi tab natijani `window.opener` orqali qaytaradi.
  */
-export function openTelegramAuth(botId: string, returnTo: string): boolean {
-  const url = authUrl(botId, returnTo);
-  if (!isMobile()) {
-    const tab = window.open(url, "_blank");
-    if (tab) return true; // ochildi — sahifamiz ochiq qoladi
-    // Brauzer yangi tabni bloklagan bo'lsa — redirect'ga tushamiz (kirish baribir ishlasin).
-  }
-  window.location.href = url;
-  return false;
+export function openAuthTab(url: string): void {
+  window.open(url, "_blank");
 }
 
 /** URL'dagi `#tgAuthResult=...` ni o'qiydi. Yo'q/buzilgan bo'lsa — null. */

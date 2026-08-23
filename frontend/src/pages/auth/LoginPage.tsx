@@ -6,9 +6,11 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import { Eye, EyeOff, Lock, LogIn, Send, ShieldCheck, User } from "lucide-react";
 import { authApi, getErrorMessage } from "@/lib/api";
 import {
+  buildAuthUrl,
   clearAuthHash,
   isAuthTab,
-  openTelegramAuth,
+  isMobile,
+  openAuthTab,
   readAuthResultFromHash,
   sendResultToOpener,
   TELEGRAM_APP_URL,
@@ -36,6 +38,8 @@ export function LoginPage() {
   // Kompyuterda Telegram yangi tabda ochilgach — bu sahifa kutish holatiga o'tadi
   // va «Telegram'ni ochish» tugmasini ko'rsatadi (tasdiqlash so'roviga tez o'tish uchun).
   const [waiting, setWaiting] = useState(false);
+  // Yangi tab bloklangan bo'lsa — kutish blokidagi zaxira havola shu manzilga.
+  const [authUrl, setAuthUrl] = useState<string | null>(null);
   const [adminOpen, setAdminOpen] = useState(false);
   const [adminLogin, setAdminLogin] = useState("");
   const [adminPassword, setAdminPassword] = useState("");
@@ -133,8 +137,16 @@ export function LoginPage() {
     }
     // Qaytish manzili — shu sahifa (?ref saqlanadi, promokod yo'qolmasin).
     const returnTo = window.location.origin + "/login" + window.location.search;
-    // Yangi tab ochilgan bo'lsa (kompyuter) — sahifa ochiq qoladi, kutish holatiga o'tamiz.
-    if (openTelegramAuth(botId, returnTo)) setWaiting(true);
+    const url = buildAuthUrl(botId, returnTo);
+    // Mobilda — shu oynada (yangi tab mobil brauzerlarda noqulay/bloklanadi).
+    if (isMobile()) {
+      window.location.href = url;
+      return;
+    }
+    // Kompyuterda — yangi tabda; sahifa ochiq qolib kutish holatiga o'tadi.
+    setAuthUrl(url);
+    setWaiting(true);
+    openAuthTab(url);
   };
 
   return (
@@ -181,6 +193,16 @@ export function LoginPage() {
                   {t("auth.openTelegram")}
                 </a>
                 <p className="mt-2 text-[11px] text-muted">{t("auth.openTelegramHint")}</p>
+                {authUrl && (
+                  <a
+                    href={authUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-3 inline-block text-[11px] font-medium text-accent underline"
+                  >
+                    {t("auth.authTabBlocked")}
+                  </a>
+                )}
               </motion.div>
             )}
 

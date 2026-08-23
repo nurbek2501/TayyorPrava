@@ -71,6 +71,7 @@ const resources = {
         openTelegram: "Telegram'ni ochish",
         openTelegramHint:
           "So'rov «Telegram» chatiga keladi — «Confirm» tugmasini bosing.",
+        authTabBlocked: "Telegram sahifasi ochilmadimi? Bu yerni bosing",
         loginNickHint:
           "Nikni ro'yxatdan o'tgandagidek aniq yozing — katta/kichik harflar muhim.",
         registerSubtitle: "Bir necha qadam — va siz TayyorPrava'dasiz.",
@@ -355,6 +356,7 @@ const resources = {
         openTelegram: "Telegram'ни очиш",
         openTelegramHint:
           "Сўров «Telegram» чатига келади — «Confirm» тугмасини босинг.",
+        authTabBlocked: "Telegram саҳифаси очилмадими? Бу ерни босинг",
         loginNickHint:
           "Никни рўйхатдан ўтгандагидек аниқ ёзинг — катта/кичик ҳарфлар муҳим.",
         registerSubtitle: "Бир неча қадам — ва сиз TayyorPrava'дасиз.",
@@ -639,6 +641,7 @@ const resources = {
         openTelegram: "Открыть Telegram",
         openTelegramHint:
           "Запрос придёт в чат «Telegram» — нажмите «Confirm».",
+        authTabBlocked: "Страница Telegram не открылась? Нажмите здесь",
         loginNickHint:
           "Введите ник точно как при регистрации — регистр букв важен.",
         registerSubtitle: "Несколько шагов — и вы в TayyorPrava.",
