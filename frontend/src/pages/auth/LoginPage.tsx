@@ -10,7 +10,6 @@ import {
   clearAuthHash,
   isAuthTab,
   isMobile,
-  openAuthTab,
   readAuthResultFromHash,
   sendResultToOpener,
   TELEGRAM_APP_URL,
@@ -38,8 +37,6 @@ export function LoginPage() {
   // Kompyuterda Telegram yangi tabda ochilgach — bu sahifa kutish holatiga o'tadi
   // va «Telegram'ni ochish» tugmasini ko'rsatadi (tasdiqlash so'roviga tez o'tish uchun).
   const [waiting, setWaiting] = useState(false);
-  // Yangi tab bloklangan bo'lsa — kutish blokidagi zaxira havola shu manzilga.
-  const [authUrl, setAuthUrl] = useState<string | null>(null);
   const [adminOpen, setAdminOpen] = useState(false);
   const [adminLogin, setAdminLogin] = useState("");
   const [adminPassword, setAdminPassword] = useState("");
@@ -129,25 +126,16 @@ export function LoginPage() {
   const canSubmitAdmin =
     !!adminLogin.trim() && !!adminPassword && !adminMutation.isPending;
 
-  const startTelegram = () => {
-    const botId = configQ.data?.botId;
-    if (!botId) {
-      toast.error(t("auth.telegramUnavailable"));
-      return;
-    }
-    // Qaytish manzili — shu sahifa (?ref saqlanadi, promokod yo'qolmasin).
-    const returnTo = window.location.origin + "/login" + window.location.search;
-    const url = buildAuthUrl(botId, returnTo);
-    // Mobilda — shu oynada (yangi tab mobil brauzerlarda noqulay/bloklanadi).
-    if (isMobile()) {
-      window.location.href = url;
-      return;
-    }
-    // Kompyuterda — yangi tabda; sahifa ochiq qolib kutish holatiga o'tadi.
-    setAuthUrl(url);
-    setWaiting(true);
-    openAuthTab(url);
-  };
+  // Telegram ruxsat sahifasi manzili — havola sifatida tugmaga beriladi
+  // (`window.open` ishlatilmaydi: brauzerlar uni bloklashi mumkin, havolani — yo'q).
+  // Qaytish manzili shu sahifa: `?ref` saqlanadi, promokod yo'qolmaydi.
+  const botId = configQ.data?.botId;
+  const authUrl = botId
+    ? buildAuthUrl(botId, window.location.origin + "/login" + window.location.search)
+    : undefined;
+  // Kompyuterda yangi tab — login sahifasi ochiq qoladi va «Telegram'ni ochish»
+  // tugmasi ko'rinadi. Mobilda shu oynada (yangi tab mobil brauzerlarda noqulay).
+  const useNewTab = !isMobile();
 
   return (
     <div className="flex min-h-screen flex-col p-4 sm:p-6">
@@ -171,9 +159,12 @@ export function LoginPage() {
           <div className="mt-8 flex flex-col items-center gap-4">
             <TelegramLoginButton
               label={t("auth.telegramSignIn")}
+              href={authUrl}
+              newTab={useNewTab}
               loading={telegramMutation.isPending || configQ.isLoading}
-              disabled={!configQ.data?.botId}
-              onClick={startTelegram}
+              onClick={() => {
+                if (useNewTab) setWaiting(true);
+              }}
             />
 
             {/* Kompyuter oqimi: Telegram yangi tabda ochilgan — bu yerda tasdiqlash

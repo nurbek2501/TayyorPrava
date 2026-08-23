@@ -38,18 +38,8 @@ export function buildAuthUrl(botId: string, returnTo: string): string {
   );
 }
 
-/** Kompyuterda Telegram sahifasini yangi tabda ochadi.
- *
- * `window.open` qaytargan qiymatga TAYANMAYMIZ — brauzer/bloker unga null
- * qaytarishi mumkin bo'lsa-da tabni ochib yuboradi. Shuning uchun sahifa har doim
- * kutish holatiga o'tadi va u yerda zaxira havola ko'rsatiladi (tab ochilmagan bo'lsa
- * foydalanuvchi uni bosib o'zi ochadi).
- *
- * `noopener` QO'YILMAYDI — yangi tab natijani `window.opener` orqali qaytaradi.
- */
-export function openAuthTab(url: string): void {
-  window.open(url, "_blank");
-}
+// Eslatma: sahifa `window.open` ISHLATMAYDI — tugma oddiy havola (`<a target="_blank">`),
+// chunki brauzerlar/blokerlar window.open'ni to'sishi mumkin, havolani esa yo'q.
 
 /** URL'dagi `#tgAuthResult=...` ni o'qiydi. Yo'q/buzilgan bo'lsa — null. */
 export function readAuthResultFromHash(): TelegramAuthUser | null {
