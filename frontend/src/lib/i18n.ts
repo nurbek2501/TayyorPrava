@@ -66,6 +66,11 @@ const resources = {
         loginSubtitle: "Telegram orqali bir bosishda kiring.",
         telegramSignIn: "Telegram orqali kirish",
         telegramUnavailable: "Telegram kirish vaqtincha ishlamayapti. Birozdan keyin urinib ko'ring.",
+        confirmInTelegram:
+          "Telefon raqamingizni kiritgach, Telegram'ga tasdiqlash so'rovi keladi.",
+        openTelegram: "Telegram'ni ochish",
+        openTelegramHint:
+          "So'rov «Telegram» chatiga keladi — «Confirm» tugmasini bosing.",
         loginNickHint:
           "Nikni ro'yxatdan o'tgandagidek aniq yozing — katta/kichik harflar muhim.",
         registerSubtitle: "Bir necha qadam — va siz TayyorPrava'dasiz.",
@@ -345,6 +350,11 @@ const resources = {
         loginSubtitle: "Telegram орқали бир босишда киринг.",
         telegramSignIn: "Telegram орқали кириш",
         telegramUnavailable: "Telegram кириш вақтинча ишламаяпти. Бироздан кейин уриниб кўринг.",
+        confirmInTelegram:
+          "Телефон рақамингизни киритгач, Telegram'га тасдиқлаш сўрови келади.",
+        openTelegram: "Telegram'ни очиш",
+        openTelegramHint:
+          "Сўров «Telegram» чатига келади — «Confirm» тугмасини босинг.",
         loginNickHint:
           "Никни рўйхатдан ўтгандагидек аниқ ёзинг — катта/кичик ҳарфлар муҳим.",
         registerSubtitle: "Бир неча қадам — ва сиз TayyorPrava'дасиз.",
@@ -624,6 +634,11 @@ const resources = {
         loginSubtitle: "Войдите через Telegram в один клик.",
         telegramSignIn: "Войти через Telegram",
         telegramUnavailable: "Вход через Telegram временно недоступен. Попробуйте позже.",
+        confirmInTelegram:
+          "После ввода номера в Telegram придёт запрос на подтверждение.",
+        openTelegram: "Открыть Telegram",
+        openTelegramHint:
+          "Запрос придёт в чат «Telegram» — нажмите «Confirm».",
         loginNickHint:
           "Введите ник точно как при регистрации — регистр букв важен.",
         registerSubtitle: "Несколько шагов — и вы в TayyorPrava.",

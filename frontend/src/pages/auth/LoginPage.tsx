@@ -3,12 +3,16 @@ import { useMutation, useQuery } from "@tanstack/react-query";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { Eye, EyeOff, Lock, LogIn, ShieldCheck, User } from "lucide-react";
+import { Eye, EyeOff, Lock, LogIn, Send, ShieldCheck, User } from "lucide-react";
 import { authApi, getErrorMessage } from "@/lib/api";
 import {
   clearAuthHash,
+  isAuthTab,
+  openTelegramAuth,
   readAuthResultFromHash,
-  redirectToTelegram,
+  sendResultToOpener,
+  TELEGRAM_APP_URL,
+  TG_AUTH_MESSAGE,
   type TelegramAuthUser,
 } from "@/lib/telegramOAuth";
 import { useAuth } from "@/store/auth";
@@ -29,6 +33,9 @@ export function LoginPage() {
 
   // Admin login+parol bilan kiradi — Telegram oqimiga aloqasi yo'q, shuning
   // uchun alohida (yig'iladigan) mini-forma sifatida saqlanadi.
+  // Kompyuterda Telegram yangi tabda ochilgach — bu sahifa kutish holatiga o'tadi
+  // va «Telegram'ni ochish» tugmasini ko'rsatadi (tasdiqlash so'roviga tez o'tish uchun).
+  const [waiting, setWaiting] = useState(false);
   const [adminOpen, setAdminOpen] = useState(false);
   const [adminLogin, setAdminLogin] = useState("");
   const [adminPassword, setAdminPassword] = useState("");
@@ -77,6 +84,8 @@ export function LoginPage() {
 
   // Telegram'dan qaytganda manzilda `#tgAuthResult=...` bo'ladi — uni bir marta
   // o'qib, kirishni yakunlaymiz (hash darhol tozalanadi, qayta yuborilmasin).
+  // Agar biz Telegram uchun ochilgan YANGI TABda bo'lsak (kompyuter oqimi) —
+  // natijani asosiy sahifaga uzatib, o'zimizni yopamiz.
   const handledHash = useRef(false);
   const authMutate = telegramMutation.mutate;
   useEffect(() => {
@@ -85,7 +94,23 @@ export function LoginPage() {
     if (!user) return;
     handledHash.current = true;
     clearAuthHash();
+    if (isAuthTab() && sendResultToOpener(user)) return;
     authMutate(user);
+  }, [authMutate]);
+
+  // Asosiy sahifa: yangi tabdan kelgan natijani qabul qiladi.
+  useEffect(() => {
+    const onMessage = (e: MessageEvent) => {
+      // Faqat o'z originimizdan kelgan xabarga ishonamiz.
+      if (e.origin !== window.location.origin) return;
+      if (e.data?.type !== TG_AUTH_MESSAGE || !e.data?.user) return;
+      if (handledHash.current) return;
+      handledHash.current = true;
+      setWaiting(false);
+      authMutate(e.data.user as TelegramAuthUser);
+    };
+    window.addEventListener("message", onMessage);
+    return () => window.removeEventListener("message", onMessage);
   }, [authMutate]);
 
   const adminMutation = useMutation({
@@ -107,7 +132,9 @@ export function LoginPage() {
       return;
     }
     // Qaytish manzili — shu sahifa (?ref saqlanadi, promokod yo'qolmasin).
-    redirectToTelegram(botId, window.location.origin + "/login" + window.location.search);
+    const returnTo = window.location.origin + "/login" + window.location.search;
+    // Yangi tab ochilgan bo'lsa (kompyuter) — sahifa ochiq qoladi, kutish holatiga o'tamiz.
+    if (openTelegramAuth(botId, returnTo)) setWaiting(true);
   };
 
   return (
@@ -136,6 +163,27 @@ export function LoginPage() {
               disabled={!configQ.data?.botId}
               onClick={startTelegram}
             />
+
+            {/* Kompyuter oqimi: Telegram yangi tabda ochilgan — bu yerda tasdiqlash
+                so'rovi keladigan Telegram chatiga tez o'tish tugmasi turadi. */}
+            {waiting && !telegramMutation.isPending && (
+              <motion.div
+                initial={{ opacity: 0, y: -6 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="w-full rounded-xl bg-accent/10 p-4 text-center"
+              >
+                <p className="text-sm text-ink">{t("auth.confirmInTelegram")}</p>
+                <a
+                  href={TELEGRAM_APP_URL}
+                  className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl bg-[#2AABEE] px-4 py-2.5 font-semibold text-white transition hover:bg-[#229ED9]"
+                >
+                  <Send className="h-4 w-4" />
+                  {t("auth.openTelegram")}
+                </a>
+                <p className="mt-2 text-[11px] text-muted">{t("auth.openTelegramHint")}</p>
+              </motion.div>
+            )}
+
             {ref && (
               <p className="text-xs text-muted">
                 {t("auth.refCode")} <span className="font-semibold text-accent">{ref}</span>
