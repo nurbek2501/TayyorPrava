@@ -22,7 +22,10 @@ def _aware(dt: datetime) -> datetime:
 
 
 def _gen_code() -> str:
-    return f"{secrets.randbelow(100000):05d}"
+    """4 xonali tasdiq kodi (0000-9999). Brute-force'ga qarshi: kod 5 daqiqa amal
+    qiladi, MAX_CODE_ATTEMPTS xato urinishdan keyin kuydiriladi va endpoint
+    rate-limit ostida (`/auth/verify-code` 10/min)."""
+    return f"{secrets.randbelow(10000):04d}"
 
 
 # ---------------- Pending registration ----------------

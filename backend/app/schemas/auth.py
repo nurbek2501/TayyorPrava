@@ -8,10 +8,11 @@ from app.schemas.common import CamelModel
 
 
 class RegisterRequest(CamelModel):
-    first_name: str = Field(min_length=1, max_length=255)
-    last_name: str = Field(min_length=1, max_length=255)
-    nickname: str = Field(min_length=8, max_length=32)
-    password: str = Field(min_length=8, max_length=128)
+    """Ro'yxatdan o'tish: faqat nickname + parol (ism/familiya so'ralmaydi —
+    `User.name` nickname bilan to'ldiriladi)."""
+
+    nickname: str = Field(min_length=2, max_length=32)
+    password: str = Field(min_length=4, max_length=128)
     ref: Optional[str] = None  # referral code of inviter
 
 
@@ -24,7 +25,7 @@ class RegisterInitResponse(CamelModel):
 
 class VerifyCodeRequest(CamelModel):
     nickname: str
-    code: str = Field(min_length=4, max_length=6)
+    code: str = Field(min_length=4, max_length=4)
 
 
 class OkResponse(CamelModel):
@@ -33,13 +34,13 @@ class OkResponse(CamelModel):
 
 class ResetPasswordRequest(CamelModel):
     nickname: str
-    code: str = Field(min_length=4, max_length=6)
-    new_password: str = Field(min_length=8, max_length=128)
+    code: str = Field(min_length=4, max_length=4)
+    new_password: str = Field(min_length=4, max_length=128)
 
 
 class ChangePasswordRequest(CamelModel):
     old_password: str
-    new_password: str = Field(min_length=8, max_length=128)
+    new_password: str = Field(min_length=4, max_length=128)
 
 
 class CheckPromoRequest(CamelModel):
@@ -115,37 +116,9 @@ class TokenResponse(CamelModel):
     token_type: str = "bearer"
 
 
-class TelegramAuthRequest(CamelModel):
-    """Telegram Login Widget qaytargan foydalanuvchi ma'lumoti + imzo.
-
-    Maydon nomlari Telegram protokoli bilan AYNAN bir xil bo'lishi shart (hash
-    shu nomlar ustida hisoblanadi) — shuning uchun camelCase emas, original ko'rinishda.
-    `ref` — bizning qo'shimcha parametrimiz (referal kodi), Telegram imzosiga kirmaydi.
-    """
-
-    id: int
-    first_name: str
-    last_name: Optional[str] = None
-    username: Optional[str] = None
-    photo_url: Optional[str] = None
-    auth_date: int
-    hash: str
-    ref: Optional[str] = None
-
-
 class TelegramSubscriptionResponse(CamelModel):
     subscribed: bool
     channel: str
     channel_url: str
 
 
-class TelegramConfigResponse(CamelModel):
-    """Telegram OAuth uchun ochiq sozlama.
-
-    `bot_id` — token'ning ikki nuqtagacha bo'lgan raqamli qismi. Bu MAXFIY EMAS:
-    Telegram uni oauth havolasida ochiq talab qiladi (token'ning maxfiy qismi
-    hech qachon chiqmaydi).
-    """
-
-    bot_id: str
-    bot_username: str

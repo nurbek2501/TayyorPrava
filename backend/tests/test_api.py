@@ -34,19 +34,14 @@ def _reset_guards():
 
 async def _auth_user(api: AsyncClient) -> dict:
     """Joriy nickname-asosli ro'yxat oqimi: register-init -> bot kod -> verify-code."""
-    nick = "Test" + uuid.uuid4().hex[:6].upper() + "9"  # 8+ alnum, katta harf + raqam
+    nick = "test_" + uuid.uuid4().hex[:6]  # 2-32 belgi: harf/raqam/_/-
     tg = "tg" + uuid.uuid4().hex[:10]
     r = await api.post(
         "/api/auth/register-init",
-        json={
-            "firstName": "Test",
-            "lastName": "User",
-            "nickname": nick,
-            "password": "Test1234",
-        },
+        json={"nickname": nick, "password": "1234"},
     )
     assert r.status_code == 200, r.text
-    # Bot (shared secret bilan) 5 xonali kod beradi
+    # Bot (shared secret bilan) 4 xonali kod beradi
     r = await api.post(
         "/api/bot/issue-code",
         json={"nickname": nick, "telegramId": tg},
@@ -514,7 +509,7 @@ async def test_auth_code_bruteforce_cap(api):
     nick = "Brute" + uuid.uuid4().hex[:6].upper() + "9"
     await api.post(
         "/api/auth/register-init",
-        json={"firstName": "A", "lastName": "B", "nickname": nick, "password": "Test1234"},
+        json={"nickname": nick, "password": "Test1234"},
     )
     r = await api.post(
         "/api/bot/issue-code",
@@ -522,7 +517,7 @@ async def test_auth_code_bruteforce_cap(api):
         headers={"X-Bot-Secret": settings.BOT_SHARED_SECRET},
     )
     code = r.json()["code"]
-    wrong = "00000" if code != "00000" else "11111"
+    wrong = "0000" if code != "0000" else "1111"  # kod 4 xonali
     for _ in range(settings.MAX_CODE_ATTEMPTS):
         rr = await api.post("/api/auth/verify-code", json={"nickname": nick, "code": wrong})
         assert rr.status_code != 201

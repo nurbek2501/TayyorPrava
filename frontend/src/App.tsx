@@ -10,6 +10,8 @@ import { AdminLayout } from "./layouts/AdminLayout";
 // Boshlang'ich bundle (tez kerak): landing, auth, dashboard + yengil sahifalar.
 import { LandingPage } from "./pages/LandingPage";
 import { LoginPage } from "./pages/auth/LoginPage";
+import { RegisterPage } from "./pages/auth/RegisterPage";
+import { ForgotPasswordPage } from "./pages/auth/ForgotPasswordPage";
 import { HomePage } from "./pages/user/HomePage";
 import { LessonListPage } from "./pages/user/LessonListPage";
 import { TicketsListPage } from "./pages/user/TicketsListPage";
@@ -45,13 +47,6 @@ const TeacherChatThread = lazy(() => named(import("./pages/teacher/TeacherChatTh
 const TeacherTests = lazy(() => named(import("./pages/teacher/TeacherTests"), "TeacherTests"));
 const TeacherSettings = lazy(() => named(import("./pages/teacher/TeacherSettings"), "TeacherSettings"));
 const AdminTeachers = lazy(() => named(import("./pages/admin/AdminTeachers"), "AdminTeachers"));
-
-/** Eski /register (?ref= bilan bo'lishi mumkin) va /forgot-password havolalari —
- * ro'yxatdan o'tish/parol tiklash endi /login'dagi Telegram tugmasi orqali. */
-function RedirectToLogin() {
-  const location = useLocation();
-  return <Navigate to={`/login${location.search}`} replace />;
-}
 
 function FullPageLoader() {
   return (
@@ -177,8 +172,8 @@ export default function App() {
       <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<LoginPage />} />
-      <Route path="/register" element={<RedirectToLogin />} />
-      <Route path="/forgot-password" element={<RedirectToLogin />} />
+      <Route path="/register" element={<RegisterPage />} />
+      <Route path="/forgot-password" element={<ForgotPasswordPage />} />
 
       <Route element={<RequireUser />}>
         <Route path="/real-exam" element={<RealExamPage />} />

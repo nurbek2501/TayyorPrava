@@ -18,7 +18,6 @@ import type {
   ReferralStats,
   SiteSettings,
   Tariff,
-  TelegramConfig,
   TelegramSubscription,
   Timeseries,
   TokenResponse,
@@ -70,9 +69,6 @@ function isAuthEndpoint(url: string): boolean {
     url.includes("/auth/verify") ||
     url.includes("/auth/reset") ||
     url.includes("/auth/forgot") ||
-    // Aniq moslik — "/auth/telegram-subscription" bunga kirmasin (u himoyalangan
-    // resurs, 401'da odatdagidek refresh-va-qayta-urinish ishlashi kerak).
-    url.endsWith("/auth/telegram") ||
     url.includes("/admin/auth/login")
   );
 }
@@ -195,14 +191,8 @@ export function assetUrl(path?: string | null): string | undefined {
 
 // ---------------- Auth ----------------
 export const authApi = {
-  // 1-qadam: forma -> pending saqlanadi, Telegram tasdiq kerak
-  registerInit: (data: {
-    firstName: string;
-    lastName: string;
-    nickname: string;
-    password: string;
-    ref?: string;
-  }) =>
+  // 1-qadam: nik+parol (+promokod) -> pending saqlanadi, Telegram tasdiq kerak
+  registerInit: (data: { nickname: string; password: string; ref?: string }) =>
     api
       .post<{
         ok: boolean;
@@ -251,20 +241,6 @@ export const authApi = {
       .then((r) => r.data),
   login: (data: { nickname: string; password: string }) =>
     api.post<TokenResponse>("/auth/login", data).then((r) => r.data),
-  // «Telegram orqali kirish» tugmasi uchun ochiq sozlama (bot_id — maxfiy emas)
-  telegramConfig: () =>
-    api.get<TelegramConfig>("/auth/telegram-config").then((r) => r.data),
-  // Telegram OAuth'dan qaytgan ma'lumot — parolsiz kirish/ro'yxatdan o'tish
-  telegramLogin: (data: {
-    id: number;
-    firstName: string;
-    lastName?: string;
-    username?: string;
-    photoUrl?: string;
-    authDate: number;
-    hash: string;
-    ref?: string;
-  }) => api.post<TokenResponse>("/auth/telegram", data).then((r) => r.data),
   // Joriy foydalanuvchi Telegram kanalimizga obuna ekanini tekshirish
   // (test yechish sahifalari shu bo'yicha obuna-talab modalini ko'rsatadi)
   telegramSubscription: () =>

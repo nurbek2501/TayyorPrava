@@ -37,7 +37,9 @@ http_client = httpx.AsyncClient(
 )
 
 SUBSCRIBED = {"member", "administrator", "creator"}
-NICK_RE = re.compile(r"^[A-Za-z0-9]{8,32}$")
+# Saytdagi qoida bilan bir xil (backend/app/core/validators.py):
+# 2-32 belgi, lotin harf/raqam/_/- (bo'sh joy va emojisiz).
+NICK_RE = re.compile(r"^[A-Za-z0-9_-]{2,32}$")
 
 WELCOME = (
     "👋 <b>Assalomu alaykum!</b>\n\n"
@@ -102,12 +104,8 @@ async def safe_send(chat_id: int, text: str, **kwargs):
 
 
 def nick_format_ok(nick: str) -> bool:
-    """Saytdagi qoidalar bilan bir xil: 8–32 lotin alnum, ≥1 katta harf, ≥1 raqam."""
-    return bool(
-        NICK_RE.match(nick)
-        and any(c.isupper() for c in nick)
-        and any(c.isdigit() for c in nick)
-    )
+    """Saytdagi qoidalar bilan bir xil: 2–32 belgi, lotin harf/raqam/_/-."""
+    return bool(NICK_RE.match(nick))
 
 
 async def is_subscribed(user_id: int) -> bool:
@@ -135,9 +133,9 @@ async def process_nick(chat_id: int, user_id: int, nick: str):
         await safe_send(
             chat_id,
             "🤔 <b>Bu nik formatga to'g'ri kelmaydi.</b>\n\n"
-            "Nik kamida <b>8 ta belgi</b>, <b>1 ta KATTA harf</b> va "
-            "<b>1 ta raqam</b>dan iborat bo'ladi (faqat lotin harf va raqam).\n\n"
-            "Saytdagi nikingizni xuddi o'zidek yuboring — masalan: <code>Driver2025</code>.",
+            "Nik <b>2–32 ta belgi</b>dan iborat bo'ladi: lotin harflar, raqamlar, "
+            "<code>_</code> va <code>-</code> (bo'sh joysiz).\n\n"
+            "Saytdagi nikingizni xuddi o'zidek yuboring — masalan: <code>driver_25</code>.",
             parse_mode="HTML",
         )
         return
