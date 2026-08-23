@@ -18,6 +18,7 @@ import type {
   ReferralStats,
   SiteSettings,
   Tariff,
+  TelegramConfig,
   TelegramSubscription,
   Timeseries,
   TokenResponse,
@@ -250,7 +251,10 @@ export const authApi = {
       .then((r) => r.data),
   login: (data: { nickname: string; password: string }) =>
     api.post<TokenResponse>("/auth/login", data).then((r) => r.data),
-  // Telegram Login Widget — parolsiz kirish/ro'yxatdan o'tish
+  // «Telegram orqali kirish» tugmasi uchun ochiq sozlama (bot_id — maxfiy emas)
+  telegramConfig: () =>
+    api.get<TelegramConfig>("/auth/telegram-config").then((r) => r.data),
+  // Telegram OAuth'dan qaytgan ma'lumot — parolsiz kirish/ro'yxatdan o'tish
   telegramLogin: (data: {
     id: number;
     firstName: string;

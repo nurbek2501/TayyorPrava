@@ -1,19 +1,23 @@
-import { useEffect, useState } from "react";
-import { useMutation } from "@tanstack/react-query";
+import { useEffect, useRef, useState } from "react";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { Eye, EyeOff, Lock, LogIn, ShieldCheck, User } from "lucide-react";
 import { authApi, getErrorMessage } from "@/lib/api";
+import {
+  clearAuthHash,
+  readAuthResultFromHash,
+  redirectToTelegram,
+  type TelegramAuthUser,
+} from "@/lib/telegramOAuth";
 import { useAuth } from "@/store/auth";
 import { toast } from "@/components/ui/toast";
 import { Spinner } from "@/components/ui/Spinner";
 import { Logo } from "@/components/shared/Logo";
 import { LangSwitcher } from "@/components/shared/LangSwitcher";
 import { BackToHome } from "@/components/shared/BackToHome";
-import { TelegramLoginButton, type TelegramWidgetUser } from "@/components/auth/TelegramLoginButton";
-
-const BOT_USERNAME = import.meta.env.VITE_TELEGRAM_BOT_USERNAME || "TayyorPrava_bot";
+import { TelegramLoginButton } from "@/components/auth/TelegramLoginButton";
 
 export function LoginPage() {
   const { t } = useTranslation();
@@ -23,7 +27,7 @@ export function LoginPage() {
   const [params] = useSearchParams();
   const ref = params.get("ref") || undefined;
 
-  // Admin login+parol bilan kiradi — Telegram widget'ga aloqasi yo'q, shuning
+  // Admin login+parol bilan kiradi — Telegram oqimiga aloqasi yo'q, shuning
   // uchun alohida (yig'iladigan) mini-forma sifatida saqlanadi.
   const [adminOpen, setAdminOpen] = useState(false);
   const [adminLogin, setAdminLogin] = useState("");
@@ -39,8 +43,14 @@ export function LoginPage() {
     }
   }, []);
 
+  const configQ = useQuery({
+    queryKey: ["telegramConfig"],
+    queryFn: authApi.telegramConfig,
+    staleTime: 5 * 60_000,
+  });
+
   const telegramMutation = useMutation({
-    mutationFn: (u: TelegramWidgetUser) =>
+    mutationFn: (u: TelegramAuthUser) =>
       authApi.telegramLogin({
         id: u.id,
         firstName: u.first_name,
@@ -65,6 +75,19 @@ export function LoginPage() {
     onError: (e) => toast.error(getErrorMessage(e)),
   });
 
+  // Telegram'dan qaytganda manzilda `#tgAuthResult=...` bo'ladi — uni bir marta
+  // o'qib, kirishni yakunlaymiz (hash darhol tozalanadi, qayta yuborilmasin).
+  const handledHash = useRef(false);
+  const authMutate = telegramMutation.mutate;
+  useEffect(() => {
+    if (handledHash.current) return;
+    const user = readAuthResultFromHash();
+    if (!user) return;
+    handledHash.current = true;
+    clearAuthHash();
+    authMutate(user);
+  }, [authMutate]);
+
   const adminMutation = useMutation({
     mutationFn: () => authApi.adminLogin({ login: adminLogin, password: adminPassword }),
     onSuccess: (d) => {
@@ -76,6 +99,16 @@ export function LoginPage() {
 
   const canSubmitAdmin =
     !!adminLogin.trim() && !!adminPassword && !adminMutation.isPending;
+
+  const startTelegram = () => {
+    const botId = configQ.data?.botId;
+    if (!botId) {
+      toast.error(t("auth.telegramUnavailable"));
+      return;
+    }
+    // Qaytish manzili — shu sahifa (?ref saqlanadi, promokod yo'qolmasin).
+    redirectToTelegram(botId, window.location.origin + "/login" + window.location.search);
+  };
 
   return (
     <div className="flex min-h-screen flex-col p-4 sm:p-6">
@@ -97,14 +130,12 @@ export function LoginPage() {
           <p className="mt-1 text-sm text-muted">{t("auth.loginSubtitle")}</p>
 
           <div className="mt-8 flex flex-col items-center gap-4">
-            {telegramMutation.isPending ? (
-              <Spinner />
-            ) : (
-              <TelegramLoginButton
-                botUsername={BOT_USERNAME}
-                onAuth={(u) => telegramMutation.mutate(u)}
-              />
-            )}
+            <TelegramLoginButton
+              label={t("auth.telegramSignIn")}
+              loading={telegramMutation.isPending || configQ.isLoading}
+              disabled={!configQ.data?.botId}
+              onClick={startTelegram}
+            />
             {ref && (
               <p className="text-xs text-muted">
                 {t("auth.refCode")} <span className="font-semibold text-accent">{ref}</span>

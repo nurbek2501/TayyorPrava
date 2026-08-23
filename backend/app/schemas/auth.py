@@ -137,3 +137,15 @@ class TelegramSubscriptionResponse(CamelModel):
     subscribed: bool
     channel: str
     channel_url: str
+
+
+class TelegramConfigResponse(CamelModel):
+    """Telegram OAuth uchun ochiq sozlama.
+
+    `bot_id` — token'ning ikki nuqtagacha bo'lgan raqamli qismi. Bu MAXFIY EMAS:
+    Telegram uni oauth havolasida ochiq talab qiladi (token'ning maxfiy qismi
+    hech qachon chiqmaydi).
+    """
+
+    bot_id: str
+    bot_username: str

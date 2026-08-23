@@ -64,6 +64,8 @@ const resources = {
         demoHint: "Demo: +99891000000 / user123",
         welcomeTitle: "Xush kelibsiz",
         loginSubtitle: "Telegram orqali bir bosishda kiring.",
+        telegramSignIn: "Telegram orqali kirish",
+        telegramUnavailable: "Telegram kirish vaqtincha ishlamayapti. Birozdan keyin urinib ko'ring.",
         loginNickHint:
           "Nikni ro'yxatdan o'tgandagidek aniq yozing — katta/kichik harflar muhim.",
         registerSubtitle: "Bir necha qadam — va siz TayyorPrava'dasiz.",
@@ -341,6 +343,8 @@ const resources = {
         demoHint: "Demo: +99891000000 / user123",
         welcomeTitle: "Хуш келибсиз",
         loginSubtitle: "Telegram орқали бир босишда киринг.",
+        telegramSignIn: "Telegram орқали кириш",
+        telegramUnavailable: "Telegram кириш вақтинча ишламаяпти. Бироздан кейин уриниб кўринг.",
         loginNickHint:
           "Никни рўйхатдан ўтгандагидек аниқ ёзинг — катта/кичик ҳарфлар муҳим.",
         registerSubtitle: "Бир неча қадам — ва сиз TayyorPrava'дасиз.",
@@ -618,6 +622,8 @@ const resources = {
         demoHint: "Demo: +99891000000 / user123",
         welcomeTitle: "Добро пожаловать",
         loginSubtitle: "Войдите через Telegram в один клик.",
+        telegramSignIn: "Войти через Telegram",
+        telegramUnavailable: "Вход через Telegram временно недоступен. Попробуйте позже.",
         loginNickHint:
           "Введите ник точно как при регистрации — регистр букв важен.",
         registerSubtitle: "Несколько шагов — и вы в TayyorPrava.",

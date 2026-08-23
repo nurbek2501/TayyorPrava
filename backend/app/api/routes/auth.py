@@ -45,6 +45,7 @@ from app.schemas.auth import (
     RegisterRequest,
     ResetPasswordRequest,
     TelegramAuthRequest,
+    TelegramConfigResponse,
     TelegramSubscriptionResponse,
     TokenResponse,
     VerifyCodeRequest,
@@ -353,6 +354,19 @@ async def login(
             or "Akkaunt bloklangan. Administrator bilan bog'laning.",
         )
     return _tokens(user)
+
+
+@router.get("/telegram-config", response_model=TelegramConfigResponse)
+@limiter.limit(settings.RATE_LIMIT_PUBLIC)
+async def telegram_config(request: Request):
+    """Kirish sahifasidagi «Telegram orqali kirish» tugmasi uchun ochiq sozlama.
+
+    Token'ning faqat raqamli (ochiq) qismi qaytariladi — maxfiy qismi chiqmaydi.
+    """
+    return TelegramConfigResponse(
+        bot_id=settings.BOT_TOKEN.split(":", 1)[0] if settings.BOT_TOKEN else "",
+        bot_username=settings.BOT_USERNAME,
+    )
 
 
 @router.post("/telegram", response_model=TokenResponse)

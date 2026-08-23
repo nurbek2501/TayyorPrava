@@ -124,6 +124,11 @@ export interface TelegramSubscription {
   channelUrl: string;
 }
 
+export interface TelegramConfig {
+  botId: string;
+  botUsername: string;
+}
+
 export interface MeStats {
   favorites: number;
   mistakes: number;
