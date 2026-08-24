@@ -14,7 +14,12 @@ __pycache__/
 tests/
 # Katta manba/ish papkalari — image'ga kerak emas (uploads volume sifatida ulanadi)
 uploads/
-seed_3lang/
+# seed_3lang/images ISTISNO: savol rasmlari image ichida ketishi SHART.
+# Render'da disk efemer (volume yo'q) — har deploy/uyqudan keyin uploads/ bo'shab
+# qoladi va rasmlar 404 bo'lardi. Ishga tushishda ular uploads/ ga tiklanadi
+# (app/services/uploads.py -> restore_seed_images).
+seed_3lang/*
+!seed_3lang/images
 seed_belgilar/
 _build3lang/
 _build_belgilar/

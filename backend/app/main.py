@@ -31,6 +31,12 @@ async def lifespan(_app: FastAPI):
     # (bo'sh bo'lsa; sqlite'da yoki to'la bo'lsa hech narsa qilmaydi).
     from app.db.bootstrap import bootstrap_from_sqlite
     await bootstrap_from_sqlite()
+    # Savol rasmlarini zaxiradan tiklaymiz — Render'da disk efemer, aks holda
+    # har deploydan keyin barcha savollar rasmsiz (404) qolardi.
+    import asyncio as _asyncio
+
+    from app.services.uploads import restore_seed_images
+    await _asyncio.to_thread(restore_seed_images)
     # Telegram bot webhook rejimi (BOT_TOKEN berilgan bo'lsa) — bot backend ichida.
     import asyncio
 
