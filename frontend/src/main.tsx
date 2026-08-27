@@ -6,6 +6,9 @@ import { registerSW } from "virtual:pwa-register";
 import App from "./App";
 import { Toaster } from "./components/ui/toast";
 import "./lib/i18n";
+// MUHIM: React'gacha import qilinadi — `beforeinstallprompt` sahifa yuklangan
+// zahoti keladi, kechikilsa ushlanmay qoladi (o'rnatish tugmasi ishlamay qolardi).
+import "./lib/pwaInstall";
 import { initTheme } from "./store/ui";
 import { queryClient } from "./lib/queryClient";
 import "./index.css";

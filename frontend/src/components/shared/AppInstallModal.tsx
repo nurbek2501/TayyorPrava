@@ -3,12 +3,8 @@ import { motion } from "framer-motion";
 import { Bell, Download, Info, Smartphone, WifiOff, X, Zap } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { isApp } from "@/lib/platform";
+import { promptInstall, useCanInstall } from "@/lib/pwaInstall";
 import { Modal } from "@/components/ui/Modal";
-
-interface BIPEvent extends Event {
-  prompt: () => Promise<void>;
-  userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
-}
 
 /** Bir marta ko'rsatiladi — yopilgach shu kalit qo'yiladi. */
 const SEEN_KEY = "pp_install_promo_seen";
@@ -22,17 +18,8 @@ const SEEN_KEY = "pp_install_promo_seen";
 export function AppInstallModal() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
-  const [deferred, setDeferred] = useState<BIPEvent | null>(null);
+  const canInstall = useCanInstall();
   const [showManual, setShowManual] = useState(false);
-
-  useEffect(() => {
-    const onPrompt = (e: Event) => {
-      e.preventDefault();
-      setDeferred(e as BIPEvent);
-    };
-    window.addEventListener("beforeinstallprompt", onPrompt);
-    return () => window.removeEventListener("beforeinstallprompt", onPrompt);
-  }, []);
 
   useEffect(() => {
     if (isApp() || localStorage.getItem(SEEN_KEY)) return;
@@ -47,15 +34,10 @@ export function AppInstallModal() {
   };
 
   const install = async () => {
-    if (!deferred) {
-      // iOS Safari / qo'llab-quvvatlamaydigan brauzer — qo'lda ko'rsatma.
-      setShowManual(true);
-      return;
-    }
-    await deferred.prompt();
-    const choice = await deferred.userChoice;
-    setDeferred(null);
-    if (choice.outcome === "accepted") close();
+    const res = await promptInstall();
+    // iOS Safari / qo'llab-quvvatlamaydigan brauzer — qo'lda ko'rsatma.
+    setShowManual(res === "unavailable");
+    if (res === "accepted") close();
   };
 
   const benefits = [
@@ -116,7 +98,7 @@ export function AppInstallModal() {
           <Download className="h-5 w-5" />
           {t("installModal.cta")}
         </button>
-        {showManual && (
+        {showManual && !canInstall && (
           <p className="mt-3 flex items-start gap-1.5 text-xs text-muted">
             <Info className="mt-0.5 h-3.5 w-3.5 shrink-0" />
             {t("home.installManual")}
