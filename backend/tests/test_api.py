@@ -110,6 +110,23 @@ async def _give_subscription(uid: str) -> None:
         await db.commit()
 
 
+async def _make_promo_code() -> str:
+    """Yangi faol promokod yaratadi — real imtihonga kirish kaliti.
+
+    Har test uchun YANGI kod: bitta kod bitta akkauntdan faqat bir marta
+    ishlatiladi (promo_code_redemptions), shuning uchun kodni qayta ishlatib
+    bo'lmaydi.
+    """
+    from app.db.session import AsyncSessionLocal
+    from app.models.promo import PromoCode
+
+    code = "PYT" + uuid.uuid4().hex[:6].upper()
+    async with AsyncSessionLocal() as db:
+        db.add(PromoCode(code=code, discount_percent=100, is_active=True))
+        await db.commit()
+    return code
+
+
 async def _auth_paid_user(api: AsyncClient) -> dict:
     """Aktiv tarifi bor foydalanuvchi (butun savol bazasiga kirish)."""
     headers = await _auth_user(api)
@@ -646,8 +663,11 @@ async def test_question_create_check_delete(api):
 
 async def test_real_exam_full_flow(api):
     headers = await _auth_user(api)
-    # Real imtihon endi pulli — avval kirish sotib olamiz (darhol ochiladi).
-    r = await api.post("/api/real-exam/purchase", json={"method": "demo"}, headers=headers)
+    # Real imtihonga kirish FAQAT promokod bilan ochiladi (to'lov tizimi yo'q).
+    promo = await _make_promo_code()
+    r = await api.post(
+        "/api/real-exam/purchase", json={"promoCode": promo}, headers=headers
+    )
     assert r.status_code == 201, r.text
     r = await api.post("/api/real-exam/start", headers=headers)
     assert r.status_code == 201, r.text
