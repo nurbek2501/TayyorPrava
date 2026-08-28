@@ -3,17 +3,7 @@ import { useMutation } from "@tanstack/react-query";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
-import {
-  ArrowLeft,
-  ArrowRight,
-  AtSign,
-  CheckCircle2,
-  Gift,
-  Loader2,
-  SkipForward,
-  UserPlus,
-  XCircle,
-} from "lucide-react";
+import { AtSign, CheckCircle2, Loader2, UserPlus, XCircle } from "lucide-react";
 import { authApi, getErrorMessage } from "@/lib/api";
 import {
   NICKNAME_RULES,
@@ -33,8 +23,9 @@ import { TelegramConfirm } from "@/components/auth/TelegramConfirm";
 import { NicknameSavedModal } from "@/components/auth/NicknameSavedModal";
 
 type NickStatus = "idle" | "checking" | "available" | "taken" | "invalid";
-/** 1) nik+parol  2) promokod (o'tkazib yuborish mumkin)  3) bot orqali tasdiq */
-type Step = "form" | "promo" | "confirm";
+/** 1) nik+parol  2) bot orqali tasdiq.
+ *  Promokod so'ralmaydi — bonus FAQAT referal havolasi (?ref) orqali yig'iladi. */
+type Step = "form" | "confirm";
 
 export function RegisterPage() {
   const { t } = useTranslation();
@@ -56,12 +47,6 @@ export function RegisterPage() {
   } | null>(null);
   // Ro'yxat tugagach — nikni eslatish modali
   const [savedNick, setSavedNick] = useState<string | null>(null);
-  // Promokod (taklif) — URL ?ref dan to'ldiriladi yoki qo'lda kiritiladi
-  const [promo, setPromo] = useState(ref ?? "");
-  const [promoStatus, setPromoStatus] = useState<
-    "idle" | "checking" | "valid" | "invalid"
-  >("idle");
-  const [promoName, setPromoName] = useState("");
 
   // Nick band emasligini jonli tekshirish (debounce 500ms)
   useEffect(() => {
@@ -79,32 +64,14 @@ export function RegisterPage() {
     return () => clearTimeout(id);
   }, [nickname]);
 
-  // Promokodni jonli tekshirish (debounce 500ms)
-  useEffect(() => {
-    if (!promo.trim()) {
-      setPromoStatus("idle");
-      return;
-    }
-    setPromoStatus("checking");
-    const id = setTimeout(async () => {
-      try {
-        const res = await authApi.checkPromo(promo.trim());
-        setPromoStatus(res.valid ? "valid" : "invalid");
-        setPromoName(res.name ?? "");
-      } catch {
-        setPromoStatus("idle");
-      }
-    }, 500);
-    return () => clearTimeout(id);
-  }, [promo]);
-
-  // Promokod bosqichidan keyin — pending saqlanadi va bot bosqichiga o'tamiz
+  // Forma to'ldirilgach — pending saqlanadi va bot bosqichiga o'tamiz
   const mutation = useMutation({
-    mutationFn: (usePromo: boolean) =>
+    mutationFn: () =>
       authApi.registerInit({
         nickname,
         password,
-        ref: usePromo ? promo.trim() || undefined : undefined,
+        // Taklif kodi FAQAT havoladan (?ref) keladi — forma orqali so'ralmaydi.
+        ref: ref?.trim() || undefined,
       }),
     onSuccess: (d) => {
       setConfirmData({
@@ -147,18 +114,7 @@ export function RegisterPage() {
                 // Darhol o'tkazmaymiz — avval nikni eslatamiz
                 setSavedNick(confirmData.nickname);
               }}
-              onBack={() => setStep("promo")}
-            />
-          ) : step === "promo" ? (
-            <PromoStep
-              promo={promo}
-              onPromoChange={setPromo}
-              status={promoStatus}
-              inviterName={promoName}
-              pending={mutation.isPending}
               onBack={() => setStep("form")}
-              onContinue={() => mutation.mutate(true)}
-              onSkip={() => mutation.mutate(false)}
             />
           ) : (
             <>
@@ -174,7 +130,7 @@ export function RegisterPage() {
                 className="mt-6 space-y-4"
                 onSubmit={(e) => {
                   e.preventDefault();
-                  if (canContinue) setStep("promo");
+                  if (canContinue) mutation.mutate();
                 }}
               >
                 {/* Nickname */}
@@ -231,10 +187,16 @@ export function RegisterPage() {
                 <button
                   type="submit"
                   className="btn-primary mt-2 w-full"
-                  disabled={!canContinue}
+                  disabled={!canContinue || mutation.isPending}
                 >
-                  <UserPlus className="h-4 w-4" />
-                  {t("auth.continue")}
+                  {mutation.isPending ? (
+                    <Spinner />
+                  ) : (
+                    <>
+                      <UserPlus className="h-4 w-4" />
+                      {t("auth.continue")}
+                    </>
+                  )}
                 </button>
               </form>
 
@@ -256,123 +218,6 @@ export function RegisterPage() {
         />
       )}
     </div>
-  );
-}
-
-/** 2-bosqich: taklif promokodi (ixtiyoriy — o'tkazib yuborish mumkin). */
-function PromoStep({
-  promo,
-  onPromoChange,
-  status,
-  inviterName,
-  pending,
-  onBack,
-  onContinue,
-  onSkip,
-}: {
-  promo: string;
-  onPromoChange: (v: string) => void;
-  status: "idle" | "checking" | "valid" | "invalid";
-  inviterName: string;
-  pending: boolean;
-  onBack: () => void;
-  onContinue: () => void;
-  onSkip: () => void;
-}) {
-  const { t } = useTranslation();
-  const canContinue = !!promo.trim() && status === "valid" && !pending;
-
-  return (
-    <motion.div
-      initial={{ opacity: 0, x: 30 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ type: "spring", stiffness: 90, damping: 16 }}
-    >
-      <button onClick={onBack} className="btn-ghost mb-4 text-sm" disabled={pending}>
-        <ArrowLeft className="h-4 w-4" />
-        {t("auth.back")}
-      </button>
-
-      <div className="flex flex-col items-center text-center">
-        <motion.div
-          initial={{ scale: 0.6, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: "spring", stiffness: 200, damping: 14 }}
-          className="mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-accent to-accent-dark text-white shadow-glow"
-        >
-          <Gift className="h-8 w-8" />
-        </motion.div>
-        <h1 className="text-xl font-bold text-ink">{t("auth.promoTitle")}</h1>
-        <p className="mt-1 text-sm text-muted">{t("auth.promoSubtitle")}</p>
-      </div>
-
-      <div className="mt-6">
-        <Field
-          icon={<Gift className="h-4 w-4" />}
-          label={t("auth.enterPromo")}
-          right={
-            status === "checking" ? (
-              <Loader2 className="h-4 w-4 animate-spin text-muted" />
-            ) : status === "valid" ? (
-              <CheckCircle2 className="h-4 w-4 text-success" />
-            ) : status === "invalid" ? (
-              <XCircle className="h-4 w-4 text-danger" />
-            ) : null
-          }
-        >
-          <input
-            className={cn(
-              "input pl-10 pr-10 uppercase tracking-wider",
-              status === "valid" && "ring-1 ring-success/60",
-              status === "invalid" && "ring-1 ring-danger/60"
-            )}
-            value={promo}
-            onChange={(e) => onPromoChange(e.target.value.toUpperCase())}
-            placeholder={t("auth.promoPlaceholder")}
-            autoComplete="off"
-            autoFocus
-          />
-        </Field>
-        {status === "valid" && (
-          <p className="mt-1.5 text-xs font-medium text-success">
-            {t("auth.promoValid")}
-            {inviterName ? ` · ${inviterName}` : ""}
-          </p>
-        )}
-        {status === "invalid" && (
-          <p className="mt-1.5 text-xs font-medium text-danger">
-            {t("auth.promoInvalid")}
-          </p>
-        )}
-      </div>
-
-      <button
-        onClick={onContinue}
-        className="btn-primary mt-5 w-full"
-        disabled={!canContinue}
-      >
-        {pending ? (
-          <Spinner />
-        ) : (
-          <>
-            {t("auth.continue")}
-            <ArrowRight className="h-4 w-4" />
-          </>
-        )}
-      </button>
-
-      {/* O'tkazib yuborish — promokodi yo'q foydalanuvchi uchun asosiy yo'l,
-          shuning uchun oddiy matn emas, ko'zga tashlanadigan tugma. */}
-      <button
-        onClick={onSkip}
-        disabled={pending}
-        className="btn-ghost mt-3 w-full border border-line/25 py-3 text-base font-semibold disabled:opacity-50"
-      >
-        <SkipForward className="h-5 w-5" />
-        {t("auth.promoSkip")}
-      </button>
-      <p className="mt-2 text-center text-xs text-muted">{t("auth.promoSkipHint")}</p>
-    </motion.div>
   );
 }
 
