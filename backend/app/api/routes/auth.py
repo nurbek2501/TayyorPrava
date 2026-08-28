@@ -4,7 +4,8 @@ from __future__ import annotations
 import re
 from datetime import datetime, timezone
 
-from fastapi import APIRouter, Depends, HTTPException, Request, status
+from fastapi import APIRouter, Depends, File, HTTPException, Request, UploadFile, status
+from fastapi.responses import Response
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -24,7 +25,7 @@ from app.crud import users as users_crud
 from app.db.session import get_db
 from app.deps import get_current_admin, get_current_user
 from app.models.enums import Role
-from app.models.user import User
+from app.models.user import User, UserAvatar
 from app.schemas.auth import (
     AdminCredentialsResponse,
     AdminLoginRequest,
@@ -49,6 +50,7 @@ from app.schemas.auth import (
 from app.schemas.user import UserRead, UserUpdate
 from app.services import telegram_bot
 from app.services.serializers import serialize_user
+from app.services.uploads import process_avatar
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 admin_router = APIRouter(prefix="/admin/auth", tags=["admin-auth"])
@@ -426,13 +428,71 @@ async def update_me(
     data = payload.model_dump(exclude_unset=True)
     for field in ("name", "surname", "email", "telegram", "avatar_url"):
         if field in data and data[field] is not None:
-            setattr(user, field, data[field])
+            value = data[field]
+            # Rasm base64 `data:` URL sifatida kelib qolsa — QABUL QILMAYMIZ.
+            # avatar_url ustuni 512 belgilik: Postgres'da bunday qiymat xato beradi
+            # (SQLite jim o'tkazib yuboradi). Rasm /me/avatar orqali yuklanadi.
+            if field == "avatar_url" and str(value).startswith("data:"):
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail="Rasmni /auth/me/avatar orqali yuklang",
+                )
+            setattr(user, field, value)
     await db.commit()
     sub = await users_crud.get_active_subscription(db, user.id)
     return serialize_user(
         user,
         subscription_active=sub is not None,
         subscription_expires_at=sub.expires_at if sub else None,
+    )
+
+
+@router.post("/me/avatar", response_model=UserRead)
+async def upload_avatar(
+    file: UploadFile = File(...),
+    user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    """Profil rasmini yuklaydi va BAZAGA saqlaydi (256px webp).
+
+    Fayl sifatida saqlanmaydi: Render'da disk efemer — rasm har deploydan keyin
+    yo'qolardi. `avatar_url` ga faqat qisqa havola yoziladi (512 belgiga sig'adi),
+    oxiridagi `?v=` esa brauzer eski rasmni keshdan ko'rsatmasligi uchun.
+    """
+    data = await process_avatar(file)
+    row = await db.get(UserAvatar, user.id)
+    if row is None:
+        db.add(UserAvatar(user_id=user.id, data=data, content_type="image/webp"))
+    else:
+        row.data = data
+        row.content_type = "image/webp"
+    user.avatar_url = (
+        f"{settings.API_PREFIX}/auth/avatar/{user.id}?v={int(datetime.now(timezone.utc).timestamp())}"
+    )
+    await db.commit()
+    sub = await users_crud.get_active_subscription(db, user.id)
+    return serialize_user(
+        user,
+        subscription_active=sub is not None,
+        subscription_expires_at=sub.expires_at if sub else None,
+    )
+
+
+@router.get("/avatar/{user_id}", include_in_schema=False)
+async def get_avatar(user_id: str, db: AsyncSession = Depends(get_db)):
+    """Profil rasmini qaytaradi.
+
+    Token TALAB QILINMAYDI: rasm `<img src>` orqali ko'rsatiladi, brauzer esa
+    unga Authorization sarlavhasini qo'shmaydi. Manzilda taxmin qilib bo'lmaydigan
+    uuid bor va avatar allaqachon boshqa foydalanuvchilarga (ustoz chati) ko'rinadi.
+    """
+    row = await db.get(UserAvatar, user_id)
+    if row is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Rasm topilmadi")
+    return Response(
+        content=row.data,
+        media_type=row.content_type or "image/webp",
+        headers={"Cache-Control": "public, max-age=31536000, immutable"},
     )
 
 

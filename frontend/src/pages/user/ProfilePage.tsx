@@ -83,17 +83,26 @@ export function ProfilePage() {
   const pwReady =
     !!oldPw && isPasswordValid(newPw) && newPw === confPw && !changePw.isPending;
 
+  // Rasm tanlanishi bilan DARHOL yuklanadi va bazaga saqlanadi.
+  // (Ilgari base64 `data:` URL formaga solinardi — u 512 belgilik ustunga sig'may,
+  // Postgres'da saqlanmasdan qolardi.)
+  const avatarM = useMutation({
+    mutationFn: (file: File) => authApi.uploadAvatar(file),
+    onSuccess: (data) => {
+      setUser(data);
+      setForm((f) => ({ ...f, avatarUrl: data.avatarUrl ?? "" }));
+      toast.success(t("profile.photoSaved"));
+    },
+    onError: (e) => toast.error(getErrorMessage(e)),
+  });
+
   const onFile = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => setForm((f) => ({ ...f, avatarUrl: String(reader.result) }));
-    reader.readAsDataURL(file);
+    e.target.value = ""; // bir xil faylni qayta tanlash ham ishlasin
+    if (file) avatarM.mutate(file);
   };
 
-  const avatarSrc = form.avatarUrl.startsWith("data:")
-    ? form.avatarUrl
-    : assetUrl(form.avatarUrl);
+  const avatarSrc = assetUrl(form.avatarUrl);
 
   // ---- Bonus bilan real imtihon sotib olish ----
   const navigate = useNavigate();
@@ -180,8 +189,12 @@ export function ProfilePage() {
               <p className="mt-1 text-sm text-muted">{t("profile.photoHint")}</p>
               <input ref={fileRef} type="file" accept="image/*" hidden onChange={onFile} />
               <div className="mt-4 flex flex-wrap justify-center gap-2 sm:justify-start">
-                <button onClick={() => fileRef.current?.click()} className="btn-ghost">
-                  <Upload className="h-4 w-4" />
+                <button
+                  onClick={() => fileRef.current?.click()}
+                  disabled={avatarM.isPending}
+                  className="btn-ghost"
+                >
+                  {avatarM.isPending ? <Spinner /> : <Upload className="h-4 w-4" />}
                   {t("profile.uploadPhoto")}
                 </button>
                 <button

@@ -256,6 +256,17 @@ export const authApi = {
   me: () => api.get<UserProfile>("/auth/me").then((r) => r.data),
   updateMe: (data: Partial<UserProfile>) =>
     api.patch<UserProfile>("/auth/me", data).then((r) => r.data),
+  // Profil rasmi — bazaga saqlanadi (fayl sifatida emas: Render diski efemer).
+  // Yangilangan profil qaytadi, `avatarUrl` yangi havola bilan.
+  uploadAvatar: (file: File) => {
+    const fd = new FormData();
+    fd.append("file", file);
+    return api
+      .post<UserProfile>("/auth/me/avatar", fd, {
+        headers: { "Content-Type": "multipart/form-data" },
+      })
+      .then((r) => r.data);
+  },
   adminLogin: (data: { login: string; password: string }) =>
     api.post<TokenResponse>("/admin/auth/login", data).then((r) => r.data),
   // Joriy adminning o'z login(i) — /admin/ prefiksli (admin-token bilan yuboriladi)

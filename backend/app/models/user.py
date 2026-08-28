@@ -3,7 +3,16 @@ import uuid
 from datetime import datetime
 from typing import Optional
 
-from sqlalchemy import Boolean, DateTime, Enum, ForeignKey, Integer, String, func
+from sqlalchemy import (
+    Boolean,
+    DateTime,
+    Enum,
+    ForeignKey,
+    Integer,
+    LargeBinary,
+    String,
+    func,
+)
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.base import Base
@@ -56,6 +65,30 @@ class User(Base):
 
     subscriptions: Mapped[list["Subscription"]] = relationship(
         back_populates="user", cascade="all, delete-orphan"
+    )
+
+
+class UserAvatar(Base):
+    """Profil rasmi — BAZADA (fayl sifatida emas).
+
+    NEGA BAZADA: Render'da disk efemer (persistent disk yo'q) — uploads/ ga
+    yozilgan rasm har deploy va har uyqudan uyg'onishda yo'qolardi. Baza esa
+    saqlanadi, shuning uchun rasm shu yerda turadi.
+
+    Rasm yuklashda 256px'gacha kichraytirilib webp'ga siqiladi (~10-30 KB),
+    ya'ni baza shishmaydi. Alohida jadval — `users` ga ustun qo'shish Postgres'da
+    qo'lda migratsiya talab qilardi, yangi jadval esa create_all bilan o'zi yaratiladi.
+    """
+
+    __tablename__ = "user_avatars"
+
+    user_id: Mapped[str] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), primary_key=True
+    )
+    data: Mapped[bytes] = mapped_column(LargeBinary)
+    content_type: Mapped[str] = mapped_column(String(32), default="image/webp")
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), onupdate=func.now()
     )
 
 

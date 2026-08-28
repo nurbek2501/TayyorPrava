@@ -67,6 +67,45 @@ def restore_seed_images() -> int:
     return total
 
 
+_AVATAR_SIZE = 256
+
+
+async def process_avatar(file: UploadFile) -> bytes:
+    """Profil rasmini bazaga yozish uchun tayyorlaydi: kvadrat kesib, 256px webp.
+
+    Natija ~10-30 KB — bazada saqlash uchun mos (fayl sifatida saqlanmaydi, chunki
+    Render'da disk efemer). Xato bo'lsa HTTPException ko'taradi.
+    """
+    if file.content_type not in _ALLOWED:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Faqat png/jpg/webp formatdagi rasm yuklash mumkin",
+        )
+    raw = await file.read()
+    if len(raw) > settings.MAX_UPLOAD_MB * 1024 * 1024:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Rasm hajmi {settings.MAX_UPLOAD_MB}MB dan oshmasligi kerak",
+        )
+    try:
+        img = Image.open(BytesIO(raw)).convert("RGB")
+        # Markazdan kvadrat kesamiz — avatar doira ichida cho'zilib ketmasin.
+        side = min(img.width, img.height)
+        left = (img.width - side) // 2
+        top = (img.height - side) // 2
+        img = img.crop((left, top, left + side, top + side))
+        img = img.resize((_AVATAR_SIZE, _AVATAR_SIZE))
+        out = BytesIO()
+        img.save(out, format="WEBP", quality=80)
+        return out.getvalue()
+    except HTTPException:
+        raise
+    except Exception as exc:  # noqa: BLE001
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="Rasmni o'qib bo'lmadi"
+        ) from exc
+
+
 async def save_question_image(file: UploadFile) -> str:
     if file.content_type not in _ALLOWED:
         raise HTTPException(
