@@ -120,6 +120,7 @@ const resources = {
         promoTitle: "Taklif kodingiz bormi?",
         promoSubtitle: "Sizni taklif qilgan do'stingizning kodini kiriting.",
         promoSkip: "O'tkazib yuborish",
+        promoSkipHint: "Promokodingiz bo'lmasa shu tugmani bosing",
         nickSavedTitle: "Tabriklaymiz! Profil ochildi 🎉",
         nickSavedLabel: "Sizning nikingiz",
         nickSavedWarn:
@@ -441,6 +442,7 @@ const resources = {
         promoTitle: "Таклиф кодингиз борми?",
         promoSubtitle: "Сизни таклиф қилган дўстингизнинг кодини киритинг.",
         promoSkip: "Ўтказиб юбориш",
+        promoSkipHint: "Промокодингиз бўлмаса шу тугмани босинг",
         nickSavedTitle: "Табриклаймиз! Профил очилди 🎉",
         nickSavedLabel: "Сизнинг никингиз",
         nickSavedWarn:
@@ -762,6 +764,7 @@ const resources = {
         promoTitle: "Есть код приглашения?",
         promoSubtitle: "Введите код друга, который вас пригласил.",
         promoSkip: "Пропустить",
+        promoSkipHint: "Нет промокода — нажмите эту кнопку",
         nickSavedTitle: "Поздравляем! Профиль создан 🎉",
         nickSavedLabel: "Ваш ник",
         nickSavedWarn:

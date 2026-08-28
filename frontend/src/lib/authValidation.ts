@@ -21,7 +21,3 @@ export const PASSWORD_RULES: Rule[] = [
 
 export const isNicknameValid = (v: string) => NICKNAME_RULES.every((r) => r.test(v));
 export const isPasswordValid = (v: string) => PASSWORD_RULES.every((r) => r.test(v));
-
-/** Parol kuchi 0..N (qoniqtirilgan qoidalar soni) — indikator uchun */
-export const passwordStrength = (v: string) =>
-  PASSWORD_RULES.filter((r) => r.test(v)).length;

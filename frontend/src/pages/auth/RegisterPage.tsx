@@ -361,14 +361,17 @@ function PromoStep({
         )}
       </button>
 
+      {/* O'tkazib yuborish — promokodi yo'q foydalanuvchi uchun asosiy yo'l,
+          shuning uchun oddiy matn emas, ko'zga tashlanadigan tugma. */}
       <button
         onClick={onSkip}
         disabled={pending}
-        className="mt-3 flex w-full items-center justify-center gap-1.5 text-sm font-medium text-muted transition hover:text-ink disabled:opacity-50"
+        className="btn-ghost mt-3 w-full border border-line/25 py-3 text-base font-semibold disabled:opacity-50"
       >
-        <SkipForward className="h-4 w-4" />
+        <SkipForward className="h-5 w-5" />
         {t("auth.promoSkip")}
       </button>
+      <p className="mt-2 text-center text-xs text-muted">{t("auth.promoSkipHint")}</p>
     </motion.div>
   );
 }

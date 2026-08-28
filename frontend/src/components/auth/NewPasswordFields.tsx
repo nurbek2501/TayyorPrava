@@ -1,11 +1,7 @@
 import { useState } from "react";
 import { Check, Eye, EyeOff, Lock, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import {
-  PASSWORD_RULES,
-  isPasswordValid,
-  passwordStrength,
-} from "@/lib/authValidation";
+import { PASSWORD_RULES, isPasswordValid } from "@/lib/authValidation";
 import { cn } from "@/lib/utils";
 import { RequirementList } from "./RequirementList";
 
@@ -32,7 +28,6 @@ export function NewPasswordFields({
   const [showConfirm, setShowConfirm] = useState(false);
   const [pwFocused, setPwFocused] = useState(false);
 
-  const strength = passwordStrength(password);
   const mismatch = confirm.length > 0 && confirm !== password;
   const matched =
     confirm.length > 0 && confirm === password && isPasswordValid(password);
@@ -64,23 +59,6 @@ export function NewPasswordFields({
             {showPw ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
           </button>
         </div>
-        {password && (
-          <div className="mt-2 flex gap-1">
-            {[0, 1, 2].map((i) => (
-              <div
-                key={i}
-                className={cn(
-                  "h-1 flex-1 rounded-full transition-colors duration-300",
-                  i < strength
-                    ? strength === 3
-                      ? "bg-success"
-                      : "bg-amber-400"
-                    : "bg-line/20"
-                )}
-              />
-            ))}
-          </div>
-        )}
         {(pwFocused || password) && (
           <RequirementList rules={PASSWORD_RULES} value={password} />
         )}
