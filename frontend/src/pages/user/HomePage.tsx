@@ -5,7 +5,6 @@ import {
   Bot,
   Brain,
   ChevronRight,
-  CreditCard,
   GraduationCap,
   Heart,
   Layers,
@@ -17,6 +16,7 @@ import {
   ShieldX,
   Signpost,
   Sparkles,
+  Ticket,
   type LucideIcon,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -245,10 +245,10 @@ export function HomePage() {
             onClick={() => navigate("/teachers")}
           />
           <TileCard
-            icon={CreditCard}
-            title={t("nav.subscribe")}
-            subtitle={t("home.subscribeHint")}
-            onClick={() => navigate("/payment")}
+            icon={Ticket}
+            title={t("nav.referral")}
+            subtitle={t("home.referralHint")}
+            onClick={() => navigate("/referral")}
             delay={0.06}
           />
         </div>

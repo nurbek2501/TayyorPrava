@@ -1,4 +1,6 @@
 """Admin dashboard schemas."""
+from datetime import datetime
+
 from app.schemas.common import CamelModel
 
 
@@ -53,9 +55,28 @@ class MeStats(CamelModel):
     all_mistakes_percent: float
 
 
+class PersonalPromoRead(CamelModel):
+    """Bonusga sotib olingan shaxsiy promokod."""
+
+    code: str
+    used: bool
+    created_at: datetime
+
+
 class ReferralStats(CamelModel):
     bonus: int
     invited: int
     paid: int
     ref_code: str
     ref_link: str
+    # Bonusga promokod sotib olish narxi (shuncha bonus yig'ilsa tugma faollashadi)
+    promo_price: int = 0
+    # Foydalanuvchi sotib olgan kodlar (yangisi birinchi)
+    my_promo_codes: list[PersonalPromoRead] = []
+
+
+class BuyPromoResponse(CamelModel):
+    ok: bool = True
+    code: str
+    price: int
+    bonus: int  # yechilgandan keyingi yangi balans

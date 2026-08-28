@@ -131,12 +131,29 @@ export interface MeStats {
   allMistakesPercent: number;
 }
 
+export interface PersonalPromo {
+  code: string;
+  used: boolean;
+  createdAt: string;
+}
+
 export interface ReferralStats {
   bonus: number;
   invited: number;
   paid: number;
   refCode: string;
   refLink: string;
+  /** Bonusga promokod sotib olish narxi (shuncha yig'ilsa tugma faollashadi) */
+  promoPrice: number;
+  /** Sotib olingan shaxsiy kodlar (yangisi birinchi) */
+  myPromoCodes: PersonalPromo[];
+}
+
+export interface BuyPromoResponse {
+  ok: boolean;
+  code: string;
+  price: number;
+  bonus: number;
 }
 
 export interface DashboardSummary {

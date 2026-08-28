@@ -713,3 +713,87 @@ async def test_rate_limit_login(api):
     # Birinchi 10 tasi 401 (noto'g'ri parol), 11-chisi limit tufayli 429
     assert statuses.count(401) == 10, statuses
     assert statuses[-1] == 429, statuses
+
+
+# ---------------- Bonusga sotib olinadigan shaxsiy promokod ----------------
+async def _set_bonus(uid: str, amount: int) -> None:
+    from app.db.session import AsyncSessionLocal
+    from app.models.user import User as U
+
+    async with AsyncSessionLocal() as db:
+        u = await db.get(U, uid)
+        u.bonus_balance = amount
+        await db.commit()
+
+
+async def _uid_of(api: AsyncClient, headers: dict) -> str:
+    return (await api.get("/api/auth/me", headers=headers)).json()["id"]
+
+
+async def test_buy_promo_requires_enough_bonus(api):
+    """Bonus yetmasa kod berilmaydi va balans o'zgarmaydi."""
+    from app.core.config import settings as st
+
+    headers = await _auth_user(api)
+    uid = await _uid_of(api, headers)
+    await _set_bonus(uid, st.PROMO_BONUS_PRICE - 1)
+
+    r = await api.post("/api/me/buy-promo", headers=headers)
+    assert r.status_code == 400, r.text
+    ref = (await api.get("/api/me/referral", headers=headers)).json()
+    assert ref["bonus"] == st.PROMO_BONUS_PRICE - 1, "balans o'zgarmasligi kerak"
+
+
+async def test_personal_promo_full_flow(api):
+    """Bonus -> kod -> real imtihon ochiladi -> IKKINCHI marta ishlamaydi."""
+    from app.core.config import settings as st
+
+    headers = await _auth_user(api)
+    uid = await _uid_of(api, headers)
+    await _set_bonus(uid, st.PROMO_BONUS_PRICE)
+
+    r = await api.post("/api/me/buy-promo", headers=headers)
+    assert r.status_code == 201, r.text
+    data = r.json()
+    code = data["code"]
+    assert data["bonus"] == 0, "bonus yechilishi kerak"
+
+    # Kod ro'yxatda ko'rinadi va hali ishlatilmagan
+    ref = (await api.get("/api/me/referral", headers=headers)).json()
+    assert any(c["code"] == code and not c["used"] for c in ref["myPromoCodes"])
+
+    # 1-marta — ishlaydi
+    r = await api.post(
+        "/api/real-exam/purchase", json={"promoCode": code}, headers=headers
+    )
+    assert r.status_code == 201, r.text
+
+    # 2-marta — "allaqachon foydalangansiz"
+    r = await api.post(
+        "/api/real-exam/purchase", json={"promoCode": code}, headers=headers
+    )
+    assert r.status_code == 400, r.text
+    assert "allaqachon" in r.json()["detail"], r.text
+
+
+async def test_personal_promo_is_owner_only(api):
+    """Boshqa akkaunt shu kodni ishlata OLMAYDI."""
+    from app.core.config import settings as st
+
+    owner = await _auth_user(api)
+    owner_id = await _uid_of(api, owner)
+    await _set_bonus(owner_id, st.PROMO_BONUS_PRICE)
+    code = (await api.post("/api/me/buy-promo", headers=owner)).json()["code"]
+
+    stranger = await _auth_user(api)
+    r = await api.post(
+        "/api/real-exam/purchase", json={"promoCode": code}, headers=stranger
+    )
+    assert r.status_code == 400, r.text
+    assert "boshqa foydalanuvchiga" in r.json()["detail"], r.text
+
+    # Egasi uchun kod hamon ishlaydi (begona urinish uni kuydirmagan)
+    r = await api.post(
+        "/api/real-exam/purchase", json={"promoCode": code}, headers=owner
+    )
+    assert r.status_code == 201, r.text

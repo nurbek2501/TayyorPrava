@@ -149,6 +149,35 @@ async def purchase_real_exam(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Real imtihonga kirish uchun promokod kiriting",
         )
+    # --- 1) SHAXSIY kod (bonusga sotib olingan) ---
+    # Avval shu yerda qaraymiz: shaxsiy kodlar «MY...» ko'rinishida va faqat
+    # egasiga tegishli. Topilsa admin kodlari mantig'iga umuman o'tilmaydi.
+    personal = await promo_crud.get_personal_by_code(db, promo_code)
+    if personal is not None:
+        if personal.user_id != user.id:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Bu promokod boshqa foydalanuvchiga tegishli",
+            )
+        if personal.used:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Siz bu promokoddan allaqachon foydalangansiz",
+            )
+        # Atomik belgilash — bir vaqtda kelgan ikkinchi so'rov bu yerda to'xtaydi
+        # (aks holda bitta kod bilan ikkita kirish ochilishi mumkin edi).
+        if not await promo_crud.consume_personal_code(db, personal):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Siz bu promokoddan allaqachon foydalangansiz",
+            )
+        await exam_access_crud.create_access(
+            db, user_id=user.id, amount=0, method="bonus-promo"
+        )
+        await db.commit()
+        return RealExamPurchaseResponse(ok=True, price=0, discount_percent=0)
+
+    # --- 2) Admin yaratgan umumiy kod ---
     promo = await promo_crud.get_active_by_code(db, promo_code)
     if promo is None:
         raise HTTPException(

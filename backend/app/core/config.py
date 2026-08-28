@@ -89,6 +89,10 @@ class Settings(BaseSettings):
     # Mashq variantlarini har so'rovda aralashtirish (javob pozitsiyasi yodlanmasin).
     SHUFFLE_OPTIONS: bool = True
 
+    # Bonusga shaxsiy promokod sotib olish narxi (so'm). Foydalanuvchi shuncha
+    # bonus yig'sa, uni bir martalik real-imtihon kodiga almashtira oladi.
+    PROMO_BONUS_PRICE: int = 200_000
+
     # Suiiste'mol/hujum aniqlash → avtomatik akkaunt bloki (eskalatsiya bilan).
     # Bu HUJUM himoyasi (SQLi/XSS/skaner imzolari) — doim yoqilgan qolsin.
     ABUSE_GUARD_ENABLED: bool = True

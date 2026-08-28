@@ -1,4 +1,6 @@
-"""Chegirma promokodlari — real imtihon narxiga admin belgilagan foizli chegirma."""
+"""Promokodlar: admin yaratgan chegirma kodlari + bonusga sotib olingan shaxsiy kodlar."""
+from __future__ import annotations
+
 import uuid
 from datetime import datetime
 
@@ -27,6 +29,38 @@ class PromoCode(Base):
     discount_percent: Mapped[int] = mapped_column(Integer)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
     used_count: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now()
+    )
+
+
+class PersonalPromoCode(Base):
+    """Bonusga sotib olingan SHAXSIY promokod.
+
+    Admin yaratgan `PromoCode` dan farqi:
+      * FAQAT egasi (`user_id`) ishlata oladi — boshqa akkaunt kiritsa rad etiladi;
+      * FAQAT BIR MARTA — `used` bayrog'i bilan (atomik UPDATE orqali belgilanadi,
+        shuning uchun bir vaqtda kelgan ikki so'rov ham ikkita kirish ocha olmaydi).
+
+    Alohida jadval: `promo_codes` ga ustun qo'shilsa Postgres'da qo'lda migratsiya
+    kerak bo'lardi, yangi jadvalni esa create_all ishga tushishda o'zi yaratadi.
+    """
+
+    __tablename__ = "personal_promo_codes"
+
+    id: Mapped[str] = mapped_column(
+        String(36), primary_key=True, default=lambda: str(uuid.uuid4())
+    )
+    code: Mapped[str] = mapped_column(String(32), unique=True, index=True)
+    user_id: Mapped[str] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), index=True
+    )
+    # Qancha bonus yechilgani (tarixiy yozuv — keyin narx o'zgarsa ham saqlanadi)
+    price_paid: Mapped[int] = mapped_column(Integer, default=0)
+    used: Mapped[bool] = mapped_column(Boolean, default=False)
+    used_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now()
     )

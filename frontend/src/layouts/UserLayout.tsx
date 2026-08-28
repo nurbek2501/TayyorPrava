@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import {
   ChevronLeft,
   ChevronRight,
-  CreditCard,
   GraduationCap,
   LayoutDashboard,
   LayoutGrid,
@@ -12,6 +11,7 @@ import {
   MessagesSquare,
   Radio,
   ShieldX,
+  Ticket,
   X,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -32,7 +32,8 @@ function useNav() {
     { to: "/real-exam", label: t("nav.realExam"), icon: Radio, live: true },
     { to: "/teachers", label: t("nav.teachers"), icon: MessagesSquare },
     { to: "/mistakes", label: t("nav.mistakes"), icon: ShieldX },
-    { to: "/payment", label: t("nav.subscribe"), icon: CreditCard },
+    // Obuna sotib olish o'rniga — promokod bo'limi (bonusni kodga almashtirish).
+    { to: "/referral", label: t("nav.referral"), icon: Ticket },
   ];
 }
 

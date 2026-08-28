@@ -5,12 +5,19 @@ from fastapi import APIRouter, Body, Depends, HTTPException
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.core.config import settings
 from app.crud import interactions as interactions_crud
+from app.crud import promo as promo_crud
 from app.crud import questions as questions_crud
 from app.db.session import get_db
 from app.deps import get_current_user
 from app.models.user import Referral, User
-from app.schemas.dashboard import MeStats, ReferralStats
+from app.schemas.dashboard import (
+    BuyPromoResponse,
+    MeStats,
+    PersonalPromoRead,
+    ReferralStats,
+)
 from app.schemas.question import PracticeQuestionRead
 from app.services.serializers import serialize_practice_question
 
@@ -98,12 +105,40 @@ async def my_referral(
         )
     ).scalar_one() or 0
     code = user.ref_code or ""
+    mine = await promo_crud.list_personal_codes(db, user.id)
     return ReferralStats(
         bonus=int(user.bonus_balance or 0),  # sarflanadigan balans
         invited=int(invited),
         paid=int(paid),
         ref_code=code,
-        # Ro'yxatdan o'tish endi /login sahifasidagi Telegram tugmasi orqali
-        # (alohida /register sahifasi yo'q) — ?ref shu yerda o'qiladi.
-        ref_link=f"https://pravapro.uz/login?ref={code}",
+        ref_link=f"https://tayyorprava.uz/register?ref={code}",
+        promo_price=settings.PROMO_BONUS_PRICE,
+        my_promo_codes=[
+            PersonalPromoRead(code=p.code, used=p.used, created_at=p.created_at)
+            for p in mine
+        ],
+    )
+
+
+@router.post("/buy-promo", response_model=BuyPromoResponse, status_code=201)
+async def buy_promo_code(
+    db: AsyncSession = Depends(get_db), user: User = Depends(get_current_user)
+):
+    """Bonusni bir martalik SHAXSIY promokodga almashtiradi.
+
+    Kod faqat shu akkauntda va faqat bir marta ishlaydi (real imtihonga kirish).
+    Bonus shartli UPDATE bilan yechiladi — bir vaqtda kelgan ikkita so'rov
+    balansni ikki marta yecha olmaydi va faqat bittasi kod oladi.
+    """
+    price = settings.PROMO_BONUS_PRICE
+    row = await promo_crud.buy_personal_code(db, user=user, price=price)
+    if row is None:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Bonus yetarli emas — kamida {price:,} so'm kerak".replace(",", " "),
+        )
+    await db.commit()
+    await db.refresh(user)
+    return BuyPromoResponse(
+        code=row.code, price=price, bonus=int(user.bonus_balance or 0)
     )

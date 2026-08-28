@@ -15,6 +15,7 @@ import type {
   RealExamAnswerResponse,
   RealExamResult,
   RealExamStart,
+  BuyPromoResponse,
   ReferralStats,
   SiteSettings,
   Tariff,
@@ -485,6 +486,8 @@ export const meApi = {
   clearMistakes: () =>
     api.delete<{ cleared: number }>("/me/mistakes").then((r) => r.data),
   referral: () => api.get<ReferralStats>("/me/referral").then((r) => r.data),
+  // Bonusni bir martalik shaxsiy promokodga almashtirish
+  buyPromo: () => api.post<BuyPromoResponse>("/me/buy-promo").then((r) => r.data),
 };
 
 // ---------------- Tariffs / payment methods ----------------
