@@ -108,12 +108,25 @@ def nick_format_ok(nick: str) -> bool:
     return bool(NICK_RE.match(nick))
 
 
-async def is_subscribed(user_id: int) -> bool:
+async def subscription_status(user_id: int) -> bool | None:
+    """True = obuna, False = obuna emas, None = TEKSHIRIB BO'LMADI.
+
+    None bo'ladigan holatlar: kanal topilmadi, bot kanalga admin qilinmagan,
+    tarmoq/Telegram xatosi. Bularda AYB FOYDALANUVCHIDA EMAS — chaqiruvchi uni
+    to'smasligi kerak (aks holda bizning nosozligimiz uchun sayt qulflanadi).
+    """
     member = await tg(
         "getChatMember", chat_id=settings.TELEGRAM_CHANNEL, user_id=user_id
     )
-    # kanal topilmasa / bot admin bo'lmasa tg() None qaytaradi -> obuna yo'q deb hisoblanadi
-    return bool(member) and member.get("status") in SUBSCRIBED
+    if not member:
+        return None
+    return member.get("status") in SUBSCRIBED
+
+
+async def is_subscribed(user_id: int) -> bool:
+    """Bot oqimi uchun: tekshirib bo'lmasa "obuna emas" deb hisoblaydi (ehtiyotkor —
+    kod berilmaydi). Saytdagi kirish to'sig'i uchun `subscription_status` ishlating."""
+    return await subscription_status(user_id) is True
 
 
 def subscribe_kb(nick: str) -> dict:

@@ -1059,6 +1059,7 @@ export function RealExamPage() {
         channel={subQuery.data.channel}
         channelUrl={subQuery.data.channelUrl}
         onRecheck={() => subQuery.refetch()}
+        onBack={() => navigate("/dashboard")}
         isChecking={subQuery.isFetching}
       />
     );

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { Bell, Download, Info, Smartphone, WifiOff, X, Zap } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { isApp } from "@/lib/platform";
@@ -60,14 +59,9 @@ export function AppInstallModal() {
       <div className="relative overflow-hidden bg-gradient-to-br from-accent to-accent-dark px-6 pb-8 pt-10 text-center">
         <div className="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-white/15 blur-2xl" />
         <div className="pointer-events-none absolute -bottom-12 -left-8 h-32 w-32 rounded-full bg-white/10 blur-2xl" />
-        <motion.div
-          initial={{ scale: 0.7, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: "spring", stiffness: 260, damping: 18, delay: 0.1 }}
-          className="mx-auto flex h-16 w-16 items-center justify-center rounded-3xl bg-white/20 backdrop-blur"
-        >
+        <div className="animate-zoom-in mx-auto flex h-16 w-16 items-center justify-center rounded-3xl bg-white/20 backdrop-blur">
           <Smartphone className="h-8 w-8 text-white" />
-        </motion.div>
+        </div>
         <h3 className="mt-4 text-xl font-extrabold text-white">
           {t("installModal.title")}
         </h3>
@@ -76,19 +70,13 @@ export function AppInstallModal() {
 
       {/* Foydalari */}
       <div className="space-y-3 px-6 pt-5">
-        {benefits.map((b, i) => (
-          <motion.div
-            key={b.text}
-            initial={{ opacity: 0, x: -10 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2 + i * 0.08 }}
-            className="flex items-center gap-3"
-          >
+        {benefits.map((b) => (
+          <div key={b.text} className="animate-fade-up flex items-center gap-3">
             <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-accent/15 text-accent">
               <b.icon className="h-4 w-4" />
             </div>
             <span className="text-sm font-medium text-ink">{b.text}</span>
-          </motion.div>
+          </div>
         ))}
       </div>
 

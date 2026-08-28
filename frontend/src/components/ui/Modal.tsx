@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { ArrowLeft, X } from "lucide-react";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
@@ -14,23 +13,25 @@ interface ModalProps {
 // `open` false bo'lganda darhol `null` qaytaramiz — modal DOM'dan ishonchli
 // olib tashlanadi (AnimatePresence exit'iga bog'liq emas). Kirish animatsiyasi
 // saqlanadi.
+//
+// MUHIM: animatsiya CSS orqali (framer-motion emas). JS animatsiya `opacity: 0`
+// dan boshlanadi va u ishga tushmasa (fon rejimi, throttling, past quvvat) modal
+// KO'RINMAS holda qolib, butun ekranni to'sib qo'yardi — sayt "qotib qolgan"dek
+// tuyulardi. CSS keyframe'da esa element o'z holicha ko'rinadi: animatsiya
+// ishlamasa ham modal ko'rinib turadi.
 export function Modal({ open, onClose, title, children, className }: ModalProps) {
   if (!open) return null;
   return (
-    <motion.div
-      className="fixed inset-0 z-[90] flex items-center justify-center p-4"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-    >
+    <div className="animate-fade-in fixed inset-0 z-[90] flex items-center justify-center p-4">
       <div
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
         onClick={onClose}
       />
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95, y: 10 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ type: "spring", stiffness: 350, damping: 30 }}
-        className={cn("glass-card relative z-10 w-full max-w-lg p-6", className)}
+      <div
+        className={cn(
+          "glass-card animate-zoom-in relative z-10 w-full max-w-lg p-6",
+          className
+        )}
       >
         {title && (
           <div className="mb-4 flex items-center justify-between">
@@ -44,8 +45,8 @@ export function Modal({ open, onClose, title, children, className }: ModalProps)
           </div>
         )}
         {children}
-      </motion.div>
-    </motion.div>
+      </div>
+    </div>
   );
 }
 

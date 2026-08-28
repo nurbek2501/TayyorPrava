@@ -363,9 +363,13 @@ async def telegram_subscription(user: User = Depends(get_current_user)):
     subscribed = True
     if user.telegram_id:
         try:
-            subscribed = await telegram_bot.is_subscribed(int(user.telegram_id))
+            status_ = await telegram_bot.subscription_status(int(user.telegram_id))
         except (TypeError, ValueError):
-            subscribed = True
+            status_ = None
+        # None = tekshirib bo'lmadi (bot kanalga admin emas / tarmoq xatosi).
+        # Bunda foydalanuvchini TO'SMAYMIZ — aks holda bizning nosozligimiz sabab
+        # u testlarga umuman kira olmay qolardi.
+        subscribed = True if status_ is None else status_
     return TelegramSubscriptionResponse(
         subscribed=subscribed,
         channel=settings.TELEGRAM_CHANNEL,
