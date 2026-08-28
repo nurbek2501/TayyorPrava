@@ -16,7 +16,7 @@ from app.models.question import (
     UserFavorite,
     UserMistake,
 )
-from app.models.promo import PromoCode, PromoCodeRedemption
+from app.models.promo import PersonalPromoCode, PromoCode, PromoCodeRedemption
 from app.models.settings import Settings
 from app.models.smart import SmartProgress
 from app.models.tariff import Payment, PaymentMethod, Tariff
@@ -62,6 +62,7 @@ __all__ = [
     "TeacherAccess",
     "ChatThread",
     "ChatMessage",
+    "PersonalPromoCode",
     "PromoCode",
     "PromoCodeRedemption",
 ]
