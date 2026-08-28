@@ -20,7 +20,11 @@ uploads/
 # (app/services/uploads.py -> restore_seed_images).
 seed_3lang/*
 !seed_3lang/images
-seed_belgilar/
+# seed_belgilar ham SHART: yo'l belgilari sahifasi JSON'ni to'g'ridan-to'g'ri shu
+# yerdan o'qiydi (api/routes/road_signs.py), rasmlari esa uploads/belgilar/ ga tiklanadi.
+seed_belgilar/*
+!seed_belgilar/rasmlar
+!seed_belgilar/yol-belgilari-3til.json
 _build3lang/
 _build_belgilar/
 analyze.py

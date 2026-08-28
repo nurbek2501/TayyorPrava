@@ -16,31 +16,27 @@ from app.core.logging import logger
 _ALLOWED = {"image/png", "image/jpeg", "image/jpg", "image/webp"}
 _MAX_WIDTH = 1280
 
-# Savol rasmlarining image ichidagi zaxirasi (backend/seed_3lang/images).
-# app/services/uploads.py -> ../../ = backend/
-_SEED_IMAGES_DIR = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "..", "seed_3lang", "images")
+# Image ichidagi rasm zaxiralari. app/services/uploads.py -> ../../ = backend/
+_BACKEND_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+# (manba papkasi, UPLOAD_DIR ichidagi maqsad kichik papkasi)
+_SEED_SOURCES = (
+    # Savol rasmlari -> /static/question_*.webp
+    (os.path.join(_BACKEND_DIR, "seed_3lang", "images"), ""),
+    # Yo'l belgilari -> /static/belgilar/1.1.gif
+    (os.path.join(_BACKEND_DIR, "seed_belgilar", "rasmlar"), "belgilar"),
 )
 
 
-def restore_seed_images() -> int:
-    """Yetishmayotgan savol rasmlarini zaxiradan UPLOAD_DIR ga ko'chiradi.
-
-    NEGA KERAK: Render'da disk EFEMER (persistent disk yo'q) — har deploy va har
-    uyqudan uyg'onishda uploads/ bo'shab qoladi, natijada `/static/question_*.webp`
-    404 qaytarib, barcha savollarda bitta zaxira rasm ko'rinardi.
-
-    Mavjud fayllar QAYTA YOZILMAYDI — admin panel orqali yuklangan yoki almashtirilgan
-    rasmlar saqlanib qoladi. Qaytaradi: ko'chirilgan fayllar soni.
-    """
-    if not os.path.isdir(_SEED_IMAGES_DIR):
-        logger.info("Zaxira rasmlar papkasi topilmadi: %s", _SEED_IMAGES_DIR)
+def _copy_missing(src_dir: str, dst_dir: str) -> int:
+    """src_dir dagi fayllarni dst_dir ga ko'chiradi — MAVJUDLARIGA TEGMAYDI."""
+    if not os.path.isdir(src_dir):
+        logger.info("Zaxira rasmlar papkasi topilmadi: %s", src_dir)
         return 0
-    os.makedirs(settings.UPLOAD_DIR, exist_ok=True)
+    os.makedirs(dst_dir, exist_ok=True)
     copied = 0
-    for name in os.listdir(_SEED_IMAGES_DIR):
-        src = os.path.join(_SEED_IMAGES_DIR, name)
-        dst = os.path.join(settings.UPLOAD_DIR, name)
+    for name in os.listdir(src_dir):
+        src = os.path.join(src_dir, name)
+        dst = os.path.join(dst_dir, name)
         if not os.path.isfile(src) or os.path.exists(dst):
             continue
         try:
@@ -48,9 +44,27 @@ def restore_seed_images() -> int:
             copied += 1
         except OSError:
             logger.exception("Rasmni ko'chirib bo'lmadi: %s", name)
-    if copied:
-        logger.info("Savol rasmlari tiklandi: %s ta fayl -> %s", copied, settings.UPLOAD_DIR)
     return copied
+
+
+def restore_seed_images() -> int:
+    """Yetishmayotgan rasmlarni zaxiradan UPLOAD_DIR ga ko'chiradi.
+
+    NEGA KERAK: Render'da disk EFEMER (persistent disk yo'q) — har deploy va har
+    uyqudan uyg'onishda uploads/ bo'shab qoladi. Natijada savol rasmlari va yo'l
+    belgilari 404 qaytarib, sahifalar bo'sh ko'rinardi.
+
+    Mavjud fayllar QAYTA YOZILMAYDI — admin panel orqali yuklangan yoki almashtirilgan
+    rasmlar saqlanib qoladi. Qaytaradi: ko'chirilgan fayllar soni.
+    """
+    total = 0
+    for src_dir, sub in _SEED_SOURCES:
+        dst_dir = os.path.join(settings.UPLOAD_DIR, sub) if sub else settings.UPLOAD_DIR
+        n = _copy_missing(src_dir, dst_dir)
+        if n:
+            logger.info("Rasmlar tiklandi: %s ta fayl -> %s", n, dst_dir)
+        total += n
+    return total
 
 
 async def save_question_image(file: UploadFile) -> str:
