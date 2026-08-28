@@ -132,7 +132,7 @@ export function HomePage() {
     { icon: ListChecks, title: t("home.byTickets"), subtitle: t("home.byTicketsHint"), to: "/tickets" },
     { icon: ShieldX, title: t("home.myMistakes"), subtitle: t("home.myMistakesHint"), to: "/mistakes" },
     { icon: Heart, title: t("home.myFavorites"), subtitle: t("home.myFavoritesHint"), to: "/lesson/favorites" },
-    { icon: Signpost, title: t("home.roadSigns"), subtitle: t("home.roadSignsHint"), to: "/road-signs" },
+    // Yo'l belgilari yuqoridagi asosiy kartalarda — bu yerda takrorlanmaydi.
   ];
 
   return (
@@ -147,18 +147,10 @@ export function HomePage() {
         <p className="mt-1 text-muted">{t("home.subtitle")}</p>
       </div>
 
-      {/* 1) IMTIHON — foydalanuvchi kirishi bilan birinchi ko'radigan bo'lim */}
+      {/* 1) BU YERDAN BOSHLANG — foydalanuvchi kirishi bilan birinchi ko'radigan bo'lim */}
       <section>
-        <SectionTitle icon={Radio}>{t("home.sectionExam")}</SectionTitle>
+        <SectionTitle icon={Sparkles}>{t("home.sectionStart")}</SectionTitle>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-          <FeatureCard
-            icon={Radio}
-            title={t("nav.realExam")}
-            desc={t("home.realExamDesc")}
-            badge="LIVE"
-            gradient="bg-gradient-to-br from-rose-600 to-red-700"
-            onClick={() => navigate("/real-exam")}
-          />
           <FeatureCard
             icon={Brain}
             title={t("home.smartTest")}
@@ -166,16 +158,30 @@ export function HomePage() {
             badge={t("home.badgeNew")}
             gradient="bg-gradient-to-br from-violet-600 to-fuchsia-700"
             onClick={() => navigate("/smart-test")}
+          />
+          <FeatureCard
+            icon={Signpost}
+            title={t("home.roadSigns")}
+            desc={t("home.roadSignsHint")}
+            gradient="bg-gradient-to-br from-emerald-600 to-teal-700"
+            onClick={() => navigate("/road-signs")}
             delay={0.07}
           />
         </div>
-        <div className="mt-4">
+        <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <TileCard
             icon={LayoutGrid}
             title={t("nav.exam")}
             subtitle={t("home.examHint")}
             onClick={() => navigate("/exam")}
             delay={0.14}
+          />
+          <TileCard
+            icon={Radio}
+            title={t("nav.realExam")}
+            subtitle={t("home.realExamDesc")}
+            onClick={() => navigate("/real-exam")}
+            delay={0.2}
           />
         </div>
       </section>
