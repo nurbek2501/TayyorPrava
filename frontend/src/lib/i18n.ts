@@ -117,10 +117,6 @@ const resources = {
         ruleNickLen: "2–32 ta belgi",
         ruleNickChars: "Lotin harf, raqam, _ yoki - (bo'sh joysiz)",
         ruleMin4: "Kamida 4 ta belgi",
-        promoTitle: "Taklif kodingiz bormi?",
-        promoSubtitle: "Sizni taklif qilgan do'stingizning kodini kiriting.",
-        promoSkip: "O'tkazib yuborish",
-        promoSkipHint: "Promokodingiz bo'lmasa shu tugmani bosing",
         nickSavedTitle: "Tabriklaymiz! Profil ochildi 🎉",
         nickSavedLabel: "Sizning nikingiz",
         nickSavedWarn:
@@ -141,14 +137,6 @@ const resources = {
         changePassword: "Parolni o'zgartirish",
         oldPassword: "Joriy parol",
         passwordChanged: "Parol muvaffaqiyatli o'zgartirildi",
-        promoCode: "Promokod",
-        yourPromo: "Sizning promokodingiz",
-        enterPromo: "Promokod (ixtiyoriy)",
-        promoPlaceholder: "Do'stingiz promokodi",
-        promoValid: "Promokod to'g'ri",
-        promoInvalid: "Bunday promokod topilmadi",
-        promoShareHint:
-          "Promokodingizni do'stlaringizga ulashing — ular ro'yxatdan o'tganda sizga bonus beriladi!",
       },
       home: {
         title: "Mashqni boshlang",
@@ -259,16 +247,6 @@ const resources = {
         boughtTitle: "Promokod tayyor!",
         boughtText: "Uni real imtihon sahifasida kiriting.",
         copyHint: "Kodni bosib nusxa oling",
-        useBonus: "Bonus bilan sotib olish",
-        bonusBuyTitle: "Bonus bilan real imtihon",
-        bonusBuyDesc:
-          "Bonusingizdan {{price}} so'm yechiladi va real imtihon kirishi ochiladi.",
-        bonusBuyConfirm: "Sotib olish",
-        bonusBought: "Real imtihon bonus bilan ochildi!",
-        bonusInsufTitle: "Bonus yetarli emas",
-        bonusOnlyReal:
-          "Bu bonusdan faqat real imtihon sotib olishda foydalanish mumkin.",
-        bonusNeed: "Kerak: {{price}} so'm · Sizda: {{bonus}} so'm",
         empty: "Hali referal orqali ro'yxatdan o'tganlar yo'q",
       },
       profile: {
@@ -439,10 +417,6 @@ const resources = {
         ruleNickLen: "2–32 та белги",
         ruleNickChars: "Лотин ҳарф, рақам, _ ёки - (бўш жойсиз)",
         ruleMin4: "Камида 4 та белги",
-        promoTitle: "Таклиф кодингиз борми?",
-        promoSubtitle: "Сизни таклиф қилган дўстингизнинг кодини киритинг.",
-        promoSkip: "Ўтказиб юбориш",
-        promoSkipHint: "Промокодингиз бўлмаса шу тугмани босинг",
         nickSavedTitle: "Табриклаймиз! Профил очилди 🎉",
         nickSavedLabel: "Сизнинг никингиз",
         nickSavedWarn:
@@ -463,14 +437,6 @@ const resources = {
         changePassword: "Паролни ўзгартириш",
         oldPassword: "Жорий парол",
         passwordChanged: "Парол муваффақиятли ўзгартирилди",
-        promoCode: "Промокод",
-        yourPromo: "Сизнинг промокодингиз",
-        enterPromo: "Промокод (ихтиёрий)",
-        promoPlaceholder: "Дўстингиз промокоди",
-        promoValid: "Промокод тўғри",
-        promoInvalid: "Бундай промокод топилмади",
-        promoShareHint:
-          "Промокодингизни дўстларингизга улашинг — улар рўйхатдан ўтганда сизга бонус берилади!",
       },
       home: {
         title: "Машқни бошланг",
@@ -581,16 +547,6 @@ const resources = {
         boughtTitle: "Промокод тайёр!",
         boughtText: "Уни реал имтиҳон саҳифасида киритинг.",
         copyHint: "Кодни босиб нусха олинг",
-        useBonus: "Бонус билан сотиб олиш",
-        bonusBuyTitle: "Бонус билан реал имтиҳон",
-        bonusBuyDesc:
-          "Бонусингиздан {{price}} сўм ечилади ва реал имтиҳон кириши очилади.",
-        bonusBuyConfirm: "Сотиб олиш",
-        bonusBought: "Реал имтиҳон бонус билан очилди!",
-        bonusInsufTitle: "Бонус етарли эмас",
-        bonusOnlyReal:
-          "Бу бонусдан фақат реал имтиҳон сотиб олишда фойдаланиш мумкин.",
-        bonusNeed: "Керак: {{price}} сўм · Сизда: {{bonus}} сўм",
         empty: "Ҳали реферал орқали рўйхатдан ўтганлар йўқ",
       },
       profile: {
@@ -761,10 +717,6 @@ const resources = {
         ruleNickLen: "2–32 символа",
         ruleNickChars: "Латинские буквы, цифры, _ или - (без пробелов)",
         ruleMin4: "Минимум 4 символа",
-        promoTitle: "Есть код приглашения?",
-        promoSubtitle: "Введите код друга, который вас пригласил.",
-        promoSkip: "Пропустить",
-        promoSkipHint: "Нет промокода — нажмите эту кнопку",
         nickSavedTitle: "Поздравляем! Профиль создан 🎉",
         nickSavedLabel: "Ваш ник",
         nickSavedWarn:
@@ -785,14 +737,6 @@ const resources = {
         changePassword: "Сменить пароль",
         oldPassword: "Текущий пароль",
         passwordChanged: "Пароль успешно изменён",
-        promoCode: "Промокод",
-        yourPromo: "Ваш промокод",
-        enterPromo: "Промокод (необязательно)",
-        promoPlaceholder: "Промокод друга",
-        promoValid: "Промокод верный",
-        promoInvalid: "Промокод не найден",
-        promoShareHint:
-          "Поделитесь промокодом с друзьями — за их регистрацию вы получите бонус!",
       },
       home: {
         title: "Начните тренировку",
@@ -903,16 +847,6 @@ const resources = {
         boughtTitle: "Промокод готов!",
         boughtText: "Введите его на странице реального экзамена.",
         copyHint: "Нажмите на код, чтобы скопировать",
-        useBonus: "Купить за бонус",
-        bonusBuyTitle: "Реальный экзамен за бонус",
-        bonusBuyDesc:
-          "С вашего бонуса спишется {{price}} сум и откроется доступ к реальному экзамену.",
-        bonusBuyConfirm: "Купить",
-        bonusBought: "Реальный экзамен открыт за бонус!",
-        bonusInsufTitle: "Бонуса недостаточно",
-        bonusOnlyReal:
-          "Этот бонус можно использовать только для покупки реального экзамена.",
-        bonusNeed: "Нужно: {{price}} сум · У вас: {{bonus}} сум",
         empty: "Пока нет регистраций по рефералу",
       },
       profile: {

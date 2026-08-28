@@ -192,7 +192,7 @@ export function assetUrl(path?: string | null): string | undefined {
 
 // ---------------- Auth ----------------
 export const authApi = {
-  // 1-qadam: nik+parol (+promokod) -> pending saqlanadi, Telegram tasdiq kerak
+  // 1-qadam: nik+parol -> pending saqlanadi, Telegram tasdiq kerak (taklif kodi ?ref dan)
   registerInit: (data: { nickname: string; password: string; ref?: string }) =>
     api
       .post<{
@@ -227,11 +227,6 @@ export const authApi = {
   // Parolni o'zgartirish (kirgan foydalanuvchi — joriy parol bilan)
   changePassword: (data: { oldPassword: string; newPassword: string }) =>
     api.post<{ ok: boolean }>("/auth/change-password", data).then((r) => r.data),
-  // Promokod (taklif kodi) haqiqiyligini tekshirish — ro'yxatda
-  checkPromo: (code: string) =>
-    api
-      .post<{ valid: boolean; name?: string }>("/auth/check-promo", { code })
-      .then((r) => r.data),
   // Teskari sanoq uchun: amaldagi kod bor-yo'qligi va qolgan soniya
   codeStatus: (nickname: string) =>
     api
