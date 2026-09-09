@@ -60,11 +60,22 @@ export default defineConfig({
           },
           {
             // Savol/belgi rasmlari — offline uchun saqlanadi.
+            //
+            // NEGA StaleWhileRevalidate (ilgari CacheFirst edi):
+            // rasmlar boshqa domendan (api.tayyorprava.uz) keladi, shuning uchun
+            // <img> javoblari OPAQUE va statusi 0 bo'ladi. Muvaffaqiyatsiz opaque
+            // javob ham 0 — ya'ni rasm 404 bo'lgan paytda XATO keshlanib qolgan va
+            // CacheFirst uni 60 kungacha qaytaraverar edi (server tuzalgandan keyin
+            // ham savol rasmsiz ko'rinardi). SWR keshdan darhol beradi, lekin orqa
+            // fonda yangilaydi — bunday xato o'z-o'zidan tuzaladi.
+            //
+            // cacheName ham yangilandi: eski "pp-images" dagi buzuq yozuvlar
+            // ishlatilmaydi (eskisi main.tsx da bir marta o'chiriladi).
             urlPattern: ({ url }) =>
               url.pathname.startsWith("/static/") || url.pathname.includes("/uploads/"),
-            handler: "CacheFirst",
+            handler: "StaleWhileRevalidate",
             options: {
-              cacheName: "pp-images",
+              cacheName: "pp-images-v2",
               expiration: { maxEntries: 3000, maxAgeSeconds: 60 * 24 * 3600 },
               cacheableResponse: { statuses: [0, 200] },
             },

@@ -1,6 +1,7 @@
 """FastAPI application entrypoint."""
 from __future__ import annotations
 
+import mimetypes
 import os
 from contextlib import asynccontextmanager
 
@@ -98,6 +99,13 @@ app.add_middleware(
 )
 
 os.makedirs(settings.UPLOAD_DIR, exist_ok=True)
+
+# Ba'zi tizimlarda (masalan Windows registry'sida .webp yo'q) StaticFiles rasmni
+# `application/octet-stream` deb qaytaradi. Brauzer <img> uchun buni o'zi aniqlaydi,
+# lekin proksi/kesh qatlamlari uchun to'g'ri turi bo'lgani ma'qul.
+for _ext, _type in ((".webp", "image/webp"), (".gif", "image/gif"), (".svg", "image/svg+xml")):
+    mimetypes.add_type(_type, _ext)
+
 app.mount("/static", StaticFiles(directory=settings.UPLOAD_DIR), name="static")
 
 app.include_router(api_router, prefix=settings.API_PREFIX)

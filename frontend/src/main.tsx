@@ -18,6 +18,13 @@ initTheme();
 // PWA: offline ishlash + internetga ulangach avtomatik yangilanish.
 registerSW({ immediate: true });
 
+// Bir martalik tozalash: eski "pp-images" keshida savol rasmlarining MUVAFFAQIYATSIZ
+// javoblari qolib ketgan (rasmlar bir muddat 404 bo'lgan, CacheFirst esa ularni
+// keshlagan). Endi rasmlar "pp-images-v2" da saqlanadi — eskisi keraksiz.
+if (typeof caches !== "undefined") {
+  caches.delete("pp-images").catch(() => {});
+}
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
