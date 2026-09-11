@@ -268,7 +268,8 @@ export function LessonTestPage() {
   );
 
   const optionsBlock = (
-    <div className={cn("space-y-3", hasImage ? "mt-5" : "mt-6")}>
+    // Oraliq masofani pastdagi grid'ning gap'i beradi (mt kerak emas).
+    <div className="space-y-3">
       {current?.options.map((opt, i) => {
         const letter = String.fromCharCode(65 + i);
         // Yashil — faqat to'g'ri javob BOSILGANDA; xato urinishlar qizil bo'lib qoladi
@@ -387,15 +388,21 @@ export function LessonTestPage() {
           </button>
         </div>
 
-        <div className="mt-4 grid gap-6 lg:grid-cols-2">
-          <div>
-            {questionText}
-            {optionsBlock}
-          </div>
+        {/* TARTIB:
+            - telefon/planshet (bitta ustun): savol -> RASM -> variantlar.
+              Rasm savolning bir qismi, shuning uchun variantlardan oldin turishi
+              kerak — aks holda foydalanuvchi javoblarni rasmni ko'rmasdan o'qiydi.
+            - lg dan boshlab (ikki ustun): chapda savol + variantlar, o'ngda rasm
+              (avvalgi ko'rinish o'zgarmaydi) — joylashuv grid koordinatalari
+              bilan aniq belgilangan. */}
+        <div className="mt-4 grid gap-4 lg:grid-cols-2 lg:gap-6">
+          <div className="lg:col-start-1 lg:row-start-1">{questionText}</div>
+
           {/* Rasm bor bo'lsa savol rasmi, bo'lmasa TayyorPrava plasholder (cho'zilmaydi) */}
           <div
             className={cn(
               "flex items-start justify-center rounded-2xl p-3",
+              "lg:col-start-2 lg:row-span-2 lg:row-start-1",
               hasImage ? "bg-white" : "bg-[#0a0f1a]"
             )}
           >
@@ -404,6 +411,8 @@ export function LessonTestPage() {
               imgClassName="max-h-[380px] w-full rounded-xl object-contain"
             />
           </div>
+
+          <div className="lg:col-start-1 lg:row-start-2">{optionsBlock}</div>
         </div>
 
         {answered && result?.explanation && (
