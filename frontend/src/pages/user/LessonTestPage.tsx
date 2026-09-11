@@ -392,17 +392,16 @@ export function LessonTestPage() {
             {questionText}
             {optionsBlock}
           </div>
-          {/* Rasm bor bo'lsa savol rasmi, bo'lmasa aniq "rasm yo'q" holati */}
+          {/* Rasm bor bo'lsa savol rasmi, bo'lmasa TayyorPrava plasholder (cho'zilmaydi) */}
           <div
             className={cn(
               "flex items-start justify-center rounded-2xl p-3",
-              hasImage ? "bg-white" : "bg-transparent"
+              hasImage ? "bg-white" : "bg-[#0a0f1a]"
             )}
           >
             <QuestionImage
               src={hasImage ? assetUrl(current!.imageUrl) : undefined}
               imgClassName="max-h-[380px] w-full rounded-xl object-contain"
-              emptyClassName="min-h-[220px]"
             />
           </div>
         </div>

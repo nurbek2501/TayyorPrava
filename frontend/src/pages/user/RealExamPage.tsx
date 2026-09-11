@@ -1239,7 +1239,6 @@ export function RealExamPage() {
                 <QuestionImage
                   src={imgSrc}
                   imgClassName="mx-auto max-h-[42vh] w-auto max-w-full object-contain lg:max-h-[58vh]"
-                  emptyClassName="border-white/15 bg-transparent"
                 />
               </div>
               {/* Taymer — rasm ustida, o'ng-yuqorida (referensdagi 0:20:20) */}

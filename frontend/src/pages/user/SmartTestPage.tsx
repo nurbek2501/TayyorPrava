@@ -651,14 +651,10 @@ export function SmartTestPage() {
           <div
             className={cn(
               "overflow-hidden rounded-xl border border-line/10 p-2",
-              current.imageUrl ? "bg-white" : "bg-transparent"
+              current.imageUrl ? "bg-white" : "bg-[#0a0f1a]"
             )}
           >
-            <QuestionImage
-              src={imgSrc}
-              imgClassName="mx-auto max-h-[320px] w-full object-contain"
-              emptyClassName="min-h-[200px]"
-            />
+            <QuestionImage src={imgSrc} imgClassName="mx-auto max-h-[320px] w-full object-contain" />
           </div>
 
           <div className="flex flex-col gap-2.5">
