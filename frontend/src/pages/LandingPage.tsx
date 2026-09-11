@@ -24,7 +24,7 @@ import {
   X,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import { landingApi, tariffsApi } from "@/lib/api";
+import { authApi, landingApi, tariffsApi } from "@/lib/api";
 import { useUiStore } from "@/store/ui";
 import { useAuth } from "@/store/auth";
 import { cn } from "@/lib/utils";
@@ -222,11 +222,27 @@ export function LandingPage() {
   const { data: landing } = useQuery({ queryKey: ["landing"], queryFn: landingApi.get });
   const { data: tariffs } = useQuery({ queryKey: ["tariffs"], queryFn: tariffsApi.listActive });
 
+  // Kirgan foydalanuvchi "Kabinet" ni bosganda O'Z paneliga tushishi kerak.
+  // Ilgari rolga qaramay doim /dashboard ga olib borardi — shuning uchun admin
+  // o'zining USER paneliga tushib qolardi.
+  // ["me"] kaliti RequireUser bilan bir xil: panelga kirilgan bo'lsa javob
+  // keshdan olinadi, qo'shimcha so'rov ketmaydi. Xato bo'lsa (masalan token
+  // eskirgan) — /dashboard ga tushamiz, u yerda RequireUser o'zi hal qiladi.
+  const { data: me } = useQuery({
+    queryKey: ["me"],
+    queryFn: authApi.me,
+    enabled: !!token,
+    retry: false,
+    staleTime: 5 * 60 * 1000,
+  });
+  const cabinetPath =
+    me?.role === "admin" ? "/admin" : me?.role === "teacher" ? "/teacher" : "/dashboard";
+
   // Barcha matn tanlangan tilda (LANDING_T). Backend faqat jonli statistika va
   // aloqa ma'lumotlari uchun ishlatiladi.
   const stats = landing?.stats ?? { questions: 0, users: 0, exams: 0, passRate: 0 };
 
-  const goPrimary = () => navigate(token ? "/dashboard" : "/register");
+  const goPrimary = () => navigate(token ? cabinetPath : "/register");
 
   const statItems = [
     { value: stats.questions, suffix: "+", label: tt.statQuestions, icon: GraduationCap },
@@ -266,7 +282,7 @@ export function LandingPage() {
               <LangSwitcher />
             </div>
             {token ? (
-              <Link to="/dashboard" className="btn-primary">
+              <Link to={cabinetPath} className="btn-primary">
                 {tt.dashboard}
                 <ArrowRight className="h-4 w-4" />
               </Link>
