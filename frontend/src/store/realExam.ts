@@ -29,17 +29,39 @@ interface RealExamState {
   reset: () => void;
 }
 
-function reshuffleFor(state: RealExamState, index: number): Record<string, string[]> {
+/**
+ * Savolga KIRGANDA variant tartibini hisoblaydi.
+ *
+ * Qoida:
+ *   * javobi hali TASDIQLANMAGAN savol — har safar kirganda variantlar QAYTA
+ *     aralashadi (yodlab qolishning oldini oladi);
+ *   * TASDIQLANGAN savol — tartibi qotib qoladi: javob qaysi F-raqamida
+ *     tasdiqlangan bo'lsa, qaytib kelganda ham o'sha yerda turishi kerak.
+ *
+ * Qayta aralashganda o'sha savolning TANLOVI ham tozalanadi. Buni tushirib
+ * qoldirib bo'lmaydi: aks holda foydalanuvchi eslab qolgan F-tugmasi endi
+ * boshqa variantga tushadi va bitta bosishda XATO javob tasdiqlanib ketardi
+ * (F-tugmani ikkinchi marta bosish = darhol tasdiqlash).
+ *
+ * Faqat savol ALMASHGANDA chaqiriladi — turgan savolning o'z tugmasini bosish
+ * tartibni o'zgartirmaydi.
+ */
+function enterQuestion(
+  state: RealExamState,
+  index: number
+): Partial<Pick<RealExamState, "shuffles" | "selected">> {
   const q = state.session?.questions[index];
-  if (!q) return state.shuffles;
-  // Variant tartibi savol uchun FAQAT BIR MARTA (birinchi ko'rilganda) yaratiladi va
-  // keyin barqaror qoladi. Aks holda tanlangan (lekin hali tasdiqlanmagan) savolga
-  // qaytilganda variantlar qayta aralashib, `selected` optionId boshqa F-raqamiga
-  // tushardi — foydalanuvchi eslagan F-tugmani bossa xato variant tasdiqlanardi.
-  if (state.shuffles[q.questionId]) return state.shuffles;
+  if (!q) return {};
+  if (state.confirmed[q.questionId]) return {}; // tasdiqlangan — tegmaymiz
+
+  const selected = { ...state.selected };
+  delete selected[q.questionId];
   return {
-    ...state.shuffles,
-    [q.questionId]: shuffle(q.options.map((o) => o.optionId)),
+    shuffles: {
+      ...state.shuffles,
+      [q.questionId]: shuffle(q.options.map((o) => o.optionId)),
+    },
+    selected,
   };
 }
 
@@ -81,14 +103,18 @@ export const useRealExam = create<RealExamState>((set, get) => ({
     const state = get();
     if (!state.session) return;
     if (index < 0 || index >= state.session.questions.length) return;
-    set({ currentIndex: index, shuffles: reshuffleFor(state, index) });
+    // Turgan savolning o'z raqamini bosish — hech narsa o'zgarmaydi (aks holda
+    // ko'z oldida variantlar sakrab ketardi).
+    if (index === state.currentIndex) return;
+    set({ currentIndex: index, ...enterQuestion(state, index) });
   },
 
   next: () => {
     const state = get();
     if (!state.session) return;
     const nextIndex = Math.min(state.currentIndex + 1, state.session.questions.length - 1);
-    set({ currentIndex: nextIndex, shuffles: reshuffleFor(state, nextIndex) });
+    if (nextIndex === state.currentIndex) return; // oxirgi savolda turibmiz
+    set({ currentIndex: nextIndex, ...enterQuestion(state, nextIndex) });
   },
 
   selectOption: (questionId, optionId) => {
