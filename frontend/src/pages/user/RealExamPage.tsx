@@ -18,12 +18,9 @@ import {
   Radio,
   RotateCcw,
   ShieldAlert,
-  ShieldCheck,
-  Sparkles,
   Ticket,
   UserPlus,
   X,
-  Zap,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -436,6 +433,7 @@ function StartScreen({
   onBack: () => void;
 }) {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [info, setInfo] = useState<{
     hasAccess: boolean;
     locked: boolean;
@@ -445,10 +443,6 @@ function StartScreen({
 
   // Promokod — real imtihonga kirishning yagona yo'li (to'lov tizimi yo'q).
   const [promoInput, setPromoInput] = useState("");
-  const [checkingPromo, setCheckingPromo] = useState(false);
-  const [appliedPromo, setAppliedPromo] = useState<{
-    code: string;
-  } | null>(null);
   const [promoError, setPromoError] = useState<{
     message: string;
     alreadyUsed: boolean;
@@ -473,47 +467,23 @@ function StartScreen({
 
   const handlePromoInputChange = (v: string) => {
     setPromoInput(v.toUpperCase());
-    if (appliedPromo) setAppliedPromo(null);
-    if (promoError) setPromoError(null);
-  };
-
-  const handleApplyPromo = async () => {
-    const trimmed = promoInput.trim();
-    if (!trimmed) return;
-    setCheckingPromo(true);
-    setPromoError(null);
-    try {
-      const res = await realExamApi.checkPromo(trimmed);
-      if (res.valid) {
-        setAppliedPromo({ code: trimmed });
-      } else {
-        setAppliedPromo(null);
-        const alreadyUsed = res.reason === "already_used";
-        setPromoError({
-          message: alreadyUsed
-            ? "Siz bu promokoddan allaqachon foydalangansiz"
-            : "Promokod noto'g'ri yoki faol emas",
-          alreadyUsed,
-        });
-      }
-    } catch (e) {
-      setAppliedPromo(null);
-      setPromoError({ message: getErrorMessage(e), alreadyUsed: false });
-    } finally {
-      setCheckingPromo(false);
-    }
+    if (promoError) setPromoError(null); // yozishni boshlashi bilan xato yo'qoladi
   };
 
   const handleUnlock = async () => {
-    const code = appliedPromo?.code ?? promoInput.trim();
+    const code = promoInput.trim();
     if (!code) return;
     setPurchasing(true);
+    setPromoError(null);
     try {
       await realExamApi.purchase(code);
       setPayOpen(false);
       onStart(); // promokod qabul qilingach imtihon darhol boshlanadi
     } catch (e) {
-      toast.error(getErrorMessage(e));
+      // Xatoni toast emas, AYNAN maydon tagida ko'rsatamiz — foydalanuvchi
+      // nimani tuzatish kerakligini o'sha yerda ko'radi.
+      const message = getErrorMessage(e);
+      setPromoError({ message, alreadyUsed: /allaqachon|foydalangan/i.test(message) });
     } finally {
       setPurchasing(false);
     }
@@ -580,12 +550,12 @@ function StartScreen({
             </div>
           ) : (
             needPromo && (
-              <div className="mt-5 flex items-center justify-center gap-2 rounded-xl border border-amber-400/30 bg-amber-400/10 p-3">
-                <Ticket className="h-4 w-4 shrink-0 text-amber-400" />
-                <span className="text-sm text-ink/90">
-                  Kirish uchun <b className="text-ink">promokod</b> kerak
-                </span>
-              </div>
+              // Ilgali bu yerda TUGMAGA o'xshagan sariq quti turardi va pastda yana
+              // haqiqiy tugma — foydalanuvchi qaysi birini bosishni bilmasdi.
+              // Endi bu shunchaki izoh: bitta bosiladigan narsa qoldi.
+              <p className="mt-4 text-center text-sm text-muted">
+                Bu bo'lim <b className="text-ink">promokod</b> bilan ochiladi
+              </p>
             )
           )}
 
@@ -630,26 +600,19 @@ function StartScreen({
           if (!purchasing) {
             setPayOpen(false);
             setPromoInput("");
-            setAppliedPromo(null);
             setPromoError(null);
           }
         }}
         promoInput={promoInput}
         onPromoInputChange={handlePromoInputChange}
-        onApplyPromo={handleApplyPromo}
-        checkingPromo={checkingPromo}
-        appliedPromo={appliedPromo}
         promoError={promoError}
+        onGetPromo={() => navigate("/referral")}
       />
     </div>
   );
 }
 
-/** Real imtihonga promokod bilan kirish modali — zamonaviy, darhol ochiladi. */
-interface AppliedPromo {
-  code: string;
-}
-
+/** Real imtihonga kirish: bitta maydon + bitta tugma. */
 function PromoModal({
   open,
   purchasing,
@@ -657,10 +620,8 @@ function PromoModal({
   onClose,
   promoInput,
   onPromoInputChange,
-  onApplyPromo,
-  checkingPromo,
-  appliedPromo,
   promoError,
+  onGetPromo,
 }: {
   open: boolean;
   purchasing: boolean;
@@ -668,17 +629,11 @@ function PromoModal({
   onClose: () => void;
   promoInput: string;
   onPromoInputChange: (v: string) => void;
-  onApplyPromo: () => void;
-  checkingPromo: boolean;
-  appliedPromo: AppliedPromo | null;
   promoError: { message: string; alreadyUsed: boolean } | null;
+  onGetPromo: () => void;
 }) {
   if (!open) return null;
-  const benefits = [
-    { icon: ShieldCheck, text: "Haqiqiy imtihon sharoiti va vaqti" },
-    { icon: Zap, text: "Promokod qabul qilingach darhol ochiladi" },
-    { icon: Sparkles, text: "3 tilda, har safar yangi savollar" },
-  ];
+  const empty = !promoInput.trim();
   return (
     <div
       onClick={onClose}
@@ -686,7 +641,7 @@ function PromoModal({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="animate-zoom-in relative w-full max-w-sm rounded-3xl border border-line/15 bg-card p-7 text-center shadow-glass"
+        className="animate-zoom-in relative w-full max-w-sm rounded-3xl border border-line/15 bg-card p-6 text-center shadow-glass"
       >
         <button
           onClick={onClose}
@@ -697,90 +652,69 @@ function PromoModal({
           <X className="h-5 w-5" />
         </button>
 
-        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-accent to-blue-900 shadow-glow ring-1 ring-white/10">
-          <Ticket className="h-8 w-8 text-white" />
+        <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-accent to-blue-900 shadow-glow ring-1 ring-white/10">
+          <Ticket className="h-7 w-7 text-white" />
         </div>
-        <h2 className="text-xl font-bold text-ink">Promokod bilan kirish</h2>
-        <p className="mx-auto mt-1 mb-5 max-w-xs text-sm text-muted">
-          Haqiqiy DYHHX imtihoni sharoiti. Kirish faqat promokod orqali ochiladi.
+
+        {/* Sarlavha foydalanuvchi NIMA QILISHI kerakligini aytadi */}
+        <h2 className="text-xl font-bold text-ink">Promokodni kiriting</h2>
+        <p className="mx-auto mt-1 max-w-xs text-sm text-muted">
+          Real imtihon shu kod bilan ochiladi
         </p>
 
-        {/* Kirish promokodi — admin yaratgan */}
-        <div className="mb-5 text-left">
-          <div className="mb-2 flex items-center gap-1.5 text-xs font-medium text-muted">
-            <Ticket className="h-3.5 w-3.5" />
+        {/* ===== Asosiy element: promokod maydoni =====
+            Katta, markazda, avtomatik fokusli — telefonda klaviatura darhol
+            ochiladi. Ilgari yonida "Qo'llash" tugmasi ham bor edi va pastda
+            yana "Kirish": bitta ish uchun ikkita tugma chalkashtirardi.
+            Endi bitta yo'l bor — kodni yozib, bitta tugmani bosish. */}
+        <div className="mt-5">
+          <label
+            htmlFor="promo-input"
+            className="mb-2 block text-left text-[13px] font-semibold text-ink"
+          >
             Promokod
-          </div>
-          <div className="flex gap-2">
-            <div className="relative flex-1">
-              <input
-                className={cn(
-                  "input w-full font-mono uppercase tracking-wider transition-colors duration-200",
-                  appliedPromo && "border-success/60 bg-success/5 pr-9",
-                  promoError && !appliedPromo && "border-danger/60"
-                )}
-                placeholder="Kirish kodi"
-                maxLength={32}
-                value={promoInput}
-                onChange={(e) => onPromoInputChange(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") {
-                    e.preventDefault();
-                    onApplyPromo();
-                  }
-                }}
-                disabled={purchasing}
-              />
-              {appliedPromo && (
-                <motion.span
-                  initial={{ scale: 0, opacity: 0 }}
-                  animate={{ scale: 1, opacity: 1 }}
-                  transition={{ type: "spring", stiffness: 500, damping: 22 }}
-                  className="absolute right-2.5 top-1/2 flex h-5 w-5 -translate-y-1/2 items-center justify-center rounded-full bg-success text-white"
-                >
-                  <Check className="h-3 w-3" strokeWidth={3} />
-                </motion.span>
-              )}
-            </div>
-            <motion.button
-              whileTap={{ scale: 0.95 }}
-              onClick={onApplyPromo}
-              disabled={checkingPromo || purchasing || !promoInput.trim()}
-              className="btn-ghost shrink-0 px-4 disabled:opacity-50"
-            >
-              {checkingPromo ? <Loader2 className="h-4 w-4 animate-spin" /> : "Qo'llash"}
-            </motion.button>
-          </div>
+          </label>
+          <input
+            id="promo-input"
+            autoFocus
+            autoCapitalize="characters"
+            autoComplete="off"
+            spellCheck={false}
+            className={cn(
+              "input w-full py-3.5 text-center font-mono text-lg uppercase tracking-[0.25em] transition-colors duration-200",
+              promoError
+                ? promoError.alreadyUsed
+                  ? "border-warning/60" // kod to'g'ri, lekin ishlatilgan — ogohlantirish
+                  : "border-danger/60" // kod noto'g'ri — xato
+                : "border-accent/40 focus:border-accent"
+            )}
+            placeholder="- - - - - -"
+            maxLength={32}
+            value={promoInput}
+            onChange={(e) => onPromoInputChange(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && !empty && !purchasing) {
+                e.preventDefault();
+                onUnlock();
+              }
+            }}
+            disabled={purchasing}
+          />
 
-          {appliedPromo && (
-            <motion.div
-              key={`applied-${appliedPromo.code}`}
-              initial={{ opacity: 0, height: 0, y: -4 }}
-              animate={{ opacity: 1, height: "auto", y: 0 }}
-              transition={{ duration: 0.3, ease: "easeOut" }}
-              className="mt-2 flex items-center gap-2 overflow-hidden rounded-xl bg-success/10 px-3 py-2"
-            >
-              <Gift className="h-4 w-4 shrink-0 text-success" />
-              <p className="text-xs font-medium text-success">
-                «{appliedPromo.code}» qabul qilindi — kirish ochiladi
-              </p>
-            </motion.div>
-          )}
-
-          {promoError && !appliedPromo && (
+          {promoError && (
             <motion.div
               key={promoError.message}
-              initial={{ opacity: 0, x: -6 }}
-              animate={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: -4 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.25, ease: "easeOut" }}
               className={cn(
-                "mt-2 flex items-center gap-2 overflow-hidden rounded-xl px-3 py-2",
+                "mt-2 flex items-start gap-2 rounded-xl px-3 py-2 text-left",
                 promoError.alreadyUsed ? "bg-warning/10" : "bg-danger/10"
               )}
             >
               <AlertCircle
                 className={cn(
-                  "h-4 w-4 shrink-0",
+                  "mt-0.5 h-4 w-4 shrink-0",
                   promoError.alreadyUsed ? "text-warning" : "text-danger"
                 )}
               />
@@ -796,21 +730,12 @@ function PromoModal({
           )}
         </div>
 
-        <ul className="mb-5 space-y-2 text-left text-sm">
-          {benefits.map((b, i) => (
-            <li key={i} className="flex items-center gap-2">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-success/15 text-success">
-                <b.icon className="h-4 w-4" />
-              </span>
-              <span className="text-ink/90">{b.text}</span>
-            </li>
-          ))}
-        </ul>
-
+        {/* Yagona tugma. Qulf belgisi olib tashlandi — u tugmani "yopiq"
+            ko'rsatib turardi; endi harakat belgisi (o'q). */}
         <button
           onClick={onUnlock}
-          disabled={purchasing || !promoInput.trim()}
-          className="btn-primary w-full py-3 text-base shadow-glow disabled:opacity-60"
+          disabled={purchasing || empty}
+          className="btn-primary mt-4 w-full py-3.5 text-base shadow-glow disabled:opacity-50"
         >
           {purchasing ? (
             <>
@@ -819,18 +744,26 @@ function PromoModal({
             </>
           ) : (
             <>
-              <Lock className="h-4 w-4" />
-              Kirish
+              Imtihonni boshlash
+              <ChevronRight className="h-5 w-5" />
             </>
           )}
         </button>
-        <p className="mt-3 text-[11px] text-muted">
-          🔒 Promokod qabul qilingach imtihon darhol boshlanadi
-        </p>
+
+        {/* "Promokodim yo'q" — eng ko'p beriladigan savol, javobi shu yerda */}
+        <button
+          onClick={onGetPromo}
+          disabled={purchasing}
+          className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent transition hover:underline disabled:opacity-40"
+        >
+          <Gift className="h-4 w-4" />
+          Promokodim yo'q — qayerdan olaman?
+        </button>
+
         <button
           onClick={onClose}
           disabled={purchasing}
-          className="mx-auto mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-muted transition hover:text-ink disabled:opacity-40"
+          className="mx-auto mt-3 flex items-center justify-center gap-1.5 text-sm font-medium text-muted transition hover:text-ink disabled:opacity-40"
         >
           <ArrowLeft className="h-4 w-4" />
           Orqaga
