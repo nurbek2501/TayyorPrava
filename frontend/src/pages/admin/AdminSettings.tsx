@@ -372,7 +372,7 @@ export function AdminSettings() {
         iconClass="bg-blue-500/15 text-blue-500"
         headerClass="bg-blue-500/5"
         title="Mashq imtihoni"
-        desc="«Imtihon topshirish» (mashq) rejimi parametrlari"
+        desc="«Test yechish» (mashq) rejimi parametrlari"
         delay={0.1}
       >
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
