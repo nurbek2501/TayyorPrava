@@ -13,7 +13,10 @@ export default defineConfig({
         "favicon.svg",
         "logo.png",
         "apple-touch-icon.png",
-        "no-image-car.webp",
+        // Eslatma: "no-image-car.webp" endi ishlatilmaydi — rasmi yo'q savollarda
+        // mashina fotosi o'rniga aniq "rasm yo'q" holati ko'rsatiladi
+        // (components/ui/QuestionImage.tsx). Fayl public/ da qolgan, lekin
+        // oldindan keshlashning hojati yo'q.
         "exam-no-image.svg",
       ],
       manifest: {

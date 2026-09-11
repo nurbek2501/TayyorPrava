@@ -25,7 +25,7 @@ import { Logo } from "@/components/shared/Logo";
 import { ThemeSwitcher } from "@/components/shared/ThemeSwitcher";
 import { ConfirmModal } from "@/components/ui/Modal";
 import { PageLoader } from "@/components/ui/Spinner";
-import { ZoomableImage } from "@/components/ui/ZoomableImage";
+import { QuestionImage } from "@/components/ui/QuestionImage";
 import { toast } from "@/components/ui/toast";
 import type { LocalizedText, Question, UiLang } from "@/lib/types";
 
@@ -392,16 +392,17 @@ export function LessonTestPage() {
             {questionText}
             {optionsBlock}
           </div>
-          {/* Rasm bor bo'lsa savol rasmi, bo'lmasa TayyorPrava placeholder (cho'zilmaydi) */}
+          {/* Rasm bor bo'lsa savol rasmi, bo'lmasa aniq "rasm yo'q" holati */}
           <div
             className={cn(
               "flex items-start justify-center rounded-2xl p-3",
-              hasImage ? "bg-white" : "bg-[#0a0f1a]"
+              hasImage ? "bg-white" : "bg-transparent"
             )}
           >
-            <ZoomableImage
-              src={hasImage ? assetUrl(current!.imageUrl) : "/no-image-car.webp"}
+            <QuestionImage
+              src={hasImage ? assetUrl(current!.imageUrl) : undefined}
               imgClassName="max-h-[380px] w-full rounded-xl object-contain"
+              emptyClassName="min-h-[220px]"
             />
           </div>
         </div>

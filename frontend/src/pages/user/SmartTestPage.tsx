@@ -22,12 +22,10 @@ import { cn } from "@/lib/utils";
 import { useUiStore } from "@/store/ui";
 import { SubscriptionGateModal } from "@/components/auth/SubscriptionGateModal";
 import { ContentLangSwitcher } from "@/components/shared/ContentLangSwitcher";
-import { ZoomableImage } from "@/components/ui/ZoomableImage";
+import { QuestionImage } from "@/components/ui/QuestionImage";
 import { PageLoader } from "@/components/ui/Spinner";
 import { toast } from "@/components/ui/toast";
 import type { ContentLang, UiLang } from "@/lib/types";
-
-const NO_IMAGE_SRC = "/no-image-car.webp";
 
 const SMART_T: Record<
   UiLang,
@@ -593,7 +591,7 @@ export function SmartTestPage() {
 
   // ---------------- DRILL ----------------
   if (!current) return <PageLoader />;
-  const imgSrc = current.imageUrl ? assetUrl(current.imageUrl) : NO_IMAGE_SRC;
+  const imgSrc = current.imageUrl ? assetUrl(current.imageUrl) : undefined;
   const curStreak = feedback ? feedback.streak : streaks[current.questionId] ?? current.streak ?? 0;
   const expl = feedback?.explanation ? pickText(feedback.explanation, contentLang) : "";
 
@@ -653,10 +651,14 @@ export function SmartTestPage() {
           <div
             className={cn(
               "overflow-hidden rounded-xl border border-line/10 p-2",
-              current.imageUrl ? "bg-white" : "bg-[#0a0f1a]"
+              current.imageUrl ? "bg-white" : "bg-transparent"
             )}
           >
-            <ZoomableImage src={imgSrc} imgClassName="mx-auto max-h-[320px] w-full object-contain" />
+            <QuestionImage
+              src={imgSrc}
+              imgClassName="mx-auto max-h-[320px] w-full object-contain"
+              emptyClassName="min-h-[200px]"
+            />
           </div>
 
           <div className="flex flex-col gap-2.5">

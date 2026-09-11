@@ -40,12 +40,11 @@ import { BackButton } from "@/components/shared/BackButton";
 import { Logo } from "@/components/shared/Logo";
 import { ConfirmModal, Modal } from "@/components/ui/Modal";
 import { PageLoader } from "@/components/ui/Spinner";
-import { ZoomableImage } from "@/components/ui/ZoomableImage";
+import { QuestionImage } from "@/components/ui/QuestionImage";
 import { toast } from "@/components/ui/toast";
 import type { ContentLang, UiLang } from "@/lib/types";
 
 // Rasmi yo'q savollar uchun standart rasm (TayyorPrava mashinasi).
-const NO_IMAGE_SRC = "/no-image-car.webp";
 
 /** Referensdagi taymer formati: `0:20:20` (soat:daqiqa:soniya). */
 function formatExamClock(sec: number): string {
@@ -1102,7 +1101,7 @@ export function RealExamPage() {
   const selectedId = selected[currentQ.questionId];
   const fb = feedback[currentQ.questionId];
   const total = session.questions.length;
-  const imgSrc = currentQ.imageUrl ? assetUrl(currentQ.imageUrl) : NO_IMAGE_SRC;
+  const imgSrc = currentQ.imageUrl ? assetUrl(currentQ.imageUrl) : undefined;
   const fullName = [authUser?.name, authUser?.surname].filter(Boolean).join(" ");
   const selectedText = selectedId ? pickText(optById[selectedId]?.text, contentLang) : "";
 
@@ -1237,9 +1236,10 @@ export function RealExamPage() {
                 kichik rasm cho'zilmasdan markazda qoladi. */}
             <div className="exam-imgframe relative flex h-[44vh] items-center justify-center overflow-hidden lg:h-[60vh]">
               <div className="flex h-full w-full items-center justify-center">
-                <ZoomableImage
+                <QuestionImage
                   src={imgSrc}
                   imgClassName="mx-auto max-h-[42vh] w-auto max-w-full object-contain lg:max-h-[58vh]"
+                  emptyClassName="border-white/15 bg-transparent"
                 />
               </div>
               {/* Taymer — rasm ustida, o'ng-yuqorida (referensdagi 0:20:20) */}

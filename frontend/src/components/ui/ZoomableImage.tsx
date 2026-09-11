@@ -1,5 +1,6 @@
-import { useEffect, useState, type SyntheticEvent } from "react";
-import { X, ZoomIn } from "lucide-react";
+import { useEffect, useState } from "react";
+import { ImageOff, X, ZoomIn } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   src?: string;
@@ -15,12 +16,23 @@ interface Props {
  * ustidan CSS qatlam. Pastki-o'ng burchakda to'q rangdagi matn, pastki-chap
  * burchakda kichik sayt logosi.
  */
-const FALLBACK_IMG = "/no-image-car.webp";
+/**
+ * Rasm URL 404 bo'lsa (fayl o'chgan/tashqi manba yiqilgan) — buzuq rasm belgisi
+ * o'rniga ROSTGO'Y xato holati ko'rsatiladi.
+ *
+ * Ilgari bu yerda TayyorPrava brendli mashina fotosi ko'rsatilardi. Muammo:
+ * "rasmi yo'q savol" bilan "rasmi yuklanmagan savol" bir xil ko'rinardi —
+ * foydalanuvchi ikkalasini ham "rasm kelmadi" deb o'qirdi. Endi ikkisi ham
+ * o'z holatiga ega (rasm yo'q holati uchun: QuestionImage).
+ */
+const ERR_TXT = {
+  uz: "Rasm yuklanmadi",
+  kr: "Расм юкланмади",
+  ru: "Изображение не загрузилось",
+} as const;
 
-/** Rasm URL 404 bo'lsa (fayl o'chgan/tashqi manba yiqilgan) — buzuq rasm belgisi o'rniga fallback. */
-function onImgError(e: SyntheticEvent<HTMLImageElement>) {
-  const el = e.currentTarget;
-  if (!el.src.endsWith(FALLBACK_IMG)) el.src = FALLBACK_IMG;
+function errText(lang: string): string {
+  return ERR_TXT[(lang === "kr" || lang === "ru" ? lang : "uz") as keyof typeof ERR_TXT];
 }
 
 function Watermark() {
@@ -52,7 +64,14 @@ export function ZoomableImage({
   imgClassName,
   hint = "Bosing yoki F — kattalashtirish",
 }: Props) {
+  const { i18n } = useTranslation();
   const [zoom, setZoom] = useState(false);
+  const [failed, setFailed] = useState(false);
+
+  // Manba o'zgarsa xato holati tozalanadi (keyingi savol yuklanishi kerak).
+  useEffect(() => {
+    setFailed(false);
+  }, [src]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -79,6 +98,15 @@ export function ZoomableImage({
     };
   }, [zoom]);
 
+  if (failed) {
+    return (
+      <div className="flex w-full flex-col items-center justify-center gap-2 rounded-xl border border-dashed border-danger/30 bg-danger/5 px-4 py-10 text-center text-danger/80">
+        <ImageOff className="h-7 w-7 opacity-60" aria-hidden />
+        <span className="text-[13px] font-medium">{errText(i18n.language)}</span>
+      </div>
+    );
+  }
+
   return (
     <>
       {/* Ichki rasm — bosiladi, hoverda ogohlantirish */}
@@ -89,7 +117,12 @@ export function ZoomableImage({
         className="group relative block w-full cursor-zoom-in"
         title={hint}
       >
-        <img src={src} alt={alt} className={imgClassName} onError={onImgError} />
+        <img
+          src={src}
+          alt={alt}
+          className={imgClassName}
+          onError={() => setFailed(true)}
+        />
         <Watermark />
         <span className="pointer-events-none absolute right-2 top-2 z-20 flex items-center gap-1 rounded-full bg-black/70 px-2.5 py-1 text-[11px] font-semibold text-white opacity-0 backdrop-blur-sm transition-opacity duration-200 group-hover:opacity-100">
           <ZoomIn className="h-3.5 w-3.5" /> {hint}
@@ -119,7 +152,7 @@ export function ZoomableImage({
             <img
               src={src}
               alt={alt}
-              onError={onImgError}
+              onError={() => setFailed(true)}
               className="max-h-[88vh] max-w-[94vw] rounded-2xl bg-white object-contain shadow-2xl"
             />
             <Watermark />
