@@ -288,13 +288,25 @@ export function LandingPage() {
               </Link>
             ) : (
               <>
+                {/* TELEFON: joy tor bo'lgani uchun bitta tugma — va u AYNAN
+                    "Kirish" sahifasiga olib boradi. Ilgari bu tugma telefonda
+                    "Kirish" deb yozilib, aslida /register ga olib borardi:
+                    foydalanuvchi kirmoqchi bo'lib ro'yxatdan o'tish oynasiga
+                    tushib qolardi. Ro'yxatdan o'tish burger menyuda va hero
+                    bo'limidagi katta tugmada turibdi. */}
+                <Link to="/login" className="btn-primary sm:hidden">
+                  <LogIn className="h-4 w-4" />
+                  {tt.login}
+                </Link>
+
+                {/* sm dan boshlab ikkala tugma ham sig'adi */}
                 <Link to="/login" className="btn-ghost hidden sm:inline-flex">
                   <LogIn className="h-4 w-4" />
                   {tt.login}
                 </Link>
-                <Link to="/register" className="btn-primary">
-                  <span className="hidden sm:inline">{tt.signup}</span>
-                  <span className="sm:hidden">{tt.login}</span>
+                <Link to="/register" className="btn-primary hidden sm:inline-flex">
+                  <UserPlus className="h-4 w-4" />
+                  {tt.signup}
                 </Link>
               </>
             )}
@@ -317,6 +329,29 @@ export function LandingPage() {
                 <LangSwitcher />
                 <ThemeSwitcher />
               </div>
+
+              {/* Mehmon uchun ikkala yo'l ham menyuda ochiq turadi — qaysi tugma
+                  qayerga olib borishi nomidan ko'rinib turibdi. */}
+              {!token && (
+                <div className="mt-3 grid gap-2 border-t border-line/10 pt-3">
+                  <Link
+                    to="/login"
+                    onClick={() => setMenuOpen(false)}
+                    className="btn-ghost w-full justify-center py-2.5"
+                  >
+                    <LogIn className="h-4 w-4" />
+                    {tt.login}
+                  </Link>
+                  <Link
+                    to="/register"
+                    onClick={() => setMenuOpen(false)}
+                    className="btn-primary w-full justify-center py-2.5"
+                  >
+                    <UserPlus className="h-4 w-4" />
+                    {tt.signup}
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         )}
